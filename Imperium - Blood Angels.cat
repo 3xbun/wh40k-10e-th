@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="4ef9-15ce-e3e6-36de" name="Imperium - Adeptus Astartes - Blood Angels" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="42" battleScribeVersion="2.03" type="catalogue" authorName="Acebaur">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="4ef9-15ce-e3e6-36de" name="Imperium - Adeptus Astartes - Blood Angels" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="49" battleScribeVersion="2.03" type="catalogue" authorName="Acebaur">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Imperium - Space Marines" id="abd0-8ebd-6fbd-2d94" targetId="e0af-67df-9d63-8fb7" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="9c08-8ffc-d746-7384" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true"/>
@@ -94,11 +94,12 @@
         </modifier>
       </modifiers>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="105"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="95"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Baal Predator" hidden="false" id="640-9969-d5b9-875c">
@@ -111,11 +112,12 @@
         <categoryLink targetId="62ac-ef42-27b4-ae7" id="306d-bc56-434a-ae0a" primary="false" name="Faction: Blood Angels"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="135"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="125"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
       </costs>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="8ebc-45bb-9bb4-1b2b"/>
@@ -621,7 +623,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Tycho the Lost [Legends]" hidden="true" id="8577-8a5d-75f6-a630">
+    <selectionEntry type="model" import="true" name="Tycho the Lost [Legends]" hidden="false" id="8577-8a5d-75f6-a630">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="96ce-1ad2-d58f-e368"/>
       </constraints>
@@ -710,11 +712,12 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Chief Librarian Mephiston" hidden="false" id="ab35-2c36-9389-d1d5">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="135"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="120"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="4f3a-f0f7-6647-348d" id="3237-1a66-35d0-d554" primary="true" name="Epic Hero"/>
@@ -978,11 +981,12 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="130"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="120"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
       </costs>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -1004,6 +1008,7 @@
         <categoryLink targetId="6e7-40c-58d9-e402" id="d7c7-126d-3040-f37a" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="62ac-ef42-27b4-ae7" id="9cf3-9ed1-de9e-313c" primary="false" name="Faction: Blood Angels"/>
         <categoryLink targetId="a820-cf8-f29d-7b06" id="49f-30c0-d855-3177" primary="false" name="Dreadnought"/>
+        <categoryLink targetId="7278-781b-ce6c-d23c" id="fcc9-d068-c5db-0033" primary="false" name="Death Company"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="145"/>
@@ -1582,11 +1587,12 @@ If a Character unit from your army with the Leader ability can be attached to a
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Death Company Marines with Jump Packs" hidden="false" id="65f6-18df-f6df-7e39">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="130"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="120"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="933a-a48d-3fb6-7c1a" primary="true" name="Infantry"/>
@@ -1650,32 +1656,25 @@ If a Character unit from your army with the Leader ability can be attached to a
                 </entryLink>
               </entryLinks>
               <constraints>
-                <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="190e-00d1-b6af-68bf" includeChildSelections="false"/>
+                <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="190e-00d1-b6af-68bf" includeChildSelections="false" automatic="true"/>
               </constraints>
+              <modifiers>
+                <modifier type="decrement" value="1" field="190e-00d1-b6af-68bf">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="b23e-8c93-e120-a322" shared="true" roundUp="false"/>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="5eb4-4667-4a63-4222" shared="true" roundUp="false"/>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="25e8-9f6b-85d6-742f" shared="true" roundUp="false"/>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="cf78-7fd4-77c8-72c7" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Death Company Marine w/ alternate weapons" hidden="false" id="b23e-8c93-e120-a322">
               <selectionEntryGroups>
                 <selectionEntryGroup name="Pistol Weapon" id="2bf2-4cf5-a4f3-9867" hidden="false" defaultSelectionEntryId="807b-c7cb-b04b-4194">
                   <entryLinks>
                     <entryLink import="true" name="Heavy Bolt Pistol" hidden="false" id="807b-c7cb-b04b-4194" type="selectionEntry" targetId="3b8f-1cb7-3c6e-4455"/>
-                    <entryLink import="true" name="Plasma Pistol" hidden="false" id="38be-33ce-c35a-b96c" type="selectionEntry" targetId="25c2-104f-fa0c-809e">
-                      <modifiers>
-                        <modifier type="decrement" value="1" field="fe38-bdb5-bd5c-1e53">
-                          <repeats>
-                            <repeat value="1" repeats="1" field="selections" scope="65f6-18df-f6df-7e39" childId="9dc6-6ad8-818e-db2e" shared="true" roundUp="false" includeChildSelections="true"/>
-                            <repeat value="1" repeats="1" field="selections" scope="65f6-18df-f6df-7e39" childId="d8bf-e17f-d6fa-b7e8" shared="true" roundUp="false" includeChildSelections="true"/>
-                          </repeats>
-                        </modifier>
-                        <modifier type="increment" value="2" field="fe38-bdb5-bd5c-1e53">
-                          <conditions>
-                            <condition type="atLeast" value="10" field="selections" scope="65f6-18df-f6df-7e39" childId="model" shared="true" includeChildSelections="true" includeChildForces="false"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                      <constraints>
-                        <constraint type="max" value="2" field="selections" scope="65f6-18df-f6df-7e39" shared="true" id="fe38-bdb5-bd5c-1e53" includeChildSelections="true" includeChildForces="true"/>
-                      </constraints>
-                    </entryLink>
+                    <entryLink import="true" name="Plasma Pistol" hidden="false" id="38be-33ce-c35a-b96c" type="selectionEntry" targetId="25c2-104f-fa0c-809e"/>
                     <entryLink import="true" name="Hand Flamer" hidden="false" id="2f6f-1dd8-9d13-e471" type="selectionEntry" targetId="9dc6-6ad8-818e-db2e">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="65f6-18df-f6df-7e39" shared="true" id="0d45-3676-5e1b-1b43" includeChildSelections="true"/>
@@ -1693,23 +1692,7 @@ If a Character unit from your army with the Leader ability can be attached to a
                         </modifier>
                       </modifiers>
                     </entryLink>
-                    <entryLink import="true" name="Inferno Pistol" hidden="false" id="c219-5e50-5d8d-4930" type="selectionEntry" targetId="d8bf-e17f-d6fa-b7e8">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="65f6-18df-f6df-7e39" shared="true" id="1851-0d8a-d7e6-dc69" includeChildSelections="true"/>
-                      </constraints>
-                      <modifiers>
-                        <modifier type="increment" value="1" field="1851-0d8a-d7e6-dc69">
-                          <conditions>
-                            <condition type="atLeast" value="10" field="selections" scope="65f6-18df-f6df-7e39" childId="model" shared="true" includeChildSelections="true"/>
-                          </conditions>
-                        </modifier>
-                        <modifier type="decrement" value="1" field="1851-0d8a-d7e6-dc69">
-                          <repeats>
-                            <repeat value="1" repeats="1" field="selections" scope="65f6-18df-f6df-7e39" childId="9dc6-6ad8-818e-db2e" shared="true" roundUp="false" includeChildSelections="true"/>
-                          </repeats>
-                        </modifier>
-                      </modifiers>
-                    </entryLink>
+                    <entryLink import="true" name="Inferno Pistol" hidden="false" id="c219-5e50-5d8d-4930" type="selectionEntry" targetId="d8bf-e17f-d6fa-b7e8"/>
                   </entryLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="47ee-179b-ac92-f2ee" includeChildSelections="false"/>
@@ -1796,30 +1779,8 @@ If a Character unit from your army with the Leader ability can be attached to a
               <selectionEntryGroups>
                 <selectionEntryGroup name="Melee Weapon" id="6d32-4ca8-88ff-2a4a" hidden="false" defaultSelectionEntryId="05ea-4b2e-bcbb-7c9b">
                   <entryLinks>
-                    <entryLink import="true" name="Power Weapon" hidden="false" id="7950-92e0-7296-dfb2" type="selectionEntry" targetId="c4b5-68e-2266-f459">
-                      <modifiers>
-                        <modifier type="increment" value="1" field="44e6-a494-4e45-3021">
-                          <conditions>
-                            <condition type="atLeast" value="10" field="selections" scope="65f6-18df-f6df-7e39" childId="model" shared="true" includeChildSelections="false"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                      <constraints>
-                        <constraint type="max" value="2" field="selections" scope="65f6-18df-f6df-7e39" shared="true" id="44e6-a494-4e45-3021" includeChildSelections="true"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Power Fist" hidden="false" id="b828-c5c4-0f19-5c29" type="selectionEntry" targetId="f8d8-7e77-4b71-faac">
-                      <constraints>
-                        <constraint type="max" value="2" field="selections" scope="65f6-18df-f6df-7e39" shared="true" id="61ed-1137-50cb-b3a7" includeChildSelections="true"/>
-                      </constraints>
-                      <modifiers>
-                        <modifier type="increment" value="1" field="61ed-1137-50cb-b3a7">
-                          <conditions>
-                            <condition type="atLeast" value="10" field="selections" scope="65f6-18df-f6df-7e39" childId="model" shared="true" includeChildSelections="false"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                    </entryLink>
+                    <entryLink import="true" name="Power Weapon" hidden="false" id="7950-92e0-7296-dfb2" type="selectionEntry" targetId="c4b5-68e-2266-f459"/>
+                    <entryLink import="true" name="Power Fist" hidden="false" id="b828-c5c4-0f19-5c29" type="selectionEntry" targetId="f8d8-7e77-4b71-faac"/>
                   </entryLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bcea-5084-a3e5-28db" includeChildSelections="false"/>
@@ -1840,7 +1801,7 @@ If a Character unit from your army with the Leader ability can be attached to a
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Death Company Marine w/Plasma Pistol" hidden="false" id="25e8-9f6b-85d6-742f">
+            <selectionEntry type="model" import="true" name="Death Company Marine w/ Plasma Pistol" hidden="false" id="25e8-9f6b-85d6-742f">
               <entryLinks>
                 <entryLink import="true" name="Plasma Pistol" hidden="false" id="1080-67ea-3fd6-8ca2" type="selectionEntry" targetId="25c2-104f-fa0c-809e">
                   <constraints>
@@ -1874,7 +1835,7 @@ If a Character unit from your army with the Leader ability can be attached to a
         </selectionEntryGroup>
       </selectionEntryGroups>
       <modifiers>
-        <modifier type="set" value="240" field="51b2-306e-1021-d207">
+        <modifier type="set" value="230" field="51b2-306e-1021-d207">
           <conditions>
             <condition type="atLeast" value="6" field="selections" scope="65f6-18df-f6df-7e39" childId="model" shared="true" id="4a95-a7bd-d401-9728" includeChildSelections="true"/>
           </conditions>
@@ -2387,11 +2348,12 @@ If a Character unit from your army with the Leader ability can be attached to a
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Lemartes" hidden="false" id="cbc2-18c9-45b6-6327">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="110"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="4f3a-f0f7-6647-348d" id="40ee-2e76-5838-d294" primary="true" name="Epic Hero"/>
@@ -2525,7 +2487,7 @@ If a Character unit from your army with the Leader ability can be attached to a
       <profiles>
         <profile name="Librarian Dreadnought" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="a67b-5be1-718e-6fc3">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
@@ -2760,11 +2722,12 @@ horizontally away from all enemy models.</characteristic>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Sanguinary Guard" hidden="false" id="25e4-ead-faac-2531">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="130"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="110"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="b929-ac1e-a8dc-dd66" primary="true" name="Infantry"/>
@@ -2925,7 +2888,7 @@ horizontally away from all enemy models.</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <modifiers>
-        <modifier type="set" value="260" field="51b2-306e-1021-d207">
+        <modifier type="set" value="240" field="51b2-306e-1021-d207">
           <conditions>
             <condition type="atLeast" value="4" field="selections" scope="25e4-ead-faac-2531" childId="b36d-e83-6a91-e2b4" shared="true" id="91f1-bb67-e1ee-4bad" includeChildSelections="true"/>
           </conditions>
@@ -3030,7 +2993,12 @@ horizontally away from all enemy models.</characteristic>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Sanguinary Priest" hidden="false" id="f80-be5-d17c-db23">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="90"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="1745-3589-5d6b-5454" primary="true" name="Character"/>
@@ -3040,6 +3008,7 @@ horizontally away from all enemy models.</characteristic>
         <categoryLink targetId="561f-8606-9555-b3ba" id="a064-e396-b8ec-6f5d" primary="false" name="Sanguinary Priest"/>
         <categoryLink targetId="6e7-40c-58d9-e402" id="5914-910-c561-83d4" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="62ac-ef42-27b4-ae7" id="25b7-a267-cb0c-38d9" primary="false" name="Faction: Blood Angels"/>
+        <categoryLink targetId="5179-8ede-45e3-49a2" id="a5ab-e25c-7c42-0f41" primary="false" name="Tacticus"/>
       </categoryLinks>
       <profiles>
         <profile name="Sanguinary Priest" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4aba-1b11-e595-e9c9">
@@ -4011,6 +3980,7 @@ You can attach this model to one of the above units, even if one Captain, Chapt
     <selectionEntry type="model" import="true" name="Death Company Captain" hidden="false" id="4743-6dc9-fda7-0a8c">
       <infoLinks>
         <infoLink name="Invulnerable Save" id="e4b7-a76f-3668-bbac" hidden="false" type="profile" targetId="db19-dee7-9530-ef0e"/>
+        <infoLink name="Black Rage" id="3565-0ac7-f0dd-ad20" hidden="false" type="profile" targetId="3e0a-31f-8be-e293"/>
       </infoLinks>
       <profiles>
         <profile name="Death Company Captain" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="75c4-36b0-af42-362b">
@@ -4039,11 +4009,6 @@ You can attach this model to one of the above units, even if one Captain, Chapt
         <profile name="Death Vision of Sanguinius" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b276-0bcd-8baf-3c14">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is destroyed by a melee attack, after the attacking unit has finished making its attacks, you can roll one D6, adding 2 to the result if the attacking unit contains the enemy Warlord. On a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6+ that enemy unit suffers D3+3 mortal wounds.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Black Rage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b870-b3ce-57a6-7655">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a melee attack, you can re-roll the Hit roll. While this model&apos;s unit is not within 12&quot; of one or more friendly Chaplain models, it cannot be selected to Fall Back and its Objective Control characteristic is 0.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4110,8 +4075,8 @@ You can attach this model to one of the above units, even if one Captain, Chapt
         <categoryLink name="Captain" hidden="false" id="d331-3399-9094-c8f1" targetId="2d7f-1892-2fd0-e29c" primary="false"/>
         <categoryLink name="Faction: Adeptus Astartes" hidden="false" id="0d3a-1a16-2eb0-321d" targetId="6e7-40c-58d9-e402" primary="false"/>
         <categoryLink name="Faction: Blood Angels" hidden="false" id="7682-b9ec-a5a1-93c7" targetId="62ac-ef42-27b4-ae7" primary="false"/>
-        <categoryLink targetId="1e3d-c738-8087-792c" id="ebf1-c0f5-609b-666a" primary="false" name="Death Company"/>
         <categoryLink targetId="5179-8ede-45e3-49a2" id="4f5e-602e-885d-09ed" primary="false" name="Tacticus"/>
+        <categoryLink targetId="7278-781b-ce6c-d23c" id="2504-5575-1540-a7bf" primary="false" name="Death Company"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="bee7-3acc-c022-8b93"/>
@@ -4131,6 +4096,13 @@ You can attach this model to one of the above units, even if one Captain, Chapt
     <selectionEntry type="model" import="true" name="Death Company Captain with Jump Pack" hidden="false" id="2574-a949-ae3f-58c2">
       <infoLinks>
         <infoLink name="Invulnerable Save" id="2885-4ff2-a92d-00c5" hidden="false" type="profile" targetId="db19-dee7-9530-ef0e"/>
+        <infoLink name="Black Rage" id="a7b7-85cc-dcb8-a4d7" hidden="false" type="profile" targetId="3e0a-31f-8be-e293"/>
+        <infoLink name="Feel No Pain" id="e3ed-7f43-7627-fffd" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
+          <modifiers>
+            <modifier type="append" value="6+" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Deep Strike" id="d22b-2e57-b257-c3ab" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
       </infoLinks>
       <profiles>
         <profile name="Death Vision of Sanguinius" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="165c-259e-fbfe-4298">
@@ -4158,11 +4130,6 @@ You can attach this model to one of the above units, even if one Captain, Chapt
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
 
 ■ Death Company Marines with Jump Packs</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Black Rage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9a02-63f7-a140-1526">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a melee attack, you can re-roll the Hit roll. While this model&apos;s unit is not within 12&quot; of one or more friendly Chaplain models, it cannot be selected to Fall Back and its Objective Control characteristic is 0.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4227,8 +4194,8 @@ You can attach this model to one of the above units, even if one Captain, Chapt
         <categoryLink targetId="6e7-40c-58d9-e402" id="999d-d87d-a224-3b9a" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="f8f0-ea7b-dd58-62d9" primary="false" name="Imperium"/>
         <categoryLink targetId="dda2-bb0a-215e-ad9c" id="d04f-a8c5-43ba-b234" primary="false" name="Jump Pack"/>
-        <categoryLink targetId="1e3d-c738-8087-792c" id="3146-12d8-e189-9ca8" primary="false" name="Death Company"/>
         <categoryLink targetId="5179-8ede-45e3-49a2" id="e184-d760-e70e-4a2e" primary="false" name="Tacticus"/>
+        <categoryLink targetId="7278-781b-ce6c-d23c" id="1954-e02e-774e-2eab" primary="false" name="Death Company"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="6211-3c34-ea00-dc03" type="selectionEntry" targetId="caa-f869-3cbd-b48e"/>
@@ -4801,11 +4768,6 @@ You can attach this model to one of the above units, even if one Captain, Chapt
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your opponent&apos;s Shooting phase, each time an enemy unit has shot, if this model was hit by one or more of those attacks, it can make a Driven by Fury move. To do so, roll one D6 and add 2 to the roll; this model moves a number of inches up to the result, but must finish as close as possible to the closest enemy unit [excluding Aircraft]. A model cannot make a Driven by Fury move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Driven by Fury move per phase.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Black Rage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eadd-9d93-1829-14d1">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a melee attack, you can re-roll the Hit roll. While this model&apos;s unit is not within 12&quot; of one or more friendly Chaplain models, it cannot be selected to Fall Back and its Objective Control characteristic is 0.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Deadly Demise" id="5222-55a7-586c-77c6" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
@@ -4819,6 +4781,7 @@ You can attach this model to one of the above units, even if one Captain, Chapt
           </modifiers>
         </infoLink>
         <infoLink name="Damaged: 1-4 Wounds Remaining" id="5841-c934-8d28-38b1" hidden="false" type="profile" targetId="ee64-aaaf-75df-8da9"/>
+        <infoLink name="Black Rage" id="df74-70ee-c1e9-644a" hidden="false" type="profile" targetId="3e0a-31f-8be-e293"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Crusade" hidden="false" id="83a9-b6bb-2e6b-5fa1" type="selectionEntryGroup" targetId="0b9e-c615-13b4-9302" sortIndex="1"/>
@@ -4940,17 +4903,18 @@ You can attach this model to one of the above units, even if one Captain, Chapt
         <categoryLink targetId="6dda-e157-334d-e93a" id="f856-2760-2911-6010" primary="false" name="Walker"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="433c-ef70-9052-b4ca" primary="false" name="Imperium"/>
         <categoryLink targetId="c97c-376-e2e0-1dd2" id="5579-aa6b-9a8a-0b22" primary="false" name="Dreadnought"/>
-        <categoryLink targetId="1e3d-c738-8087-792c" id="1610-f010-b9ac-4072" primary="false" name="Death Company"/>
         <categoryLink targetId="d7bd-dd9-4492-cf9a" id="19ed-8e14-9fb1-9458" primary="false" name="Death Company Dreadnought"/>
         <categoryLink targetId="6e7-40c-58d9-e402" id="0e9e-09b4-00bc-1d5c" primary="false" name="Faction: Adeptus Astartes"/>
         <categoryLink targetId="62ac-ef42-27b4-ae7" id="9eea-113b-36de-393a" primary="false" name="Faction: Blood Angels"/>
+        <categoryLink targetId="7278-781b-ce6c-d23c" id="617a-2324-ed57-6d21" primary="false" name="Death Company"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="180"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="160"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Death Company Marines with Boltguns and Jump Packs [Legends]" hidden="false" id="bcfe-f4fb-5c44-652d">
@@ -5137,7 +5101,7 @@ If a Character unit from your army with the Leader ability can be attached to a
   <sharedProfiles>
     <profile name="Black Rage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3e0a-31f-8be-e293">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes a melee attack, you can re-roll the Hit roll. While this unit is not within 12&quot; of one or more friendly Chaplain models, it cannot be selected to Fall Back and the Objective Control characteristic of models in this unit is 0.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a melee attack, you can re-roll the Hit roll. While this model&apos;s unit is not within 6&quot; of one or more friendly ^^**Blood Angels Character**^^ models, or 12&quot; of one or more friendly ^^**Chaplain**^^ models, it cannot be selected to Fall Back and the Objective Control characteristic of models in this unit is 0.</characteristic>
       </characteristics>
     </profile>
     <profile name="Visions of Heresy" hidden="false" id="6b69-8f10-6d74-706c" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
