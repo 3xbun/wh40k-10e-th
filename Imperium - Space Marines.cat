@@ -10711,7 +10711,7 @@ bearer can be moved during that move</characteristic>
       <profiles>
         <profile name="Annihilator Protocols" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dc57-888c-d72a-da1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Melee weapons equipped by models in this unit have the [SUSTAINED HITS 2] ability when targeting Monster, Vehicle or Fortification units</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">อาวุธประชิดที่โมเดลในยูนิตนี้ติดตั้งอยู่จะมีความสามารถ [SUSTAINED HITS 2] เมื่อเล็งเป้าหมายไปยังยูนิต Monster, Vehicle หรือ Fortification</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11060,7 +11060,7 @@ bearer can be moved during that move</characteristic>
       <profiles>
         <profile name="Decimator Protocols" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4f61-91c6-eae4-94fa">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Hit roll instead.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่โมเดลในยูนิตนี้ทำการโจมตีด้วย อาวุธระยะไกล, re-roll a Hit roll ที่ออก 1. ถ้าเป้าหมายของการโจมตีนั้นเป็นยูนิตศัตรูที่อยู่ในระยะของ an objective marker, คุณสามารถ re-roll the Hit roll แทนได้</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -26147,7 +26147,7 @@ model is within 12&quot;.</characteristic>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="26af-8c8a-8691-a425">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถเข้าร่วมกับยูนิตต่อไปนี้ได้:
 
 ■ Assault Intercessor Squad
 ■ Bladeguard Veteran Squad
@@ -26330,7 +26330,7 @@ model is within 12&quot;.</characteristic>
       <profiles>
         <profile name="Recitation of Faith" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e92-f61-1c8f-4af6">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้กำลังเป็นผู้นำยูนิต, โมเดลในยูนิตนั้นจะได้รับความสามารถ Feel No Pain 4+ ต่อ mortal wounds</characteristic>
           </characteristics>
         </profile>
         <profile name="Chaplain in Terminator Armour" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="9144-bb3-ae06-708">
@@ -26352,7 +26352,7 @@ model is within 12&quot;.</characteristic>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1f58-f4ff-f878-127d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถเข้าร่วมกับยูนิตต่อไปนี้ได้:
 
 ■ Terminator Assault Squad
 ■ Terminator Squad</characteristic>
@@ -32210,7 +32210,7 @@ You can attach this model to one of the above units even if one Captain, Chapte
         </profile>
         <profile name="Death-hold" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="531c-aeb5-cc4e-10af">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">เมื่อทำการโจมตีด้วย อาวุธระยะไกล, โมเดลนี้จะไม่ได้รับผลของการหักลบค่า Hit rolls จากการที่อยู่ใน Engagement Range ของยูนิตศัตรูหนึ่งยูนิตหรือมากกว่า</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -37517,7 +37517,7 @@ per turn.</characteristic>
     </profile>
     <profile name="Litany of Hate" hidden="false" id="3b72-1499-de01-95bb" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Wound roll.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้กำลังเป็นผู้นำยูนิต, ในแต่ละครั้งที่โมเดลในยูนิตนั้นทำการโจมตีระยะประชิด, ให้บวก 1 ให้กับ Wound roll</characteristic>
       </characteristics>
     </profile>
     <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="db19-dee7-9530-ef0e">
