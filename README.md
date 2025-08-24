@@ -1,13 +1,13 @@
 Warhammer 40,000 10th Edition
 ==================
 
-[![Latest release](https://img.shields.io/github/release/BSData/wh40k-10e.svg?style=flat-square)](https://github.com/BSData/wh40k-10e/releases/latest)
-[![Commits (since latest release)](https://img.shields.io/github/commits-since/BSData/wh40k-10e/latest.svg?style=flat-square)](https://github.com/BSData/wh40k-10e/releases)
-[![Open bugs](https://img.shields.io/github/issues/BSData/wh40k-10e/bug.svg?style=flat-square&label=bugs)](https://github.com/BSData/wh40k-10e/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
-[![Contributors](https://img.shields.io/github/contributors/BSData/wh40k-10e.svg?style=flat-square)](https://github.com/BSData/wh40k-10e/graphs/contributors)
-[![Commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/wh40k-10e.svg?style=flat-square)](https://github.com/BSData/wh40k-10e/pulse/monthly)
+[![Latest release](https://img.shields.io/github/release/snoykiwi/wh40k-10e-th.svg?style=flat-square)](https://github.com/snoykiwi/wh40k-10e-th/releases/latest)
+[![Commits (since latest release)](https://img.shields.io/github/commits-since/snoykiwi/wh40k-10e-th/latest.svg?style=flat-square)](https://github.com/snoykiwi/wh40k-10e-th/releases)
+[![Open bugs](https://img.shields.io/github/issues/snoykiwi/wh40k-10e-th/bug.svg?style=flat-square&label=bugs)](https://github.com/snoykiwi/wh40k-10e-th/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+[![Contributors](https://img.shields.io/github/contributors/snoykiwi/wh40k-10e-th.svg?style=flat-square)](https://github.com/snoykiwi/wh40k-10e-th/graphs/contributors)
+[![Commit activity the past year](https://img.shields.io/github/commit-activity/y/snoykiwi/wh40k-10e-th.svg?style=flat-square)](https://github.com/snoykiwk/wh40k-10e-th/pulse/monthly)
 
-[![Chat on Discord](https://img.shields.io/discord/558412685981777922.svg?logo=discord&style=popout-square)](https://www.bsdata.net/discord)
+[![Chat on Discord](https://img.shields.io/discord/1140872301659832393.svg?logo=discord&style=popout-square)](https://www.bsdata.net/discord)
 
 ## Overview ##
 
