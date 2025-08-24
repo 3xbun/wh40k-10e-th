@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e0af-67df-9d63-8fb7" name="Imperium - Adeptus Astartes - Space Marines" revision="121" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Acebaur">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e0af-67df-9d63-8fb7" name="Imperium - Adeptus Astartes - Space Marines" revision="123" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Acebaur">
   <categoryEntries>
     <categoryEntry id="5179-8ede-45e3-49a2" name="Tacticus" hidden="false"/>
     <categoryEntry id="930d-2875-125b-a65e" name="Bladeguard Veteran Squad" hidden="false"/>
@@ -18705,7 +18705,7 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
       <profiles>
         <profile name="Targeter Optics" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8aa0-92d7-7749-461d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit Remains Stationary, until the start of your next Movement phase, ranged weapons equipped by models in this unit have the  [IGNORES COVER] ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่ยูนิตนี้ Remains Stationary, จนกระทั่งถึงตอนเริ่มต้นของ Movement phase ถัดไปของคุณ, อาวุธระยะไกล ที่โมเดลในยูนิตนี้ติดตั้งอยู่จะได้รับความสามารถ [IGNORES COVER]</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -26510,8 +26510,7 @@ model is within 12&quot;.</characteristic>
       <profiles>
         <profile name="Catechism of Fire" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b1c1-d1fc-c3b8-e455">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model’s unit is selected to shoot, you can select one enemy unit within 12&quot; of and visible to this model. Until the end of the phase, ranged
-weapons equipped by models in this model’s unit have the [DEVASTATING WOUNDS] ability when targeting that enemy unit.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่ยูนิตของโมเดลนี้ถูกเลือกให้ยิง, คุณสามารถเลือกหนึ่งยูนิตศัตรูที่อยู่ในระยะ 12&quot; และมองเห็นได้โดยโมเดลนี้ จนกระทั่งจบเฟส, อาวุธระยะไกล ที่โมเดลในยูนิตของโมเดลนี้ติดตั้งอยู่จะได้รับความสามารถ [DEVASTATING WOUNDS] เมื่อเล็งเป้าหมายไปยังยูนิตศัตรูนั้น</characteristic>
           </characteristics>
         </profile>
         <profile name="Chaplain on Bike" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="8429-196c-3a3d-5459">
@@ -26526,7 +26525,7 @@ weapons equipped by models in this model’s unit have the [DEVASTATING WOUNDS]
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e5b9-b9-e6bf-b25">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถเข้าร่วมกับยูนิตต่อไปนี้ได้:
 
 ■ Bike Squad
 ■ Outrider Squad</characteristic>
@@ -26707,12 +26706,12 @@ weapons equipped by models in this model’s unit have the [DEVASTATING WOUNDS]
         </profile>
         <profile name="Exhortation of Rage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e4df-4a6e-1e6-3eb3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model’s unit is selected to fight, you can select one enemy unit within Engagement Range of this model’s unit and roll one D6: on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่ยูนิตของโมเดลนี้ถูกเลือกให้ต่อสู้, คุณสามารถเลือกหนึ่งยูนิตศัตรูที่อยู่ใน Engagement Range ของยูนิตของโมเดลนี้และทอยเต๋า D6 หนึ่งลูก: หากได้ 4-5, ยูนิตศัตรูนั้นได้รับความเสียหาย D3 mortal wounds; หากได้ 6, ยูนิตศัตรูนั้นได้รับความเสียหาย 3 mortal wounds</characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="62b0-76a-eacb-ee30">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถเข้าร่วมกับยูนิตต่อไปนี้ได้:
 
 ■ Assault Intercessors with Jump Packs
 ■ Vanguard Veteran Squad with Jump Packs</characteristic>
@@ -31593,7 +31592,7 @@ You can attach this model to one of the above units even if one Captain, Chapte
         </profile>
         <profile name="Armoured Spearhead" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f7df-e297-d554-8c37">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่โมเดลนี้ทำการโจมตีไปยังยูนิตศัตรู, re-roll a Hit roll ที่ออก 1 และ, ถ้ายูนิตนั้นอยู่ในระยะของ objective marker ที่คุณไม่ได้ควบคุม, คุณสามารถ re-roll the Hit roll แทนได้</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -34156,7 +34155,7 @@ You can attach this model to one of the above units even if one Character model
       <profiles>
         <profile name="Vanguard Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3fe6-df5a-9e71-acd9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit ends a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่ยูนิตนี้จบการ Charge move, จนกระทั่งจบเทิร์น, อาวุธประชิดที่โมเดลในยูนิตนี้ติดตั้งอยู่จะได้รับความสามารถ [LETHAL HITS]</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -34706,17 +34705,17 @@ You can attach this model to one of the above units even if one Character model
       <profiles>
         <profile name="Martial Superiority" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c2c3-9cc1-cd16-2de9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่โมเดลนี้ทำการโจมตีระยะประชิดไปยังยูนิต Character, คุณสามารถ re-roll the Hit roll และคุณสามารถ re-roll the Wound roll ได้</characteristic>
           </characteristics>
         </profile>
         <profile name="Honour or Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4bf1-1eae-236a-4d4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit and you can target that unit with the Heroic Intervention  stratagem for 0CP, even if you have already used that Stratagem on a different unit this phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้กำลังเป็นผู้นำยูนิต, ให้บวก 1 ให้กับ Advance rolls และ Charge rolls ที่ทำเพื่อยูนิตนั้น และคุณสามารถเล็งเป้าหมายยูนิตนั้นด้วย Stratagem Heroic Intervention โดยใช้ 0CP, แม้ว่าคุณจะได้ใช้ Stratagem นั้นกับยูนิตอื่นไปแล้วในเฟสนี้ก็ตาม</characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1150-328f-66f5-11fd">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถเข้าร่วมกับยูนิตต่อไปนี้ได้:
 
 ■ Bike Squad
 ■ Outrider Squad</characteristic>
@@ -36794,17 +36793,17 @@ per turn.</characteristic>
       <profiles>
         <profile name="Ancient Banner" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9ced-4a20-1c04-203d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit contains an Ancient, add 1 to the Objective Control characteristic of models in this unit</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่ยูนิตนี้มีโมเดล Ancient อยู่, ให้บวก 1 ให้กับค่า Objective Control ของโมเดลในยูนิตนี้</characteristic>
           </characteristics>
         </profile>
         <profile name="Command Squad" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cb97-8ee0-1cbf-e38f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a Character model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดล Character กำลังเป็นผู้นำยูนิตนี้, ในแต่ละครั้งที่การโจมตีเล็งเป้าหมายมายังยูนิตนี้, ให้ลบ 1 ออกจาก Wound roll</characteristic>
           </characteristics>
         </profile>
         <profile name="Company Heroes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8a9-4b06-b80-76df">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You must attach one Captain or Chapter Master model to this unit. If this is not possible, this unit does not take part in the battle and counts as having been destroyed.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">คุณจะต้องมีโมเดล Captain หรือ Chapter Master หนึ่งตัวอยู่ในยูนิตนี้ หากไม่สามารถทำได้, ยูนิตนี้จะไม่ได้เข้าร่วมในเกมและนับว่าถูกทำลายไปแล้ว</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -37543,7 +37542,7 @@ per turn.</characteristic>
     </profile>
     <profile name="Spiritual Leader" hidden="false" id="ec61-1b3-59a9-9ff7" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, at the start of any phase, you can select one friendly Adeptus Astartes unit that is Battle-shocked and within 12&quot; of this model. That unit is no longer Battle-shocked.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อเกม, ในตอนเริ่มต้นของเฟสใดก็ได้, คุณสามารถเลือกหนึ่งยูนิตที่เป็นมิตร Adeptus Astartes ที่ติดสถานะ Battle-shocked และอยู่ในระยะ 12&quot; จากโมเดลนี้ ยูนิตนั้นจะไม่ติดสถานะ Battle-shocked อีกต่อไป</characteristic>
       </characteristics>
     </profile>
     <profile name="Astartes Banner" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4873-996f-a8a2-bcb1">
@@ -37567,17 +37566,20 @@ per turn.</characteristic>
           <profiles>
             <profile id="97dc-f938-f6e9-7c79" name="Combat Doctrines" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Command phase, you can select one of the Combat Doctrines listed below. Until the start of your next Command phase, that Combat Doctrine is active and its effects apply to all Adeptus Astartes units from your army with this ability. You can only select each Combat Doctrine once per battle.
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในตอนเริ่มต้นของ Command phase ของคุณ, คุณสามารถเลือกหนึ่งใน Combat Doctrines ที่ระบุไว้ด้านล่าง จนกระทั่งถึงตอนเริ่มต้นของ Command phase ถัดไปของคุณ, Combat Doctrine นั้นจะทำงานและผลของมันจะส่งผลต่อยูนิต Adeptus Astartes ทั้งหมดจากกองทัพของคุณที่มีความสามารถนี้ คุณสามารถเลือกแต่ละ Combat Doctrine ได้เพียงครั้งเดียวต่อเกมเท่านั้น
+
 
 
 DEVASTATOR DOCTRINE 
-This unit is eligible to shoot in a turn in which it Advanced.
+ยูนิตนี้สามารถยิงได้ในเทิร์นที่ยูนิตนั้นได้ทำการ Advanced
+
 
 TACTICAL DOCTRINE
-This unit is eligible to shoot and declare a charge in a turn in which it Fell Back.
+ยูนิตนี้สามารถยิงและประกาศ charge ได้ในเทิร์นที่ยูนิตนั้นได้ทำการ Fell Back
+
 
 ASSAULT DOCTRINE
-This unit is eligible to declare a charge in a turn in which it Advanced.</characteristic>
+ยูนิตนี้สามารถประกาศ charge ได้ในเทิร์นที่ยูนิตนั้นได้ทำการ Advanced</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -37617,27 +37619,29 @@ In your Command phase, select one Adeptus Astartes unit from your army; until th
           <profiles>
             <profile name="Mission Tactics" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ddc7-4019-defe-325e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Command phase, you can select one of the Mission Tactics listed below. Until the start of your next Command phase, that Mission Tactic is active and its effects apply to all units from your army with this ability. Each Mission Tactic can only be selected once per battle. 
-
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในตอนเริ่มต้นของ Command phase ของคุณ, คุณสามารถเลือกหนึ่งใน Mission Tactics ที่ระบุไว้ด้านล่าง จนกระทั่งถึงตอนเริ่มต้นของ Command phase ถัดไปของคุณ, Mission Tactic นั้นจะทำงานและผลของมันจะส่งผลต่อยูนิตทั้งหมดจากกองทัพของคุณที่มีความสามารถนี้ Mission Tactic แต่ละอย่างจะสามารถเลือกได้เพียงครั้งเดียวต่อเกมเท่านั้น
 
 **FUROR TACTICS**
- While this Mission Tactic is active, weapons equipped by ADEPTUS ASTARTES units from your army have the [SUSTAINED HITS 1] ability. 
+ตราบใดที่ Mission Tactic นี้ทำงาน, อาวุธที่ยูนิต ADEPTUS ASTARTES จากกองทัพของคุณติดตั้งอยู่จะได้รับความสามารถ [SUSTAINED HITS 1]
+
 
 
 **MALLEUS TACTICS** 
-While this Mission Tactic is active, weapons equipped by ADEPTUS ASTARTES units from your army have the [LETHAL HITS] ability. 
+ตราบใดที่ Mission Tactic นี้ทำงาน, อาวุธที่ยูนิต ADEPTUS ASTARTES จากกองทัพของคุณติดตั้งอยู่จะได้รับความสามารถ [LETHAL HITS]
+
 
 
 **PURGATUS TACTICS** 
-While this Mission Tactic is active, each time an ADEPTUS ASTARTES unit from your army makes an attack, if a Critical Hit is scored, that attack has the [PRECISION] ability.</characteristic>
+ตราบใดที่ Mission Tactic นี้ทำงาน, ในแต่ละครั้งที่ยูนิต ADEPTUS ASTARTES จากกองทัพของคุณทำการโจมตี, ถ้าทำ Critical Hit ได้สำเร็จ, การโจมตีนั้นจะได้รับความสามารถ [PRECISION]</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <rules>
             <rule name="Kill Teams" id="8472-7f00-395e-e104" hidden="false">
-              <description>Each time an attack targets a KILL TEAM unit from your army that contains models with different Toughness characteristics, until the attacking unit has finished making its attacks, use the Toughness characteristic of the majority of the models in that unit when determining what result is required for that attack to successfully wound. If two or more Toughness characteristics are tied for majority, use the highest Toughness characteristic.
+              <description>ในแต่ละครั้งที่การโจมตีเล็งเป้าหมายไปยังยูนิต KILL TEAM จากกองทัพของคุณซึ่งมีโมเดลที่มีค่า Toughness แตกต่างกัน, จนกว่ายูนิตที่โจมตีจะทำการโจมตีทั้งหมดเสร็จสิ้น, ให้ใช้ค่า Toughness ของโมเดลส่วนใหญ่ในยูนิตนั้นเมื่อทำการตัดสินใจว่าต้องการผลลัพธ์เท่าไหร่เพื่อให้การโจมตีนั้น wound ได้สำเร็จ ถ้ามีค่า Toughness สองค่าหรือมากกว่ามีจำนวนเท่ากัน,ให้ใช้ค่า Toughness ที่สูงที่สุด
 
-For the purposes of determining which models can embark within a TRANSPORT model, KILL TEAM models follow the normal restrictions listed on the TRANSPORT model.</description>
+
+สำหรับจุดประสงค์ในการตัดสินใจว่าโมเดลใดสามารถโดยสารใน TRANSPORT ได้, โมเดล KILL TEAM จะปฏิบัติตามข้อจำกัดปกติที่ระบุไว้บนโมเดล TRANSPORT นั้น</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -37645,7 +37649,7 @@ For the purposes of determining which models can embark within a TRANSPORT model
           <profiles>
             <profile name="The Red Thirst" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3b1d-d38-bc89-c856">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an Adeptus Astartes unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 2 to the Strength characteristic and add 1 to the Attacks characteristic of melee weapons equipped by models in that unit.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่ยูนิต Adeptus Astartes จากกองทัพของคุณถูกเลือกให้ต่อสู้, ถ้ายูนิตนั้นได้ทำการ Charge move ในเทิร์นนี้, จนกระทั่งจบเฟส, ให้บวก 2 ให้กับค่า Strength และบวก 1 ให้กับค่า Attacks ของอาวุธประชิดที่โมเดลในยูนิตนั้นติดตั้งอยู่</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -37661,7 +37665,7 @@ For the purposes of determining which models can embark within a TRANSPORT model
           <profiles>
             <profile name="Shield of the Imperium" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f43-6de3-63d7-8267">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ranged weapons equipped by Adeptus Astartes models from your army have the [HEAVY] ability. If such a weapon already has this ability, each time an attack is made with that weapon, if the attacking model&apos;s unit Remained Stationary this turn, add 1 to the Wound roll.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">อาวุธระยะไกล ที่โมเดล Adeptus Astartes จากกองทัพของคุณติดตั้งอยู่จะได้รับความสามารถ [HEAVY] ถ้าอาวุธดังกล่าวมีความสามารถนี้อยู่แล้ว, ในแต่ละครั้งที่ทำการโจมตีด้วยอาวุธนั้น, ถ้ายูนิตของโมเดลที่ทำการโจมตีได้ Remained Stationary ในเทิร์นนี้, ให้บวก 1 ให้กับ Wound roll</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -37670,7 +37674,7 @@ For the purposes of determining which models can embark within a TRANSPORT model
           <profiles>
             <profile name="Armoured Wrath" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ba53-6dfa-8921-403c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per phase for each Adeptus Astartes unit in your army, you can re-roll one Hit roll, one Wound roll, or one Damage roll made for a model in that unit</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อเฟสสำหรับยูนิต Adeptus Astartes แต่ละยูนิตในกองทัพของคุณ, คุณสามารถ re-roll Hit roll หนึ่งครั้ง, Wound roll หนึ่งครั้ง, หรือ Damage roll หนึ่งครั้งของโมเดลในยูนิตนั้นได้</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -37679,7 +37683,7 @@ For the purposes of determining which models can embark within a TRANSPORT model
           <profiles>
             <profile name="Close-Range Eradication" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="af39-1c9a-2190-ca12">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ranged weapons equipped by Adeptus Astartes models from your army have the [ASSAULT] ability, and each time an attack made such a weapon targets a unit within 12&quot;, add 1 to the Strength characteristic of that attack.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">อาวุธระยะไกล ที่โมเดล Adeptus Astartes จากกองทัพของคุณติดตั้งอยู่จะได้รับความสามารถ [ASSAULT], และในแต่ละครั้งที่การโจมตีที่ทำด้วยอาวุธดังกล่าวเล็งเป้าหมายไปยังยูนิตที่อยู่ในระยะ 12&quot;, ให้บวก 1 ให้กับค่า Strength ของการโจมตีนั้น</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -37706,7 +37710,7 @@ For the purposes of determining which models can embark within a TRANSPORT model
           <profiles>
             <profile name="1st Company Task Force" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d573-3f65-174b-2734">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, in your Command phase, you can use this ability. If you do, until the start of your next Command phase, each time a model from your army with the Oath of Moment ability makes an attack that targets your Oath of Moment target, you can re-roll the Wound roll as well.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อเกม, ใน Command phase ของคุณ, คุณสามารถใช้ความสามารถนี้ได้ หากทำเช่นนั้น, จนกระทั่งถึงตอนเริ่มต้นของ Command phase ถัดไปของคุณ, ในแต่ละครั้งที่โมเดลจากกองทัพของคุณที่มีความสามารถ Oath of Moment ทำการโจมตีไปยังเป้าหมาย Oath of Moment ของคุณ, คุณสามารถ re-roll the Wound roll ได้ด้วยเช่นกัน</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -37729,24 +37733,14 @@ For the purposes of determining which models can embark within a TRANSPORT model
           <profiles>
             <profile name="Vowed Target" hidden="false" id="b6fc-b93d-1d1e-39e5" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Movement phase, select one of
-the following:
-■ Defensive Footing: Select one objective marker
-you control. Until the start of your next Movement
-phase, that objective marker is your Vowed
-objective marker.
-■ Aggressive Push: Select one or more objective
-markers you do not control. Until the start of your
-next Movement phase, each of those objective
-markers is one of your Vowed objective markers. If
-a rule refers to a unit or model being within range of
-your Vowed objective marker, that rule takes effect
-if that unit or model is within range of one or more of
-your Vowed objective markers.
-Each time a Deathwing Infantry unit from your army
-makes an attack that targets a unit within range of
-one or more of your Vowed objective markers, add 1
-to the Wound roll.’</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในตอนเริ่มต้นของ Movement phase ของคุณ, เลือกหนึ่งในข้อต่อไปนี้:
+
+
+■ Defensive Footing: เลือก objective marker หนึ่งจุดที่คุณควบคุมอยู่ จนกระทั่งถึงตอนเริ่มต้นของ Movement phase ถัดไปของคุณ, objective marker นั้นจะเป็น Vowed objective marker ของคุณ
+
+■ Aggressive Push: เลือก objective marker หนึ่งจุดหรือมากกว่าที่คุณไม่ได้ควบคุมอยู่ จนกระทั่งถึงตอนเริ่มต้นของ Movement phase ถัดไปของคุณ, objective marker แต่ละจุดเหล่านั้นจะเป็นหนึ่งใน Vowed objective marker ของคุณ ถ้ากฎใดๆ อ้างถึงยูนิตหรือโมเดลที่อยู่ในระยะของ Vowed objective marker ของคุณ, กฎนั้นจะทำงานถ้ายูนิตหรือโมเดลนั้นอยู่ในระยะของ Vowed objective marker ของคุณหนึ่งจุดหรือมากกว่า
+
+ในแต่ละครั้งที่ยูนิต Deathwing Infantry จากกองทัพของคุณทำการโจมตีไปยังยูนิตที่อยู่ในระยะของ Vowed objective marker ของคุณหนึ่งจุดหรือมากกว่า, ให้บวก 1 ให้กับ Wound roll</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -37762,11 +37756,12 @@ to the Wound roll.’</characteristic>
           <profiles>
             <profile name="Masters of Manoeuvre" hidden="false" id="f91-37e5-7b97-97bf" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^Adeptus Astartes^^ units from your army are eligible to shoot in a turn in which they Advanced or Fell Back.
-^^Adeptus Astartes Mounted^^ units from your army are eligible to shoot and declare a charge in a turn in which they Advanced or Fell Back.
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ยูนิต ^^Adeptus Astartes^^ จากกองทัพของคุณสามารถยิงได้ในเทิร์นที่ยูนิตนั้นได้ทำการ Advanced หรือ Fell Back
+ยูนิต ^^Adeptus Astartes Mounted^^ จากกองทัพของคุณสามารถยิงและประกาศ charge ได้ในเทิร์นที่ยูนิตนั้นได้ทำการ Advanced หรือ Fell Back
 
 
-^^Outrider squad^^ units from your army gain the ^^Battleline^^ keyword.</characteristic>
+
+ยูนิต ^^Outrider squad^^ จากกองทัพของคุณจะได้รับคีย์เวิร์ด ^^Battleline^^</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -37822,8 +37817,10 @@ Once you have made your selections, remove those units from the battlefield and 
           <profiles>
             <profile name="In the Lion&apos;s Claws" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3c7f-47cd-4840-6035">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">- Each time an enemy unit (excluding MONSTERS and VEHICLES) within Engagement Range of one or more RAVENWING units from your army Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle‑shocked, subtract 1 from each of those tests. 
-- Each time a DEATHWING unit from your army declares a charge, if one or more targets of that charge are within Engagement Range of one or more RAVENWING units from your army, add 2 to the Charge roll.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">- ในแต่ละครั้งที่ยูนิตศัตรู (ไม่รวม MONSTERS และ VEHICLES) ที่อยู่ใน Engagement Range ของยูนิต RAVENWING หนึ่งยูนิตหรือมากกว่าจากกองทัพของคุณทำการ Fell Back, โมเดลทั้งหมดในยูนิตศัตรูนั้นจะต้องทำการทดสอบ Desperate Escape เมื่อทำเช่นนั้น, ถ้ายูนิตศัตรูนั้นติดสถานะ Battle-shocked, ให้ลบ 1 ออกจากแต่ละการทดสอบเหล่านั้น
+
+
+- ในแต่ละครั้งที่ยูนิต DEATHWING จากกองทัพของคุณประกาศ charge, ถ้าเป้าหมายหนึ่งเป้าหมายหรือมากกว่าของการ charge นั้นอยู่ใน Engagement Range ของยูนิต RAVENWING หนึ่งยูนิตหรือมากกว่าจากกองทัพของคุณ, ให้บวก 2 ให้กับ Charge roll</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -37832,27 +37829,32 @@ Once you have made your selections, remove those units from the battlefield and 
           <profiles>
             <profile name="Pyschic Disciplines" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bf7e-bdca-d5b7-1043">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the battle round, select one of the following Psychic Disciplines. Until the end of the battle round, that Psychic Discipline is active and its effects apply to all Adeptus Astartes Psyker units from your army. 
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในตอนเริ่มต้นของ battle round, เลือกหนึ่งใน Psychic Disciplines ที่ระบุไว้ด้านล่าง จนกระทั่งถึงตอนจบของ battle round, Psychic Discipline นั้นจะทำงานและผลของมันจะส่งผลต่อยูนิต Adeptus Astartes Psyker ทั้งหมดจากกองทัพของคุณ
+
 
 
 Biomancy Discipline
-Add 2&quot; to the Move characteristic of models in this unit. 
+บวก 2&quot; ให้กับค่า Move ของโมเดลในยูนิตนี้
+
 
 
 Divination Discipline
-Each time a model in this unit makes an attack, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1.
+ในแต่ละครั้งที่โมเดลในยูนิตนี้ทำการโจมตี, re-roll a Hit roll ที่ออก 1 และ re-roll a Wound roll ที่ออก 1
+
 
 
 Pyromancy Discipline
-Each time a ranged attack made by a model in this unit targets an enemy unit within 12&quot;, improve the Armour Penetration characteristic of that attack by 1.
+ในแต่ละครั้งที่ อาวุธระยะไกล ที่ทำโดยโมเดลในยูนิตนี้เล็งเป้าหมายไปยังยูนิตศัตรูที่อยู่ในระยะ 12&quot;, ให้เพิ่มค่า Armour Penetration ของการโจมตีนั้นขึ้น 1
+
 
 
 Telekinesis Discipline
-Each time a ranged attack targets this unit, subtract 1 from the Strength characteristic of that attack.
+ในแต่ละครั้งที่ อาวุธระยะไกล เล็งเป้าหมายมายังยูนิตนี้, ให้ลบ 1 ออกจากค่า Strength ของการโจมตีนั้น
+
 
 
 Telepathy Discipline
-Each time a model in this unit makes an attack, you can ignore any or all modifiers to that attack’s Weapon Skill or Ballistic Skill characteristics and/or any or all modifiers to the Hit roll.</characteristic>
+ในแต่ละครั้งที่โมเดลในยูนิตนี้ทำการโจมตี, คุณสามารถเมินค่าปรับแก้ใดๆ หรือทั้งหมดต่อค่า Weapon Skill หรือ Ballistic Skill ของการโจมตีนั้น และ/หรือ ค่าปรับแก้ใดๆ หรือทั้งหมดต่อ Hit roll ได้</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -37904,11 +37906,10 @@ Models in this unit have a 5+ invulnerable save against ranged attacks</charact
           <profiles>
             <profile name="The Great Wolf Watches" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9b57-1deb-49b5-9682">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your opponent’s Charge phase, each Adeptus Astartes Infantry and Adeptus Astartes Walker unit from your army that is within 3&quot; of one or more enemy units and would be eligible to declare a charge against one or more of those units can declare a charge against one or more of those units, and you resolve that charge as if it were your Charge phase. If that charge is successful,
-your unit does not receive any Charge bonus this turn. 
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในตอนจบ Charge phase ของฝ่ายตรงข้าม, ยูนิต Adeptus Astartes Infantry และ Adeptus Astartes Walker แต่ละยูนิตจากกองทัพของคุณที่อยู่ในระยะ 3&quot; จากยูนิตศัตรูหนึ่งยูนิตหรือมากกว่า และจะมีสิทธิ์ในการประกาศ charge ใส่ยูนิตเหล่านั้นหนึ่งยูนิตหรือมากกว่า สามารถประกาศ charge ใส่ยูนิตเหล่านั้นหนึ่งยูนิตหรือมากกว่าได้, และคุณจะคิดผลการ charge นั้นเสมือนว่าเป็น Charge phase ของคุณ ถ้าการ charge นั้นสำเร็จ,
+ยูนิตของคุณจะไม่ได้รับ Charge bonus ใดๆ ในเทิร์นนี้
 
-
-While Adeptus Astartes Terminator units from your army are not Battle‑shocked, add 1 to the Objective Control characteristic of models in those units.</characteristic>
+ตราบใดที่ยูนิต Adeptus Astartes Terminator จากกองทัพของคุณไม่ติดสถานะ Battle-shocked, ให้บวก 1 ให้กับค่า Objective Control ของโมเดลในยูนิตเหล่านั้น</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -37924,16 +37925,17 @@ While Adeptus Astartes Terminator units from your army are not Battle‑shocked
           <profiles>
             <profile name="Legacy of the Angel" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d8f2-0c87-9000-ccab">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the first battle round, select two of the Angelic Legacy abilities listed below. Until the end of the battle, those Angelic Legacy abilities are active and their effects apply to all Adeptus  Astartes Character units from your army.
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในตอนเริ่มต้นของ battle round แรก, เลือกสองความสามารถจาก Angelic Legacy abilities ที่ระบุไว้ด้านล่าง จนกระทั่งจบเกม, Angelic Legacy abilities ที่ถูกเลือกเหล่านั้นจะทำงานและผลของมันจะส่งผลต่อยูนิต Adeptus Astartes Character ทั้งหมดจากกองทัพของคุณ
+
+Sanguinary Grace: ยูนิตนี้สามารถยิงและประกาศ charge ได้ในเทิร์นที่มันได้ทำการ Fell Back
 
 
-Sanguinary Grace: This unit is eligible to shoot and declare a charge in a turn in which it Fell Back.
+
+Carmine Wrath: ในแต่ละครั้งที่โมเดลในยูนิตนี้ทำการโจมตี, re-roll a Hit roll ที่ออก 1 และ re-roll a Wound roll ที่ออก 1
 
 
-Carmine Wrath: Each time a model in this unit makes an attack, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1.
 
-
-Their Appointed Hour: You can re‑roll Advance and Charge rolls made for this unit.</characteristic>
+Their Appointed Hour: คุณสามารถ re-roll Advance และ Charge rolls ของยูนิตนี้ได้</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -37996,21 +37998,22 @@ Onslaught - 4</characteristic>
           <profiles>
             <profile name="Heroes All" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="355b-36bf-d7a5-f688">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an ADEPTUS ASTARTES unit from your army is selected to shoot or fight, apply one of the following when resolving those attacks
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่ยูนิต ADEPTUS ASTARTES จากกองทัพของคุณถูกเลือกให้ยิงหรือต่อสู้, ให้ใช้หนึ่งในข้อต่อไปนี้เมื่อคิดผลการโจมตีเหล่านั้น:
 
 
-■ If you Saga is completed (see below), you can re-roll one Hit roll, one Wound roll, and one Damage roll. 
-■ Otherwise, if that unit is a SPACE WOLVES CHARACTER unit, you can re-roll one Hit roll, one Wound roll, or one Damage roll. 
+
+■ ถ้า Saga ของคุณสำเร็จแล้ว (ดูด้านล่าง), คุณสามารถ re-roll Hit roll หนึ่งครั้ง, Wound roll หนึ่งครั้ง, และ Damage roll หนึ่งครั้งได้ 
+■ มิฉะนั้น, ถ้ายูนิตนั้นเป็นยูนิต SPACE WOLVES CHARACTER, คุณสามารถ re-roll Hit roll หนึ่งครั้ง, Wound roll หนึ่งครั้ง, หรือ Damage roll หนึ่งครั้งได้
 
 
 Saga of the Bold
-Each time a SPACE WOLVES CHARACTER unit from your army does one of the following, that unit achieves a Boast. Once three or more different Boasts have been achieved by units from your army, your saga is completed
+ในแต่ละครั้งที่ยูนิต SPACE WOLVES CHARACTER จากกองทัพของคุณทำหนึ่งในสิ่งต่อไปนี้, ยูนิตนั้นจะบรรลุ Boast (วีรกรรม) เมื่อ Boast ที่แตกต่างกันสามอย่างหรือมากกว่าได้ถูกบรรลุโดยยูนิตจากกองทัพของคุณ, saga ของคุณจะสำเร็จ:
 
+■ Your Hide as a Trophy: ยูนิตนั้นทำลายเป้าหมาย Oath of Moment ของคุณ
+■ Slay Them All: ยูนิตนั้นทำลายเป้าหมาย Oath of Moment ของคุณ, และนั่นคือเป้าหมาย Oath of Moment เป้าหมายที่สองที่ถูกทำลายโดยยูนิตนั้นในเกมนี้
+■ Overrun Their Position: ในตอนจบเทิร์นของผู้เล่นฝ่ายใดฝ่ายหนึ่ง, ยูนิตนั้นอยู่ทั้งหมดภายใน deployment zone ของฝ่ายตรงข้าม 
 
-■ Your Hide as a Trophy: That unit destroys your Oath of Moment target
-■ Slay Them All: That unit destroys your Oath of Moment target, and that is the second Oath of Moment target destroyed by that unit in this battle. 
-■ Overrun Their Position: At the end of either player&apos;s turn, that unit is wholly within your opponent&apos;s deployment zone. 
-■ Hold the Line: From the second battle round onwards, at the end of your Command phase, that unit is within range of an objective marker you control that is not within your deployment zone.</characteristic>
+■ Hold the Line: ตั้งแต่ battle round ที่สองเป็นต้นไป, ในตอนจบ Command phase ของคุณ, ยูนิตนั้นอยู่ในระยะของ objective marker ที่คุณควบคุมซึ่งไม่ได้อยู่ใน deployment zone ของคุณ.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -38026,17 +38029,20 @@ Each time a SPACE WOLVES CHARACTER unit from your army does one of the following
           <profiles>
             <profile name="Legendary Slayers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="078c-ee2e-ed97-1c95">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an ADEPTUS ASTARTES model from your army makes an attack, if that attack targets a CHARACTER, MONSTER or VEHICLE unit or if your Saga is completed(see below), that attack has the [LETHAL HITS] ability
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่โมเดล ADEPTUS ASTARTES จากกองทัพของคุณทำการโจมตี, ถ้าการโจมตีนั้นเล็งเป้าหมายไปยังยูนิต CHARACTER, MONSTER หรือ VEHICLE หรือถ้า Saga ของคุณสำเร็จแล้ว (ดูด้านล่าง), การโจมตีนั้นจะได้รับความสามารถ [LETHAL HITS]
+
 
 
 Saga of the Beastslayer
-At the start of the first battle round, your Beastslayer tally is 0, and you determine your Beastslayer target by halving the number of units from your opponent&apos;s army that have one or more of the following keywords (rounding up): CHARACTER, MONSTER, VEHICLE
+ในตอนเริ่มต้นของ battle round แรก, Beastslayer tally ของคุณจะมีค่าเป็น 0, และคุณจะกำหนด Beastslayer target ของคุณโดยการหารครึ่งจำนวนยูนิตจากกองทัพของฝ่ายตรงข้ามที่มีหนึ่งในคีย์เวิร์ดต่อไปนี้ (ปัดเศษขึ้น): CHARACTER, MONSTER, VEHICLE
 
 
-Each time an ADEPTUS ASTARTES unit from your army shoots or fights, after all of those attacks have been resolved, add 1 to your Beastslayer tally for each enemy unit with one or more of the keywords destroyed by those attacks: CHARACTER, MONSTER, VEHICLE. 
+
+ในแต่ละครั้งที่ยูนิต ADEPTUS ASTARTES จากกองทัพของคุณยิงหรือต่อสู้, หลังจากที่การโจมตีทั้งหมดเหล่านั้นได้ถูกคิดผลไปแล้ว, ให้บวก 1 เข้ากับ Beastslayer tally ของคุณสำหรับแต่ละยูนิตศัตรูที่มีหนึ่งในคีย์เวิร์ดต่อไปนี้ซึ่งถูกทำลายโดยการโจมตีเหล่านั้น: CHARACTER, MONSTER, VEHICLE.
 
 
-Once your Beastslayer tally is equal to or greater than your Beastslayer target your Saga is completed.</characteristic>
+
+เมื่อ Beastslayer tally ของคุณมีค่าเท่ากับหรือมากกว่า Beastslayer target ของคุณ Saga ของคุณจะสำเร็จ</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -38052,7 +38058,7 @@ Once your Beastslayer tally is equal to or greater than your Beastslayer target 
           <profiles>
             <profile name="Righteous Fervour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0af9-6853-ca60-e4bd">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You can re-roll Advance and Charge rolls made for Adeptus Astartes unit from your army.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">คุณสามารถ re-roll Advance และ Charge rolls ของยูนิต Adeptus Astartes จากกองทัพของคุณได้</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -38087,10 +38093,10 @@ Once your Beastslayer tally is equal to or greater than your Beastslayer target 
           <profiles>
             <profile name="Shock and Awe" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7c85-5406-e115-208a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">■ Each time an ADEPTUS ASTARTES unit from your army declares a charge, if it disembarked from a TRANSPORT this turn, after selecting the targets of that charge, select one of those targets; that enemy unit must take a Battle-shock test. 
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">■ ในแต่ละครั้งที่ยูนิต ADEPTUS ASTARTES จากกองทัพของคุณประกาศ charge, ถ้ายูนิตนั้นได้ลงจาก TRANSPORT ในเทิร์นนี้, หลังจากที่เลือกเป้าหมายของการ charge นั้นแล้ว, เลือกหนึ่งในเป้าหมายเหล่านั้น; ยูนิตศัตรูนั้นจะต้องทำการทดสอบ Battle-shock
 
 
-■ Each time an ADEPTUS ASTARTES unit from your army makes a melee attack, if it disembarked from a TRANSPORT this turn, add 1 to the Hit roll.</characteristic>
+■ ในแต่ละครั้งที่ยูนิต ADEPTUS ASTARTES จากกองทัพของคุณทำการโจมตีระยะประชิด, ถ้ายูนิตนั้นได้ลงจาก TRANSPORT ในเทิร์นนี้, ให้บวก 1 ให้กับ Hit roll</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -38099,16 +38105,16 @@ Once your Beastslayer tally is equal to or greater than your Beastslayer target 
           <profiles>
             <profile name="Vulkan&apos;s Quest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d79c-5139-031a-48b6">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ranged weapons equipped by Adeptus Astartes models from your army have the [ASSAULT] ability, and each time an attack made such a weapon targets a unit within 12&quot;, add 1 to the Strength characteristic of that attack.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">อาวุธระยะไกล ที่โมเดล Adeptus Astartes จากกองทัพของคุณติดตั้งอยู่จะได้รับความสามารถ [ASSAULT], และในแต่ละครั้งที่การโจมตีที่ทำด้วยอาวุธดังกล่าวเล็งเป้าหมายไปยังยูนิตที่อยู่ในระยะ 12&quot;, ให้บวก 1 ให้กับค่า Strength ของการโจมตีนั้น</characteristic>
               </characteristics>
             </profile>
             <profile name="Seeker&apos;s Companions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6756-5b85-3dae-4bdf">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If your army includes Vulkan He&apos;stan, during your turn, each Infernus Squad unit from your army is eligible to do one of the following
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ถ้ากองทัพของคุณมี Vulkan He&apos;stan, ในช่วงเทิร์นของคุณ, ยูนิต Infernus Squad แต่ละยูนิตจากกองทัพของคุณจะสามารถทำหนึ่งในสิ่งต่อไปนี้ได้:
 
 
-■ Start to perform an Action in a turn in which it Advanced
-■ Shoot in a turn in which it started to perform an Action</characteristic>
+■ เริ่มทำการ Action ในเทิร์นที่ยูนิตนั้นได้ทำการ Advanced
+■ ยิงในเทิร์นที่ยูนิตนั้นได้เริ่มทำการ Action</characteristic>
               </characteristics>
             </profile>
           </profiles>
