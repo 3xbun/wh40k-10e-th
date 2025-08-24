@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="sys-352e-adc2-7639-d6a9" name="Warhammer 40,000 10th Edition - TH Version" revision="42" battleScribeVersion="2.03" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="sys-352e-adc2-7639-d6a9" name="Warhammer 40,000 10th Edition - TH Version" revision="42" battleScribeVersion="2.03" type="gameSystem" authorName="snoykiwi x 3xbun">
   <publications>
     <publication id="48fc-15aa-b307-9443" name="10th Edition Core Rules" shortName="10th Ed Core"/>
     <publication name="Github" hidden="false" id="8db3-575d-91b-47f8" shortName="BSData/wh40k-10e" publisherUrl="https://github.com/BSData/wh40k-10e"/>
@@ -843,130 +843,142 @@
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="8bf7-8812-923d-29e4" name="Pistol" publicationId="48fc-15aa-b307-9443" page="25" hidden="false">
-      <description>Weapons with [PISTOL] in their profile are known as Pistols. If a unit contains any models equipped with Pistols, that unit is eligible to shoot in its controlling player’s Shooting phase even while it is within Engagement Range of one or more enemy units. When such a unit is selected to shoot, it can only resolve attacks using its Pistols and can only target one of the enemy units it is within Engagement Range of. In such circumstances, a Pistol can target an enemy unit even if other friendly units are within Engagement Range of the same enemy unit. 
+      <description>อาวุธที่มี [PISTOL] ในโปรไฟล์จะถูกเรียกว่า Pistols (ปืนพก) ถ้ายูนิตมียูนิตใดๆ ที่ติดตั้ง Pistols, ยูนิตนั้นจะยังคงสามารถยิงได้ใน Shooting phase ของผู้เล่นที่ควบคุม แม้ว่าจะอยู่ใน Engagement Range ของยูนิตศัตรูหนึ่งยูนิตหรือมากกว่าก็ตาม เมื่อยูนิตดังกล่าวถูกเลือกให้ยิง, มันจะสามารถทำการโจมตีได้โดยใช้ Pistols ของมันเท่านั้น และจะสามารถเล็งเป้าหมายได้เพียงหนึ่งยูนิตจากยูนิตศัตรูที่มันอยู่ใน Engagement Range ด้วยเท่านั้น ในสถานการณ์เช่นนี้, Pistol สามารถเล็งเป้าหมายไปยังยูนิตศัตรูได้แม้ว่ายูนิตอื่นฝ่ายเราจะอยู่ใน Engagement Range ของยูนิตศัตรูเดียวกันนั้นก็ตาม
 
-If a model is equipped with one or more Pistols, unless it is a MONSTER or VEHICLE model, it can either shoot with its Pistols or with all of its other ranged weapons. Declare whether such a model will shoot with its Pistols or its other ranged weapons before selecting targets.</description>
+
+ถ้าโมเดลติดตั้ง Pistols หนึ่งกระบอกหรือมากกว่า, เว้นแต่มันจะเป็นโมเดล MONSTER หรือ VEHICLE, มันจะสามารถเลือกได้ว่าจะยิงด้วย Pistols ของมัน หรือจะยิงด้วย อาวุธระยะไกล อื่นๆ ทั้งหมดของมัน ให้ประกาศว่าโมเดลดังกล่าวจะยิงด้วย Pistols หรือ อาวุธระยะไกล อื่นๆ ก่อนที่จะเลือกเป้าหมาย</description>
     </rule>
     <rule id="8367-374c-f87-c627" name="Hazardous" publicationId="48fc-15aa-b307-9443" page="28" hidden="false">
-      <description>Weapons with [HAZARDOUS] in their profile are known as Hazardous weapons. Each time a unit is selected to shoot or fight, after that unit has resolved all of its attacks, for each Hazardous weapon that targets were selected for when resolving those attacks, that unit must take one Hazardous test. To do so, roll one D6: on a 1, that test is failed. For each failed test you must resolve the following sequence (resolve each failed test one at a time): 
+      <description>อาวุธที่มี [HAZARDOUS] ในโปรไฟล์จะถูกเรียกว่าอาวุธ Hazardous ในแต่ละครั้งที่ยูนิตถูกเลือกให้ยิงหรือต่อสู้, หลังจากที่ยูนิตนั้นทำการโจมตีทั้งหมดเสร็จสิ้นแล้ว, สำหรับอาวุธ Hazardous แต่ละชิ้นที่ได้ถูกเลือกเป้าหมายให้เมื่อทำการโจมตีเหล่านั้น, ยูนิตนั้นจะต้องทำการทดสอบ Hazardous หนึ่งครั้ง โดยการทอยเต๋า D6 หนึ่งลูก: หากได้ผลเป็น 1, การทดสอบนั้นจะล้มเหลว สำหรับการทดสอบที่ล้มเหลวแต่ละครั้ง คุณจะต้องทำตามลำดับต่อไปนี้ (ให้คิดผลการทดสอบที่ล้มเหลวทีละครั้ง):
 
-■ If possible, select one model in that unit that has lost one or more wounds and is equipped with one or more Hazardous weapons. 
-■ Otherwise, if possible, select one model in that unit (excluding CHARACTER models) equipped with one or more Hazardous weapons. 
-■ Otherwise, select one CHARACTER model in that unit equipped with one or more Hazardous weapons. 
 
-If a model was selected, that unit suffers 3 mortal wounds and when allocating those mortal wounds, they must be allocated to the selected model. 
+■ ถ้าเป็นไปได้, เลือกโมเดล 1 ตัวในยูนิตนั้นที่เสียพลังชีวิตไปแล้วหนึ่งหน่วยหรือมากกว่าและติดตั้งอาวุธ Hazardous หนึ่งชิ้นหรือมากกว่า. 
+■ มิฉะนั้น, ถ้าเป็นไปได้, เลือกโมเดล 1 ตัวในยูนิตนั้น (ไม่รวมโมเดล CHARACTER) ที่ติดตั้งอาวุธ Hazardous หนึ่งชิ้นหรือมากกว่า
+■ มิฉะนั้น, เลือกโมเดล CHARACTER 1 ตัวในยูนิตนั้นที่ติดตั้งอาวุธ Hazardous หนึ่งชิ้นหรือมากกว่า
 
-If a unit from a player’s army is selected as the target of the Fire Overwatch Stratagem in their opponent’s Charge phase, any mortal wounds inflicted by Hazardous tests are allocated after the charging unit has ended its Charge move.</description>
+
+ถ้ามีโมเดลถูกเลือก, ยูนิตนั้นจะได้รับ 3 mortal wounds และเมื่อจัดสรร mortal wounds เหล่านั้น, จะต้องจัดสรรให้กับโมเดลที่ถูกเลือก
+
+
+ถ้ายูนิตจากกองทัพของผู้เล่นถูกเลือกเป็นเป้าหมายของ Stratagem Fire Overwatch ใน Charge phase ของฝ่ายตรงข้าม, mortal wounds ใดๆ ที่เกิดจากการทดสอบ Hazardous จะถูกจัดสรรหลังจากที่ยูนิตที่ชาร์จเข้ามาได้เคลื่อนที่จบแล้ว</description>
     </rule>
     <rule id="b4dd-3e1f-41cb-218f" name="Leader" publicationId="48fc-15aa-b307-9443" page="39" hidden="false">
-      <description>While a Bodyguard unit contains a Leader, it is known as an Attached unit and, with the exception of rules that are triggered when units are destroyed (pg 12), it is treated as a single unit for all rules purposes. Each time an attack targets an Attached unit, until the attacking unit has resolved all of its attacks, you must use the Toughness characteristic of the Bodyguard models in that unit, even if a Leader in that unit has a different Toughness characteristic. Each time an attack successfully wounds an Attached unit, that attack cannot be allocated to a Character model in that unit, even if that Character model has lost one or more wounds or has already had attacks allocated to it this phase. As soon as the last Bodyguard model in an Attached unit has been destroyed, any attacks made against that unit that have yet to be allocated can then be allocated to Character models in that unit.
+      <description>ตราบใดที่ยูนิต Bodyguard มียูนิต Leader อยู่ข้างใน, มันจะถูกเรียกว่ายูนิต Attached และ, ยกเว้นกฎที่ทำงานเมื่อยูนิตถูกทำลาย (หน้า 12), มันจะถูกนับว่าเป็นยูนิตเดียวสำหรับทุกจุดประสงค์ของกฎ ในแต่ละครั้งที่การโจมตีเล็งเป้าหมายมายังยูนิต Attached, จนกว่ายูนิตที่โจมตีจะคิดผลการโจมตีทั้งหมดเสร็จสิ้น, คุณจะต้องใช้ค่า Toughness ของโมเดล Bodyguard ในยูนิตนั้น, แม้ว่า Leader ในยูนิตนั้นจะมีค่า Toughness ที่แตกต่างออกไปก็ตาม ในแต่ละครั้งที่การโจมตีทำ Wound ใส่ยูนิต Attached ได้สำเร็จ, การโจมตีนั้นจะไม่สามารถถูกจัดสรรไปยังโมเดล Character ในยูนิตนั้นได้, แม้ว่าโมเดล Character นั้นจะเคยเสียพลังชีวิตไปแล้วหนึ่งหน่วยหรือมากกว่า หรือเคยได้รับการจัดสรรการโจมตีไปแล้วในเฟสนี้ก็ตาม ทันทีที่โมเดล Bodyguard ตัวสุดท้ายในยูนิต Attached ถูกทำลาย, การโจมตีใดๆ ที่ทำใส่ยูนิตนั้นซึ่งยังไม่ได้ถูกจัดสรรจะสามารถถูกจัดสรรไปยังโมเดล Character ในยูนิตนั้นได้
 
-Each time the last model in a Bodyguard unit is destroyed, each CHARACTER unit that is part of that Attached unit becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. 
 
-Each time the last model in a CHARACTER unit that is attached to a Bodyguard unit is destroyed and there is not another CHARACTER unit attached, that Attached unit’s Bodyguard unit becomes a separate unit, with its original Starting Strength. If this happens as the result of an attack, they become separate units after the attacking unit has resolved all of its attacks. 
+ในแต่ละครั้งที่โมเดลตัวสุดท้ายในยูนิต Bodyguard ถูกทำลาย, ยูนิต CHARACTER แต่ละยูนิตที่เป็นส่วนหนึ่งของยูนิต Attached นั้นจะกลายเป็นยูนิตแยก, พร้อมกับค่า Starting Strength เดิมของมัน ถ้าสิ่งนี้เกิดขึ้นจากผลของการโจมตี, พวกเขาจะกลายเป็นยูนิตแยกหลังจากที่ยูนิตที่โจมตีได้คิดผลการโจมตีทั้งหมดเสร็จสิ้นแล้ว
 
-Each time a unit that is part of an Attached unit is destroyed, it does not have the keywords of any other units that make up that Attached unit (unless it has those keywords on its own datasheet) for the purposes of any rules that would be triggered when that unit is destroyed.</description>
+
+ในแต่ละครั้งที่โมเดลตัวสุดท้ายในยูนิต CHARACTER ที่เข้าร่วมกับยูนิต Bodyguard ถูกทำลาย และไม่มียูนิต CHARACTER อื่นเข้าร่วมอยู่, ยูนิต Bodyguard ของยูนิต Attached นั้นจะกลายเป็นยูนิตแยก, พร้อมกับค่า Starting Strength เดิมของมัน ถ้าสิ่งนี้เกิดขึ้นจากผลของการโจมตี, พวกเขาจะกลายเป็นยูนิตแยกหลังจากที่ยูนิตที่โจมตีได้คิดผลการโจมตีทั้งหมดเสร็จสิ้นแล้ว
+
+
+ในแต่ละครั้งที่ยูนิตที่เป็นส่วนหนึ่งของยูนิต Attached ถูกทำลาย, มันจะไม่มีคีย์เวิร์ดของยูนิตอื่นใดที่ประกอบกันเป็นยูนิต Attached นั้น (เว้นแต่มันจะมีคีย์เวิร์ดเหล่านั้นอยู่บน datasheet ของตัวเอง) สำหรับจุดประสงค์ของกฎใดๆ ที่จะทำงานเมื่อยูนิตนั้นถูกทำลาย</description>
     </rule>
     <rule id="be1e-ac8e-1e2c-3528" name="Devastating Wounds" publicationId="48fc-15aa-b307-9443" page="28" hidden="false">
-      <description>Weapons with [DEVASTATING WOUNDS] in their profile are known as Devastating Wounds weapons. Each time an attack is made with such a weapon, if that attack scores a Critical Wound, no saving throw of any kind can be made against that attack (including invulnerable saving throws). Such attacks are only allocated to models after all other attacks made by the attacking unit have been allocated and resolved. After that attack is allocated and after any modifiers are applied, it inflicts a number of mortal wounds on the target equal to the Damage characteristic of that attack, instead of inflicting damage normally.</description>
+      <description>อาวุธที่มี [DEVASTATING WOUNDS] ในโปรไฟล์จะถูกเรียกว่าอาวุธ Devastating Wounds ในแต่ละครั้งที่ทำการโจมตีด้วยอาวุธประเภทนี้, ถ้าการโจมตีนั้นทำ Critical Wound ได้สำเร็จ, จะไม่สามารถทำการทอย saving throw ชนิดใดๆ ก็ตามเพื่อป้องกันการโจมตีนั้นได้ (รวมถึง invulnerable saving throws) การโจมตีดังกล่าวจะถูกจัดสรรไปยังโมเดลเป้าหมายหลังจากที่การโจมตีอื่นๆ ทั้งหมดของยูนิตที่ทำการโจมตีได้ถูกจัดสรรและคิดผลไปแล้วเท่านั้น หลังจากที่การโจมตีนั้นถูกจัดสรรและหลังจากปรับค่าใดๆ แล้ว, มันจะสร้าง Mortal Wounds แก่เป้าหมายเป็นจำนวนเท่ากับค่า Damage ของการโจมตีนั้น, แทนที่จะสร้างความเสียหายตามปกติ</description>
     </rule>
     <rule id="fc8a-8c24-bae9-cc1c" name="Assault" publicationId="48fc-15aa-b307-9443" page="25" hidden="false">
-      <description>Weapons with [ASSAULT] in their profile are known as Assault weapons. If a unit that Advanced this turn contains any models equipped with Assault weapons, it is still eligible to shoot in this turn’s Shooting phase. When such a unit is selected to shoot, you can only resolve attacks using Assault weapons its models are equipped with.</description>
+      <description>อาวุธที่มี [ASSAULT] ในโปรไฟล์จะถูกเรียกว่าอาวุธ Assault ถ้ายูนิตที่ได้ทำการ Advance ในเทิร์นนี้มีโมเดลที่ติดตั้งอาวุธ Assault อยู่, ยูนิตนั้นจะยังคงสามารถยิงได้ใน Shooting phase ของเทิร์นนี้ เมื่อยูนิตดังกล่าวถูกเลือกให้ยิง, คุณจะสามารถทำการโจมตีได้โดยใช้อาวุธ Assault ที่โมเดลในยูนิตนั้นติดตั้งอยู่เท่านั้น</description>
     </rule>
     <rule id="115b-79dc-f723-d761" name="Extra Attacks" publicationId="48fc-15aa-b307-9443" page="28" hidden="false">
-      <description>Weapons with [EXTRA ATTACKS] in their profile are known as Extra Attacks weapons. Each time the bearer of one or more Extra Attacks weapons fights, it makes attacks with each of the Extra Attacks melee weapons it is equipped with and it makes attacks with one of the melee weapons it is equipped with that does not have the [EXTRA ATTACKS] ability (if any). The number of attacks made with an Extra Attacks weapon cannot be modified by other rules, unless that weapon’s name is explicitly specified in that rule.</description>
+      <description>อาวุธที่มี [EXTRA ATTACKS] ในโปรไฟล์จะถูกเรียกว่าอาวุธ Extra Attacks ในแต่ละครั้งที่ผู้ถืออาวุธ Extra Attacks หนึ่งชิ้นหรือมากกว่าทำการต่อสู้, มันจะทำการโจมตีด้วยอาวุธประชิด Extra Attacks แต่ละชิ้นที่มันติดตั้งอยู่ และมันจะทำการโจมตีด้วยอาวุธประชิดหนึ่งชิ้นที่มันติดตั้งอยู่ซึ่งไม่มีความสามารถ [EXTRA ATTACKS] (ถ้ามี) จำนวนการโจมตีที่ทำด้วยอาวุธ Extra Attacks จะไม่สามารถถูกปรับค่าได้โดยกฎอื่น, เว้นแต่ชื่อของอาวุธนั้นจะถูกระบุไว้อย่างชัดเจนในกฎนั้น</description>
     </rule>
     <rule id="cf93-ad4d-2f08-a79d" name="Twin-linked" publicationId="48fc-15aa-b307-9443" page="25" hidden="false">
-      <description>Weapons with [TWIN-LINKED] in their profile are known as Twin-linked weapons. Each time an attack is made with such a weapon, you can re-roll that attack’s Wound roll.</description>
+      <description>อาวุธที่มี [TWIN-LINKED] ในโปรไฟล์จะถูกเรียกว่าอาวุธ Twin-linked ในแต่ละครั้งที่ทำการโจมตีด้วยอาวุธประเภทนี้, คุณสามารถ re-roll Wound roll ของการโจมตีนั้นได้</description>
     </rule>
     <rule id="4111-82e3-9444-e942" name="Anti-" publicationId="48fc-15aa-b307-9443" page="28" hidden="false">
-      <description>Weapons with [ANTI-KEYWORD X+] in their profile are known as Anti weapons. Each time an attack is made with such a weapon against a target with the keyword after the word ‘Anti-’, an unmodified Wound roll of ‘x+’ scores a Critical Wound.</description>
+      <description>อาวุธที่มี [ANTI-KEYWORD X+] ในโปรไฟล์จะถูกเรียกว่าอาวุธ Anti ในแต่ละครั้งที่ทำการโจมตีด้วยอาวุธประเภทนี้ไปยังเป้าหมายที่มีคีย์เวิร์ดตรงกับคำที่อยู่หลัง &apos;Anti-&apos;, ผลการทอย Wound roll แบบยังไม่ปรับค่า (Unmodified) ที่ได้ &apos;x+&apos; จะถือว่าเป็น Critical Wound</description>
     </rule>
     <rule id="1897-c22c-9597-12b1" name="Sustained Hits" publicationId="48fc-15aa-b307-9443" page="28" hidden="false">
-      <description>Weapons with [SUSTAINED HITS X] in their profile are known as Sustained Hits weapons. Each time an attack is made with such a weapon, if a Critical Hit is rolled, that attack scores a number of additional hits on the target as denoted by ‘x’</description>
+      <description>อาวุธที่มี [SUSTAINED HITS X] ในโปรไฟล์จะถูกเรียกว่าอาวุธ Sustained Hits ในแต่ละครั้งที่ทำการโจมตีด้วยอาวุธประเภทนี้, ถ้าทอยได้ Critical Hit, การโจมตีนั้นจะสร้าง การโจมตีเพิ่มเติม ใส่เป้าหมายเป็นจำนวนเท่ากับที่ระบุไว้ด้วย ‘x’</description>
     </rule>
     <rule id="1202-10a8-78e9-4c67" name="Heavy" publicationId="48fc-15aa-b307-9443" page="26" hidden="false">
-      <description>Weapons with [HEAVY] in their profile are known as Heavy weapons. Each time an attack is made with such a weapon, if the attacking model’s unit Remained Stationary this turn, add 1 to that attack’s Hit roll.</description>
+      <description>อาวุธที่มี [HEAVY] ในโปรไฟล์จะถูกเรียกว่าอาวุธ Heavy ในแต่ละครั้งที่ทำการโจมตีด้วยอาวุธประเภทนี้, ถ้ายูนิตของโมเดลที่ทำการโจมตีได้ Remained Stationary (หยุดนิ่งอยู่กับที่) ในเทิร์นนี้, ให้บวก 1 เข้ากับ Hit roll ของการโจมตีนั้น</description>
     </rule>
     <rule id="7cdb-fb99-44a9-8849" name="Melta" publicationId="48fc-15aa-b307-9443" page="26" hidden="false">
-      <description>Weapons with [MELTA X] in their profile are known as Melta weapons. Each time an attack made with such a weapon targets a unit within half that weapon’s range, that attack’s Damage characteristic is increased by the amount denoted by ‘x’.</description>
+      <description>อาวุธที่มี [MELTA X] ในโปรไฟล์จะถูกเรียกว่าอาวุธ Melta ในแต่ละครั้งที่การโจมตีที่ทำด้วยอาวุธประเภทนี้เล็งเป้าหมายไปยังยูนิตที่อยู่ในระยะครึ่งหนึ่งของระยะยิงของอาวุธนั้น, ค่า Damage ของการโจมตีนั้นจะถูกเพิ่มขึ้นตามจำนวนที่ระบุไว้ด้วย &apos;x&apos;</description>
     </rule>
     <rule id="9bf4-280f-bbe2-6fbb" name="Feel No Pain" publicationId="48fc-15aa-b307-9443" page="23" hidden="false">
-      <description>Some models have &apos;Feel No Pain x+&apos; listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due to mortal wounds), roll one D6: if the result is greater than or equal to the number denoted by &apos;x: that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.</description>
+      <description>โมเดลบางตัวมีความสามารถ &apos;Feel No Pain x+&apos; อยู่ในรายการอบิลิตี้ของมัน ในแต่ละครั้งที่โมเดลที่มีความสามารถนี้ได้รับดาเมจและกำลังจะเสีย wound (รวมถึง wound ที่เสียไปจาก mortal wounds), ให้ทอยเต๋า D6 หนึ่งลูก: ถ้าผลลัพธ์ที่ได้มีค่าเท่ากับหรือสูงกว่าตัวเลขที่ระบุไว้ด้วย &apos;x&apos;, wound นั้นจะถูกเมินและไม่สูญเสียไป ถ้ายูนิตมี Feel No Pain มากกว่าหนึ่งอย่าง, คุณจะสามารถใช้ได้เพียงหนึ่งความสามารถเท่านั้นในแต่ละครั้งที่โมเดลนั้นได้รับดาเมจและกำลังจะเสียพลังชีวิต</description>
     </rule>
     <rule id="6c1f-1cf7-ff25-c99e" name="Blast" publicationId="48fc-15aa-b307-9443" page="26" hidden="false">
-      <description>Weapons with [BLAST] in their profile are known as Blast weapons, and they make a random number of attacks. Each time you determine how many attacks are made with a Blast weapon, add 1 to the result for every five models that were in the target unit when you selected it as the target (rounding down). Blast weapons can never be used to make attacks against a unit that is within Engagement Range of one or more units from the attacking model’s army (including its own unit).</description>
+      <description>อาวุธที่มี [BLAST] ในโปรไฟล์จะถูกเรียกว่าอาวุธ Blast, และมันจะทำการโจมตีเป็นจำนวนสุ่ม ในแต่ละครั้งที่คุณกำหนดจำนวนการโจมตีของอาวุธ Blast, ให้บวก 1 เข้ากับผลลัพธ์สำหรับทุกๆ ห้าโมเดลที่อยู่ในยูนิตเป้าหมาย ณ ตอนที่คุณเลือกยูนิตนั้นเป็นเป้าหมาย (ปัดเศษลง) อาวุธ Blast จะไม่สามารถใช้ทำการโจมตีใส่ยูนิตที่อยู่ใน Engagement Range ของยูนิตฝ่ายเรา (รวมถึงยูนิตของตัวเอง) ได้เลย</description>
     </rule>
     <rule id="9143-31ae-e0a6-6007" name="Precision" publicationId="48fc-15aa-b307-9443" page="26" hidden="false">
-      <description>Weapons with [PRECISION] in their profile are known as Precision weapons. Each time an attack made with such a weapon successfully wounds an Attached unit, if a Character model in that unit is visible to the attacking model, the attacking model’s player can choose to have that attack allocated to that Character model instead of following the normal attack sequence.</description>
+      <description>อาวุธที่มี [PRECISION] ในโปรไฟล์จะถูกเรียกว่าอาวุธ Precision ในแต่ละครั้งที่การโจมตีที่ทำด้วยอาวุธประเภทนี้ทำ Wound ใส่ยูนิต Attached ได้สำเร็จ, ถ้าโมเดล Character ในยูนิตนั้นมองเห็นได้โดยโมเดลที่ทำการโจมตี, ผู้เล่นของโมเดลที่ทำการโจมตีสามารถเลือกที่จะให้การโจมตีนั้นถูกจัดสรรไปยังโมเดล Character นั้นแทนที่จะทำตามลำดับการโจมตีปกติ</description>
     </rule>
     <rule id="4ddd-4e29-acdd-5e6d" name="Indirect Fire" publicationId="48fc-15aa-b307-9443" page="26" hidden="false">
-      <description>Weapons with [INDIRECT FIRE] in their profile are known as Indirect Fire weapons, and attacks can be made with them even if the target is not visible to the attacking model. These attacks can destroy enemy models in a target unit even though none may have been visible to the attacking unit when you selected that target.
+      <description>อาวุธที่มี [INDIRECT FIRE] ในโปรไฟล์จะถูกเรียกว่าอาวุธ Indirect Fire, และสามารถทำการโจมตีด้วยอาวุธเหล่านี้ได้แม้ว่าเป้าหมายจะมองไม่เห็นโดยโมเดลที่ทำการโจมตี การโจมตีเหล่านี้สามารถทำลายโมเดลศัตรูในยูนิตเป้าหมายได้แม้ว่าจะไม่มีโมเดลใดเลยที่มองเห็นได้โดยยูนิตที่ทำการโจมตี ณ ตอนที่คุณเลือกเป้าหมายนั้น
 
 
-If no models in a target unit are visible to the attacking unit when you select that target, then each time a model in the attacking unit makes an attack against that target using an Indirect Fire weapon, subtract 1 from that attack’s Hit roll, an unmodified Hit roll of 1-3 always fails, and the target has the Benefit of Cover against that attack. Weapons with the [TORRENT] ability cannot be fired using the [INDIRECT FIRE] ability.</description>
+
+ถ้าไม่มีโมเดลใดในยูนิตเป้าหมายที่มองเห็นได้โดยยูนิตที่ทำการโจมตี ณ ตอนที่คุณเลือกเป้าหมายนั้น, ในแต่ละครั้งที่โมเดลในยูนิตที่ทำการโจมตีทำการโจมตีใส่เป้าหมายนั้นโดยใช้อาวุธ Indirect Fire, ให้ลบ 1 ออกจาก Hit roll ของการโจมตีนั้น, ผล Hit roll แบบยังไม่ปรับค่าที่ได้ 1-3 จะพลาดเสมอ, และเป้าหมายจะได้รับ Benefit of Cover ต่อการโจมตีนั้น อาวุธที่มีความสามารถ [TORRENT] จะไม่สามารถยิงโดยใช้ความสามารถ [INDIRECT FIRE] ได้</description>
     </rule>
     <rule id="2ebc-abdf-8129-6c57" name="Lance" publicationId="48fc-15aa-b307-9443" page="25" hidden="false">
-      <description>Weapons with [LANCE] in their profile are known as Lance weapons. Each time an attack is made with such a weapon, if the bearer made a Charge move this turn, add 1 to that attack’s Wound roll.</description>
+      <description>อาวุธที่มี [LANCE] ในโปรไฟล์จะถูกเรียกว่าอาวุธ Lance ในแต่ละครั้งที่ทำการโจมตีด้วยอาวุธประเภทนี้, ถ้าผู้ถืออาวุธได้ทำการ Charge move ในเทิร์นนี้, ให้บวก 1 เข้ากับ Wound roll ของการโจมตีนั้น</description>
     </rule>
     <rule id="d1d1-611e-5191-1095" name="Lethal Hits" publicationId="48fc-15aa-b307-9443" page="25" hidden="false">
-      <description>Weapons with [LETHAL HITS] in their profile are known as Lethal Hits weapons. Each time an attack is made with such a weapon, a Critical Hit automatically wounds the target.</description>
+      <description>อาวุธที่มี [LETHAL HITS] ในโปรไฟล์จะถูกเรียกว่าอาวุธ Lethal Hits ในแต่ละครั้งที่ทำการโจมตีด้วยอาวุธประเภทนี้, Critical Hit จะทำ Wound ใส่เป้าหมายโดยอัตโนมัติ</description>
     </rule>
     <rule id="4640-43e7-30b-215a" name="Ignores Cover" publicationId="48fc-15aa-b307-9443" page="25" hidden="false">
-      <description>Weapons with [IGNORES COVER] in their profile are known as Ignores Cover weapons. Each time an attack is made with such a weapon, the target cannot have the Benefit of Cover against that attack.</description>
+      <description>อาวุธที่มี [IGNORES COVER] ในโปรไฟล์จะถูกเรียกว่าอาวุธ Ignores Cover ในแต่ละครั้งที่ทำการโจมตีด้วยอาวุธประเภทนี้, เป้าหมายจะไม่สามารถรับประโยชน์จากที่กำบัง (Benefit of Cover) ต่อการโจมตีนั้นได้</description>
     </rule>
     <rule id="c5c8-8b58-b8b6-7786" name="Rapid Fire" publicationId="48fc-15aa-b307-9443" page="25" hidden="false">
-      <description>Weapons with [RAPID FIRE X] in their profile are known as Rapid Fire weapons. Each time such a weapon targets a unit within half that weapon’s range, the Attacks characteristic of that weapon is increased by the amount denoted by ‘x’.</description>
+      <description>อาวุธที่มี [RAPID FIRE X] ในโปรไฟล์จะถูกเรียกว่าอาวุธ Rapid Fire ในแต่ละครั้งที่อาวุธประเภทนี้เล็งเป้าหมายไปยังยูนิตที่อยู่ในระยะครึ่งหนึ่งของระยะยิงของอาวุธนั้น, ค่า Attacks ของอาวุธนั้นจะถูกเพิ่มขึ้นตามจำนวนที่ระบุไว้ด้วย &apos;x&apos;</description>
     </rule>
     <rule id="5edf-d619-23e0-9b56" name="Torrent" publicationId="48fc-15aa-b307-9443" page="25" hidden="false">
-      <description>Weapons with [TORRENT] in their profile are known as Torrent weapons. Each time an attack is made with such a weapon, that attack automatically hits the target.</description>
+      <description>อาวุธที่มี [TORRENT] ในโปรไฟล์จะถูกเรียกว่าอาวุธ Torrent ในแต่ละครั้งที่ทำการโจมตีด้วยอาวุธประเภทนี้, การโจมตีนั้นจะโดนเป้าหมายโดยอัตโนมัติ</description>
     </rule>
     <rule id="ada6-bac1-ffe0-d6f7" name="Scouts" publicationId="48fc-15aa-b307-9443" page="39" hidden="false">
-      <description>Some units have ‘Scouts x&quot;’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x&quot;, with the exception that, while making that move, the distance moved by each model in that unit can be greater than that model&apos;s Move characteristic, as long as it is not greater than x&quot;. 
+      <description>ยูนิตบางยูนิตมีความสามารถ ‘Scouts x&quot;’ อยู่ในรายการอบิลิตี้ของมัน ถ้าทุกโมเดลในยูนิตมีความสามารถนี้, ในตอนเริ่มต้นของ battle round แรก, ก่อนที่เทิร์นแรกจะเริ่มต้นขึ้น, มันสามารถทำการ Normal move ได้ไกลสูงสุด x&quot;, โดยมีข้อยกเว้นว่า, ในขณะที่ทำการเคลื่อนที่นั้น, ระยะทางที่เคลื่อนที่โดยแต่ละโมเดลในยูนิตนั้นสามารถมากกว่าค่า Move ของโมเดลนั้นได้, ตราบใดที่มันไม่มากกว่า x&quot;
 
-DEDICATED TRANSPORT models can make use of any Scouts x&quot; ability listed in their abilities, or a Scouts x&quot; ability that a unit that starts the battle embarked within that DEDICATED TRANSPORT  model has (provided only models with this ability are embarked within that Dedicated Transport model), regardless of how that embarked unit gained this ability (e.g. listed in their abilities, conferred by an Enhancement or by an attached Character, etc.). 
 
-A unit that moves using this ability must end that move more than 9&quot; horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.</description>
+โมเดล DEDICATED TRANSPORT สามารถใช้ความสามารถ Scouts x&quot; ใดๆ ที่ระบุในอบิลิตี้ของมัน, หรือความสามารถ Scouts x&quot; ที่ยูนิตที่เริ่มเกมโดยสารอยู่ข้างใน DEDICATED TRANSPORT นั้นมี (หากมีเพียงโมเดลที่มีความสามารถนี้เท่านั้นที่โดยสารอยู่ใน Dedicated Transport นั้น), โดยไม่คำนึงว่ายูนิตที่โดยสารนั้นได้รับความสามารถนี้มาได้อย่างไร (เช่น มีในอบิลิตี้, ได้รับจาก Enhancement หรือจาก Character ที่เข้าร่วม, เป็นต้น)
+
+
+ยูนิตที่เคลื่อนที่โดยใช้ความสามารถนี้จะต้องจบการเคลื่อนที่นั้นห่างในแนวราบมากกว่า 9&quot; จากโมเดลศัตรูทั้งหมด ถ้าผู้เล่นทั้งสองฝ่ายมียูนิตที่สามารถทำเช่นนี้ได้, ผู้เล่นที่ได้เล่นเทิร์นแรกจะได้เคลื่อนยูนิตของตนก่อน</description>
     </rule>
     <rule id="c05d-f4c3-f091-4938" name="Infiltrators" publicationId="48fc-15aa-b307-9443" page="39" hidden="false">
-      <description>During deployment, if every model in a unit has this ability, then when you set it up, it can be set up anywhere on the battlefield that is more than 9&quot; horizontally away from the enemy deployment zone and all enemy models.</description>
+      <description>ในช่วง Deployment, ถ้าทุกโมเดลในยูนิตมีความสามารถนี้, เมื่อคุณวางยูนิตนั้น, มันสามารถถูกวางที่ใดก็ได้ในสนามรบซึ่งอยู่ห่างในแนวราบมากกว่า 9&quot; จากเขตวางยูนิตของศัตรู (Enemy Deployment Zone) และจากโมเดลศัตรูทั้งหมด</description>
     </rule>
     <rule id="7cb5-dd6b-dd87-ad3b" name="Deep Strike" publicationId="48fc-15aa-b307-9443" page="39" hidden="false">
-      <description>During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9&quot; horizontally away from all enemy models.
+      <description>ในช่วง Declare Battle Formations step, ถ้าทุกโมเดลในยูนิตมีความสามารถนี้, คุณสามารถวางยูนิตนั้นไว้ใน Reserves แทนที่จะวางในสนามรบได้ หากคุณทำเช่นนั้น, ในช่วง Reinforcements step ของ Movement phase ของคุณ, คุณสามารถนำยูนิตนี้มาวางที่ใดก็ได้ในสนามรบซึ่งอยู่ห่างในแนวราบมากกว่า 9&quot; จากโมเดลศัตรูทั้งหมด
 
-If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability.</description>
+
+ถ้ายูนิตที่มีความสามารถ Deep Strike มาจาก Strategic Reserves, ผู้เล่นที่ควบคุมยูนิตนั้นสามารถเลือกได้ว่าจะให้ยูนิตนั้นถูกวางในสนามโดยใช้กฎของ Strategic Reserves หรือใช้ความสามารถ Deep Strike</description>
     </rule>
     <rule id="b68a-5ded-65ac-98c" name="Deadly Demise" publicationId="48fc-15aa-b307-9443" page="23" hidden="false">
-      <description>Some models have &apos;Deadly Demise x&apos; listed in their abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a TRANSPORT, roll before any embarked models disembark). On a 6, each unit within 6&quot; of that model suffers a number of mortal wounds denoted by &apos;x&apos; (if this is a random number, roll separately for each unit within 6&quot;).</description>
+      <description>โมเดลบางตัวมีความสามารถ &apos;Deadly Demise x&apos; อยู่ในรายการอบิลิตี้ของมัน เมื่อโมเดลดังกล่าวถูกทำลาย, ให้ทอยเต๋า D6 หนึ่งลูกก่อนที่จะนำโมเดลนั้นออกจากสนาม (ถ้าโมเดลนั้นเป็น TRANSPORT, ให้ทอยเต๋าก่อนที่โมเดลที่โดยสารอยู่จะลงจากรถ) หากทอยได้ 6, แต่ละยูนิตที่อยู่ในระยะ 6&quot; จากโมเดลนั้นจะได้รับ Mortal Wounds เป็นจำนวนเท่ากับค่า &apos;x&apos; (ถ้าค่า x เป็นตัวเลขสุ่ม, ให้ทอยเต๋าแยกกันสำหรับแต่ละยูนิตที่อยู่ในระยะ 6&quot;)</description>
     </rule>
     <rule id="bec5-4288-34a6-ccfa" name="Stealth" publicationId="48fc-15aa-b307-9443" page="20" hidden="false">
-      <description>If every model in a unit has this ability, then each time a ranged attack is made against it, subtract 1 from that attack’s Hit roll.</description>
+      <description>ถ้าทุกโมเดลในยูนิตมีความสามารถนี้, ในแต่ละครั้งที่การโจมตีด้วย อาวุธระยะไกล ถูกทำใส่ยูนิตนั้น, ให้ลบ 1 ออกจาก Hit roll ของการโจมตีนั้น</description>
     </rule>
     <rule id="5e13-1624-d280-418d" name="Super-Heavy Walker" hidden="false">
-      <description>Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4&quot; or less in height. 
-When doing so:
-- It can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them.
-- It can also move through sections of terrain features that are more than 4&quot; in height, but if it does, after it has moved, roll one D6: on a 1, that model is Battle-shocked.</description>
+      <description>ในแต่ละครั้งที่โมเดลที่มีความสามารถนี้ทำการ Normal, Advance หรือ Fall Back move, มันสามารถเคลื่อนที่ทะลุโมเดล (ไม่รวมโมเดล TITANIC) และส่วนของ terrain features ที่มีความสูง 4&quot; หรือน้อยกว่าได้
+เมื่อทำเช่นนั้น:
+- มันสามารถเคลื่อนที่เข้าไปใน Engagement Range ของโมเดลศัตรูได้, แต่ไม่สามารถจบการเคลื่อนที่นั้นใน Engagement Range ของพวกมันได้
+- มันยังสามารถเคลื่อนที่ทะลุส่วนของ terrain features ที่มีความสูงมากกว่า 4&quot; ได้ด้วย, แต่ถ้าทำเช่นนั้น, หลังจากที่มันเคลื่อนที่เสร็จแล้ว, ให้ทอยเต๋า D6 หนึ่งลูก: หากได้ 1, โมเดลนั้นจะติด Battle-shocked</description>
     </rule>
     <rule id="a8a0-8fe7-898-e0f3" name="Lone Operative" publicationId="48fc-15aa-b307-9443" page="19" hidden="false">
-      <description>Unless part of an Attached unit, this unit can only be selected as the target of a ranged attack if the attacking model is within 12&quot;.</description>
+      <description>เว้นแต่จะเป็นส่วนหนึ่งของยูนิต Attached, ยูนิตนี้จะสามารถถูกเลือกเป็นเป้าหมายของการโจมตีด้วยอาวุธระยะไกลได้ ก็ต่อเมื่อโมเดลที่ทำการโจมตีอยู่ในระยะ 12&quot; เท่านั้น</description>
     </rule>
     <rule id="eec5-5f54-9c03-c305" name="Hover" publicationId="48fc-15aa-b307-9443" page="53" hidden="false">
-      <description>Some AIRCRAFT models have &apos;Hover&apos; listed in their abilities. When you are instructed to Declare Battle Formations, before doing anything else, you must first declare which models from your army with this ability will be in Hover mode.
+      <description>โมเดล AIRCRAFT บางตัวมีความสามารถ &apos;Hover&apos; อยู่ในรายการอบิลิตี้ของมัน เมื่อคุณได้รับคำสั่งให้ Declare Battle Formations, ก่อนที่จะทำสิ่งอื่นใด, คุณจะต้องประกาศก่อนว่าโมเดลใดจากกองทัพของคุณที่มีความสามารถนี้จะเข้าสู่โหมด Hover
 
-If a model is in Hover mode,  then until the end of the battle, its Move characteristic is changed to 20&quot;, it loses the AIRCRAFT keyword and it loses all associated rules for being an AlRCRAFT model. Models in Hover mode do not start the battle in Reserves, but you can choose to place them into Strategic Reserves following the normal rules if you wish.</description>
+
+ถ้าโมเดลอยู่ในโหมด Hover, จนกระทั่งจบเกม, ค่า Move ของมันจะเปลี่ยนเป็น 20&quot;, มันจะสูญเสียคีย์เวิร์ด AIRCRAFT และสูญเสียกฎทั้งหมดที่เกี่ยวข้องกับการเป็นโมเดล AIRCRAFT โมเดลในโหมด Hover จะไม่เริ่มเกมใน Reserves, แต่คุณสามารถเลือกที่จะนำพวกมันไปไว้ใน Strategic Reserves ตามกฎปกติได้หากต้องการ</description>
     </rule>
     <rule id="24-c886-e8ba-5a89" name="Fights First" publicationId="48fc-15aa-b307-9443" page="32" hidden="false">
-      <description>Units with this ability that are eligible to fight do so in the Fights First step, provided every model in the unit has this ability.</description>
+      <description>ยูนิตที่มีความสามารถนี้ซึ่งมีสิทธิ์ในการต่อสู้ จะได้ทำการต่อสู้ในช่วง Fights First step, หากทุกโมเดลในยูนิตนั้นมีความสามารถนี้</description>
     </rule>
     <rule id="e9c4-2bb8-12ee-cd1b" name="Psychic" publicationId="48fc-15aa-b307-9443" page="38" hidden="false">
-      <description>Some weapons and abilities can only be used by PSYKERS. Such weapons and abilities are tagged with the word &apos;Psychic&apos;. If a Psychic weapon or ability causes any unit to suffer one or more wounds, each of those wounds is considered to have been inflicted by a Psychic Attack.</description>
+      <description>อาวุธและความสามารถบางอย่างสามารถใช้ได้โดย PSYKERS เท่านั้น อาวุธและความสามารถดังกล่าวจะถูกกำกับด้วยคำว่า &apos;Psychic&apos; ถ้าอาวุธหรือความสามารถ Psychic ทำให้ยูนิตใดๆ เสียหนึ่ง wound หรือมากกว่า, wound แต่ละครั้งเหล่านั้นจะถูกนับว่าเกิดจากการโจมตีด้วยพลังจิต (Psychic Attack)</description>
     </rule>
     <rule id="13b2-6518-dab3-7ea1" name="Firing Deck" page="17" hidden="false">
-      <description>Some TRANSPORT models have ‘Firing Deck x’ listed in their abilities. Each time such a model is selected to shoot in the Shooting phase, you can select up to ‘x’ models embarked within it whose units have not already shot this phase. Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with (excluding weapons with the [ONE SHOT] ability). Until that TRANSPORT model has resolved all of its attacks, it counts as being equipped with all of the weapons you selected in this way, in addition to its other weapons. Until the end of the phase, those selected models’ units are not eligible to shoot.</description>
+      <description>โมเดล TRANSPORT บางตัวมีความสามารถ &apos;Firing Deck x&apos; อยู่ในรายการอบิลิตี้ของมัน ในแต่ละครั้งที่โมเดลดังกล่าวถูกเลือกให้ยิงใน Shooting phase, คุณสามารถเลือกโมเดลที่โดยสารอยู่ข้างในได้สูงสุด &apos;x&apos; ตัวซึ่งยูนิตของโมเดลเหล่านั้นยังไม่ได้ยิงในเฟสนี้ จากนั้น, สำหรับแต่ละโมเดลที่ถูกเลือก, คุณสามารถเลือก อาวุธระยะไกล หนึ่งชิ้นที่โมเดลนั้นติดตั้งอยู่ (ไม่รวมอาวุธที่มีความสามารถ [ONE SHOT]) จนกว่าโมเดล TRANSPORT นั้นจะทำการโจมตีทั้งหมดเสร็จสิ้น, มันจะนับว่าตัวเองติดตั้งอาวุธทั้งหมดที่คุณได้เลือกด้วยวิธีนี้, เพิ่มเติมจากอาวุธอื่นๆ ของมัน จนกระทั่งจบเฟส, ยูนิตของโมเดลที่ถูกเลือกเหล่านั้นจะไม่มีสิทธิ์ยิง</description>
     </rule>
     <rule id="cd26-1611-860a-91e4" name="One Shot" hidden="false">
-      <description>The bearer can only shoot with this weapon once per battle.</description>
+      <description>ผู้ถืออาวุธนี้จะสามารถยิงด้วยอาวุธนี้ได้เพียงครั้งเดียวต่อเกม (Once per battle)</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
