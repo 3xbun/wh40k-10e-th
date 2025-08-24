@@ -21,19 +21,15 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
-      # Clone the source repo
+      # Clone the source repo into /tmp (outside our repo dir)
       - name: Clone source repo
         run: |
-          git clone --depth=1 https://github.com/bsdata/wh40k-10e.git source-repo
+          git clone --depth=1 https://github.com/bsdata/wh40k-10e.git /tmp/source-repo
 
-      # Copy source repo into your repo (replace files)
+      # Copy source repo into your repo (replace files, exclude .git)
       - name: Sync files
         run: |
-          rsync -a --delete source-repo/ ./
-
-      # Clean up source repo
-      - name: Cleanup
-        run: rm -rf source-repo
+          rsync -a --delete --exclude='.git' /tmp/source-repo/ ./
 
       # Commit if there are changes
       - name: Commit changes
@@ -58,5 +54,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ env.BRANCH_NAME }}
           base: main
-          title: "Sync from bsdata/wh40k-10e ($(date +'%Y-%m-%d'))"
-          body: "Automated sync from https://github.com/bsdata/wh40k-10e"
+          title: "Sync from bsdata/wh40k-
