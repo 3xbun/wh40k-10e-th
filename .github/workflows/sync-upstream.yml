@@ -5,6 +5,10 @@ on:
     - cron: "0 0 * * *"   # runs every day at midnight UTC
   workflow_dispatch:       # allow manual trigger
 
+permissions:
+  contents: write        # allow pushing branches
+  pull-requests: write   # allow creating PRs
+
 jobs:
   sync:
     runs-on: ubuntu-latest
