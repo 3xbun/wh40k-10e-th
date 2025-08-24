@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="dfcf-1214-b57-2205" name="Aeldari - Aeldari Library" revision="90" battleScribeVersion="2.03" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="dfcf-1214-b57-2205" name="Aeldari - Aeldari Library" revision="92" battleScribeVersion="2.03" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue">
   <publications>
     <publication id="442c-a37c-3908-d701" name="Codex: Aeldari" shortName="C:Aeldari" publisher="Codex: Aeldari" publicationDate="08/02/2025"/>
     <publication id="1427-7c5c-863f-ac94" name="Index: Drukhari" shortName="I:Drukhari" publisher="Index: Drukhari" publicationDate="6/15/2023"/>
@@ -16265,25 +16265,30 @@ It can also move through sections of terrain features that are more than 4&quot;
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3be-fb9e-8fc9-71e3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
-■ Court of the Archon
-■ Incubi
-■ Kabalite Warriors</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถรวมเข้ากับยูนิตต่อไปนี้ได้:
+
+
+* **Court of the Archon**
+* **Incubi**
+* **Kabalite Warriors**</characteristic>
           </characteristics>
         </profile>
         <profile name="Overlord" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="78c2-e0e4-a2a7-71da">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, each time a model in that unit makes an attack, re-roll a Wound roll of 1. While that unit is Empowered, each time a model in that unit makes an attack, you can re-roll the Wound roll instead</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในขณะที่โมเดลนี้กำลังนำยูนิตอยู่ แต่ละครั้งที่โมเดลในยูนิตนั้นทำการโจมตี ให้ทอยลูกเต๋า **Wound roll** ใหม่ถ้าได้ผลลัพธ์เป็น 1
+
+
+ในขณะที่ยูนิตนั้นอยู่ในสถานะ **Empowered** แต่ละครั้งที่โมเดลในยูนิตนั้นทำการโจมตี คุณสามารถทอยลูกเต๋า **Wound roll** ใหม่ได้ทั้งหมดแทน</characteristic>
           </characteristics>
         </profile>
         <profile name="Devious Mastermind (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e713-b966-c181-4cc7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is your Warlord, each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12&quot; of this model, increase the cost of that use of that Stratagem by 1CP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หากโมเดลนี้เป็น **Warlord** ของคุณ ทุกครั้งที่คู่ต่อสู้ของคุณใช้ **Stratagem** กับยูนิตในกองทัพของพวกเขา หากยูนิตนั้นอยู่ภายในระยะ 12 นิ้วจากโมเดลนี้ ให้เพิ่มค่าใช้จ่าย **CP** ของการใช้ Stratagem นั้นขึ้นอีก **1 CP**</characteristic>
           </characteristics>
         </profile>
         <profile id="e9c3-fd99-a21e-bcac" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">An Archon has an Invulnerable Save of 2+. You cannot re-roll invulnerable saving throws made for this model. The first time an invulnerable saving throw made for this model is failed, until the end of the battle, this model has no invulnerable saving throw.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Archon มีค่าป้องกัน **Invulnerable Save** ที่ 2+ คุณไม่สามารถทอยลูกเต๋าใหม่ (re-roll) สำหรับการทอยป้องกัน **invulnerable saving throws** ที่ทำสำหรับโมเดลนี้ได้ ครั้งแรกที่การทอยป้องกัน **invulnerable saving throw** สำหรับโมเดลนี้ล้มเหลว โมเดลนี้จะไม่มีค่าป้องกัน **invulnerable saving throw** อีกต่อไปจนกระทั่งสิ้นสุดการรบ </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -26749,17 +26754,17 @@ makes an attack, subtract 1 from the Hit roll</characteristic>
         </profile>
         <profile name="The Path Least Travelled" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c322-ec5c-5b1-6713">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If your army includes this model, after both players have deployed their armies and determined who has the first turn, you can select one ^^Rangers^^ or ^^Shroud Runners^^ unit from your army and redeploy that unit. When doing so, that unit can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หากกองทัพของคุณมีโมเดลนี้อยู่ หลังจากผู้เล่นทั้งสองคนจัดวางกองทัพและตัดสินว่าใครได้เล่นก่อนแล้ว คุณสามารถเลือกยูนิต **Rangers** หรือ **Shroud Runners** หนึ่งยูนิตจากกองทัพของคุณเพื่อจัดวางใหม่ได้ เมื่อทำเช่นนั้น ยูนิตดังกล่าวสามารถถูกนำไปไว้ใน **Strategic Reserves** ได้ โดยไม่คำนึงถึงจำนวนยูนิตที่มีอยู่ใน **Strategic Reserves** แล้ว</characteristic>
           </characteristics>
         </profile>
         <profile name="Path of the Outcast" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="87f0-5086-a40b-d510">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9&quot; of this model, if this model is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อเทิร์น เมื่อยูนิตศัตรูสิ้นสุดการเคลื่อนที่แบบ **Normal**, **Advance** หรือ **Fall Back** ภายในระยะ 9 นิ้วจากโมเดลนี้ หากโมเดลนี้ไม่ได้อยู่ในระยะ **Engagement Range** ของยูนิตศัตรูตั้งแต่หนึ่งยูนิตขึ้นไป มันสามารถทำการเคลื่อนที่แบบ **Normal move** ได้สูงสุด **D6** นิ้ว</characteristic>
           </characteristics>
         </profile>
         <profile id="dab-a8fc-aeb4-f9cc" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has a 4+ invulnerable save.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ยูนิตนี้มีค่า **invulnerable save** 4+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -33852,12 +33857,15 @@ makes an attack, subtract 1 from the Hit roll</characteristic>
       <profiles>
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a387-cb75-7818-275d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has a 6+ Invulnerable save against ranged attacks, and 4+ Invulnerable save against melee attacks.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ยูนิตนี้มีค่า **Invulnerable save** 6+ สำหรับการโจมตีระยะไกล (ranged attacks) และมีค่า **Invulnerable save** 4+ สำหรับการโจมตีระยะประชิด (melee attacks)</characteristic>
           </characteristics>
         </profile>
         <profile name="No Escape" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e027-fb7b-6a7d-8222">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more units from your army with this ability is selected to Fall Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">แต่ละครั้งที่ยูนิตศัตรู (ยกเว้นประเภท **Monsters** และ **Vehicles**) ที่อยู่ในระยะ **Engagement Range** ของยูนิตตั้งแต่หนึ่งยูนิตขึ้นไปในกองทัพของคุณที่มีความสามารถนี้ ถูกเลือกให้ **Fall Back** (ถอยหนี) โมเดลทั้งหมดในยูนิตศัตรูนั้นจะต้องทำการทดสอบ **Desperate Escape**
+
+
+เมื่อทำการทดสอบ หากยูนิตศัตรูนั้นอยู่ในสถานะ **Battle-shocked** (ตกใจจากการรบ) ให้ลบ 1 จากผลการทดสอบแต่ละครั้ง</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -34806,12 +34814,15 @@ makes an attack, subtract 1 from the Hit roll</characteristic>
       <profiles>
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2ba5-f3bc-e965-3fea">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has a 6+ invulnerable save.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ยูนิตนี้มีค่า invulnerable save 6+</characteristic>
           </characteristics>
         </profile>
         <profile name="Eviscerating Fly-by" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e1e7-689a-2538-88c6">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit ends a Normal move, you can select one enemy unit (excluding Monster and Vehicle units) that it moved over during that move. If you do, roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">แต่ละครั้งที่ยูนิตนี้สิ้นสุดการเคลื่อนที่แบบ **Normal move** คุณสามารถเลือกยูนิตศัตรูหนึ่งยูนิต (ยกเว้นยูนิตประเภท **Monster** และ **Vehicle**) ที่ยูนิตนี้ได้เคลื่อนที่ผ่านไปในระหว่างการเคลื่อนที่นั้น
+
+
+หากคุณทำเช่นนั้น ให้ทอยลูกเต๋า D6 หนึ่งลูกสำหรับแต่ละโมเดลในยูนิตนี้: สำหรับทุกผลลัพธ์ที่ได้ 4+ ยูนิตศัตรูนั้นจะได้รับความเสียหาย **mortal wound** 1 แต้ม</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -35880,9 +35891,13 @@ For every 5 models in this unit, it can have 1 Aspect Shrine token.</characteris
           </modifiers>
           <rules>
             <rule name="Martial Grace" hidden="false" id="4f8a-8971-6ecb-742f">
-              <description>At the start of the battle round, you receive 1 additional Battle Focus token.
-Each time a unit from your army performs the Swift as the Wind Agile Manoeuvre, until the end of the phase, add an additional 1&quot; to the Move characteristic of models in that unit.
-Each time a unit from your army performs an Agile Manoeuvre that involves rolling a D6, add 1 to the result.</description>
+              <description>ในตอนเริ่มต้นของเทิร์นการรบ (battle round) คุณจะได้รับ Battle Focus token เพิ่มเติม 1 อัน
+
+
+ทุกครั้งที่ยูนิตจากกองทัพของคุณใช้ความสามารถ Agile Manoeuvre ที่ชื่อว่า Swift as the Wind จนกระทั่งสิ้นสุดเฟส ให้เพิ่มระยะการเคลื่อนที่ (Move characteristic) ของโมเดลในยูนิตนั้นอีก 1 นิ้ว
+
+
+ทุกครั้งที่ยูนิตจากกองทัพของคุณใช้ความสามารถ Agile Manoeuvre ที่ต้องทอยลูกเต๋า D6 ให้บวกเพิ่ม 1 เข้าไปในผลลัพธ์ที่ได้</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -35896,12 +35911,15 @@ Each time a unit from your army performs an Agile Manoeuvre that involves rollin
           </modifiers>
           <rules>
             <rule name="Realspace Raiders" hidden="false" id="9e6b-b67a-7f41-1a8a">
-              <description>At the start of the battle, you gain an additional 1 Pain token for each of the following your army contains:
-■ One or more Archon models
-■ One or more Succubus models
-■ One or more Haemonculus models
-Designer’s Note: These are all cumulative, so if your army contains at least one Archon, at least one Succubus and at least one Haemonculus, you would start the battle with an additional 3
-Pain tokens.</description>
+              <description>ในช่วงเริ่มต้นของการรบ คุณจะได้รับ **Pain token** เพิ่มเติมอีก 1 อันสำหรับแต่ละข้อดังต่อไปนี้ที่กองทัพของคุณมี:
+
+
+* **มีโมเดล Archon หนึ่งตัวหรือมากกว่า**
+* **มีโมเดล Succubus หนึ่งตัวหรือมากกว่า**
+* **มีโมเดล Haemonculus หนึ่งตัวหรือมากกว่า**
+
+
+**หมายเหตุจากผู้ออกแบบ (Designer&apos;s Note):** ความสามารถเหล่านี้สามารถใช้ร่วมกันได้ ดังนั้นหากกองทัพของคุณมีอย่างน้อยหนึ่งตัวของ Archon, อย่างน้อยหนึ่งตัวของ Succubus และอย่างน้อยหนึ่งตัวของ Haemonculus คุณจะเริ่มต้นการรบพร้อมกับ **Pain tokens** เพิ่มเติม 3 อัน</description>
             </rule>
           </rules>
           <infoLinks>
@@ -35911,7 +35929,7 @@ Pain tokens.</description>
         <selectionEntry type="upgrade" import="true" name="Skysplinter Assault" hidden="false" id="7596-e2c8-71fb-1b4f">
           <rules>
             <rule name="Rain of Cruelty" hidden="false" id="c662-6c60-3e77-889e">
-              <description>Each time a Drukhari unit from your army disembarks from a Transport, until the end of the turn, that unit’s ranged weapons have the [IGNORES COVER] ability and that unit’s  melee weapons have the [LANCE] ability.</description>
+              <description>ทุกครั้งที่ยูนิต **Drukhari** จากกองทัพของคุณลงจากยานพาหนะ **Transport** จนกระทั่งสิ้นสุดเทิร์น อาวุธระยะไกลของยูนิตนั้นจะได้รับความสามารถ **[IGNORES COVER]** และอาวุธระยะประชิดของยูนิตนั้นจะได้รับความสามารถ **[LANCE]**</description>
             </rule>
           </rules>
           <modifiers>
@@ -35928,11 +35946,21 @@ Pain tokens.</description>
         <selectionEntry type="upgrade" import="true" name="Reaper&apos;s Wager" hidden="false" id="e688-8140-bc36-3cee">
           <rules>
             <rule name="Callous Competition" id="134d-1e4d-5f9c-2905" hidden="false">
-              <description>At the start of the battle, Drukhari units from your army are winning the wager.
-Each time a Drukhari unit from your army destroys an enemy unit, Drukhari units from your army are winning the wager.
-Each time a Harlequins unit from your army destroys an enemy unit, Harlequin units from your army are winning the wager.
-While Drukhari units from your army are winning the wager, Harlequin units from your army are losing the wager, and vice versa.
-Each time a Drukhari or Harlequins model from your army makes an attack, if that model’s unit is winning the wager, re-roll a Hit roll of 1. If that model&apos;s unit is losing the wager, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1 instead.</description>
+              <description>ในช่วงเริ่มต้นของการรบ ยูนิต Drukhari จากกองทัพของคุณจะเป็นฝ่ายที่ &quot;ชนะการเดิมพัน&quot; (winning the wager)
+
+
+ทุกครั้งที่ยูนิต Drukhari จากกองทัพของคุณทำลายยูนิตของศัตรู ยูนิต Drukhari ในกองทัพของคุณจะกลายเป็นฝ่ายที่ &quot;ชนะการเดิมพัน&quot;
+ทุกครั้งที่ยูนิต Harlequins จากกองทัพของคุณทำลายยูนิตของศัตรู ยูนิต Harlequins ในกองทัพของคุณจะกลายเป็นฝ่ายที่ &quot;ชนะการเดิมพัน&quot;
+
+ขณะที่ยูนิต Drukhari จากกองทัพของคุณเป็นฝ่ายชนะการเดิมพัน ยูนิต Harlequins จะเป็นฝ่าย &quot;แพ้การเดิมพัน&quot; (losing the wager) และในทางกลับกันก็เช่นกัน
+
+ทุกครั้งที่โมเดล Drukhari หรือ Harlequins จากกองทัพของคุณทำการโจมตี:
+
+
+
+หากยูนิตของโมเดลนั้นเป็นฝ่าย &quot;ชนะการเดิมพัน&quot; ให้ทอยลูกเต๋าใหม่ (re-roll) สำหรับค่า Hit roll ที่ได้ 1
+หากยูนิตของโมเดลนั้นเป็นฝ่าย &quot;แพ้การเดิมพัน&quot; ให้ทอยลูกเต๋าใหม่สำหรับค่า Hit roll ที่ได้ 1 และทอยลูกเต๋าใหม่สำหรับค่า Wound roll ที่ได้ 1 แทน
+</description>
             </rule>
           </rules>
           <modifiers>
@@ -35953,7 +35981,7 @@ Each time a Drukhari or Harlequins model from your army makes an attack, if th
           </modifiers>
           <rules>
             <rule name="Skilled Crews" id="a2c3-9df1-e4e7-0e28" hidden="false">
-              <description>Ranged weapons equipped by Aeldari Vehicle models from your army have the [ASSAULT] ability and you can re‑roll Advance rolls made for Aeldari Vehicle Fly units from your army.</description>
+              <description>อาวุธระยะไกลที่ติดตั้งโดยโมเดลยานพาหนะ **Aeldari Vehicle** จากกองทัพของคุณจะได้รับความสามารถ **[ASSAULT]** และคุณสามารถ **re-roll** (ทอยลูกเต๋าใหม่) สำหรับการเคลื่อนที่แบบ **Advance** ของยูนิตยานพาหนะ **Aeldari Vehicle Fly** จากกองทัพของคุณได้</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -35967,29 +35995,36 @@ Each time a Drukhari or Harlequins model from your army makes an attack, if th
           </modifiers>
           <rules>
             <rule name="Ride the Wind" id="00f2-44cb-95e5-5143" hidden="false">
-              <description>In the Declare Battle Formations step you can set up ^^Asuryani Mounted^^ and ^^Vyper^^ units in Reserves.
-During the battle, such units can be set up on the battlefield as if they were arriving from Strategic Reserves. For the purposes of setting up ^^Asuyani Mounted^^ or ^^Vyper^^ units from your army on the battlefield, treat the current battle round number as being one higher than it actually is.
-
-In addition, at the end of your opponent&apos;s turn, you can select a number of ^^Asuryani Mounted^^ or ^^Vyper^^ units from your army (excluding units within Engagement Range of one or more enemy units), then remove those units from the battlefield and place them into Strategic Reserves. The maximum number of units you can select depends on the battle size, as shown below:
-
-■ Incursion - 1
-■ Strike Force - 2
-■ Onslaught - 3
+              <description>ในขั้นตอน Declare Battle Formations (ประกาศรูปแบบการรบ) คุณสามารถจัดตั้งยูนิต ^^Asuryani Mounted^^ และ ^^Vyper^^ ใน Reserves (กองหนุน) ได้
 
 
-^^Windriders^^ units from your army gain the ^^Battleline^^ keyword.</description>
+ระหว่างการรบ ยูนิตดังกล่าวสามารถถูกนำเข้ามาในสนามรบได้เสมือนว่าพวกมันมาจาก Strategic Reserves (กองหนุนเชิงกลยุทธ์) ในการจัดตั้งยูนิต ^^Asuryani Mounted^^ หรือ ^^Vyper^^ จากกองทัพของคุณบนสนามรบ ให้ถือว่าหมายเลขของเทิร์นการรบปัจจุบันสูงกว่าที่เป็นจริงหนึ่งหมายเลข
+
+
+นอกจากนี้ ในช่วงท้ายของเทิร์นคู่ต่อสู้ของคุณ คุณสามารถเลือกยูนิต ^^Asuryani Mounted^^ หรือ ^^Vyper^^ จำนวนหนึ่งจากกองทัพของคุณ (ยกเว้นยูนิตที่อยู่ในระยะประชิดกับยูนิตศัตรูตั้งแต่หนึ่งยูนิตขึ้นไป) จากนั้นนำยูนิตเหล่านั้นออกจากสนามรบและนำไปไว้ใน Strategic Reserves จำนวนยูนิตสูงสุดที่คุณสามารถเลือกได้ขึ้นอยู่กับขนาดของการรบ ดังที่แสดงด้านล่าง:
+
+
+Incursion - 1
+Strike Force - 2
+Onslaught - 3
+
+
+ยูนิต ^^Windriders^^ จากกองทัพของคุณจะได้รับคีย์เวิร์ด ^^Battleline^^</description>
             </rule>
           </rules>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Spirit Conclave" hidden="false" id="fc94-43bf-5247-8e7c">
           <rules>
             <rule name="Shepherds of the Dead" id="050c-5c05-99bc-905a" hidden="false">
-              <description>Each time an Asuryani Psyker model from your army is destroyed by an enemy unit, that unit gains a Vengeful Dead token. Each time a Wraith Construct model from your army makes an attack that targets a unit with one or more Vengeful Dead tokens, add 1 to the Hit roll and add 1 to the Wound roll.
-Asuryani Psyker models from your army have the following ability:
-Spirit Guides (Aura): while a Wraithblades, Wraithguard or Wraithlord unit from your army is within 12&quot; of this model, that unit has the Battle Focus ability.
+              <description>ทุกครั้งที่โมเดล Asuryani Psyker จากกองทัพของคุณถูกทำลายโดยยูนิตของศัตรู ยูนิตศัตรูนั้นจะได้รับ Vengeful Dead token (โทเคนแห่งวิญญาณอาฆาต) ทุกครั้งที่โมเดล Wraith Construct จากกองทัพของคุณทำการโจมตีใส่ยูนิตที่มี Vengeful Dead token อย่างน้อยหนึ่งอัน ให้บวกเพิ่ม 1 ให้กับค่า Hit roll และบวกเพิ่ม 1 ให้กับค่า Wound roll
 
 
-Wraithblades and Wraithguard units from your army gains the Battleline keyword.</description>
+โมเดล Asuryani Psyker จากกองทัพของคุณมีความสามารถดังต่อไปนี้:
+Spirit Guides (Aura): ขณะที่ยูนิต Wraithblades, Wraithguard หรือ Wraithlord จากกองทัพของคุณอยู่ภายในระยะ 12 นิ้วจากโมเดลนี้ ยูนิตนั้นจะได้รับความสามารถ Battle Focus
+
+
+
+ยูนิต Wraithblades และ Wraithguard จากกองทัพของคุณจะได้รับคีย์เวิร์ด Battleline</description>
             </rule>
           </rules>
           <modifiers>
@@ -36003,7 +36038,7 @@ Wraithblades and Wraithguard units from your army gains the Battleline keyword.<
         <selectionEntry type="upgrade" import="true" name="Guardian Battlehost" hidden="false" id="9805-eaee-0a84-f86f">
           <rules>
             <rule name="Defend at All Costs" id="7634-617a-fc22-593b" hidden="false">
-              <description>Each time a Dire Avenger, Guardian, Support Weapon or War Walker model from your army makes an attack, if that model&apos;s unit and/or the target unit are within range of one or more objective markers, add 1 to the Hit roll.</description>
+              <description>ทุกครั้งที่โมเดล **Dire Avenger**, **Guardian**, **Support Weapon** หรือ **War Walker** จากกองทัพของคุณทำการโจมตี หากยูนิตของโมเดลนั้นและ/หรือยูนิตเป้าหมายอยู่ภายในระยะของ Objective marker (จุดควบคุมเป้าหมาย) อย่างน้อยหนึ่งจุด ให้บวกเพิ่ม 1 ให้กับค่า **Hit roll**</description>
             </rule>
           </rules>
           <modifiers>
@@ -36017,11 +36052,11 @@ Wraithblades and Wraithguard units from your army gains the Battleline keyword.<
         <selectionEntry type="upgrade" import="true" name="Ghosts of the Webway" hidden="false" id="be59-ec7d-2f02-b6ec">
           <rules>
             <rule name="Acrobatic Onslaught" id="162a-db5f-15c7-30b7" hidden="false">
-              <description>Each time a Harlequins model from your army makes a Charge move, it can move through enemy models.</description>
+              <description>ทุกครั้งที่โมเดล **Harlequins** จากกองทัพของคุณทำการเคลื่อนที่แบบ **Charge** (ชาร์จ) มันสามารถเคลื่อนที่ผ่านโมเดลของศัตรูได้</description>
             </rule>
             <rule name="Travelling Players" id="1f90-f7c5-9c60-e64d" hidden="false">
-              <description>Troupe units from you army gain the Battleline keyword and Troupe models in those nits have an Objective Control characteristic of 2.
-You can include up to three of each of the following models in your army: Death Jester. Shadowseer, Troupe Master.</description>
+              <description>ยูนิตประเภท **Troupe** จากกองทัพของคุณจะได้รับคีย์เวิร์ด **Battleline** และโมเดล **Troupe** ที่อยู่ในยูนิตเหล่านั้นจะมีค่า Objective Control เท่ากับ 2
+คุณสามารถรวมโมเดลต่อไปนี้ในกองทัพได้ไม่เกินอย่างละสามตัว: **Death Jester**, **Shadowseer**, **Troupe Master**</description>
             </rule>
           </rules>
           <modifiers>
@@ -36055,47 +36090,44 @@ You can include up to three of each of the following models in your army: Death 
           </modifiers>
           <rules>
             <rule name="Strength From Death" id="8d75-16ba-0739-1355" hidden="false">
-              <description>Lethal Intent
-At the end of your opponent&apos;s Shooting phase, if one or more Ynnari units from your army were destroyed this phase, select one Ynnari Infantry or Ynnari Mounted unit from your army that was within 6&quot; of your destroyed unit. That unit can make a Normal move of up to D6+1&quot;.
+              <description>Lethal Intent 
+ในตอนท้ายของเฟสการยิงของคู่ต่อสู้ หากมีหนึ่งยูนิตหรือมากกว่าของ Ynnari จากกองทัพของคุณถูกทำลายในเฟสนี้ ให้เลือกยูนิตประเภท Ynnari Infantry หรือ Ynnari Mounted หนึ่งยูนิตจากกองทัพของคุณที่อยู่ภายในระยะ 6 นิ้วจากยูนิตที่ถูกทำลาย ยูนิตที่ถูกเลือกสามารถทำการเคลื่อนที่แบบ Normal move ได้สูงสุด D6+1&quot;
 
 
 Lethal Surge
-Once per turn, when a Ynnari unit from your army performs the Fade Back Agile Manoeuvre, it can make a Lethal Surge move instead of a Normal move. If it does, roll one D6 and add 1 to the result: that unit can be moved a number of inches up to the total. When doing so, those models can be moved within Engagement Range of the enemy unit that just triggered that Agile Manoeuvre.
+หนึ่งครั้งต่อเทิร์น เมื่อยูนิต Ynnari จากกองทัพของคุณใช้ความสามารถ Agile Manoeuvre ที่ชื่อว่า Fade Back มันสามารถทำการเคลื่อนที่แบบ Lethal Surge แทนการเคลื่อนที่แบบ Normal move หากทำเช่นนั้น ให้ทอยลูกเต๋า D6 หนึ่งลูกแล้วบวกเพิ่ม 1 เข้าไปในผลลัพธ์ ยูนิตนั้นสามารถเคลื่อนที่ได้ตามจำนวนนิ้วที่ได้ และเมื่อเคลื่อนที่ด้วยวิธีนี้ โมเดลเหล่านั้นสามารถเคลื่อนที่เข้าไปในระยะประชิด (Engagement Range) ของยูนิตศัตรูที่เพิ่งใช้ความสามารถ Agile Manoeuvre นั้นได้
 
 
 Lethal Reprisal
-At the start of the Fight phase, select one Ynnari unit from your army (excluding Titanic units) that is below its Starting Strength. Until the end of the phase, that unit has the Fights First ability.</description>
+เมื่อเริ่มต้นเฟสการต่อสู้ ให้เลือกยูนิต Ynnari หนึ่งยูนิตจากกองทัพของคุณ (ยกเว้นยูนิตประเภท Titanic) ที่มีจำนวนโมเดลต่ำกว่าจำนวนเริ่มต้น (Starting Strength) จนกระทั่งสิ้นสุดเฟส ยูนิตนั้นจะได้รับความสามารถ Fights First (โจมตีก่อน)</description>
             </rule>
             <rule name="Servants of the Whispering God" id="ef2b-daa5-1f22-08cc" hidden="false">
-              <description>You can include Ynnari units in your army, even though they do not have the Asuryani Faction keyword.
-Asuryani units (excluding Epic Heroes) from your army gain the Ynnari keyword.
-You must include Yvraine and/or The Yncarne in your army, and one of those models must be your Warlord.</description>
+              <description>คุณสามารถรวมยูนิต **Ynnari** เข้ามาในกองทัพได้ ถึงแม้ว่ายูนิตเหล่านั้นจะไม่มีคีย์เวิร์ด Faction ของ **Asuryani** ก็ตาม
+ยูนิต **Asuryani** (ยกเว้น **Epic Heroes**) จากกองทัพของคุณจะได้รับคีย์เวิร์ด **Ynnari**
+คุณต้องรวม **Yvraine** และ/หรือ **The Yncarne** ไว้ในกองทัพ และหนึ่งในโมเดลเหล่านั้นจะต้องเป็น **Warlord** (ผู้นำกองทัพ) ของคุณ</description>
             </rule>
           </rules>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Seer Council" hidden="false" id="b525-57b6-8a78-ed75">
           <rules>
             <rule name="Strands of Fate" id="c1b1-0f17-65d1-89b5" hidden="false">
-              <description>At the start of the first battle round, you generate Fate dice by rolling a number of D6 based on the battle size, as shown below. Keep your Fate dice to one side - this is your Fate dice pool.
+              <description>ในช่วงเริ่มต้นของเทิร์นการรบแรก คุณจะสร้าง Fate dice (ลูกเต๋าแห่งโชคชะตา) โดยการทอยลูกเต๋า D6 จำนวนหนึ่งตามขนาดของการรบ ดังที่แสดงด้านล่าง เก็บลูกเต๋า Fate dice ของคุณแยกไว้ต่างหาก ซึ่งนี่คือกองสะสม Fate dice ของคุณ
 
 
-■ Incursion - 3
-■ Strike Force - 6
-■ Onslaught - 9
+Incursion - 3 ลูก
+Strike Force - 6 ลูก
+Onslaught - 9 ลูก
 
 
-Each time you use one of the detachment Stratagems, if your Fate dice pool contains one or more Fate dice showing the corresponding value in the table below, you can discard one of those corresponding Fate dice. If you do, reduce the CP cost of that usage of that Stratagem by 1CP.
+ในแต่ละครั้งที่คุณใช้ Stratagem ของดีแทชเมนต์ (detachment) หากกองสะสม Fate dice ของคุณมีลูกเต๋า Fate dice ที่แสดงค่าตรงกับตารางด้านล่างนี้ คุณสามารถทิ้งลูกเต๋า Fate dice ที่ตรงกันหนึ่งลูกได้ หากทำเช่นนั้น ให้ลดค่าใช้จ่าย CP ของการใช้ Stratagem นั้นลง 1 CP
 
 
-
-
-■ Presentiment of Dread - 1
-■ Forewarned - 2
-■ Unshrouded Truth - 3
-■ Fate Inescapable - 4
-
-■ Isha&apos;s Fury - 5
-■ Psychic Shield - 6</description>
+Presentiment of Dread - 1
+Forewarned - 2
+Unshrouded Truth - 3
+Fate Inescapable - 4
+Isha&apos;s Fury - 5
+Psychic Shield - 6</description>
             </rule>
           </rules>
           <modifiers>
@@ -36116,10 +36148,11 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
           </modifiers>
           <rules>
             <rule name="Path of the Warrior" id="328a-1d9d-42cd-b451" hidden="false">
-              <description>Each time an Aspect Warriors or Avatar of Khaine unit from your army is selected to shoot or fight, select one of the following abilities for it to gain until the end of the phase:
+              <description>เมื่อใดก็ตามที่คุณเลือกยูนิต **Aspect Warriors** หรือ **Avatar of Khaine** จากกองทัพของคุณเพื่อทำการยิงหรือต่อสู้ ให้เลือกความสามารถหนึ่งในสองข้อต่อไปนี้เพื่อให้ยูนิตนั้นได้รับจนกว่าจะสิ้นสุดเฟส:
 
-■ Each time a model in this unit makes an attack, re-roll a Hit roll of 1.
-■ Each time a model in this unit makes an attack, re-roll a Wound roll of 1.</description>
+
+* **แต่ละครั้งที่โมเดลในยูนิตนี้ทำการโจมตี** ให้ทอยลูกเต๋าใหม่ (re-roll) สำหรับค่า **Hit roll** ที่ได้ 1
+* **แต่ละครั้งที่โมเดลในยูนิตนี้ทำการโจมตี** ให้ทอยลูกเต๋าใหม่ (re-roll) สำหรับค่า **Wound roll** ที่ได้ 1</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -36131,7 +36164,7 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
           <profiles>
             <profile name="Cluster Caltrops" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a69e-af5d-d417-e605">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time you roll a D6 for the bearer while resolving this unit’s Eviscerating Fly-by ability, you can re-roll the result.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในทุกครั้งที่คุณทอยลูกเต๋า D6 สำหรับโมเดลนี้ในระหว่างที่ใช้ความสามารถ **Eviscerating Fly-by** ของยูนิต คุณสามารถทอยลูกเต๋าใหม่สำหรับผลลัพธ์นั้นได้</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -36143,7 +36176,7 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
           <profiles>
             <profile name="Grav Talon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="632f-3ad6-8238-792d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer’s melee weapons have the [LANCE] ability.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">อาวุธระยะประชิด (melee weapons) ของโมเดลนี้จะได้รับความสามารถ **[LANCE]**</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -36341,7 +36374,7 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Totemic Infusions - Imperium" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="658f-9c6f-67bc-957b">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While that **^^Shaper^^** model is leading a unit, re-roll Battle-shock tests taken for that unit.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ขณะที่โมเดล **^^Shaper^^** นั้นกำลังนำยูนิตอยู่ ให้คุณ **re-roll** (ทอยลูกเต๋าใหม่) สำหรับการทดสอบ **Battle-shock** ของยูนิตนั้น</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -36360,7 +36393,7 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Totemic Infusions - Aeldari" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="418f-4e68-5f0e-52f1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While that **^^Shaper^^** model is leading a unit, add 2&quot; to that unit’s Move characteristic.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ขณะที่โมเดล **^^Shaper^^** นั้นกำลังนำยูนิตอยู่ ให้บวกเพิ่ม 2&quot; ให้กับค่า **Move** (การเคลื่อนที่) ของยูนิตนั้น</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -36379,7 +36412,7 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Totemic Infusions - Orks" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="467c-1c26-5f44-12a7">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While that **^^Shaper^^** model is leading a unit, add 1 to the Strength characteristic of melee weapons equipped by that unit.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ขณะที่โมเดล **^^Shaper^^** นั้นกำลังนำยูนิตอยู่ ให้บวกเพิ่ม 1 ให้กับค่า **Strength** (ความแข็งแกร่ง) ของอาวุธระยะประชิด (melee weapons) ที่ติดตั้งโดยยูนิตนั้น</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -36398,7 +36431,7 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Totemic Infusions - Leagues of Votann" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="acac-43b9-55de-f77b">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While that **^^Shaper^^** model is leading a unit, add 1 to the Toughness characteristic of models in that unit.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ขณะที่โมเดล **^^Shaper^^** นั้นกำลังนำยูนิตอยู่ ให้บวกเพิ่ม 1 ให้กับค่า **Toughness** (ความทนทาน) ของโมเดลในยูนิตนั้น</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -36417,7 +36450,7 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Totemic Infusions - Other" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b407-83b5-36e1-c05e">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While that **^^Shaper^^** model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ขณะที่โมเดล **^^Shaper^^** นั้นกำลังนำยูนิตอยู่ ทุกครั้งที่โมเดลในยูนิตนั้นทำการโจมตีระยะประชิด (melee attack) ให้บวกเพิ่ม 1 ให้กับค่า Hit roll</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -36464,7 +36497,7 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
           <profiles>
             <profile name="Electrochaff Backups" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c427-6659-6de0-4e09">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a ranged attack targets this unit, unless the attacking model is within 18&quot;, subtract 1 from the Hit roll.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่การโจมตีระยะไกลพุ่งเป้ามาที่ยูนิตนี้ เว้นแต่ว่าโมเดลที่โจมตีอยู่ภายในระยะ 18 นิ้ว ให้ลบ 1 จากค่า Hit roll</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -36491,7 +36524,7 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
           <profiles>
             <profile name="Esteemed Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e49e-5671-0ba3-c2c0">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When rolling for this model’s Coordinated Leadership ability, add 1 to the result.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">เมื่อทำการทอยลูกเต๋าสำหรับความสามารถ **Coordinated Leadership** ของโมเดลนี้ ให้บวก 1 เพิ่มเข้าไปในผลลัพธ์ที่ได้</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -36518,7 +36551,7 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
           <profiles>
             <profile name="Heralds of the T&apos;au&apos;va" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9e2c-03fb-10ef-1066">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of the battle, if this model was part of your Crusade army and was not destroyed during the battle, roll one D6: on a 5+, your Crusade force gains 1 Diplomat point.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">เมื่อสิ้นสุดการรบ หากโมเดลนี้เป็นส่วนหนึ่งของกองทัพครูเสด (Crusade army) ของคุณและไม่ถูกทำลายระหว่างการรบ ให้ทอยลูกเต๋า D6 หนึ่งลูก: หากทอยได้ 5+ กองกำลังครูเสดของคุณจะได้รับ Diplomat point 1 แต้ม</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -36545,7 +36578,7 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
           <profiles>
             <profile name="Integrated Targeting AI" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a097-6fe2-fb80-0fe7">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time you target this unit with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ while resolving that Stratagem.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">เมื่อใดก็ตามที่คุณใช้กลยุทธ์ (Stratagem) **Fire Overwatch** กับยูนิตนี้ ผลการโจมตีจะนับเป็น **Hit** ได้ตั้งแต่ 5+ ขึ้นไป (โดยไม่มีการปรับแก้ค่าใดๆ) ขณะที่กำลังใช้กลยุทธ์นั้น</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -36572,7 +36605,7 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
           <profiles>
             <profile name="Leaping Flame" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d919-23a7-5189-3ecd">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit Advances, until the start of your next Movement phase, this unit has the Stealth ability.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่ยูนิตนี้ทำการเคลื่อนที่แบบ Advance (การเคลื่อนที่เพิ่มเติมแบบทอยลูกเต๋า) จนกระทั่งถึงช่วงเริ่มต้นของเฟสการเคลื่อนที่ครั้งถัดไป ยูนิตนี้จะได้รับความสามารถ Stealth (การพรางตัว)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -36608,7 +36641,7 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
           <profiles>
             <profile name="Merciless Marksmen" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2a4d-57d1-2694-78b6">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ranged weapons equipped by models in this unit (excluding support turrets) have the **[LETHAL HITS]** ability.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">อาวุธยิงระยะไกลที่ติดตั้งโดยโมเดลในยูนิตนี้ (ยกเว้นป้อมปืนสนับสนุน) จะได้รับความสามารถ **[LETHAL HITS]**</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -36644,7 +36677,7 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
           <profiles>
             <profile name="Practised Aim" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f701-d263-ecb9-8efd">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Add 1 to the Ballistic Skill characteristic of ranged weapons equipped by models in this unit.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">เพิ่ม 1 ให้กับค่า **Ballistic Skill** ของอาวุธระยะไกลที่ติดตั้งโดยโมเดลในยูนิตนี้</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -36687,7 +36720,7 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
           <profiles>
             <profile name="Prey Slayers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="00fe-6a9c-1c3f-8cff">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the battle, select one unit from your opponent’s army. Until the end of the battle, each time this **^^Kroot^^** unit makes an attack that targets that enemy unit, you can re-roll the Hit roll.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในช่วงเริ่มต้นของการรบ ให้เลือกยูนิตหนึ่งของกองทัพฝ่ายตรงข้าม จนกว่าจะสิ้นสุดการรบ ในแต่ละครั้งที่ยูนิต **^^Kroot^^** นี้ทำการโจมตีใส่ยูนิตศัตรูที่เลือกไว้ คุณสามารถทอยลูกเต๋าใหม่ (re-roll) สำหรับค่า Hit roll ได้</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -36720,7 +36753,7 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
           <profiles>
             <profile name="Quick Shots" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c33e-566d-b1ed-ea92">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle round, you can target this unit with the Fire Overwatch Stratagem for 0CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อเทิร์นการรบ คุณสามารถใช้กลยุทธ์ (Stratagem) **Fire Overwatch** กับยูนิตนี้ได้โดยไม่มีค่าใช้จ่าย (0 Command Points)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -36747,7 +36780,7 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
           <profiles>
             <profile name="Reactive Thrust System" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="88c7-a57f-e2fe-4f50">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, you can target this unit with the Heroic Intervention Stratagem for 0CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อการรบ คุณสามารถใช้กลยุทธ์ **Heroic Intervention** กับยูนิตนี้ได้โดยไม่มีค่าใช้จ่าย (0 Command Points)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -36774,7 +36807,7 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
           <profiles>
             <profile name="Sentry AI" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c531-9020-7fde-a7ae">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit is Battle-shocked, change the Objective Control characteristic of models in this unit to 1, instead of 0.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ขณะที่ยูนิตนี้อยู่ในสถานะ Battle-shocked (ตกใจจากการรบ) ให้เปลี่ยนค่า Objective Control (การควบคุมเป้าหมาย) ของโมเดลในยูนิตนี้เป็น 1 แทนที่จะเป็น 0</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -36801,7 +36834,7 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
           <profiles>
             <profile name="Takers of Heads" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7758-54fe-b41c-a998">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit makes an attack that targets a **^^Character^^** unit, add 1 to the Hit roll.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่ยูนิตนี้ทำการโจมตีใส่ยูนิต **^^Character^^** ให้บวกเพิ่ม 1 ให้กับค่า Hit roll</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -36828,7 +36861,7 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
           <profiles>
             <profile name="Technological Trophies" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="27db-d59d-015c-c6c8">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit declares a charge, if you select a Monster or Vehicle unit as a target of that charge, until the end of the turn, melee weapons equipped by models in this unit have the **[LANCE]** ability.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่ยูนิตนี้ประกาศการชาร์จ หากคุณเลือกยูนิตประเภท **Monster** หรือ **Vehicle** เป็นเป้าหมายของการชาร์จนั้น จนกระทั่งสิ้นสุดเทิร์น อาวุธระยะประชิด (melee weapons) ที่ติดตั้งโดยโมเดลในยูนิตนี้จะได้รับความสามารถ **[LANCE]**</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -36858,7 +36891,7 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
           <profiles>
             <profile name="The Healer&apos;s Hands" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3459-fd96-7464-23ad">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of the battle, if this model was part of your Crusade army and was not destroyed during the battle, you can ignore one failed Out of Action test taken for a **^^T&apos;au Empire^^** unit; that test is treated as having been passed instead.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">เมื่อสิ้นสุดการรบ หากโมเดลนี้เป็นส่วนหนึ่งของกองทัพ **Crusade** ของคุณและไม่ถูกทำลายระหว่างการรบ คุณสามารถเพิกเฉยต่อผลการทดสอบ **Out of Action** ที่ไม่ผ่านหนึ่งครั้งสำหรับยูนิตของ **^^T&apos;au Empire^^** โดยให้ถือว่าการทดสอบนั้นผ่านแทน</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -36885,7 +36918,7 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
           <profiles>
             <profile name="Warden Drones" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0fac-4694-22c2-82a4">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, when an attack is allocated to this model, you can change the Damage characteristic of that attack to 0.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อการรบ เมื่อมีการจัดสรรการโจมตี (attack) มาที่โมเดลนี้ คุณสามารถเปลี่ยนค่า Damage (ความเสียหาย) ของการโจมตีนั้นให้เป็น 0 ได้</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -37085,7 +37118,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Guiding Presence" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="11e5-0999-5307-3f38">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Aeldari Psyker model only. At the start of your Shooting phase, select one friendly Aeldari Vehicle model within 9&quot; of the bearer. Until the end of the phase, each time that model makes an attack, add 1 to the Hit roll.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">เฉพาะโมเดลประเภท **Aeldari Psyker** เท่านั้น
+
+
+ในช่วงเริ่มต้นของเฟสการยิงของคุณ ให้เลือกโมเดลยานพาหนะ **Aeldari Vehicle** ฝ่ายเดียวกันที่อยู่ภายในระยะ 9 นิ้วจากผู้ถือโมเดลนี้ จนกระทั่งสิ้นสุดเฟส แต่ละครั้งที่โมเดลนั้นทำการโจมตี ให้บวกเพิ่ม 1 ให้กับค่า **Hit roll**</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37116,7 +37152,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Harmonisation Matrix" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="30b2-9f10-4765-268b">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Aeldari model only. In your Command phase, if the bearer (or any Transport it is embarked within) is within range of an objective marker you control, roll one D6: on a 3+, you gain 1CP.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Aeldari** เท่านั้น
+
+
+ในเฟส **Command** ของคุณ หากโมเดลนี้ (หรือยานพาหนะประเภท Transport ที่โมเดลนี้ขึ้นอยู่) อยู่ในระยะของ objective marker (จุดควบคุมเป้าหมาย) ที่คุณควบคุม ให้ทอยลูกเต๋า D6 หนึ่งลูก: ถ้าได้ผลลัพธ์ 3+ คุณจะได้รับ 1 **Command Point (CP)**</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37142,7 +37181,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Spirit Stone of Raelyth" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="87cb-95ef-dc8b-8763">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Aeldari Psyker model only. While the bearer is within 3&quot; of one or more friendly Aeldari Vehicle units, the bearer has the Lone Operative ability. In your Command phase, you can select one friendly Aeldari Vehicle model within 3&quot; of the bearer. That model regains up to D3 lost wounds.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดลประเภท **Aeldari Psyker** เท่านั้น
+
+
+ในขณะที่ผู้ถือโมเดลนี้อยู่ภายในระยะ 3 นิ้วจากยูนิต **Aeldari Vehicle** ฝ่ายเดียวกันตั้งแต่หนึ่งยูนิตขึ้นไป โมเดลนี้จะได้รับความสามารถ **Lone Operative** ในเฟส **Command** ของคุณ คุณสามารถเลือกโมเดลยานพาหนะ **Aeldari Vehicle** ฝ่ายเดียวกันที่อยู่ภายในระยะ 3 นิ้วจากผู้ถือโมเดลนี้ โมเดลนั้นจะฟื้นฟูบาดแผล (wounds) ที่สูญเสียไปได้สูงสุด D3</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37173,7 +37215,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Guileful Strategist" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="92c9-0840-d29d-dd60">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Aeldari model only. If your army includes the bearer, after both players have deployed their armies, select up to three Aeldari Vehicle units from your army and redeploy them. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">เฉพาะโมเดล **Aeldari** เท่านั้น
+
+
+หากกองทัพของคุณมีโมเดลนี้ หลังจากผู้เล่นทั้งสองคนจัดวางกองทัพเรียบร้อยแล้ว ให้เลือกยูนิต **Aeldari Vehicle** จากกองทัพของคุณได้สูงสุดสามยูนิต แล้วจัดวางพวกมันใหม่ (redeploy) ในการจัดวางใหม่นี้ ยูนิตใดๆ ที่ถูกเลือกสามารถถูกนำไปวางใน **Strategic Reserves** (กองหนุนเชิงกลยุทธ์) ได้ ไม่ว่าจะมียูนิตอยู่ใน Strategic Reserves อยู่แล้วกี่หน่วยก็ตาม</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37226,7 +37271,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Aspect of Murder" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0d1f-6c43-cca7-6d34">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Autarch or Autarch Wayleaper model only. Add 1 to the Damage characteristics of melee weapons equipped by the bearer, and those weapons have the [Precision] ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Autarch** หรือ **Autarch Wayleaper** เท่านั้น
+
+
+เพิ่ม 1 ให้กับค่า Damage ของอาวุธระยะประชิดที่ติดตั้งโดยโมเดลนี้ และอาวุธเหล่านั้นจะได้รับความสามารถ **[Precision]**</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37257,7 +37305,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Mantle of Wisdom" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="360b-a14c-f478-fdb4">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Autarch of Autarch Wayleaper model only. While the bearer is leading an Aspect Warriors unit, each time that unit is selected to shoot or fight, until the end of the phase, models in that unit gain both of the abilities from the Path of the Warrior Detachment rule.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Autarch** หรือ **Autarch Wayleaper** เท่านั้น
+
+
+ในขณะที่ผู้ถือโมเดลนี้กำลังนำยูนิต **Aspect Warriors** ทุกครั้งที่ยูนิตนั้นถูกเลือกให้ทำการยิงหรือต่อสู้ จนกระทั่งสิ้นสุดเฟส โมเดลในยูนิตนั้นจะได้รับความสามารถทั้งสองอย่างจากกฎ **Path of the Warrior** ของดีแทชเมนต์ (Detachment)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37285,7 +37336,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Shimmerstone" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="49b9-2115-9a48-ac5e">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Autarch or Autarch Wayleaper model only. While the bearer is leading an Aspect Warriors unit, each time a ranged attack targets that unit, subtract 1 from the Wound roll.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Autarch** หรือ **Autarch Wayleaper** เท่านั้น
+
+
+ในขณะที่ผู้ถือโมเดลนี้กำลังนำยูนิต **Aspect Warriors** ทุกครั้งที่การโจมตีระยะไกลพุ่งเป้ามาที่ยูนิตนั้น ให้ลบ 1 จากค่า **Wound roll**</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37319,7 +37373,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Strategic Savant" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e4ad-19dc-e479-dd27">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Autarch or Autarch Wayleaper model only. While the bearer is leading an Aspect Warriors unit, add 1 to the Objective Control characteristic of models in that unit.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Autarch** หรือ **Autarch Wayleaper** เท่านั้น
+
+
+ในขณะที่ผู้ถือโมเดลนี้กำลังนำยูนิต **Aspect Warriors** ให้เพิ่ม 1 ให้กับค่า **Objective Control** ของโมเดลในยูนิตนั้น</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37354,7 +37411,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Gaze of Ynnead" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5f57-0ced-63ca-76d0">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Farseer model only. The bearer&apos;s Eldritch Storm weapon has the [Devastating Wounds] ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Farseer** เท่านั้น
+
+
+อาวุธ **Eldritch Storm** ของโมเดลนี้จะได้รับความสามารถ **[Devastating Wounds]**</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37380,7 +37440,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Storm of Whispers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c855-7299-68da-fc7a">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Warlock model only. In your Shooting phase, after the bearer has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Warlock** เท่านั้น
+
+
+ในเฟสการยิงของคุณ หลังจากที่โมเดลนี้ทำการยิงเสร็จแล้ว ให้เลือกยูนิตศัตรูหนึ่งยูนิตที่ถูกโจมตีตั้งแต่หนึ่งครั้งขึ้นไปโดยการโจมตีเหล่านั้น ยูนิตนั้นจะต้องทำการทดสอบ **Battle-shock**</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37406,7 +37469,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Borrowed Vigour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b32a-7c31-93f5-e663">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Archon model only. Add 2 to the Attacks characteristic of the bearer&apos;s melee weapons.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Archon** เท่านั้น
+
+
+เพิ่ม 2 ให้กับค่า **Attacks** ของอาวุธระยะประชิดที่ติดตั้งโดยโมเดลนี้</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37432,7 +37498,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Morbid Might" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e78a-fe96-2aa9-35b1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Succubus model only. Each time the bearer makes a melee attack, you can re-roll the Wound roll.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Succubus** เท่านั้น
+
+
+ทุกครั้งที่โมเดลนี้ทำการโจมตีระยะประชิด (melee attack) คุณสามารถทอยลูกเต๋าใหม่ (re-roll) สำหรับค่า **Wound roll** ได้</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37482,7 +37551,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Cegorach&apos;s Coil" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="60ee-0248-2470-a603">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Troupe Master model only. Each time the bearer&apos;s unit ends a Charge move, select one enemy unit within Engagement Range of the bearer&apos;s unit, then roll one D6 for each model in the bearer&apos;s unit that is within Engagment Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Troupe Master** เท่านั้น
+
+
+แต่ละครั้งที่ยูนิตของโมเดลนี้สิ้นสุดการเคลื่อนที่แบบ **Charge** (ชาร์จ) ให้เลือกยูนิตศัตรูหนึ่งยูนิตที่อยู่ในระยะ **Engagement Range** ของยูนิตโมเดลนี้ จากนั้นทอยลูกเต๋า D6 หนึ่งลูกสำหรับแต่ละโมเดลในยูนิตของโมเดลนี้ที่อยู่ในระยะ **Engagement Range** ของยูนิตศัตรูนั้น: สำหรับทุกผลลัพธ์ที่ได้ 4+ ยูนิตศัตรูนั้นจะได้รับความเสียหาย **mortal wound** 1 แต้ม (จำกัดสูงสุดที่ 6 mortal wounds)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37511,7 +37583,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Mask of Secrets" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="212c-47ff-7093-5d0d">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Harlequins model only. Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of the bearer&apos;s unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Harlequins** เท่านั้น
+
+
+แต่ละครั้งที่ยูนิตศัตรู (ยกเว้นประเภท **Monsters** และ **Vehicles**) ที่อยู่ในระยะ **Engagement Range** ของยูนิตโมเดลนี้ทำการ **Fall Back** (ถอยหนี) โมเดลทั้งหมดในยูนิตศัตรูนั้นจะต้องทำการทดสอบ **Desperate Escape** เมื่อทำการทดสอบ หากยูนิตศัตรูนั้นอยู่ในสถานะ **Battle-shocked** (ตกใจจากการรบ) ให้ลบ 1 จากผลการทดสอบแต่ละครั้ง</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37537,7 +37612,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Murder&apos;s Jest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9d16-b590-9d37-e361">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Death Jester model only. Each time the bearer makes an attack that targets a unit that is below Half-strength, each successful Hit scores a Critical Hit.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Death Jester** เท่านั้น
+
+
+แต่ละครั้งที่โมเดลนี้ทำการโจมตีใส่ยูนิตที่มีจำนวนโมเดลต่ำกว่าครึ่งหนึ่ง (below Half-strength) ทุกๆ **Hit** ที่สำเร็จจะนับเป็น **Critical Hit**</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37563,7 +37641,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Mistweave" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0c74-5dca-786b-6e00">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Shadowseer model only. While the bearer is leading a unit, models in that unit have the Infiltrators ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Shadowseer** เท่านั้น
+
+
+ในขณะที่โมเดลนี้กำลังนำยูนิตอยู่ โมเดลในยูนิตนั้นจะได้รับความสามารถ **Infiltrators**</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37635,7 +37716,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Craftworld&apos;s Champion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7dd2-f8d5-165e-45be">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Asuryani model only. The bearer has an Objective Control characteristic of 5.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Asuryani** เท่านั้น
+
+
+โมเดลนี้จะมีค่า **Objective Control** (OC) เท่ากับ 5</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37661,7 +37745,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Ethereal Pathway" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fba1-2e9c-c1a2-86cc">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Asuryani model only. In the Deploy Armies step, select up to two Guardians units from your army. Models in the selected units have the Infiltrators ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Asuryani** เท่านั้น
+
+
+ในขั้นตอน **Deploy Armies** (จัดวางกองทัพ) ให้เลือกยูนิต **Guardians** จากกองทัพของคุณได้สูงสุดสองยูนิต โมเดลในยูนิตที่ถูกเลือกจะได้รับความสามารถ **Infiltrators**</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37684,7 +37771,12 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Protector of the Paths" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="957b-c7cc-39c8-ba8c">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Asuryani model only. While the bearer is leading a Dire Avengers or Guardians unit, once per battle round, you can target the bearer&apos;s unit with the Fire Overwatch Stratagem for 0CP, and while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or unmodified Hit rolls of 4+ instead if the bearer&apos;s unit is within range of an objective marker you control.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Asuryani** เท่านั้น
+
+
+ในขณะที่โมเดลนี้กำลังนำยูนิต **Dire Avengers** หรือ **Guardians** อยู่:
+* หนึ่งครั้งต่อรอบการรบ คุณสามารถใช้กลยุทธ์ **Fire Overwatch** กับยูนิตนี้ได้โดยไม่มีค่าใช้จ่าย (0 CP)
+* ในระหว่างการใช้กลยุทธ์นั้น จะนับการโจมตีที่โดน (hits) จากการทอยลูกเต๋าที่ไม่ได้ปรับเปลี่ยน (unmodified Hit rolls) ที่ได้ 5+ หรือนับจากการทอยลูกเต๋าที่ไม่ได้ปรับเปลี่ยนที่ได้ 4+ แทน ถ้าหากยูนิตของโมเดลนี้อยู่ภายในระยะของ **objective marker** ที่คุณควบคุมอยู่</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37713,7 +37805,12 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Breath of Vaul" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4f30-3cd4-4fe8-cf84">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Asuryani model only. While the bearer is leading a Storm Guardians unit, each time you roll to determine the number of attacks made with a flamer equipped by a model in that unit, you can re-roll the result, and each time you make a Damage roll for a model equipped with a Guardian fusion gun in that unit, you can re-roll the result.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Asuryani** เท่านั้น
+
+
+ในขณะที่โมเดลนี้กำลังนำยูนิต **Storm Guardians** อยู่:
+* ทุกครั้งที่คุณทอยลูกเต๋าเพื่อกำหนดจำนวนการโจมตีด้วยอาวุธประเภท **flamer** ของโมเดลในยูนิตนั้น คุณสามารถทอยลูกเต๋าใหม่ (re-roll) สำหรับผลลัพธ์ได้
+* ทุกครั้งที่คุณทอยลูกเต๋า **Damage** สำหรับโมเดลที่ติดตั้งอาวุธ **Guardian fusion gun** ในยูนิตนั้น คุณสามารถทอยลูกเต๋าใหม่สำหรับผลลัพธ์ได้</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37758,7 +37855,13 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Crucible of Malediction" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3634-9104-e3bf-38fa">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Haemonculus model only. Once per battle, at the start of any Shooting phase, the bearer can use this Enhancement. When it does, every enemy unit within 12&quot; must take a Battle-shock test, subtracting 1 from that test if the bearer’s unit is currently Empowered. Each time a Psyker unit fails this test, it suffers D3 mortal wounds.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Haemonculus** เท่านั้น
+
+
+หนึ่งครั้งต่อการรบ ในช่วงเริ่มต้นของเฟสการยิงใดๆ โมเดลนี้สามารถใช้ความสามารถนี้ได้ เมื่อใช้แล้ว ยูนิตศัตรูทุกยูนิตที่อยู่ภายในระยะ 12 นิ้วจะต้องทำการทดสอบ **Battle-shock** โดยให้ลบ 1 จากการทดสอบนั้นหากยูนิตของโมเดลนี้กำลังอยู่ในสถานะ **Empowered**
+
+
+ทุกครั้งที่ยูนิตประเภท **Psyker** สอบตกในการทดสอบนี้ มันจะได้รับความเสียหาย **mortal wounds** D3</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37781,7 +37884,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Blood Dancer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="36e-245-5b61-c7a9">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Succubus model only. Improve the Attacks and Armour Penetration characteristics of the bearer’s melee weapons by 1. While the bearer is Empowered, Improve the Attacks and Armour Penetration characteristics of the bearer’s melee weapons by 2 instead.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Succubus** เท่านั้น
+
+
+เพิ่มค่า **Attacks** และ **Armour Penetration** (AP) ของอาวุธระยะประชิด (melee weapons) ของโมเดลนี้ **อีก 1** ในขณะที่โมเดลนี้อยู่ในสถานะ **Empowered** ให้เพิ่มค่า **Attacks** และ **Armour Penetration** ของอาวุธระยะประชิดของโมเดลนี้ **อีก 2 แทน**</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37804,7 +37910,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Labyrinthine Cunning" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2e73-c351-7d24-482f">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Archon model only. Each time you select the bearer’s unit as the target of a Stratagem, roll one D6, adding 3 to the result if the Stratagem being used is Alliance of Agony: on a 4+, you gain 1CP</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Archon** เท่านั้น
+
+
+แต่ละครั้งที่คุณเลือกยูนิตของโมเดลนี้เป็นเป้าหมายของ **Stratagem** ให้ทอยลูกเต๋า D6 หนึ่งลูก แล้วบวกเพิ่ม 3 เข้าไปในผลลัพธ์หาก Stratagem ที่ใช้คือ **Alliance of Agony**: ถ้าได้ผลลัพธ์ 4+ คุณจะได้รับ 1 **Command Point (CP)**</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37820,7 +37929,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="The Art of Pain" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b660-b1c1-e41a-828f">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Drukhari model only. In your Command phase, if the bearer is on the battlefield, you gain 1 Pain token</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Drukhari** เท่านั้น
+
+
+ในเฟส **Command** ของคุณ หากโมเดลนี้ยังคงอยู่ในสนามรบ คุณจะได้รับ **Pain token** เพิ่มเติม 1 อัน</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37889,7 +38001,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Archraider" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f957-df14-5640-41be">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Harlequins or Drukhari model only. In the Declare Battle Formations step, if the bearer starts the battle embarked within a Dedicated Transport, that Dedicated Transport has the Scouts 9&quot; ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Harlequins** หรือ **Drukhari** เท่านั้น
+
+
+ในขั้นตอน **Declare Battle Formations** หากโมเดลนี้เริ่มต้นการรบโดยขึ้นอยู่บนยานพาหนะประเภท **Dedicated Transport** ยานพาหนะ **Dedicated Transport** นั้นจะได้รับความสามารถ **Scouts 9&quot;**</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37909,7 +38024,13 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Webway walker" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ed9c-b9c1-c2e7-fa97">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Harlequins or Drukhari model only. Models in the bearer’s unit have the Deep Strike ability. Each time the bearer’s unit is set up on the battlefield using the Deep Strike ability, if that unit is currently losing the wager, until the end of the turn, you can re‑roll Charge rolls made for that unit.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Harlequins** หรือ **Drukhari** เท่านั้น
+
+
+โมเดลในยูนิตของโมเดลนี้จะได้รับความสามารถ **Deep Strike**
+
+
+แต่ละครั้งที่ยูนิตของโมเดลนี้ถูกจัดตั้งบนสนามรบโดยใช้ความสามารถ **Deep Strike** หากยูนิตนั้นกำลัง **&quot;แพ้การเดิมพัน&quot; (losing the wager)** จนกระทั่งสิ้นสุดเทิร์น คุณสามารถทอยลูกเต๋าใหม่ (re-roll) สำหรับค่า **Charge rolls** ที่ทำโดยยูนิตนั้นได้</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37929,7 +38050,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Reaper&apos;s Cowl" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a6cb-7d6e-eb8c-79d5">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Harlequins model only. Models in the bearer’s unit have the Stealth and Infiltrators abilities.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Harlequins** เท่านั้น
+
+
+โมเดลในยูนิตของผู้ถือโมเดลนี้จะได้รับความสามารถ **Stealth** และ **Infiltrators**</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -37956,9 +38080,14 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Conductor of Torment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e28b-8f8e-887d-f9ab">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Drukhari model only. In your Command phase, you can do one of the following:
-■ If your Drukhari units are currently losing the wager, you can gain 1 Pain token. If you do, Drukhari units from your army are now winning the wager.
-■ If your Drukhari units are currently winning the wager, you can discard 1 Pain token. If you do, Harlequins units from your army are now winning the wager.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Drukhari** เท่านั้น
+
+
+ในเฟส **Command** ของคุณ คุณสามารถทำสิ่งใดสิ่งหนึ่งจากสองข้อต่อไปนี้ได้:
+
+
+* **หากยูนิต Drukhari ของคุณกำลัง &quot;แพ้การเดิมพัน&quot; (losing the wager)** คุณสามารถได้รับ **Pain token** 1 อัน หากทำเช่นนั้น ยูนิต **Drukhari** จากกองทัพของคุณจะกลายเป็นฝ่ายที่ **&quot;ชนะการเดิมพัน&quot; (winning the wager)** ทันที
+* **หากยูนิต Drukhari ของคุณกำลัง &quot;ชนะการเดิมพัน&quot;** คุณสามารถทิ้ง **Pain token** 1 อัน หากทำเช่นนั้น ยูนิต **Harlequins** จากกองทัพของคุณจะกลายเป็นฝ่ายที่ **&quot;ชนะการเดิมพัน&quot;** แทน</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38008,7 +38137,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Lucid Eye" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6f9b-a057-96a0-d061">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Asuryani Psyker model only. In your Command phase, you can add 1 to or subtract 1 from the value of one Fate dice in your Fate dice pool.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดลประเภท **Asuryani Psyker** เท่านั้น
+
+
+ในเฟส **Command** ของคุณ คุณสามารถบวก 1 หรือลบ 1 จากค่าของลูกเต๋า **Fate dice** หนึ่งลูกในกองสะสม **Fate dice pool** ของคุณได้</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38048,7 +38180,13 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Runes of Warding" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8307-fd06-3bdf-7621">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Asuryani Psyker model only. Models in the bearer&apos;s unit have the Feel No Pain 4+ ability against mortal wounds, Psychic Attacks and Critical Wounds caused by attacks with the [Devastating Wounds] ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดลประเภท **Asuryani Psyker** เท่านั้น
+
+
+โมเดลในยูนิตของผู้ถือโมเดลนี้จะได้รับความสามารถ **Feel No Pain 4+** จาก:
+* **Mortal wounds**
+* **Psychic Attacks**
+* **Critical Wounds** ที่เกิดจากการโจมตีที่มีความสามารถ **[Devastating Wounds]**</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38082,7 +38220,9 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Stone of Eldritch Fury" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="efae-9000-5236-ba06">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Asuryani Psyker model only. Add 12&quot; to the Range characteristic of ranged Psychic weapons equipped by the bearer.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดลประเภท **Asuryani Psyker** เท่านั้น
+
+เพิ่ม 12&quot; ให้กับค่า **Range** (ระยะ) ของอาวุธระยะไกลประเภท **Psychic** ที่โมเดลนี้สวมใส่อยู่</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38113,7 +38253,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Torc of Morai-Heg" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cd0e-c3ec-445d-e0e8">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Asuryani Psyker model only. Once per turn, when your opponent targets a unit from their army within 12&quot; of the bearer with a Stratagem, the bearer can use this Enhancement. If it does, increase the CP cost of that usage of that Stratagem by 1CP.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดลประเภท **Asuryani Psyker** เท่านั้น
+
+
+หนึ่งครั้งต่อเทิร์น เมื่อคู่ต่อสู้ของคุณใช้ **Stratagem** กับยูนิตในกองทัพของพวกเขาซึ่งอยู่ภายในระยะ 12 นิ้วจากโมเดลนี้ โมเดลนี้สามารถใช้ความสามารถนี้ได้ หากใช้แล้ว จะเพิ่มค่าใช้จ่าย **CP** ของการใช้ Stratagem นั้นขึ้นอีก 1 CP</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38155,7 +38298,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Phantasmal Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7a67-9623-c55d-3447">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Drukhari model only. While the bearer’s unit is wholly within 6&quot; of a friendly Drukhari Transport, models in the bearer’s unit have the Benefit of Cover and the Stealth ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Drukhari** เท่านั้น
+
+
+ในขณะที่ยูนิตของโมเดลนี้อยู่ภายในระยะ 6 นิ้วจากยานพาหนะ **Drukhari Transport** ฝ่ายเดียวกัน โมเดลในยูนิตของโมเดลนี้จะได้รับความสามารถ **Benefit of Cover** และความสามารถ **Stealth**</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38175,7 +38321,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Sadistic Fulcrum" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cafe-b553-9431-642d">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Drukhari model only. Each time you expend a Pain token to Empower the bearer’s unit in the Shooting phase, you can select one friendly Drukhari Transport within 3&quot; of the bearer’s unit; until the end of the phase, that Transport is also Empowered.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Drukhari** เท่านั้น
+
+
+แต่ละครั้งที่คุณใช้ **Pain token** เพื่อ **Empower** (เสริมพลัง) ให้กับยูนิตของโมเดลนี้ในเฟสการยิง (Shooting phase) คุณสามารถเลือกยานพาหนะ **Drukhari Transport** ฝ่ายเดียวกันหนึ่งคันที่อยู่ภายในระยะ 3 นิ้วจากยูนิตของโมเดลนี้ได้ จนกระทั่งสิ้นสุดเฟส ยานพาหนะนั้นจะได้รับการ **Empowered** ด้วยเช่นกัน</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38191,7 +38340,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Spiteful Raider" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="461-55b1-d90-cb55">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Drukhari model only. Each time the bearer’s unit destroys an enemy unit in the Fight phase, if that enemy unit was within range of one or more objective markers when the bearer’s unit was selected to fight, you gain 1 additional Pain token.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Drukhari** เท่านั้น
+
+
+แต่ละครั้งที่ยูนิตของโมเดลนี้ทำลายยูนิตศัตรูในเฟสการต่อสู้ (Fight phase) หากยูนิตศัตรูนั้นอยู่ในระยะของ **objective marker** ตั้งแต่หนึ่งจุดขึ้นไปในตอนที่ยูนิตของโมเดลนี้ถูกเลือกให้ทำการต่อสู้ คุณจะได้รับ **Pain token** เพิ่มเติม 1 อัน</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38203,7 +38355,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Nightmare Shroud" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f1d0-5ecf-c0ca-3424">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Drukhari model only. Each time the bearer’s unit disembarks from a Transport, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Drukhari** เท่านั้น
+
+
+แต่ละครั้งที่ยูนิตของโมเดลนี้ลงจากยานพาหนะ **Transport** จนกระทั่งสิ้นสุดเทิร์น ยูนิตศัตรูไม่สามารถใช้กลยุทธ์ **Fire Overwatch** เพื่อยิงใส่ยูนิตของโมเดลนี้ได้</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38224,7 +38379,14 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Light of Clarity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2337-b562-74ba-f2be">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Spiritseer model only. In your Command phase, select one friendly Wraith Construct unit within 12&quot; of the bearer. Until the start of your next Command phase, add 1 to the Objective Control characteristic of Infanty models in that unit and add 3 to the Objective Control characteristic of Monster models in that unit.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Spiritseer** เท่านั้น
+
+
+ในเฟส **Command** ของคุณ ให้เลือกยูนิต **Wraith Construct** ฝ่ายเดียวกันหนึ่งยูนิตที่อยู่ภายในระยะ 12 นิ้วจากผู้ถือโมเดลนี้ จนกระทั่งเริ่มต้นเฟส **Command** ครั้งถัดไปของคุณ:
+
+
+* เพิ่ม 1 ให้กับค่า **Objective Control** ของโมเดลประเภท **Infantry** ในยูนิตนั้น
+* เพิ่ม 3 ให้กับค่า **Objective Control** ของโมเดลประเภท **Monster** ในยูนิตนั้น</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38250,7 +38412,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Stave of Kurnous" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b6db-35b5-dc12-881d">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Spiritseer model only. In your Command phase, select one friendly Wraith Construct unit within 12&quot; of the bearer (excluding Titanic units). Until the start of your next Command phase, each time a model in that unit makes an attack, on a Critical Would, that attack has the [Precision] ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Spiritseer** เท่านั้น
+
+
+ในเฟส **Command** ของคุณ ให้เลือกยูนิต **Wraith Construct** ฝ่ายเดียวกันหนึ่งยูนิตที่อยู่ภายในระยะ 12 นิ้วจากผู้ถือโมเดลนี้ (ยกเว้นยูนิตประเภท **Titanic**) จนกระทั่งเริ่มต้นเฟส **Command** ครั้งถัดไปของคุณ แต่ละครั้งที่โมเดลในยูนิตนั้นทำการโจมตี เมื่อเกิด **Critical Wound** การโจมตีนั้นจะได้รับความสามารถ **[Precision]**</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38276,7 +38441,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Rune of Mists" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a161-0012-0894-e263">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Spiritseer model only. In your Command phase, select one friendly Wraith Construct unit within 12&quot; of the bearer. Until the start of your next Command phase, each time a ranged attack targets that unit, unless the attacking model is within 18, models in that unit have the Benefit of Cover against that attack.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Spiritseer** เท่านั้น
+
+
+ในเฟส **Command** ของคุณ ให้เลือกยูนิต **Wraith Construct** ฝ่ายเดียวกันหนึ่งยูนิตที่อยู่ภายในระยะ 12 นิ้วจากผู้ถือโมเดลนี้ จนกระทั่งเริ่มต้นเฟส **Command** ครั้งถัดไปของคุณ แต่ละครั้งที่การโจมตีระยะไกลพุ่งเป้าไปที่ยูนิตนั้น **โมเดลในยูนิตนั้นจะได้รับความสามารถ Benefit of Cover จากการโจมตีนั้น เว้นแต่โมเดลที่โจมตีจะอยู่ภายในระยะ 18 นิ้ว**</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38302,7 +38470,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Higher Duty" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="298c-20bc-8ac1-f6ea">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Spiritseer model only. Oncer per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9&quot; of the bearer, the bearer&apos;s unit can make a normal move of up to 6&quot;.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Spiritseer** เท่านั้น
+
+
+หนึ่งครั้งต่อเทิร์น เมื่อยูนิตศัตรูสิ้นสุดการเคลื่อนที่แบบ **Normal**, **Advance** หรือ **Fall Back** ภายในระยะ 9 นิ้วจากผู้ถือโมเดลนี้ ยูนิตของผู้ถือโมเดลนี้สามารถทำการเคลื่อนที่แบบ **Normal move** ได้สูงสุด 6 นิ้ว</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38385,7 +38556,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Psychic Destroyer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3f73-8bbc-22e7-6075">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^Asuryani^^ ^^Psyker^^ model only. Add 1 to the Damage characteristic of ranged Psychic weapons equipped by the bearer.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดลประเภท **Asuryani Psyker** เท่านั้น
+
+
+เพิ่ม 1 ให้กับค่า **Damage** ของอาวุธระยะไกลประเภท **Psychic** ที่โมเดลนี้สวมใส่อยู่</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38416,7 +38590,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Phoenix Gem" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bcf5-ae36-1885-a978">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^Asuryani^^ model only. The first time the bearer is destroyed, remove it from play, then, at the end of the phase, roll one D6: on a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of one of more enemy units, with its full wounds remaining.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Asuryani** เท่านั้น
+
+
+ครั้งแรกที่โมเดลนี้ถูกทำลาย ให้เอาโมเดลออกจากสนามรบ จากนั้น ในช่วงท้ายของเฟส ให้ทอยลูกเต๋า D6 หนึ่งลูก: ถ้าได้ผลลัพธ์ 2+ ให้ตั้งโมเดลนี้กลับมาบนสนามรบในตำแหน่งที่ใกล้ที่สุดเท่าที่จะทำได้กับจุดที่มันถูกทำลาย และไม่อยู่ในระยะ **Engagement Range** ของยูนิตศัตรูตั้งแต่หนึ่งยูนิตขึ้นไป โดยที่โมเดลนี้มีบาดแผลเต็มจำนวน</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38442,7 +38619,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Gift of Foresight" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5401-a04-29e8-1b72">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^Asuryani^^ model only. Once per battle round, you can target the bearer&apos;s unit with the Command Re-roll Stratagem for 0CP.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Asuryani** เท่านั้น
+
+
+หนึ่งครั้งต่อรอบการรบ คุณสามารถใช้กลยุทธ์ **Command Re-roll** กับยูนิตของโมเดลนี้ได้โดยไม่มีค่าใช้จ่าย (0 CP)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38464,7 +38644,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Timeless Strategist" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="be33-f12d-911a-8fc4">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^Asuryani^^ model only. At the start of the battle round, if the bearer is on the battlefield (or any Transport it is embarked within is on the battlefield), you receive 1 additional Battle Focus token.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดล **Asuryani** เท่านั้น
+
+
+ในช่วงเริ่มต้นของเทิร์นการรบ (battle round) หากโมเดลนี้ยังคงอยู่ในสนามรบ (หรือยานพาหนะ Transport ที่โมเดลนี้ขึ้นอยู่ยังอยู่ในสนามรบ) คุณจะได้รับ **Battle Focus token** เพิ่มเติมอีก 1 อัน</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38487,7 +38670,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Firstdrawn Blade" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2571-55a7-42af-3eca">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Asuryani Mounted model only. Models in the bearer&apos;s unit have the Scouts 9&quot; ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดลประเภท **Asuryani Mounted** เท่านั้น
+
+
+โมเดลในยูนิตของผู้ถือโมเดลนี้จะได้รับความสามารถ **Scouts 9&quot;**</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38521,7 +38707,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Mirage Field" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="278f-3b22-7414-a670">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Asuryani Mounted model only. Each time an attack targets the bearer&apos;s unit, subtract 1 from the Hit roll.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดลประเภท **Asuryani Mounted** เท่านั้น
+
+
+แต่ละครั้งที่การโจมตีพุ่งเป้ามาที่ยูนิตของโมเดลนี้ ให้ลบ 1 จากค่า **Hit roll**</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38552,7 +38741,10 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Seersight Strike" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d212-dcdb-bb36-2f21">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Asuryani Mounted Psyker model only. Psychic weapons equipped by the nearer have the [Anti-Monster 2+] and [Anti-Vehicle 2+] abilities.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดลประเภท **Asuryani Mounted Psyker** เท่านั้น
+
+
+อาวุธประเภท **Psychic** ที่ติดตั้งโดยโมเดลนี้จะได้รับความสามารถ **[Anti-Monster 2+]** และ **[Anti-Vehicle 2+]**</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38584,7 +38776,15 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
               <profiles>
                 <profile name="Echoes of Ulthanesh" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dc5d-5a47-df20-8538">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Asuryani Mounted model only. In your Command phase, roll one D6, adding 1 to the result if the bearer is not within your deployment zone, and adding an additional 1 to the result if the bearer is within your opponent&apos;s deployment zone: on a 5+, you gain 1CP.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สำหรับโมเดลประเภท **Asuryani Mounted** เท่านั้น
+
+
+ในเฟส **Command** ของคุณ ให้ทอยลูกเต๋า D6 หนึ่งลูก
+* **บวก 1** ถ้าโมเดลนี้ไม่ได้อยู่ในโซนตั้งกองทัพของคุณ (your deployment zone)
+* **บวกเพิ่มอีก 1** ถ้าโมเดลนี้อยู่ในโซนตั้งกองทัพของคู่ต่อสู้ (your opponent&apos;s deployment zone)
+
+
+ถ้าผลรวมที่ได้คือ **5+** คุณจะได้รับ 1 **Command Point (CP)**</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38642,49 +38842,59 @@ Each time you use one of the detachment Stratagems, if your Fate dice pool conta
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="c324-e193-e23c-7d2e" name="Battle Focus" hidden="false">
-      <description>If your Army Faction is AELDARI, at the start of the battle round, you receive a number of Battle Focus tokens based on the battle size, as shown below:
+      <description>หากกองทัพของคุณคือ AELDARI ในช่วงเริ่มต้นของเทิร์นการต่อสู้ คุณจะได้รับโทเคน Battle Focus จำนวนหนึ่งตามขนาดของการรบ ดังที่แสดงด้านล่าง:
 
+Incursion - 2 โทเคน
+Strike Force - 4 โทเคน
+Onslaught - 6 โทเคน
 
-■ Incursion - 2
-■ Strike Force - 4
-■ Onslaught - 6
-
-
-Each time one of the triggers shown in the Agile Manoeuvres section of your codex occurs, you can spend one Battle focus token to enable the relevant eligible unit to perform that Agile Manoeuvre. A unit is eligible to perform an Agile Manoeuvre if it has this ability and has not already performed an Agile Manoeuvre in the same phase. Unless otherwise stated, you cannot trigger the same Agile Manoeuvre more than once per phase. At the end of the battle round, all unspent Battle Focus tokens are lost.</description>
+ในแต่ละครั้งที่เกิดเงื่อนไขที่ระบุในหัวข้อ Agile Manoeuvres ของโคเด็กซ์ของคุณ คุณสามารถใช้โทเคน Battle Focus หนึ่งอัน เพื่อให้ยูนิตที่เหมาะสมสามารถใช้ความสามารถ Agile Manoeuvre ได้ ยูนิตจะถือว่าเหมาะสมก็ต่อเมื่อมีคุณสมบัตินี้และยังไม่ได้ใช้ Agile Manoeuvre ในเฟสนั้นๆ ยกเว้นแต่จะระบุไว้เป็นอย่างอื่น คุณไม่สามารถใช้ Agile Manoeuvre เดิมซ้ำเกินหนึ่งครั้งต่อเฟส และเมื่อสิ้นสุดเทิร์นการรบ โทเคน Battle Focus ที่ไม่ได้ใช้ทั้งหมดจะถูกลบออกไป</description>
     </rule>
     <rule name="Power from Pain" hidden="false" id="5e02-2ddc-f55-e6dd">
-      <description>If your Army Faction is DRUKHARI, units from your army with this ability can become Empowered Through Pain. This is done using Pain tokens.
+      <description>ถ้ากองทัพของคุณคือ **DRUKHARI** ยูนิตในกองทัพที่มีความสามารถนี้สามารถกลายเป็น **Empowered Through Pain** ได้ ซึ่งทำได้โดยใช้ **Pain tokens** (โทเคนแห่งความเจ็บปวด)
 
-GAINING PAIN TOKENS 
 
-If your Army Faction is Drukhari, you gain Pain tokens as follows:
-■ At the start of the battle, depending on the battle size:
-COMBAT PATROL -  1 PAIN TOKEN
-INCURSION - 2 PAIN TOKENS
-STRIKE FORCE - 3 PAIN TOKENS
-ONSLAUGHT - 4 PAIN TOKENS
-■ Each time an enemy unit is destroyed, you gain 1 Pain token.
-■ Each time an enemy unit fails a Battle-shock test, you gain 1 Pain token.
-Each time you gain a Pain token, keep it to one side – this is your Pain token pool.
+### การได้รับ Pain tokens
 
-EMPOWERED THROUGH PAIN
 
-At the start of any phase, you can expend one or more Pain tokens from your Pain token pool. Each time you do, select one unit from your army with the Power from Pain ability. Until the end of the phase, that unit is Empowered, and gains the  abilities listed below, depending on the phase.
+หากกองทัพหลักของคุณคือ **Drukhari** คุณจะได้รับ Pain tokens ดังนี้:
 
-■ Empowered in the Movement or Charge phase:
-◦ You can re-roll Advance or Charge rolls made for that unit.
-■ Empowered in the Shooting or Fight phase:
-◦ Each time a model in that unit makes an attack, you can re-roll the Hit roll and, if it is a melee attack, improve the Armour Penetration characteristic of that attack by 1.</description>
+
+* **ในช่วงเริ่มต้นของการรบ** ขึ้นอยู่กับขนาดการรบ:
+    * **COMBAT PATROL** - 1 PAIN TOKEN
+    * **INCURSION** - 2 PAIN TOKENS
+    * **STRIKE FORCE** - 3 PAIN TOKENS
+    * **ONSLAUGHT** - 4 PAIN TOKENS
+* **ทุกครั้งที่ยูนิตของศัตรูถูกทำลาย** คุณจะได้รับ 1 Pain token
+* **ทุกครั้งที่ยูนิตของศัตรูไม่ผ่านการทดสอบ Battle-shock** คุณจะได้รับ 1 Pain token
+
+
+ทุกครั้งที่ได้รับ Pain token ให้นำไปเก็บไว้ในกองกลาง นี่คือกองสะสม Pain token ของคุณ (Pain token pool)
+
+
+---
+### Empowered Through Pain
+
+
+เมื่อเริ่มต้นเฟสใดๆ คุณสามารถใช้ Pain tokens หนึ่งอันหรือมากกว่าจากกองสะสม Pain token ของคุณได้ ทุกครั้งที่ทำเช่นนั้น ให้เลือกยูนิตหนึ่งในกองทัพของคุณที่มีความสามารถ **Power from Pain** จนกระทั่งสิ้นสุดเฟสนั้น ยูนิตดังกล่าวจะกลายเป็น **Empowered** และได้รับความสามารถที่ระบุด้านล่างนี้ ขึ้นอยู่กับว่าเป็นเฟสใด:
+
+
+* **Empowered ในเฟส Movement หรือ Charge**:
+    * คุณสามารถ reroll (ทอยลูกเต๋าใหม่) สำหรับการเคลื่อนที่แบบ Advance หรือ Charge ที่ทำโดยยูนิตนั้น
+* **Empowered ในเฟส Shooting หรือ Fight**:
+    * ทุกครั้งที่โมเดลในยูนิตนั้นโจมตี คุณสามารถ reroll (ทอยลูกเต๋าใหม่) ผล Hit roll และหากเป็นการโจมตีระยะประชิด (melee attack) ค่าเจาะเกราะ (Armour Penetration) ของการโจมตีนั้นจะดีขึ้น 1</description>
     </rule>
     <rule name="Disparate Paths" id="10d8-3547-47ae-baab" hidden="false">
-      <description>When mustering you army, you can include Harlequins units in your army, even though they do not have the Asuryani Faction keyword. Unless otherwise stated, you cannot select Harlequins or Ynnari as your Army Faction.</description>
+      <description>ขณะรวบรวมกองทัพ คุณสามารถรวมยูนิตของ **Harlequins** เข้ามาในกองทัพของคุณได้ แม้ว่ายูนิตเหล่านั้นจะไม่มีคีย์เวิร์ด Faction ของ **Asuryani** ก็ตาม เว้นแต่จะระบุไว้เป็นอย่างอื่น คุณไม่สามารถเลือก **Harlequins** หรือ **Ynnari** เป็น Army Faction หลักของกองทัพคุณได้</description>
     </rule>
     <rule name="Corsairs and Travelling Players" id="8344-0055-bb1f-4783" hidden="false">
-      <description>If your Army Faction is ^^Drukhari^^, you can include ^^Harlequins^^ and ^^Anhrathe^^ units in your army, even though they do not have the ^^Drukhari^^ Faction keyword. The combined points value of ^^Harlequins^^ and/or ^^Anhrathe^^ units you can include in your army depends on the battle size, as follows:
-■ Incursion: Up to 250 pts
-■ Strike Force: Up to 500 pts
-■ Onslaught: Up to 750 pts
-No ^^Harlequins^^ or ^^Anhrathe^^ models included in your army in this way can be your ^^Warlord^^, and they cannot be given Enhancements.</description>
+      <description>หากกองทัพของคุณคือ ^^Drukhari^^ คุณสามารถรวมยูนิต ^^Harlequins^^ และ ^^Anhrathe^^ เข้ามาในกองทัพได้ ถึงแม้ว่ายูนิตเหล่านั้นจะไม่มีคีย์เวิร์ด Faction ^^Drukhari^^ ก็ตาม มูลค่ารวมของแต้มยูนิต ^^Harlequins^^ และ/หรือ ^^Anhrathe^^ ที่คุณสามารถรวมเข้าในกองทัพได้ขึ้นอยู่กับขนาดของการรบ ดังนี้:
+
+Incursion: สูงสุด 250 แต้ม
+Strike Force: สูงสุด 500 แต้ม
+Onslaught: สูงสุด 750 แต้ม
+
+โมเดล ^^Harlequins^^ หรือ ^^Anhrathe^^ ที่รวมเข้ามาในกองทัพด้วยวิธีนี้ไม่สามารถเป็น ^^Warlord^^ ของคุณได้ และไม่สามารถรับ Enhancements ได้</description>
     </rule>
   </sharedRules>
   <catalogueLinks>
@@ -38744,15 +38954,15 @@ No ^^Harlequins^^ or ^^Anhrathe^^ models included in your army in this way can 
     </profile>
     <profile name="Support Artillery" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="965e-268d-e326-06cc">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the Declare Battle Formations step, this model can join one Guardian Defenders unit from your army (a unit cannot have more than one Support Weapon model joined to it). This model then counts as part of that Guardians unit for the rest of the battle, and that unit&apos;s Starting Strength is increased accordingly.
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในช่วงเริ่มต้นของขั้นตอนการประกาศรูปแบบการรบ (Declare Battle Formations step) โมเดลนี้สามารถเข้าร่วมกับยูนิต Guardian Defenders หนึ่งยูนิตจากกองทัพของคุณได้ (โดยที่หนึ่งยูนิตจะสามารถมีโมเดล Support Weapon เข้าร่วมได้เพียงหนึ่งตัวเท่านั้น) จากนั้น โมเดลนี้จะถือว่าเป็นส่วนหนึ่งของยูนิต Guardians นั้นตลอดการรบ และค่ากำลังเริ่มต้น (Starting Strength) ของยูนิตดังกล่าวจะเพิ่มขึ้นตามไปด้วย
 
 
-This model, and any unit it is joined to, cannot embark within a Transport.</characteristic>
+โมเดลนี้และยูนิตใดๆ ที่เข้าร่วมอยู่ด้วย ไม่สามารถ ขึ้นยานพาหนะประเภท Transport ได้</characteristic>
       </characteristics>
     </profile>
     <profile name="Support Weapon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f2e7-5ea4-fbe5-9afd">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an attack targets this model&apos;s unit, it that unit contains one or more other models, until that attack is resolved, this model has a Toughness characteristic of 3.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่การโจมตีพุ่งเป้ามาที่ยูนิตของโมเดลนี้ หากยูนิตนั้นมีโมเดลอื่น ๆ อยู่ด้วยอย่างน้อยหนึ่งตัว จนกว่าการโจมตีนั้นจะได้รับการแก้ไข (resolved) โมเดลนี้จะมีค่า Toughness (ความทนทาน) เท่ากับ 3</characteristic>
       </characteristics>
     </profile>
     <profile name="Corsair Voidreaver" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="57e2-27b5-2c68-cb6e">
@@ -38777,12 +38987,12 @@ This model, and any unit it is joined to, cannot embark within a Transport.</cha
     </profile>
     <profile name="Flip Belt" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b783-5813-dfe0-aca5">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time the bearer&apos;s unit makes a Normal, Advance, Fall Back or Charge move, ignore any vertical distance when determining the total distance the bearer can be moved during that move.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่ยูนิตของเจ้าของโมเดลนี้ทำการเคลื่อนที่แบบ Normal, Advance, Fall Back หรือ Charge ให้ไม่ต้องนับรวมระยะทางในแนวดิ่ง (vertical distance) เมื่อคำนวณระยะทางทั้งหมดที่เจ้าของโมเดลสามารถเคลื่อนที่ได้ในระหว่างการเคลื่อนที่นั้น</characteristic>
       </characteristics>
     </profile>
     <profile name="Travelling Players" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dc70-ee78-7464-04e6">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Unless otherwise stated, you cannot include more than one of this model in your army.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ถ้าไม่ได้ระบุไว้เป็นอย่างอื่น คุณจะไม่สามารถรวมโมเดลนี้ไว้ในกองทัพของคุณได้มากกว่าหนึ่งตัว</characteristic>
       </characteristics>
     </profile>
     <profile name="Kabalite Warriors" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="2a44-81b8-d51e-04cd">
