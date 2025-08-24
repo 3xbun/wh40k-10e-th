@@ -1,0 +1,43 @@
+name: Sync Upstream
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # runs every day at midnight UTC
+  workflow_dispatch:       # allow manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout target repo
+        uses: actions/checkout@v4
+        with:
+          repository: 3xbun/wh40k-10e-th
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Add upstream remote
+        run: |
+          git remote add upstream https://github.com/bsdata/wh40k-10e.git
+          git fetch upstream
+
+      - name: Merge upstream changes
+        run: |
+          git checkout main
+          git merge upstream/main --no-edit || true
+
+      - name: Push changes to new branch
+        run: |
+          BRANCH="sync-$(date +%Y%m%d)"
+          git checkout -b $BRANCH
+          git push origin $BRANCH
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref_name }}
+          base: main
+          title: "Sync from upstream ($(date +'%Y-%m-%d'))"
+          body: "This PR merges updates from bsdata/wh40k-10e into 3xbun/wh40k-10e-th."
