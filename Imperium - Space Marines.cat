@@ -37692,7 +37692,7 @@ In your Command phase, select one Adeptus Astartes unit from your army; until th
           <profiles>
             <profile name="Lightning Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="10ce-24dc-556d-1a38">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes units from your army are eligible to declare a charge in a turn in which they Advanced or Fell Back</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ยูนิต Adeptus Astartes จากกองทัพของคุณสามารถประกาศ charge ได้ในเทิร์นที่ยูนิตนั้นได้ทำการ Advanced หรือ Fell Back</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -37967,17 +37967,18 @@ Their Appointed Hour: คุณสามารถ re-roll Advance และ Char
           <profiles>
             <profile name="Pack&apos;s Quarry" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1a0b-b1d9-44b9-cc59">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in a SPACE WOLVES unit from your army makes a melee attack that targets an enemy unit, if that enemy unit is within Engagement Range of one or more other ADEPTUS ASTARTES units from your army, or if the attacking unit contains more models than that enemy unit.
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่โมเดลในยูนิต SPACE WOLVES จากกองทัพของคุณทำการโจมตีระยะประชิดไปยังยูนิตศัตรู, ถ้ายูนิตศัตรูนั้นอยู่ใน Engagement Range ของยูนิต ADEPTUS ASTARTES อื่นจากกองทัพของคุณหนึ่งยูนิตหรือมากกว่า, หรือถ้ายูนิตที่ทำการโจมตีมีจำนวนโมเดลมากกว่ายูนิตศัตรูนั้น
 
-■ Add 1 to the Hit roll
-■ If you Saga is completed(see below), add 1 to the Wound roll as well
+
+■ บวก 1 ให้กับ Hit roll
+■ ถ้า Saga ของคุณสำเร็จแล้ว (ดูด้านล่าง), บวก 1 ให้กับ Wound roll ด้วยเช่นกัน
 
 
 Saga of the Hunter
-At the start of the first battle round your Quarry tally is 0. Each time an ADEPTUS ASTARTES unit from your army fights, after all those attacks have been resolved, add 1 to your Quarry tally for each enemy unit destroyed by those attacks. 
+ในตอนเริ่มต้นของ battle round แรก Quarry tally ของคุณจะมีค่าเป็น 0 ในแต่ละครั้งที่ยูนิต ADEPTUS ASTARTES จากกองทัพของคุณต่อสู้, หลังจากที่การโจมตีทั้งหมดเหล่านั้นได้ถูกคิดผลไปแล้ว, ให้บวก 1 เข้ากับ Quarry tally ของคุณสำหรับแต่ละยูนิตศัตรูที่ถูกทำลายโดยการโจมตีเหล่านั้น
 
 
-Once your Quarry tally is equal to or greater than the number shown in the table below(depending on the battle size), you Saga is completed. 
+เมื่อ Quarry tally ของคุณมีค่าเท่ากับหรือมากกว่าตัวเลขที่แสดงในตารางด้านล่าง (ขึ้นอยู่กับขนาดของเกม), Saga ของคุณจะสำเร็จ
 
 
 Incusion - 2
