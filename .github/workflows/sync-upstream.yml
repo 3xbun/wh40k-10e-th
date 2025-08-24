@@ -1,4 +1,4 @@
-name: Sync Upstream
+name: Daily Sync from bsdata/wh40k-10e
 
 on:
   schedule:
@@ -6,42 +6,50 @@ on:
   workflow_dispatch:       # allow manual trigger
 
 permissions:
-  contents: write        # allow pushing branches
-  pull-requests: write   # allow creating PRs
+  contents: write
+  pull-requests: write
 
 jobs:
   sync:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout your fork
       - name: Checkout target repo
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
-      - name: Add upstream remote
+      # Clone the source repo
+      - name: Clone source repo
         run: |
-          git remote add upstream https://github.com/bsdata/wh40k-10e.git
-          git fetch upstream
+          git clone --depth=1 https://github.com/bsdata/wh40k-10e.git source-repo
 
-      - name: Merge upstream changes
+      # Copy source repo into your repo (replace files)
+      - name: Sync files
         run: |
-          git checkout main
-          git merge upstream/main --no-edit || true
+          rsync -a --delete source-repo/ ./
+          rm -rf source-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff-index --quiet HEAD || git commit -m "Sync from bsdata/wh40k-10e"
 
-      - name: Push changes to new branch
+      # Push to new branch
+      - name: Push changes
         run: |
           BRANCH="sync-$(date +%Y%m%d)"
           git checkout -b $BRANCH
           git push origin $BRANCH
           echo "BRANCH_NAME=$BRANCH" >> $GITHUB_ENV
 
+      # Create PR
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ env.BRANCH_NAME }}
           base: main
-          title: "Sync from upstream ($(date +'%Y-%m-%d'))"
-          body: "This PR merges updates from bsdata/wh40k-10e into 3xbun/wh40k-10e-th."
+          title: "Sync from bsdata/wh40k-10e ($(date +'%Y-%m-%d'))"
+          body: "Automated sync from https://github.com/bsdata/wh40k-10e"
