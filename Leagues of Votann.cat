@@ -75,50 +75,52 @@
             <selectionEntry type="upgrade" import="true" name="Hearthband" hidden="false" id="1077-70a1-0570-5685">
               <rules>
                 <rule name="Methodical Annihilation" id="70a5-9f3d-4e2f-8eb3" hidden="false">
-                  <description>Each time a ^^**Leagues of Votann^^** model from your army makes an attack with a weapon (excluding Blast weapons) that targets the closest eligible target or a target that is within Engagement Range of that model’s unit: 
-- Re‑roll a Hit roll of 1. 
-- If your unit is a ^^**Kâhl, Einhyr Hearthguard^^** or ^^**Ûthar the Destined^^** unit, improve the Armour Penetration characteristic of that attack by 1.</description>
+                  <description>ในแต่ละครั้งที่โมเดล ^^**Leagues of Votann^^** จากกองทัพของคุณทำการโจมตีด้วยอาวุธ (ยกเว้น Blast weapons) ที่เล็งเป้าหมายที่ใกล้ที่สุดที่เข้าเกณฑ์ หรือเป้าหมายที่อยู่ใน Engagement Range ของยูนิตของโมเดลนั้น:
+                    
+                    - Re-roll Hit roll ที่ได้ 1
+                    
+                    - หากยูนิตของคุณเป็นยูนิต ^^**Kâhl, Einhyr Hearthguard^^** หรือ ^^**Ûthar the Destined^^** ให้เพิ่มคุณสมบัติ Armour Penetration ของการโจมตีนั้นขึ้น 1.</description>
                 </rule>
               </rules>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Persecution Prospect" hidden="false" id="e73f-ac86-44b1-c3f2">
               <rules>
                 <rule name="Assailed From Every Angle" id="bbb9-77f9-7c5f-a964" hidden="false">
-                  <description>^^**Leagues of Votann^^** units from your army have the following ability:
-
-**Guerrilla Adepts:** In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2&quot; from its Move characteristic and subtract 2 from Charge rolls made for it.</description>
+                  <description>ยูนิต ^^**Leagues of Votann^^** จากกองทัพคุณมีความสามารถนี้:
+                    
+                    **Guerrilla Adepts:** ใน Shooting phase ของคุณ หลังจากที่ยูนิตนี้ถูกเลือกให้ยิง ยูนิตนี้สามารถใช้ความสามารถนี้ได้ หากทำเช่นนั้น ให้เลือกยูนิตศัตรูหนึ่งยูนิต (ยกเว้น ^^**Monsters^^** และ ^^**Vehicles^^**). จนกว่าจะสิ้นสุดเฟส การโจมตีที่กระทำโดยโมเดลในยูนิตนี้สามารถโจมตีได้เพียงยูนิตศัตรูนั้นเท่านั้น (และเฉพาะในกรณีที่ยูนิตนั้นเป็นเป้าหมายที่เหมาะสม) และ หลังจากแก้ผลการโจมตีเหล่านั้นแล้ว หากการโจมตีเหล่านั้นตั้งแต่หนึ่งครั้งขึ้นไปโจมตียูนิตศัตรูนั้นได้สำเร็จ จนกว่าจะเริ่มต้น Shooting phase ถัดไปของคุณ ยูนิตศัตรูนั้นจะถูก assailed (นี่เป็นเพียงการระบุสถานะยูนิตนั้นสำหรับวัตถุประสงค์ของความสามารถนี้ และ Enhancements หรือ Stratagems บางอย่าง) หากยูนิตนั้นถูก assailed อยู่แล้ว จนกว่าจะเริ่มต้น Shooting phase ถัดไปของคุณ ยูนิตนั้นจะถูก pinned ด้วย ในขณะที่ยูนิตถูก pinned ให้หัก 2" ออกจาก Move characteristic ของยูนิต และหัก 2 ออกจาก Charge rolls ที่ทำขึ้นสำหรับยูนิตนั้น</description>
                 </rule>
               </rules>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Needgaârd Oathband" hidden="false" id="01b8-fa17-620e-8e79">
               <rules>
                 <rule name="Martial Leverage" id="8315-fab3-fc23-a835" hidden="false">
-                  <description>Each time an enemy unit is destroyed, you gain 1YP.</description>
+                  <description>ทุกครั้งที่ยูนิตศัตรูถูกทำลาย คุณได้รับ 1 YP</description>
                 </rule>
               </rules>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Hearthfyre Arsenal" hidden="false" id="768a-d0b6-e9a1-c221">
               <rules>
                 <rule name="Optimal Application" id="3557-568d-4745-af79" hidden="false">
-                  <description>At the end of your Command phase, you gain 1YP for each objective marker you control that is not within your deployment zone and has one or more ^^**Iron-Master^^** and/or ^^**Memnyr Strategist^^** models from your army within range of it (to a maximum of 2YP gained from this Detachment rule per turn).
-
-In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**Arkanyst Evaluator^^** unit from your army is selected to shoot, you can spend 1YP. If you do, until the end of the phase, each time a model in that unit makes an attack, re-roll a Hit roll of 1.</description>
+                  <description>เมื่อสิ้นสุด Command phase ของคุณ คุณได้รับ 1YP สำหรับจุด objective แต่ละจุดที่คุณควบคุมซึ่งอยู่นอกเขต deployment ของคุณ และมีโมเดล ^^**Iron-Master^^** และ/หรือ ^^**Memnyr Strategist^^** จากกองทัพของคุณอยู่ในระยะของมัน (สูงสุด 2YP ที่ได้รับจากกฎ Detachment นี้ต่อเทิร์น)
+                    
+                  ใน Shooting phase ของคุณ ทุกครั้งที่ยูนิต ^^**Brôkhyr, Ironkin Steeljacks^^** หรือ ^^**Arkanyst Evaluator^^** จากกองทัพของคุณถูกเลือกให้ยิง คุณสามารถใช้ 1YP ได้ หากคุณทำเช่นนั้น จนกระทั่งสิ้นสุด phase ทุกครั้งที่โมเดลในยูนิตนั้นทำการโจมตี ให้ re-roll ค่า Hit roll ที่เป็น 1</description>
                 </rule>
               </rules>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Dêlve Assault Shift" hidden="false" id="faf5-7477-8cdc-679f">
               <rules>
                 <rule name="Fury from the Dêlve" id="87c9-7c05-103b-ebe6" hidden="false">
-                  <description>^^**Cthonian Beserks^^** units from your army have the Deep Strike ability.</description>
+                  <description>ยูนิต ^^**Cthonian Beserks^^** จากกองทัพของคุณมีความสามารถ Deep Strike</description>
                 </rule>
               </rules>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Brandfast Oathband" hidden="false" id="437f-0cb8-194f-a716">
               <rules>
                 <rule name="Mobile Sensor Relays" id="d1ac-e240-653c-cc9c" hidden="false">
-                  <description>^^**Leagues of Votann Transport^^** units from your army have the following ability:
-
-**Firebase Control (Aura):** While a friendly ^^**Leagues of Votann Infantry^^** unit is wholly within 6&quot; of this ^^**Transport^^**, ranged weapons equipped by models in that ^^**Infantry^^** unit have the [^^**sustained hits 1^^**] ability.</description>
+                  <description>^^**Leagues of Votann Transport^^** ยูนิตจากกองทัพของคุณมีความสามารถดังต่อไปนี้:
+                    
+                    **การควบคุมฐานยิง (Aura):** ในขณะที่ยูนิต ^^**Leagues of Votann Infantry^^** ฝ่ายเดียวกันอยู่ภายใน 6 นิ้วของ ^^**Transport^^** นี้อย่างสมบูรณ์ อาวุธระยะไกลที่ติดตั้งโดยโมเดลในยูนิต ^^**Infantry^^** นั้นจะมีความสามารถ [^^**sustained hits 1^^**]</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -153,24 +155,24 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
         </profile>
         <profile id="a768-f399-5214-dfff" name="Ancestral Fortune" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per turn, you can spend 1YP to change one Hit roll, one Wound roll or one saving throw made for this model to a 6.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">คุณสามารถใช้ 1YP เพื่อเปลี่ยนหนึ่ง Hit roll, หนึ่ง Wound roll หรือหนึ่ง saving throw ที่ทำได้สำหรับโมเดลนี้ ให้เป็น 6 หนึ่งครั้งต่อเทิร์น</characteristic>
           </characteristics>
         </profile>
         <profile id="e940-64a8-ba9a-42bc" name="Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถติดกับยูนิตต่อไปนี้ได้:
 - Einhyr Hearthguard
 - Hearthkyn Warriors</characteristic>
           </characteristics>
         </profile>
         <profile id="4179-42b7-04ba-4430" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มี 4+ invulnerable save</characteristic>
           </characteristics>
         </profile>
         <profile name="Grim Efficiency" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d3b8-a9b6-d4ff-013e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle round, when a friendly ^^**Leagues of Votann**^^ unit within 12&quot; of this model is targeted with a Stratagem, this model can use this ability. If it does, reduce the CP cost of that Stratagem by 1CP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อแบทเทิลราวด์ เมื่อยูนิตฝ่ายเดียวกัน ^^**Leagues of Votann**^^ ที่อยู่ภายในระยะ 12" จากโมเดลนี้ ถูกเล็งเป้าด้วย Stratagem โมเดลนี้สามารถใช้ความสามารถนี้ได้ หากทำเช่นนั้น ลด CP cost ของ Stratagem นั้นลง 1CP</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -245,7 +247,7 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
       <profiles>
         <profile id="183b-a8a1-b9eb-2dd5" name="Luck Has, Need Keeps, Toil Earns" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, until your opponent&apos;s Level of Control over that is greater than yours at the end of a phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในตอนท้ายของ Command phase ของคุณ หากยูนิตนี้อยู่ในระยะของ objective marker ที่คุณควบคุมอยู่ objective marker นั้นจะยังคงอยู่ภายใต้การควบคุมของคุณต่อไป จนกว่า Level of Control ของคู่ต่อสู้ของคุณเหนือกว่าของคุณในตอนท้ายของ phase</characteristic>
           </characteristics>
         </profile>
         <profile id="15e9-df12-30b7-42cb" name="Hearthkyn Warriors" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -260,7 +262,7 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
         </profile>
         <profile name="Pan-spectral Scanning" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f1c3-6cf4-2e6e-c3c3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">แต่ละครั้งที่โมเดลในยูนิตนี้ทำการ ranged attack, สามารถทอยซ้ำ Hit roll ที่ได้ 1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1189,7 +1191,7 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
       <profiles>
         <profile id="73c5-c517-7aa5-96fc" name="Rampart crest" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While the bearer is leading a unit, models in that unit have a 5+ invulnerable save.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในขณะที่ผู้ถือกำลังนำยูนิต โมเดลในยูนิตนั้นจะมี 5+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1217,24 +1219,24 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
         </profile>
         <profile id="2769-d6d8-29c8-7689" name="Kindred Hero" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในขณะที่โมเดลนี้กำลังนำหน่วย อาวุธที่โมเดลในหน่วยนั้นติดตั้งจะได้รับความสามารถ [LETHAL HITS]</characteristic>
           </characteristics>
         </profile>
         <profile id="7139-216a-b740-0af3" name="Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถแนบไปกับยูนิตต่อไปนี้:
 - EINHYR HEARTHGUARD
 - HEARTHKYN WARRIORS</characteristic>
           </characteristics>
         </profile>
         <profile id="8124-e1cf-eaa3-675a" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มี 4+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
         <profile name="Seized Opportunity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b182-3f2c-3c8d-0b91">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per phase, one model from your army with this ability can use it when its unit destroys an enemy unit. If it does, gain 1YP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อเฟส, โมเดลหนึ่งตัวจากกองทัพของคุณที่มีความสามารถนี้สามารถใช้ได้เมื่อยูนิตของตนทำลายยูนิตศัตรู หากทำได้, ได้รับ 1YP</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1462,7 +1464,7 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
       <profiles>
         <profile id="e7c8-1681-268e-e824" name="Teleport crest" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While the bearer is leading a unit, models in that unit have the Deep Strike ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในขณะที่ผู้ถือครองกำลังนำหน่วย โมเดลในหน่วยนั้นมีความสามารถ Deep Strike</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1480,7 +1482,7 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
       <profiles>
         <profile id="a732-854e-79cd-0b70" name="Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following unit:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถติดไปกับยูนิตต่อไปนี้ได้:
 - EINHYR HEARTHGUARD</characteristic>
           </characteristics>
         </profile>
@@ -1496,12 +1498,12 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
         </profile>
         <profile id="cce9-1dea-2bfb-0600" name="Exemplar of the Einhyr" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในขณะที่โมเดลนี้เป็นผู้นำของยูนิต, เพิ่ม 1 ให้กับการทอย Advance และ Charge ที่ทำขึ้นสำหรับยูนิตนั้น</characteristic>
           </characteristics>
         </profile>
         <profile id="666a-1075-30da-e3d6" name="Mass Driver Accelerators" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model ends a Charge move, you can select one enemy unit within Engagement Range of this model and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่โมเดลนี้สิ้นสุด Charge move, คุณสามารถเลือกยูนิตศัตรูหนึ่งยูนิตที่อยู่ภายใน Engagement Range ของโมเดลนี้ และทอย D6 หนึ่งลูก: เมื่อได้ผล 2-5, ยูนิตศัตรูนั้นได้รับ D3 mortal wounds; เมื่อได้ผล 6, ยูนิตศัตรูนั้นได้รับ D3+3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1547,7 +1549,7 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
                   <profiles>
                     <profile name="Weavefield crest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7869-a23a-8332-6df1">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer has a 4+ invulnerable save.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ผู้ถือครองมีการ 4+ invulnerable save</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1696,7 +1698,7 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
       <profiles>
         <profile id="1fa8-d8d6-7361-c235" name="Weavefield crest" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Models in the bearer&apos;s unit have a 5+ invulnerable save.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลในยูนิตของผู้ถือมี 5+ invulnerable save</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1714,28 +1716,28 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
       <profiles>
         <profile id="63d6-d6ef-a1e8-b3ac" name="Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following unit:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถติดไปกับยูนิตต่อไปนี้ได้:
 - HEARTHKYN WARRIORS</characteristic>
           </characteristics>
         </profile>
         <profile id="c223-388d-3253-dd39" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Models in this unit have a 4+ invulnerable save.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลในยูนิตนี้มี invulnerable save 4+</characteristic>
           </characteristics>
         </profile>
         <profile id="467f-6b90-9fac-e6bc" name="Fortify (Psychic)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในขณะที่โมเดลนี้เป็นผู้นำของยูนิต โมเดลในยูนิตนั้นมีความสามารถ Feel No Pain 5+</characteristic>
           </characteristics>
         </profile>
         <profile id="fed0-9336-a1da-52b5" name="Grimnyr&apos;s Regard" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, at the start of any phase, you can select one friendly ^^**Leagues of Votann**^^ unit that is Battle-shocked and within 12&quot; of this unit&apos;s ^^**Grimnyr**^^ model. That unit is no longer Battle-shocked.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อแบทเทิล ในตอนเริ่มต้นของ phase ใดก็ตาม, คุณสามารถเลือก ^^**Leagues of Votann**^^ ที่เป็นมิตรหนึ่งยูนิต ที่ Battle-shocked และอยู่ภายในระยะ 12" จากโมเดล ^^**Grimnyr**^^ ของยูนิตนี้ ยูนิตนั้นจะไม่ Battle-shocked อีกต่อไป.</characteristic>
           </characteristics>
         </profile>
         <profile name="Unit Composition" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3ad6-e5e5-dd75-ba65">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit’s Grimnyr model is ever destroyed, all of this unit’s remaining CORV models are also destroyed. While embarking within a ^^**Transport^^** and while embarked within a ^^**Transport^^**, each CORV model takes up the space of 0 models.’</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หาก Grimnyr โมเดลของยูนิตนี้ถูกทำลาย โมเดล CORV ที่เหลือทั้งหมดของยูนิตนี้ก็จะถูกทำลายด้วย ขณะที่กำลังขึ้นไปบน ^^**Transport^^** และขณะที่อยู่ภายใน ^^**Transport^^** นั้น โมเดล CORV แต่ละตัวจะใช้พื้นที่ 0 โมเดล</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2044,29 +2046,29 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
       <profiles>
         <profile id="0b60-64ba-dab2-aba2" name="Multi-spectral visor" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่โมเดลในยูนิตนี้ทำการโจมตีระยะไกล ให้ re-roll Wound roll ที่ได้ 1</characteristic>
           </characteristics>
         </profile>
         <profile id="5313-7669-e6a9-5577" name="Brôkhyr Guild Support" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit is within 3&quot; of one or more friendly ^^**Leagues of Votann Vehicle**^^ or ^^**Ironkin Steeljacks**^^ units, if this unit is not an attached unit, it has the Lone Operative ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในขณะที่ยูนิตนี้อยู่ภายในระยะ 3 นิ้วจากยูนิต ^^**Leagues of Votann Vehicle**^^ หรือ ^^**Ironkin Steeljacks**^^ ฝ่ายเดียวกันหนึ่งยูนิตขึ้นไป, หากยูนิตนี้ไม่ใช่ attached unit, ยูนิตนี้จะมีความสามารถ Lone Operative</characteristic>
           </characteristics>
         </profile>
         <profile id="7d15-f4e4-387a-f14d" name="Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following unit:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถติดไปกับยูนิตต่อไปนี้ได้:
 - HEARTHKYN WARRIORS
 - BRÔKHYR THUNDERKYN</characteristic>
           </characteristics>
         </profile>
         <profile name="Unit Composition" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6f57-e143-7449-1760">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit’s Brôkhyr Iron‑master model is ever destroyed, all of this unit’s remaining E‑COG models are also destroyed. While embarking within a ^^**Transport^^** and while embarked within a ^^**Transport^^**, each E‑COG model takes up the space of 0 models.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ถ้าโมเดล Brôkhyr Iron‑master ของยูนิตนี้ถูกทำลาย โมเดล E‑COG ที่เหลืออยู่ทั้งหมดของยูนิตนี้ก็ถูกทำลายด้วยเช่นกัน ขณะที่กำลังขึ้นยาน ^^**Transport^^** และขณะที่อยู่ในยาน ^^**Transport^^** โมเดล E‑COG แต่ละตัวจะใช้พื้นที่เท่ากับ 0 โมเดล</characteristic>
           </characteristics>
         </profile>
         <profile name="Forgewrought Expertise" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ce7a-e6ed-4d44-a5df">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your Movement phase, this model can repair one friendly ^^**Leagues of Votann Vehicle, Exoframe^^** or ^^**Ironkin Steeljacks^^** unit within 3&quot; of it. One model in that unit regains up to D3 lost wounds, or up to 3 lost wounds if this unit contains an Ironkin Assistant model. Each unit can only be repaired once per turn.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในตอนสิ้นสุด Movement phase ของคุณ โมเดลนี้สามารถซ่อมแซมยูนิต ^^**Leagues of Votann Vehicle, Exoframe^^** หรือ ^^**Ironkin Steeljacks^^** ฝ่ายเดียวกันที่อยู่ภายในระยะ 3 นิ้วจากโมเดลนี้ได้หนึ่งยูนิต โมเดลหนึ่งตัวในยูนิตนั้นจะฟื้นฟูบาดแผลที่สูญเสียไปได้สูงสุด D3 บาดแผล หรือสูงสุด 3 บาดแผล หากยูนิตนี้มีโมเดล Ironkin Assistant แต่ละยูนิตสามารถถูกซ่อมแซมได้เพียงครั้งเดียวต่อเทิร์น</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2473,7 +2475,7 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
       <profiles>
         <profile id="91da-72d3-657b-ee7c" name="Decisive Destruction" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes a ranged attack that targets the closest eligible target, re-roll a Hit roll of 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่โมเดลในยูนิตนี้ทำการโจมตีระยะไกลที่กำหนดเป้าหมายเป็นเป้าหมายที่ใกล้ที่สุดและเข้าเกณฑ์, สามารถ re-roll Hit roll ที่ได้ 1 ได้</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2740,7 +2742,7 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
                   <profiles>
                     <profile name="Teleport crest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="80e8-8ec7-90b9-1310">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Models in the bearer&apos;s unit have the Deep Strike ability.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลในยูนิตของผู้สวมใส่ มีความสามารถ Deep Strike</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3019,7 +3021,7 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
       <profiles>
         <profile id="668c-fdea-d78d-76da" name="Cyberstimms" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6, adding one to the result if units from your army have Fortify Takeover: on a 4+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่โมเดลในยูนิตนี้ถูกทำลายโดยการโจมตีระยะประชิด, หากโมเดลนั้นยังไม่ได้ต่อสู้ในเฟสนี้, ให้ทอย D6 หนึ่งลูก, เพิ่มหนึ่งให้กับผลลัพธ์หากยูนิตจากกองทัพของคุณมี Fortify Takeover: บนผล 4+ ขึ้นไป, ไม่ต้องนำโมเดลนั้นออกจากสนาม. โมเดลที่ถูกทำลายสามารถต่อสู้ได้หลังจากยูนิตที่โจมตีเสร็จสิ้นการโจมตี, และจะถูกนำออกจากสนามหลังจากนั้น</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3183,7 +3185,7 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
               <profiles>
                 <profile id="6b1b-5b1b-e5de-f7c2" name="Subterranean Explosives" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this unit has shot, select one enemy unit (excluding ^^**Monsters**^^ and ^^**Vehicles^^**) that was hit by one or more of those attacks made with a mole grenade launcher. Until the start of your next Shooting phase, that enemy unit cannot be targeted with the Fire Overwatch Stratagem.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Shooting phase ของคุณ, หลังจากยูนิตนี้ยิงแล้ว, เลือกยูนิตศัตรูหนึ่งยูนิต (ยกเว้น ^^**Monsters**^^ และ ^^**Vehicles^^**) ที่ถูกโจมตีด้วยการโจมตีหนึ่งครั้งหรือมากกว่าที่ทำด้วย mole grenade launcher. จนกว่าจะถึงจุดเริ่มต้นของ Shooting phase ถัดไปของคุณ, ยูนิตศัตรูนั้นไม่สามารถถูกเลือกเป้าหมายด้วย Fire Overwatch Stratagem ได้</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3382,7 +3384,7 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
       <profiles>
         <profile id="0a56-b381-c3ac-12bd" name="Outflanking Mag-Riders" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your opponent’s turn, if this unit is within 9&quot; of one or more battlefield edges and not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">เมื่อสิ้นสุดเทิร์นของคู่ต่อสู้ของคุณ, หากยูนิตนี้อยู่ภายในระยะ 9\" จากขอบสนามรบตั้งแต่หนึ่งขอบขึ้นไป และไม่ได้อยู่ภายใน Engagement Range ของยูนิตศัตรูตั้งแต่หนึ่งยูนิตขึ้นไป, คุณสามารถนำยูนิตนี้ออกจากสนามรบ และนำไปไว้ใน Strategic Reserves</characteristic>
           </characteristics>
         </profile>
         <profile id="eed4-0f4c-f180-db12" name="Hernkyn Pioneer" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -3462,7 +3464,7 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
                   <profiles>
                     <profile id="5594-0175-2fab-78d0" name="Comms array" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่คุณกำหนดเป้าหมายยูนิตของผู้ถือด้วย Stratagem, ทอย D6 หนึ่งลูก: เมื่อได้ 5+, คุณได้รับ 1CP</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3510,7 +3512,7 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
                   <profiles>
                     <profile id="2687-9d88-fa31-78e4" name="Pan-spectral scanner" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in the bearer&apos;s unit makes a ranged attack, re-roll a Hit roll of 1.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่โมเดลในยูนิตของผู้ถือทำการ Ranged Attack สามารถ Re-roll ผล Hit roll ที่เป็น 1 ได้</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3561,7 +3563,7 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
                   <profiles>
                     <profile id="d4a7-4825-c105-69da" name="Rollbar searchlight" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in the bearer&apos;s unit makes a ranged attack, you can ignore any or all modifiers to the Hit roll.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่โมเดลในยูนิตของผู้ถือครองทำการโจมตีระยะไกล คุณสามารถละเลยตัวปรับแต่งใดๆ หรือทั้งหมดต่อ Hit roll ได้</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3937,14 +3939,14 @@ In your Shooting phase, each time a ^^**Brôkhyr, Ironkin Steeljacks^^** or ^^**
         </profile>
         <profile id="1cd2-5315-3e03-56d2" name="Blistering Advance" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Units can disembark from this ^^**Transport^^** after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ยูนิตสามารถลงจาก ^^**Transport^^** นี้ได้หลังจากที่มันได้ทำการเคลื่อนที่เร่ง ยูนิตที่ทำเช่นนั้นจะถูกนับว่าได้ทำการเคลื่อนที่ปกติในเฟสนั้น และไม่สามารถประกาศการชาร์จได้ในเทิร์นเดียวกัน แต่สามารถกระทำการอื่นๆ ได้ตามปกติในส่วนที่เหลือของเทิร์น</characteristic>
           </characteristics>
         </profile>
         <profile id="c622-c5a6-391f-e9ec" name="Sagitaur" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 6 ^^**Leagues of Votann Infantry**^^ models. It cannot transport ^^**Exoarmour**^^, ^^**Exoframe^^** or ^^**Ironkin Steeljack**^^ models.
-
-At the start of the Declare Battle Formations step, you can select one ^^**Hearthkyn Warriors^^** unit from your army that has not been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this ^^**Transport^^**; the other can start the battle embarked within another ^^**Transport^^**, or it can be deployed as a separate unit.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">โมเดลนี้มีความสามารถในการขนส่งโมเดล ^^**Leagues of Votann Infantry**^^ ได้ 6 โมเดล ไม่สามารถขนส่งโมเดล ^^**Exoarmour**^^, ^^**Exoframe^^** หรือ ^^**Ironkin Steeljack**^^ ได้
+              
+            ในตอนเริ่มต้นของ Declare Battle Formations step คุณสามารถเลือกหนึ่งยูนิต ^^**Hearthkyn Warriors^^** จากกองทัพของคุณที่ยังไม่ได้ถูกแยก หากคุณทำเช่นนั้น ยูนิตนั้นจะถูกแยกออกเป็นสองยูนิต แต่ละยูนิตจะมีจำนวนโมเดลเท่าๆ กันมากที่สุดเท่าที่จะเป็นไปได้ (เมื่อทำการแยกยูนิตด้วยวิธีนี้ ให้จดบันทึกว่าโมเดลใดประกอบขึ้นเป็นยูนิตใหม่แต่ละยูนิตในสองยูนิตนั้น) หนึ่งในยูนิตเหล่านี้จะต้องเริ่มต้นการรบโดยถูกบรรทุกอยู่ใน ^^**Transport^^** นี้ ส่วนอีกยูนิตสามารถเริ่มต้นการรบโดยถูกบรรทุกอยู่ใน ^^**Transport^^** อื่น หรือสามารถถูกจัดวางเป็นยูนิตแยกต่างหากได้</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4201,7 +4203,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
         </profile>
         <profile id="a40d-50a1-cd02-32c0" name="Breaching Fire" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, that enemy unit cannot have the Benefit of Cover.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Shooting phase ของคุณ หลังจากยูนิตนี้ยิงไปแล้ว ให้เลือกยูนิตศัตรูหนึ่งยูนิตที่ถูกโจมตีตั้งแต่หนึ่งครั้งขึ้นไป จนกระทั่งเริ่มต้น Shooting phase ครั้งถัดไปของคุณ ยูนิตศัตรูนั้นไม่สามารถได้รับ Benefit of Cover</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4499,17 +4501,17 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
         </profile>
         <profile id="caa1-a6c2-f241-ef7a" name="MultiCOG Targeting" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack, you can ignore any or all modifiers to the following: that attack&apos;s Ballistic Skill characteristic, the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่โมเดลนี้ทำการ ranged attack, คุณสามารถไม่สนใจตัวปรับแต่งใดๆ หรือทั้งหมดสำหรับสิ่งต่อไปนี้: Ballistic Skill characteristic ของการโจมตีนั้น, Hit roll</characteristic>
           </characteristics>
         </profile>
         <profile id="390f-db57-a56d-a66c" name="Damaged: 1-5 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">เมื่อโมเดลนี้มีบาดแผลเหลืออยู่ 1-5 หน่วย, ทุกครั้งที่โมเดลนี้ทำการโจมตี, ให้ลบ 1 ออกจาก Hit roll</characteristic>
           </characteristics>
         </profile>
         <profile id="9d9a-6673-cbb2-ec72" name="Hekaton Land Fortress" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 14 ^^**Leagues of Votann Infantry**^^ models. Each **^^Exoarmour, Exoframe**^^ or **^^Ironkin Steeljacks**^^ model takes up the space of 2 models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">โมเดลนี้มีความจุในการขนส่ง ^^**Leagues of Votann Infantry**^^ 14 โมเดล แต่ละ **^^Exoarmour, Exoframe**^^ หรือ **^^Ironkin Steeljacks**^^ โมเดลจะใช้พื้นที่เท่ากับ 2 โมเดล</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4598,7 +4600,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
                   </entryLinks>
                   <rules>
                     <rule name="Conversion" id="9591-6a18-3373-5ab0" hidden="false">
-                      <description>Each time an attack made with this weapon targets an enemy unit that is not within 12&quot;, an unmodified successful Hit roll of 4+ scores a Critical Hit.</description>
+                      <description>ทุกครั้งที่การโจมตีที่ทำด้วยอาวุธนี้ กำหนดยูนิตศัตรูเป้าหมายที่ไม่อยู่ภายในระยะ 12", unmodified Hit roll ที่มีค่า 4+ ขึ้นไป จะนับเป็น Critical Hit</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -4703,7 +4705,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
                   <profiles>
                     <profile name="Pan spectral scanner" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ebd6-d270-d7ee-bd1d">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in the bearer&apos;s unit makes a ranged attack, re-roll a Hit roll of 1.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่โมเดลในยูนิตของผู้ถือทำการโจมตีระยะไกล ให้ทำการทอยซ้ำ Hit roll ที่ได้ 1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4880,7 +4882,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
       <profiles>
         <profile name="Pragmatic Hunters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9b20-7d92-1649-148f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9&quot; of this unit, it can make a Normal move of up to D6&quot;.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อเทิร์น, เมื่อยูนิตศัตรูสิ้นสุดการเคลื่อนที่แบบ Normal move, Advance move หรือ Fall Back move ภายใน 9 นิ้วจากยูนิตนี้, ยูนิตนี้สามารถทำการเคลื่อนที่แบบ Normal move ได้สูงสุด D6 นิ้ว</characteristic>
           </characteristics>
         </profile>
         <profile name="Hernkyn Yaegirs" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="3cb7-824f-70fc-ac53">
@@ -5326,17 +5328,17 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
         </profile>
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c405-a707-5a54-dc1c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มี 4+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
         <profile name="Grudge-fuelled Fortitude" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e5f1-165b-ee7e-ce92">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The first time this model is destroyed, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ครั้งแรกที่ model นี้ถูกทำลาย, เมื่อสิ้นสุด phase, ทอย D6 หนึ่งลูก: หากได้ 2+, นำ model นี้กลับมาตั้งบนสนามรบให้ใกล้ที่สุดเท่าที่จะทำได้กับจุดที่มันถูกทำลาย และไม่อยู่ใน Engagement Range ของ enemy units ตั้งแต่หนึ่ง units ขึ้นไป, โดยมี full wounds คงเหลืออยู่</characteristic>
           </characteristics>
         </profile>
         <profile name="Unhinged Vengeance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d632-0763-8aee-ce98">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your opponent&apos;s Shooting phase, each time an enemy unit has shot, if this model lost one or more wounds as a result of those attacks, this model can make a Vengeance move. To do so, roll one D6 and add 2 to the result: it moves a number of inches up to this result, but it must end that move as close as possible to the closest enemy unit (excluding ^^**Aircraft**^^). When doing so, it can be moved within Engagement Range of that enemy unit. This model cannot make a Vengeance move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Vengeance move per phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Shooting phase ของคู่ต่อสู้ของคุณ แต่ละครั้งที่ยูนิตศัตรูทำการยิง หากโมเดลนี้สูญเสียบาดแผลหนึ่งครั้งหรือมากกว่านั้นจากผลของการโจมตีเหล่านั้น โมเดลนี้สามารถทำการ Vengeance move ได้ ในการทำเช่นนั้น ให้ทอย D6 หนึ่งลูกแล้วบวก 2 เข้ากับผลลัพธ์: มันจะเคลื่อนที่จำนวน inches เท่ากับผลลัพธ์นี้ แต่จะต้องจบการเคลื่อนที่นั้นให้ใกล้ที่สุดเท่าที่จะเป็นไปได้กับยูนิตศัตรูที่ใกล้ที่สุด (ไม่รวม ^^**Aircraft**^^) เมื่อทำเช่นนั้น มันสามารถถูกเคลื่อนที่เข้ามาใน Engagement Range ของยูนิตศัตรูนั้นได้ โมเดลนี้ไม่สามารถทำการ Vengeance move ได้ในขณะที่มันติดสถานะ Battle-shocked หรืออยู่ใน Engagement Range ของยูนิตศัตรูตั้งแต่หนึ่งยูนิตขึ้นไป และสามารถทำการ Vengeance move ได้เพียงครั้งเดียวต่อ phase</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5434,17 +5436,17 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
         </profile>
         <profile name="Computational Mastermind" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="83a2-efc4-1e59-b3ea">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your Command phase, before you determine if units from your army have Hostile Acquisition or Fortify Takeover, for each objective marker you control that has one or more models with this ability in range of it, you can spend 1YP or gain 1YP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในช่วงท้ายของ Command phase ของคุณ ก่อนที่คุณจะพิจารณาว่ายูนิตจากกองทัพของคุณมี Hostile Acquisition หรือ Fortify Takeover, สำหรับทุก objective marker ที่คุณควบคุมที่มีโมเดลหนึ่งตัวหรือมากกว่าที่มีความสามารถนี้อยู่ในระยะ คุณสามารถใช้จ่าย 1YP หรือได้รับ 1YP</characteristic>
           </characteristics>
         </profile>
         <profile name="Predictive Guidance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="455d-1e24-c53e-c789">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle round, this model can use this ability. If it does, you can target this unit with the Fire Overwatch or Heroic Intervention Stratagem for 0CP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อ battle round, โมเดลนี้สามารถใช้ความสามารถนี้ได้ หากทำได้, คุณสามารถเลือกยูนิตนี้เป็นเป้าหมายด้วย Fire Overwatch หรือ Heroic Intervention Stratagem โดยใช้ 0CP</characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8aae-1b2c-3dc5-e526">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units: ^^**Ironkin Steeljacks with Heavy Volkanite Disintegrators^^**, ^^**Ironkin Steeljacks with Melee Weapons^^**</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถแนบไปกับยูนิตต่อไปนี้: ^^**Ironkin Steeljacks with Heavy Volkanite Disintegrators^^**, ^^**Ironkin Steeljacks with Melee Weapons^^**</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5611,12 +5613,12 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
         </profile>
         <profile name="Science Guild Support" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a4aa-1f9d-f411-5e68">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is within 3&quot; of one or more other friendly ^^**Leagues of Votann Infantry**^^ units (excluding units with the Lone Operative ability), this model has the Lone Operative ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในขณะที่โมเดลนี้อยู่ภายในระยะ 3" จากยูนิต ^^**Leagues of Votann Infantry**^^ อื่นๆ ที่เป็นมิตรอย่างน้อยหนึ่งยูนิต (ไม่รวมยูนิตที่มีความสามารถ Lone Operative) โมเดลนี้มีความสามารถ Lone Operative</characteristic>
           </characteristics>
         </profile>
         <profile name="Resource Transmutation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ee59-d825-22fa-51b8">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per turn, in your Shooting phase, one model with this ability can choose to use it when it is selected to shoot. If it does, you must spend 1YP and, until the end of the phase, ranged weapons equipped by that model have the [^^**Sustained Hits 1**^^] ability and, after that model has shot this phase, if one or more enemy units were destroyed by those attacks, you can gain up to 2YP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อเทิร์น ใน Shooting phase ของคุณ โมเดลหนึ่งที่มีความสามารถนี้สามารถเลือกใช้ได้เมื่อถูกเลือกให้ยิง หากทำเช่นนั้น คุณต้องใช้ 1YP และจนกว่าจะสิ้นสุดเฟส อาวุธระยะไกลที่โมเดลนั้นติดตั้งจะได้รับความสามารถ [^^**Sustained Hits 1**^^] และหลังจากที่โมเดลนั้นยิงในเฟสนี้ หากยูนิตศัตรูหนึ่งยูนิตหรือมากกว่าถูกทำลายโดยการโจมตีเหล่านั้น คุณสามารถได้รับได้สูงสุด 2YP</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5687,7 +5689,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
               </entryLinks>
               <rules>
                 <rule name="Overcharge" id="dd7b-3051-6d37-d53b" hidden="false">
-                  <description>Each time the bearer takes a Hazardous test for this weapon, subtract 2 from the result.</description>
+                  <description>ทุกครั้งที่ผู้ถือทำการ Hazardous test สำหรับอาวุธนี้ ให้ลบ 2 จากผลลัพธ์</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -5808,7 +5810,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
       <profiles>
         <profile name="Opportunistic Manoeuvre" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e89d-42e8-03cf-8bda">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this unit has shot, it can make a Normal Move of up to D6&quot;. If it does, until the end of the turn, this unit is not eligible to declare a charge.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Shooting phase ของคุณ, หลังจากที่ยูนิตนี้ทำการยิงไปแล้ว, มันสามารถทำการ Normal Move ได้สูงสุด D6\" หากมันทำเช่นนั้น, จนกว่าจะสิ้นสุดเทิร์น, ยูนิตนี้จะไม่มีสิทธิ์ที่จะ declare a charge</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5863,7 +5865,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
               <profiles>
                 <profile name="Smoke Launcher" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5923-f46a-2fa1-2f44">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer has the ^^**Smoke**^^ keyword.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ผู้ถือมีคีย์เวิร์ด ^^**Smoke**^^</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6074,14 +6076,14 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
         </profile>
         <profile name="Scanner Uplinks" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="087c-930f-dd21-38d9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your shooting phase, after this model has shot, select one enemy unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**) hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Shooting Phase ของคุณ หลังจากโมเดลนี้ยิงแล้ว ให้เลือกยูนิตศัตรูหนึ่งยูนิต (ไม่รวม ^^**Monsters^^** และ ^^**Vehicles^^**) ที่ถูกโจมตีด้วยการโจมตีเหล่านั้นหนึ่งครั้งหรือมากกว่า จนกระทั่งเริ่มต้นเทิร์นถัดไปของคุณ ยูนิตศัตรูนั้นจะถูก suppressed ในขณะที่ยูนิตถูก suppressed ทุกครั้งที่โมเดลในยูนิตนั้นทำการโจมตี ให้ลบ 1 จาก Hit roll</characteristic>
           </characteristics>
         </profile>
         <profile name="Kapricus Carrier" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="a659-a9e7-2c7d-b6d5">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 5 ^^**Hernkyn Yaegir**^^ models.
-
-At the start of the Declare Battle Formations step, you can select one ^^**Hernkyn Yaegir^^** unit from your army that has not been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this ^^**Transport^^**; the other can start the battle embarked within another ^^**Transport^^**, or it can be deployed as a separate unit.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">โมเดลนี้มีความจุ **Transport** สำหรับ 5 ^^**Hernkyn Yaegir**^^ โมเดล
+              
+            ในช่วงเริ่มต้นของขั้นตอน Declare Battle Formations คุณสามารถเลือกยูนิต ^^**Hernkyn Yaegir^^** หนึ่งยูนิตจากกองทัพของคุณที่ยังไม่ถูกแบ่ง หากคุณทำเช่นนั้น ยูนิตนั้นจะถูกแบ่งออกเป็นสองยูนิต แต่ละยูนิตมีจำนวนโมเดลเท่ากันมากที่สุดเท่าที่จะเป็นไปได้ (เมื่อแบ่งยูนิตด้วยวิธีนี้ ให้จดบันทึกว่าโมเดลใดประกอบเป็นยูนิตใหม่แต่ละยูนิต) หนึ่งในยูนิตเหล่านี้จะต้องเริ่มการรบโดยบรรทุกอยู่ใน ^^**Transport^^** นี้; ส่วนอีกยูนิตสามารถเริ่มการรบโดยบรรทุกอยู่ใน ^^**Transport^^** อื่น หรือสามารถวางกำลังเป็นยูนิตแยกต่างหากได้</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6126,7 +6128,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
               <profiles>
                 <profile name="Smoke Launcher" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fbbb-fa26-5133-b386">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The bearer has the ^^**Smoke**^^ keyword.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ผู้ถือมีคีย์เวิร์ด ^^**Smoke**^^</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6361,7 +6363,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         </profile>
         <profile name="Purge Response" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e33f-e148-ccf4-d41a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time you target this unit with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ while resolving that Stratagem. If units from your army have Fortify Takeover, hits are scored on unmodified Hit rolls of 4+ while resolving that Stratagem instead.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่คุณกำหนดเป้าหมายยูนิตนี้ด้วย Fire Overwatch Stratagem, การโจมตีจะนับว่าสำเร็จเมื่อทอย Hit rolls ได้ 5+ โดยไม่มีการปรับแก้ ขณะที่กำลังแก้ไข Stratagem นั้น. หากยูนิตจากกองทัพของคุณมี Fortify Takeover, การโจมตีจะนับว่าสำเร็จเมื่อทอย Hit rolls ได้ 4+ โดยไม่มีการปรับแก้ ขณะที่กำลังแก้ไข Stratagem นั้นแทน</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6608,7 +6610,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         </profile>
         <profile name="Merciless Eradication" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f407-03ed-dc32-44b4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an enemy unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**) that is within Engagement Range of this unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่ยูนิตศัตรู (ไม่รวม ^^**Monsters^^** และ ^^**Vehicles^^**) ที่อยู่ใน Engagement Range ของยูนิตนี้ Falls Back, โมเดลทั้งหมดในยูนิตศัตรูนั้นจะต้องทำการ Desperate Escape test เมื่อทำเช่นนั้น หากยูนิตศัตรูนั้น Battle-shocked, ลบ 1 ออกจากการทดสอบแต่ละครั้งเหล่านั้น</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6710,7 +6712,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
       <profiles>
         <profile name="Preymark crest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c085-b752-358a-e7e9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in the bearer&apos;s unit makes an attack that targets an enemy unit within range of one or more objective markers, on a Critical Wound, that attack has the [Precision] ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่โมเดลในยูนิตของผู้ถือทำการโจมตีที่กำหนดเป้าหมายยูนิตศัตรูภายในระยะของหนึ่งหรือมากกว่า objective markers, เมื่อ Critical Wound, การโจมตีนั้นมีความสามารถ [Precision]</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6841,7 +6843,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                     </profile>
                     <profile name="Geomantic Hunters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a0e2-31bc-54e1-e3ac">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Up to twice per battle, in your Shooting phase, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, each time a model in this unit makes an attack with its breacher ordnance, you can re-roll the Wound roll.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">สามารถใช้ได้สูงสุดสองครั้งต่อการรบ ใน Shooting phase ของคุณ เมื่อหน่วยนี้ถูกเลือกให้ยิง หน่วยนี้สามารถใช้ความสามารถนี้ได้ หากใช้, จนกระทั่งจบ phase นี้, ในแต่ละครั้งที่โมเดลในหน่วยนี้ทำการโจมตีด้วย breacher ordnance ของมัน, คุณสามารถ re-roll Wound roll ได้</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6869,7 +6871,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                     </profile>
                     <profile name="Destabilising Quakes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ff77-7827-2e0b-4e6b">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks made with its tremor shells. That unit must take a Battle-shock test, subtracting 1 from the result.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในช่วง Shooting phase ของคุณ, หลังจากยูนิตนี้ยิงแล้ว, เลือกยูนิตศัตรูหนึ่งยูนิตที่ถูกโจมตีตั้งแต่หนึ่งครั้งขึ้นไปที่ทำด้วย tremor shells ของยูนิตนี้ ยูนิตนั้นต้องทำการ Battle-shock test, โดยลบ 1 ออกจากผลลัพธ์</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7031,7 +7033,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Bastion Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="68fb-67e5-3675-c850">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a ranged attack targets the bearer’s unit, if the attacking model is within 12&quot; of the bearer’s unit, worsen the Armour Penetration characteristic of that attack by 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่ ranged attack กำหนดเป้าหมายยูนิตของผู้ถือ หากโมเดลที่โจมตี อยู่ภายใน 12" ของ ยูนิตของผู้ถือ ค่า Armour Penetration ของการโจมตีนั้นแย่ลง 1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7070,7 +7072,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="High Kâhl" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c87b-83b3-96a4-45c9">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in the bearer’s unit is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">แต่ละครั้งที่โมเดลในยูนิตของผู้ถือถูกทำลายด้วยการโจมตีระยะประชิด หากมันยังไม่ได้ต่อสู้ใน phase นี้ ให้ทอย D6 หนึ่งลูก: หากได้ 4+ ขึ้นไป, ไม่ต้องนำมันออกจากการเล่น. โมเดลที่ถูกทำลายนั้นสามารถต่อสู้ได้หลังจากยูนิตที่โจมตีเสร็จสิ้นการโจมตีของมันแล้ว จากนั้นจึงค่อยนำมันออกจากการเล่น</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7103,7 +7105,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Ironskein" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6773-523f-8d74-26b5">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Add 2 to the bearer’s Wounds characteristic.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">เพิ่ม 2 ให้กับ Wounds characteristic ของผู้ถือ</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7142,7 +7144,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Quake Multigenerator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dae0-e2e7-a42b-6566">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after the bearer has shot, select one enemy unit (excluding TITANIC units) hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Shooting phase ของคุณ หลังจากผู้ถือ (bearer) ยิงแล้ว เลือกหนึ่งยูนิตศัตรู (ไม่รวมยูนิต TITANIC) ที่ถูกโจมตีตั้งแต่หนึ่งครั้งขึ้นไป จนกว่าจะถึงจุดเริ่มต้นของเทิร์นถัดไปของคุณ ยูนิตศัตรูนั้นจะถูก suppressed ในขณะที่ยูนิตถูก suppressed ทุกครั้งที่โมเดลในยูนิตนั้นโจมตี ลบ 1 ออกจาก Hit roll</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7165,7 +7167,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Oathbound Speculator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="60bb-029d-adde-8c64">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in the bearer&apos;s unit makes an attack, re-roll a Wound roll of 1. Each time the bearer&apos;s unit is selected to shoot or fight, you can spend 3YP. If you do, until the end of the phase, each time a model in the bearer&apos;s unit makes an attack, add 1 to the Wound roll.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่โมเดลในยูนิต ของผู้ถือกระทำการโจมตี, ให้ re-roll Wound roll ที่มีค่า 1. ทุกครั้งที่ยูนิต ของผู้ถือถูกเลือกเพื่อ shoot หรือ fight, คุณสามารถใช้จ่าย 3 YP ได้ หากคุณทำเช่นนั้น, จนกว่าจะสิ้นสุด phase, ทุกครั้งที่โมเดลในยูนิต ของผู้ถือกระทำการโจมตี เพิ่ม 1 ให้กับ Wound roll</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7197,7 +7199,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Writ of Acquisition" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="990a-1483-ea2a-7717">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after the bearer&apos;s unit has shot, you gain 1YP for each assailed unit hit by one or more of those attacks (to a maximum of 3YP).</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Shooting phase ของคุณ หลังจากยูนิตของผู้ถือได้ยิงแล้ว คุณได้รับ 1YP สำหรับทุกยูนิตที่ถูกโจมตีซึ่งถูกโจมตีด้วยการโจมตีเหล่านั้นหนึ่งครั้งหรือมากกว่า (สูงสุด 3YP)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7229,7 +7231,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Surgical Saboteur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4f9f-9690-d034-41e1">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, select one ^^**Monster^^** or ^^**Vehicle^^** unit hit by one or more of those attacks; until the start of your next Shooting phase, that model is pinned.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Shooting phase ของคุณ, หลังจากโมเดลนี้ยิงแล้ว, เลือกหนึ่งยูนิต ^^**Monster^^** หรือ ^^**Vehicle^^** ที่ถูกโจมตีตั้งแต่หนึ่งครั้งขึ้นไปจากกลุ่มการโจมตีเหล่านั้น; จนกระทั่งถึงช่วงเริ่มต้น Shooting phase ถัดไปของคุณ, โมเดลนั้นจะติด pinned</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7261,7 +7263,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Nomad Strategist" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9e9d-d507-a29b-376d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, at the end of your opponent&apos;s Fight phase, if the bearer is on the battlefield, it can use this Enhancement. If it does, select one ^^**Hernkyn^^** unit from your army, and, for every 2YP you just spent, select up to one additional ^^**Hernkyn^^** unit from your army. You can remove those units from the battlefield and place them into Strategic Reserves. You cannot select a unit that is within Engagement Range of one or more enemy units (excluding assailed units).</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อการรบ, ในช่วงท้ายของ Fight phase ของคู่ต่อสู้ของคุณ, หากผู้ถืออยู่บนสนามรบ, มันสามารถใช้ Enhancement นี้ได้ หากใช้, เลือกหนึ่ง ^^**Hernkyn^^** ยูนิตจากกองทัพของคุณ, และ, สำหรับทุกๆ 2YP ที่คุณเพิ่งใช้ไป, เลือกยูนิต ^^**Hernkyn^^** เพิ่มเติมได้สูงสุดหนึ่งยูนิตจากกองทัพของคุณ คุณสามารถนำยูนิตเหล่านั้นออกจากสนามรบและวางพวกมันลงใน Strategic Reserves คุณไม่สามารถเลือกยูนิตที่อยู่ใน Engagement Range ของยูนิตศัตรูตั้งแต่หนึ่งยูนิตขึ้นไป (ยกเว้น assailed units)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7293,7 +7295,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Eye For Weakness" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="248d-6da7-057c-1d44">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in the bearer&apos;s unit makes an attack that targets an assailed unit, add 1 to the Wound roll.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่โมเดลในยูนิตผู้ถือ ทำการโจมตีที่กำหนดเป้าหมายไปที่ assailed unit, เพิ่ม 1 ให้กับ Wound roll</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7325,7 +7327,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Dead Reckoning" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="82c6-1ceb-bb83-204c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Leagues of Votann^^** model only. At the end of the turn, if the bearer is on the battlefield and you spent no YP in that turn, you gain 1YP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Leagues of Votann^^** สำหรับโมเดลเท่านั้น. เมื่อสิ้นสุดเทิร์น, หากผู้ถืออยู่ในสนามรบ และคุณไม่ได้ใช้ YP ในเทิร์นนั้น, คุณจะได้รับ 1YP</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7357,7 +7359,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Iron Ambassador" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="117e-c438-62e4-e680">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, when the bearer&apos;s unit is selected to shoot, the bearer can use this Enhancement. If it does, spend up to 3YP, and, until the end of the phase, add the number of YP you just spent to the Damage characteristic of the bearer&apos;s ranged weapons.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อการต่อสู้ เมื่อยูนิตของผู้ถือ ถูกเลือกให้ยิง ผู้ถือสามารถใช้ Enhancement นี้ได้ หากใช้ ให้ใช้ YP ได้สูงสุด 3YP และจนกระทั่งสิ้นสุด phase ให้บวกจำนวน YP ที่คุณใช้ไปเมื่อสักครู่เข้ากับ Damage characteristic ของอาวุธยิงระยะไกลของผู้ถือ</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7394,7 +7396,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Ancestral Crest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e77a-3fd5-3f29-0bf2">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per turn, when you target the bearer&apos;s unit with the Command Re-roll Stratagem, the bearer can use this Enhancement. If it does, spend 1YP and reduces the CP cost of that Stratagem by 1CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อเทิร์น, เมื่อคุณเลือกยูนิตของพาหะด้วย Command Re-roll Stratagem, พาหะสามารถใช้ Enhancement นี้ได้ หากทำได้, ใช้จ่าย 1YP และลดค่า CP ของ Stratagem นั้นลง 1CP</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7426,7 +7428,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Fârstryder Node" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f75b-09fb-c628-7542">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Models in the bearer&apos;s unit have the Deep Strike abilty.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลในยูนิตของผู้ถือมีความสามารถ Deep Strike</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7471,7 +7473,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Graviton Vault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f1bf-8f44-8a5a-d87b">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after the bearer has shot, and in the Fight phase, after the bearer has fought, select one enemy ^^**Monster^^** or ^^**Vehicle**^^ unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Shooting phase ของคุณ, หลังจากที่ผู้ถือยิง, และใน Fight phase, หลังจากที่ผู้ถือต่อสู้แล้ว, เลือก ^^**Monster^^** หรือ ^^**Vehicle**^^ ฝ่ายศัตรูหนึ่งยูนิตที่ถูกโจมตีด้วยการโจมตีหนึ่งครั้งหรือมากกว่านั้น จนกว่าจะถึงจุดเริ่มต้นของเทิร์นถัดไปของคุณ, ยูนิตศัตรูนั้นจะถูก suppressed. ขณะที่ยูนิตถูก suppressed, ในแต่ละครั้งที่โมเดลในยูนิตนั้นทำการโจมตี, ให้ลบ 1 ออกจาก Hit roll</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7508,7 +7510,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Mantle of Elders" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6ae8-76e7-5b11-937f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time the bearer&apos;s unit is selected to shoot, if you spend YP using the Optimal Application Detachment rule when doing so, you can roll one D6: on a 2+, you gain 1YP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่ยูนิตของผู้ถือถูกเลือกให้ยิง หากคุณใช้ YP โดยใช้กฎ Optimal Application Detachment เมื่อทำเช่นนั้น คุณสามารถทอย D6 หนึ่งลูก: บนผล 2+ คุณได้รับ 1 YP</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7545,7 +7547,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Calculated Tenacity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5610-9e72-9032-8a72">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While the bearer is leading a unit, add 1 to the Objective Control characteristic of models in that unit.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ขณะที่ผู้ถือกำลังนำยูนิต, เพิ่ม 1 ให้กับ Objective Control characteristic ของโมเดลในยูนิตนั้น</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7587,7 +7589,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Quake Supervisor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a0af-9ec1-2db8-413e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In the Reinforcements step of your Movement phase, the bearer can use this Enhancement. If it does, select one friendly ^^**Cthonian Beserks^^** unit visible to the bearer and then spend any number of YP. Return one destroyed model to that unit, and then, for every 2YP you just spent, return up to one additional destroyed model to that unit.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Reinforcements step ของ Movement phase ฝ่ายคุณ, ผู้ถือสามารถใช้ Enhancement นี้ได้ หากทำเช่นนั้น, เลือกยูนิต ^^**Cthonian Beserks^^** ฝ่ายเดียวกัน 1 ยูนิตที่ผู้ถือมองเห็น แล้วใช้ YP จำนวนเท่าใดก็ได้ นำโมเดลที่ถูกทำลาย 1 ตัวกลับมายังยูนิตนั้น และจากนั้น, สำหรับทุกๆ 2YP ที่คุณใช้ไป นำโมเดลที่ถูกทำลายเพิ่มเติมสูงสุด 1 ตัวกลับมายังยูนิตนั้น</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7619,7 +7621,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Quake Supervisor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="364f-3bc8-c79f-8188">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While the bearer is within 3&quot; of one or more friendly ^^**Leagues of Votann Artillery^^** units, the bearer has the Lone Operative ability, and each time one of those ^^**Artillery^^** units makes a ranged attack that targets an enemy unit visible to the bearer, add 1 to the Hit roll.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในขณะที่ผู้ถืออยู่ภายในระยะ 3" จาก ^^**Leagues of Votann Artillery^^** ที่เป็นมิตรหนึ่งยูนิตหรือมากกว่า, ผู้ถือจะได้รับความสามารถ Lone Operative, และในแต่ละครั้งที่หนึ่งในยูนิต ^^**Artillery^^** เหล่านั้นทำการโจมตีระยะไกลที่กำหนดเป้าหมายยูนิตศัตรูที่ผู้ถือมองเห็น, เพิ่ม 1 ให้กับ Hit roll</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7651,7 +7653,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Piledriver" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4d1e-4abe-101d-3c11">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time the bearer&apos;s unit is selected to fight, the bearer can use this Enhancement. If it does, spend up to 2YP and, until the end of the phase, add the number of YP you just spent to the Damage characteristic of the bearer&apos;s melee weapons.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่ยูนิตของผู้ถือ ถูกเลือกให้ fight, ผู้ถือสามารถใช้ Enhancement นี้ได้ ถ้าทำเช่นนั้น, ใช้จ่าย YP ได้สูงสุด 2YP และ, จนกว่าจะสิ้นสุด phase, ให้เพิ่มจำนวน YP ที่คุณเพิ่งใช้ไปให้กับ Damage characteristic ของอาวุธ melee ของผู้ถือ</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7683,7 +7685,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Multiwave System Jammer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3ea5-2e96-f349-86e6">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, in your Movement phase, if the bearer is on the battlefield, it can use this Enhancement. If it does, select one friendly ^^**Cthonian^^** unit that is in Reserves. Until the end of the phase, for the purposes of setting up that unit on the battlefield, treat the current battle round number as one higher than it actually is.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อการรบ, ใน Movement phase ของคุณ, หากผู้ถืออยู่บนสนามรบ, มันสามารถใช้ Enhancement นี้ได้ หากทำเช่นนั้น, เลือกหนึ่งยูนิต ^^**Cthonian^^** ฝ่ายเดียวกันที่อยู่ใน Reserves จนกระทั่งสิ้นสุด phase, เพื่อวัตถุประสงค์ในการตั้งยูนิตนั้นบนสนามรบ, ให้ถือว่าหมายเลข battle round ปัจจุบันสูงกว่าที่เป็นจริงหนึ่งขั้น</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7715,7 +7717,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Tactical Alchemy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8446-8633-f438-d396">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Command phase, if the bearer&apos;s unit is in range of one or more objective markers you control that are not in your deployment zone, you can spend 1YP. If you do, roll one D6: on a 4+, you gain 1CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Command phase ของคุณ, หากยูนิตของผู้ถืออยู่ในระยะของ objective markers หนึ่งหน่วยหรือมากกว่าที่คุณควบคุมที่ไม่ได้อยู่ใน deployment zone ของคุณ, คุณสามารถใช้จ่าย 1YP. หากคุณทำเช่นนั้น, ทอยลูกเต๋า D6 หนึ่งลูก: เมื่อได้ 4+, คุณได้รับ 1CP</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7752,7 +7754,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Trivârg Cyber Implant" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6b6c-34d4-6ad1-b0ab">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, each time the bearer&apos;s unit is selected to shoot, if it disembarked from a ^^**Transport^^** this turn, or if you spend 2YP, until the end of the phase, ranged weapons equipped by model in that unit have the [**^^sustained hits 2^^**] ability.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในเฟส Shooting ของคุณ, ทุกครั้งที่ยูนิตของพาหะถูกเลือกให้ยิง, หากยูนิตนั้นลงจาก ^^**Transport^^** ในเทิร์นนี้, หรือหากคุณใช้ 2YP, จนกระทั่งสิ้นสุดเฟส, อาวุธระยะไกลที่ติดตั้งโดยโมเดลในยูนิตนั้นจะมีคุณสมบัติ [**^^sustained hits 2^^**]</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7784,7 +7786,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Precursive Judgement" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ffac-af2d-0470-7e85">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While the bearer&apos;s unit is wholly within 6&quot; of one or more friendly ^^**Leagues of Votann Transport^^** units, you can target the bearer&apos;s unit with the Fire Overwatch Stratagem for 0CP and hits are scored on an unmodified Hit roll of 5+ while resolving that Stratagem.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ขณะที่ยูนิตของพาหะอยู่ภายในระยะ 6 นิ้วจากยูนิต ^^**Leagues of Votann Transport^^** ที่เป็นมิตรหนึ่งยูนิตขึ้นไป คุณสามารถเลือกยูนิตของพาหะเป็นเป้าหมายด้วย Fire Overwatch Stratagem โดยใช้ 0CP และนับว่าโดนเมื่อทำการ unmodified Hit roll ได้ 5+ ขณะใช้ Stratagem นั้น</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7821,7 +7823,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Signature Restoration" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0481-09bb-fb1f-3311">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a friendly ^^**Leagues of Votann^^** model is repaired using the bearer&apos;s Forgewrought Expertise ability, that model regains one additional lost wound.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่โมเดล ^^**Leagues of Votann^^** ฝ่ายเดียวกันได้รับการซ่อมแซมโดยใช้ความสามารถ Forgewrought Expertise ของผู้ถือครอง โมเดลนั้นจะฟื้นฟูบาดแผลที่เสียไปเพิ่มอีกหนึ่งแต้ม</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7878,7 +7880,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Electrochaff Backups" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dbbc-7f30-4080-686b">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a ranged attack targets this unit, unless the attacking model is within 18&quot;, subtract 1 from the Hit roll.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่การโจมตีระยะไกลพุ่งเป้ามาที่ยูนิตนี้, เว้นแต่โมเดลที่โจมตีจะอยู่ในระยะ 18", ให้หัก 1 จาก Hit roll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7893,7 +7895,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
               <profiles>
                 <profile name="The Be&apos;gel Hunter&apos;s Plate" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b464-a2a2-caad-e194">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">BATTLESUIT model only. The bearer has a Save characteristic of 2+ and the Feel No Pain 5+ ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">BATTLESUIT โมเดลเท่านั้น. ผู้สวมใส่มีค่า Save characteristic เป็น 2+ และความสามารถ Feel No Pain 5+.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7942,9 +7944,10 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
               <profiles>
                 <profile name="The Tidecrystal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b5e7-392a-7d2d-670b">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, at the start of your Command phase, if the bearer is on the battlefield, you can do one of the following:
-■ Select one objective marker you do not control. Until the start of your next Command phase, each time a T’au Empire unit from your Crusade army makes a ranged attack that targets a unit within range of that objective marker, that T’au Empire unit is considered to be a Guided unit and that target unit is considered to be that T’au Empire unit’s Spotted unit.
-■ Select one objective marker you control. Until the start of your next Command phase, each time an enemy unit makes an attack that targets a T’au Empire unit from your Crusade army that is within range of that objective marker, subtract 1 from the Wound roll.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อแบทเทิล ในตอนเริ่มของ Command phase ของคุณ, ถ้าผู้ถืออยู่บนสนามรบ คุณสามารถทำสิ่งต่อไปนี้ได้: 
+                      - เลือก objective marker หนึ่งที่คุณไม่ได้ควบคุม. จนกว่าจะถึงจุดเริ่มต้นของ Command phase ถัดไปของคุณ, ในแต่ละครั้งที่ T’au Empire unit จาก Crusade army ของคุณทำการโจมตีระยะไกลที่กำหนดเป้าหมายยูนิตที่อยู่ภายในระยะของ objective marker นั้น, T’au Empire unit นั้นจะถือว่าเป็น Guided unit และยูนิตเป้าหมายนั้นจะถือว่าเป็น Spotted unit ของ T’au Empire unit นั้น
+
+                      - เลือก objective marker หนึ่งที่คุณควบคุม. จนกว่าจะถึงจุดเริ่มต้นของ Command phase ถัดไปของคุณ, ในแต่ละครั้งที่ยูนิตศัตรูทำการโจมตีที่กำหนดเป้าหมาย T’au Empire unit จาก Crusade army ของคุณที่อยู่ภายในระยะของ objective marker นั้น, ลบ 1 จาก Wound roll</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7986,7 +7989,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
               <profiles>
                 <profile name="Krep&apos;chak" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9c11-c6ce-b6c1-d184">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, when the bearers unit destroys an enemy unit, select one melee weapon equipped by the bearer (excluding Extra Attacks weapons). Until the end of the battle, add 1 to the Attacks, Strength, and Armour Penetration characteristics of that weapon.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งแต่แบทเทิล, เมื่อยูนิตของผู้ถือทำลายยูนิตฝ่ายศัตรู เลือกอาวุธ melee หนึ่งชิ้นที่ผู้ถือสวมใส่ (ยกเว้น Extra Attacks weapons). จนกระทั่งจบแบทเทิล เพิ่ม 1 ให้กับ characteristics ของ Attacks, Strength และ Armour Penetration ของอาวุธ นั้น</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8047,29 +8050,30 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="351a-a702-9080-7f08" name="Prioritised Efficiency" hidden="false">
-      <description>If your Army Faction is ^^**Leagues of Votann^^**, ^^**Leagues of Votann^^** units from your army have one of two abilities: Hostile Acquisition or Fortify Takeover (see below). During the battle, which ability those ^^**Leagues of Votann^^** units have will change depending on how many Yield points (YP) you currently have:
-- At the start of the battle, your units have Hostile Acquisition until the start of your next Command phase.
+      <description> หาก Army Faction ของคุณคือ ^^**Leagues of Votann^^**, ยูนิต ^^**Leagues of Votann^^** จากกองทัพของคุณจะมีหนึ่งในสองความสามารถ: Hostile Acquisition หรือ Fortify Takeover (ดูด้านล่าง) ระหว่างการต่อสู้ ความสามารถที่ยูนิต ^^**Leagues of Votann^^** เหล่านั้นมีจะเปลี่ยนไปขึ้นอยู่กับจำนวน Yield points (YP) ที่คุณมีในปัจจุบัน:
+        
+        - เมื่อเริ่มการต่อสู้ ยูนิตของคุณจะมีความสามารถ Hostile Acquisition จนกว่าจะถึงจุดเริ่มต้นของ Command phase ถัดไปของคุณ
+        
+        - เมื่อสิ้นสุด Command phase ของคุณ หากคุณมี YP น้อยกว่า 7 ยูนิตของคุณจะมีความสามารถ Hostile Acquisition จนกว่าจะถึงจุดเริ่มต้นของ Command phase ถัดไปของคุณ
+        
+        - เมื่อสิ้นสุด Command phase ของคุณ หากคุณมี YP ตั้งแต่ 7 ขึ้นไป ยูนิตของคุณจะมีความสามารถ Fortify Takeover จนกว่าจะถึงจุดเริ่มต้นของ Command phase ถัดไปของคุณ
+        
+        **Hostile Acquisition**
 
-- At the end of your Command phase, if you have fewer than 7YP, your units have Hostile Acquisition until the start of your next Command phase.
+        - แต่ละครั้งที่โมเดลในยูนิตนี้ทำการโจมตีที่กำหนดเป้าหมายยูนิตศัตรูที่อยู่ในระยะของ objective markers หนึ่งตัวหรือมากกว่านั้น ให้เพิ่ม 1 ให้กับ Hit roll
+        
+        - คุณสามารถ re‑roll Advance และ Charge rolls ที่ทำโดยยูนิตนี้ได้
+        
+        
+        
+        **Fortify Takeover**
 
-- At the end of your Command phase, if you have 7YP or more, your units have Fortify Takeover until the start of your next Command phase.
-
-
-
-**Hostile Acquisition**
-- Each time a model in this unit makes an attack that targets an enemy unit within range of one or more objective markers, add 1 to the Hit roll.
-
-- You can re‑roll Advance and Charge rolls made for this unit.
-
-
-
-**Fortify Takeover**
-- Each time a model in this unit makes an attack that targets an enemy unit, if this unit is within range of one or more objective markers you control, add 1 to the Hit roll.
-
-- Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic and this unit is not a Vehicle, subtract 1 from the Wound roll.</description>
+        - แต่ละครั้งที่โมเดลในยูนิตนี้ทำการโจมตีที่กำหนดเป้าหมายยูนิตศัตรู หากยูนิตนี้อยู่ในระยะของ objective markers หนึ่งตัวหรือมากกว่านั้นที่คุณควบคุม ให้เพิ่ม 1 ให้กับ Hit roll
+        
+        - แต่ละครั้งที่การโจมตีกำหนดเป้าหมายยูนิตนี้ หาก Strength characteristic ของการโจมตีนั้นมากกว่า Toughness characteristic ของยูนิตนี้ และยูนิตนี้ไม่ใช่ Vehicle ให้ลบ 1 ออกจาก Wound roll</description>
     </rule>
     <rule id="5cfb-f5b5-a838-4622" name="Conversion (Thunderkyn)" hidden="false">
-      <description>Each time an attack made with this weapon targets an enemy unit that is not within 12&quot;, an unmodified Hit roll of 4+ scores a Critical Hit.</description>
+      <description>ในแต่ละครั้งที่ attack ที่กระทำด้วยอาวุธนี้ target ไปยัง enemy unit ที่ไม่อยู่ภายในระยะ 12" การ unmodified Hit roll ที่มีผล 4+ ขึ้นไป จะนับเป็น Critical Hit</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -8133,7 +8137,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
     </profile>
     <profile name="Guerrilla Adepts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3ec4-7c77-e372-884e">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2&quot; from its Move characteristic and subtract 2 from Charge rolls made for it.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Shooting phase ของคุณ หลังจากที่ยูนิตนี้ถูกเลือกเพื่อยิง ยูนิตนี้สามารถใช้ความสามารถนี้ได้ หากทำเช่นนั้น ให้เลือกยูนิตศัตรูหนึ่งยูนิต (ยกเว้น ^^**Monsters^^** และ ^^**Vehicles^^**) จนกระทั่งสิ้นสุด phase การโจมตีที่ทำโดยโมเดลในยูนิตนี้จะสามารถโจมตียูนิตศัตรูนั้นเท่านั้น (และเฉพาะในกรณีที่ยูนิตนั้นเป็นเป้าหมายที่เหมาะสม) และหลังจากแก้ไขการโจมตีเหล่านั้น หากการโจมตีหนึ่งครั้งหรือมากกว่านั้นโจมตียูนิตศัตรูนั้นสำเร็จ จนกระทั่งเริ่ม Shooting phase ถัดไปของคุณ ยูนิตศัตรูนั้นจะถูก assailed (นี่เป็นเพียงการระบุชื่อยูนิตนั้นเพื่อวัตถุประสงค์ของความสามารถนี้และบาง Enhancements หรือ Stratagems) หากยูนิตนั้นถูก assailed อยู่แล้ว จนกระทั่งเริ่ม Shooting phase ถัดไปของคุณ ยูนิตนั้นจะถูก pinned ด้วย ในขณะที่ยูนิตถูก pinned ให้ลบ 2" ออกจาก Move characteristic ของมัน และลบ 2 ออกจาก Charge rolls ที่ทำเพื่อยูนิตนั้น</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -8145,7 +8149,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
     </profile>
     <profile name="Firebase Control (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d890-09df-9ccc-0d3b">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly ^^**Leagues of Votann Infantry^^** unit is wholly within 6&quot; of this ^^**Transport^^**, ranged weapons equipped by models in that ^^**Infantry^^** unit have the [^^**sustained hits 1^^**] ability.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในขณะที่ยูนิต ^^**Leagues of Votann Infantry^^** ฝ่ายเดียวกันอยู่ภายในระยะ 6\" ทั้งหมดจาก ^^**Transport^^** นี้ อาวุธระยะไกลที่ติดตั้งโดยโมเดลในยูนิต ^^**Infantry^^** นั้นจะมีความสามารถ [^^**sustained hits 1^^**]</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
