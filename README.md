@@ -1,8 +1,9 @@
 Warhammer 40,000 10th Edition
 ==================
 
-[![Latest release](https://img.shields.io/github/release/3xbun/wh40k-10e-th.svg?style=flat-square)](https://github.com/3xbun/wh40k-10e-th/releases/latest)
-[![Commits (since latest release)](https://img.shields.io/github/commits-since/3xbun/wh40k-10e-th/latest.svg?style=flat-square)](https://github.com/3xbun/wh40k-10e-th/releases)
+![Static Badge](https://img.shields.io/badge/Add_System_On-New_Recruit-red?style=for-the-badge&logo=porkbun&link=https%3A%2F%2Fwww.newrecruit.eu%2Fapp%2FMySystems%3FaddSystem%3D3xbun%252Fwh40k-10e-th%26ref%3DHEAD)
+
+[![Latest commit](https://img.shields.io/github/last-commit/3xbun/wh40k-10e-th.svg?style=flat-square)](https://github.com/3xbun/wh40k-10e-th/commits/main/)
 [![Open bugs](https://img.shields.io/github/issues/3xbun/wh40k-10e-th/bug.svg?style=flat-square&label=bugs)](https://github.com/3xbun/wh40k-10e-th/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
 [![Contributors](https://img.shields.io/github/contributors/3xbun/wh40k-10e-th.svg?style=flat-square)](https://github.com/3xbun/wh40k-10e-th/graphs/contributors)
 [![Commit activity the past year](https://img.shields.io/github/commit-activity/y/3xbun/wh40k-10e-th.svg?style=flat-square)](https://github.com/snoykiwk/wh40k-10e-th/pulse/monthly)
