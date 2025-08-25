@@ -12424,7 +12424,7 @@ bearer can be moved during that move</characteristic>
       <profiles>
         <profile name="Duty Eternal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3f75-88b1-db9c-63cd">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่มีการโจมตีถูกจัดสรรให้กับโมเดลนี้, ให้ลบ 1 จากค่า Damage ของการโจมตีนั้น</characteristic>
           </characteristics>
         </profile>
         <profile name="Redemptor Dreadnought" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="fb8b-9d5e-93cb-e1d5">
@@ -22473,7 +22473,9 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="218-97c0-d456-35ed">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 6 Adeptus Astartes Infantry models.  It cannot transport JUMP PACK, WULFEN, PHOBOS, GRAVIS, CENTURION, TERMINATOR or TACTICUS models (excluding TACTICUS CHARACTER models that began the battle attached to a non-TACTICUS unit)</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มีความจุในการขนส่งโมเดล Adeptus Astartes Infantry จำนวน 6 โมเดล 
+มันไม่สามารถขนส่งโมเดล JUMP PACK, WULFEN, PHOBOS, GRAVIS, CENTURION, TERMINATOR หรือ TACTICUS ได้ 
+(ยกเว้นโมเดล TACTICUS CHARACTER ที่เข้าร่วมกับยูนิตที่ไม่ใช่ TACTICUS ตั้งแต่เริ่มต้นเกม)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -25262,7 +25264,7 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Mental Fortress [Psychic]" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bb55-61bd-98d2-9b40">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้กำลังเป็นผู้นำยูนิต, โมเดลในยูนิตนั้นมี 4+ invulnerable save </characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้กำลังเป็นผู้นำยูนิต, โมเดลในยูนิตนั้นมี 4+ invulnerable save</characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fbef-6d32-361e-9163">
@@ -35968,7 +35970,7 @@ Attacks characteristic of 7.</characteristic>
         </profile>
         <profile name="Mental Fortress" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="35b7-41e1-1488-6df9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้กำลังเป็นผู้นำยูนิต, โมเดลในยูนิตนั้นมี 4+ invulnerable save </characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้กำลังเป็นผู้นำยูนิต, โมเดลในยูนิตนั้นมี 4+ invulnerable save</characteristic>
           </characteristics>
         </profile>
         <profile name="Librarian on Bike [Legends]" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="162f-c761-a306-1f2d">
