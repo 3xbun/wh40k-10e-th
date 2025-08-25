@@ -203,7 +203,9 @@
         </profile>
         <profile id="fb5-f6b1-80d6-70fd" name="Line-breaker" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When making ranged attacks, this model can target enemy units within Engagement Range of it with Blast weapons (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">เมื่อทำการโจมตีระยะไกล, โมเดลนี้สามารถกำหนดเป้าหมายยูนิตศัตรูที่อยู่ในระยะ Engagement Range ของมันด้วยอาวุธ Blast ได้ 
+(ตราบใดที่ไม่มียูนิตฝ่ายเดียวกันยูนิตอื่นอยู่ในระยะ Engagement Range ของยูนิตศัตรูนั้นด้วย) นอกจากนี้, เมื่อทำการโจมตีระยะไกล, 
+โมเดลนี้ไม่ได้รับผลกระทบจากค่าปรับต่อ Hit rolls ของมัน จากการที่อยู่ในระยะ Engagement Range ของยูนิตศัตรูหนึ่งยูนิตหรือมากกว่า</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -811,12 +813,12 @@
         </profile>
         <profile id="f060-be4d-a86a-b1fe" name="Deredeo Strike" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่โมเดลนี้ทำการโจมตีด้วย อาวุธระยะไกล ซึ่งกำหนดเป้าหมายไปยังยูนิตที่ไม่ได้มีจำนวนโมเดล ต่ำกว่าครึ่งหนึ่ง, คุณสามารถ re-roll the Hit roll ได้</characteristic>
           </characteristics>
         </profile>
         <profile id="94ae-19b0-b7b1-2b1e" name="Invunerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มี 5+ invulnerable save</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1420,12 +1422,12 @@
         </profile>
         <profile id="bf09-f457-24d5-9fb6" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มี 5+ invulnerable save </characteristic>
           </characteristics>
         </profile>
         <profile id="731d-26c2-a9e8-d336" name="Duty Eternal" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่มีการจัดสรรการโจมตีให้กับโมเดลนี้, ให้ลบ 1 จากค่า Damage ของการโจมตีนั้น</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1722,7 +1724,8 @@
         </profile>
         <profile id="98e6-37a7-3883-a9f3" name="Fire and Redeploy" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, each time this model has shot, if it is not within Engagement Range of any enemy units, it can make a Normal move of up to D6&quot;. If it does, until the end of the turn, this model is not eligible to declare a charge.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในช่วง Shooting phase ของคุณ, ทุกครั้งที่โมเดลนี้ยิง, หากไม่ได้อยู่ในระยะ Engagement Range ของยูนิตศัตรูใดๆ, 
+มันสามารถทำการเคลื่อนที่แบบ Normal ได้สูงสุด D6&quot; หากทำเช่นนั้น, จนกระทั่งจบเทิร์น, โมเดลนี้ไม่สามารถประกาศ charge ได้</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1866,7 +1869,8 @@
         </profile>
         <profile id="44e2-e0aa-839c-e60a" name="Deathstorm Assault" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model must start the battle in Reserves, but it is not counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้ต้องเริ่มเกมใน Reserves, แต่มันจะไม่ถูกนับรวมกับขีดจำกัดสูงสุดของจำนวนยูนิต Reserves ที่คุณสามารถมีได้ในตอนเริ่มเกม 
+โมเดลนี้สามารถนำลงสู่สนามรบได้ในช่วง Reinforcements step ของ Movement phase แรก, ที่สอง, หรือที่สามของคุณ, โดยไม่ต้องคำนึงถึงกฎของภารกิจใดๆ</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1968,7 +1972,9 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 &lt;FACTION&gt; INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS, POSSESSED or TERMINATOR model takes up the space of 2 models and each CENTURION or OBLITERATOR model takes up the space of 3 models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">โมเดลนี้มีความจุในการขนส่งโมเดล Adeptus Astartes Infantry จำนวน 12 โมเดล 
+แต่ละโมเดล Jump Pack, Wulfen, Gravis หรือ Terminator จะใช้พื้นที่เท่ากับ 2 โมเดล
+และแต่ละโมเดล Centurion จะใช้พื้นที่เท่ากับ 3 โมเดล</characteristic>
           </characteristics>
         </profile>
         <profile id="f53-ffc6-3321-6d2e" name="Land Raider Proteus (Explorator augury web)" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
@@ -1980,7 +1986,9 @@
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 6 &lt;FACTION&gt; INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS, POSSESSED or TERMINATOR model takes up the space of 2 models and each CENTURION or OBLITERATOR model takes up the space of 3 models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">โมเดลนี้มีความจุในการขนส่งโมเดล &lt;FACTION&gt; INFANTRY จำนวน 6 โมเดล 
+แต่ละโมเดล JUMP PACK, WULFEN, GRAVIS, POSSESSED หรือ TERMINATOR จะใช้พื้นที่เท่ากับ 2 โมเดล
+และแต่ละโมเดล CENTURION หรือ OBLITERATOR จะใช้พื้นที่เท่ากับ 3 โมเดล</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2091,12 +2099,14 @@
         </profile>
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f10e-18ea-1aa8-73ec">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มี 4+ invulnerable save</characteristic>
           </characteristics>
         </profile>
         <profile id="4712-6a46-45d8-e9b1" name="Land Raider Achilles" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 &lt;FACTION&gt; INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS, POSSESSED or TERMINATOR model takes up the space of 2 models and each CENTURION or OBLITERATOR model takes up the space of 3 models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">โมเดลนี้มีความจุในการขนส่งโมเดล &lt;FACTION&gt; INFANTRY จำนวน 12 โมเดล 
+แต่ละโมเดล JUMP PACK, WULFEN, GRAVIS, POSSESSED หรือ TERMINATOR จะใช้พื้นที่เท่ากับ 2 โมเดล 
+และแต่ละโมเดล CENTURION หรือ OBLITERATOR จะใช้พื้นที่เท่ากับ 3 โมเดล</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2895,7 +2905,8 @@
         </profile>
         <profile name="Powerful Volley" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="97b5-36db-6062-3092">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model shoots in your Shooting phase, provided it Remained Stationary this turn, all [HEAVY] weapons equipped by models in this unit have the [LETHAL HITS] ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่โมเดลนี้ยิงในช่วง Shooting phase ของคุณ, ตราบใดที่มันยังไม่เคลื่อนที่ที่ในเทิร์นนี้, 
+อาวุธ [HEAVY] ทั้งหมดที่ติดตั้งโดยโมเดลในยูนิตนี้จะได้รับความสามารถ [LETHAL HITS]</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3283,7 +3294,7 @@
         </profile>
         <profile name="Dreadnought Drop Pod" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="abbc-353f-3514-e348">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 1 Dreadnought model.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">โมเดลนี้มีความจุในการขนส่ง (Transport Capacity) 1 โมเดลที่เป็น Dreadnought</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4658,7 +4669,7 @@
       <profiles>
         <profile name="Damaged: 1-10 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6a33-178-237b-66f2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-10 wounds remaining, subtract 6 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้เหลือ 1-10 wound, ให้ลบ 6 จากค่า Objective Control ของโมเดลนี้ และทุกครั้งที่โมเดลนี้ทำการโจมตี, ให้ลบ 1 จาก Hit roll</characteristic>
           </characteristics>
         </profile>
         <profile name="Mastodon" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="8535-102e-42ec-ee10">
@@ -4673,12 +4684,17 @@
         </profile>
         <profile name="Inviolable Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7403-4ad3-f2b0-cf99">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle round, when an attack is allocated to this model, you can change the Damage characteristic of that attack to 0.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อ battle round, เมื่อมีการจัดสรรการโจมตีให้กับโมเดลนี้, 
+คุณสามารถเปลี่ยนค่า Damage ของการโจมตีนั้นให้เป็น 0 ได้ [หนึ่งลูก]</characteristic>
           </characteristics>
         </profile>
         <profile name="Mastodon" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="249a-bc7e-1789-17e9">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 45 &lt;FACTION&gt; INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS, POSSESSED or TERMINATOR model takes up the space of 2 models and each CENTURION or OBLITERATOR model takes up the space of 3 models. This model can also transport up to 2 DREADNOUGHT or HELBRUTE models (these models take up the space of a number of models equal to their Wounds characteristic e.g. A DREADNOUGHT with a Wounds characteristic of 8 would take up the space of 8  models).</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">โมเดลนี้มีความจุในการขนส่งโมเดล &lt;FACTION&gt; INFANTRY จำนวน 45 โมเดล 
+แต่ละโมเดล JUMP PACK, WULFEN, GRAVIS, POSSESSED หรือ TERMINATOR จะใช้พื้นที่เท่ากับ 2 โมเดล 
+และแต่ละโมเดล CENTURION หรือ OBLITERATOR จะใช้พื้นที่เท่ากับ 3 โมเดล 
+โมเดลนี้ยังสามารถขนส่งโมเดล DREADNOUGHT หรือ HELBRUTE ได้สูงสุด 2 โมเดล 
+(โมเดลเหล่านี้จะใช้พื้นที่เท่ากับจำนวน Wounds ของโมเดล เช่น DREADNOUGHT ที่มีค่า Wounds เท่ากับ 8 จะใช้พื้นที่เท่ากับ 8 โมเดล)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6152,7 +6168,7 @@
   <sharedProfiles>
     <profile id="8edb-b088-4c26-2fef" name="Damaged: 1-6 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้มี 1-6 wound คงเหลือ, ทุกครั้งที่โมเดลนี้ทำการโจมตี, ให้ลบ 1 จาก Hit roll</characteristic>
       </characteristics>
     </profile>
     <profile id="d44e-2f5-cadf-9eb" name="Damaged: 1-4 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -6162,12 +6178,13 @@
     </profile>
     <profile id="3106-d752-30b8-b24d" name="Damaged: 1-5 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้มี 1-5 wound คงเหลือ, ทุกครั้งที่โมเดลนี้ทำการโจมตี, ให้ลบ 1 จาก Hit roll</characteristic>
       </characteristics>
     </profile>
     <profile id="b1c6-8391-4b18-5d57" name="Assault Ramp" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่ยูนิตหนึ่งทำการลงจากโมเดลนี้หลังจากที่มันทำการ Normal move แล้ว, 
+ยูนิตนั้นยังคงมีสิทธิ์ที่จะประกาศ charge ได้ในเทิร์นนี้</characteristic>
       </characteristics>
     </profile>
     <profile name="Damaged: 1-8 wounds remaining" hidden="false" id="4362-2036-1522-de2e" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">

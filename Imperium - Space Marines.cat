@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e0af-67df-9d63-8fb7" name="Imperium - Adeptus Astartes - Space Marines" revision="124" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Acebaur">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e0af-67df-9d63-8fb7" name="Imperium - Adeptus Astartes - Space Marines" revision="125" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Acebaur">
   <categoryEntries>
     <categoryEntry id="5179-8ede-45e3-49a2" name="Tacticus" hidden="false"/>
     <categoryEntry id="930d-2875-125b-a65e" name="Bladeguard Veteran Squad" hidden="false"/>
@@ -4032,12 +4032,16 @@
       <profiles>
         <profile name="Objective Secured" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1164-3aff-c9a6-718d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ถ้าคุณควบคุม objective marker ในตอนจบ Command phase ของคุณและยูนิตนี้อยู่ในระยะของ objective marker นั้น, 
+objective marker นั้นจะยังคงอยู่ภายใต้การควบคุมของคุณ, แม้ว่าคุณจะไม่มีโมเดลอยู่ในระยะของมันเลยก็ตาม, 
+จนกว่าฝ่ายตรงข้ามของคุณจะควบคุมมันในตอนเริ่มต้นหรือตอนจบของเทิร์นใดๆ</characteristic>
           </characteristics>
         </profile>
         <profile name="Target Elimination" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4207-56a0-b930-84bd">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, add 2 to the Attacks characteristic of bolt rifles equipped by models in this unit and you can only select one enemy unit as the target of all of this unit&apos;s attacks</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่ยูนิตนี้ถูกเลือกให้ยิง, มันสามารถใช้ความสามารถนี้ได้ หากทำเช่นนั้น, จนกระทั่งจบเฟส, 
+ให้บวก 2 ให้กับค่า Attacks ของ bolt rifles ที่โมเดลในยูนิตนี้ติดตั้งอยู่ 
+และคุณจะสามารถเลือกยูนิตศัตรูเพียงยูนิตเดียวเป็นเป้าหมายของการโจมตีทั้งหมดของยูนิตนี้ได้เท่านั้น</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4551,7 +4555,8 @@
       <profiles>
         <profile name="Purge the Foe" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b3c7-e6c3-c500-616a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this unit has shot, you can select one enemy Infantry unit hit by one or more of those attacks made with a pyreblaster. That enemy unit must take a Battle-shock test, subtracting 1 from that test.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Shooting phase ของคุณ, หลังจากที่ยูนิตนี้ได้ยิงไปแล้ว, คุณสามารถเลือกหนึ่งยูนิต Infantry ของศัตรูที่ถูกโจมตีโดนด้วยการโจมตีหนึ่งครั้งหรือมากกว่า
+ที่ทำด้วย pyreblaster ยูนิตศัตรูนั้นจะต้องทำการทดสอบ Battle-shock test, โดยลบ 1 ออกจากการทดสอบนั้น</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5342,7 +5347,7 @@
       <profiles>
         <profile name="Omni-scramblers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bdf4-e126-138d-d0e5">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Enemy units that are set up on the battlefield from Reserves cannot be set up within 12&quot; of this unit.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ยูนิตของศัตรูที่ถูกนำลงสู่สนามรบจาก Reserves ไม่สามารถถูกนำมาวางในระยะ 12&quot; จากยูนิตนี้ได้</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5620,7 +5625,8 @@
       <profiles>
         <profile name="Multi-spectrum Array" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="19f7-84bb-8aca-b2de">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this unit has shot, select one enemy unit that was hit by one or more attacks made by this unit this phase. Until the end of the phase, each time a friendly Adeptus Astartes unit makes an attack that targets that enemy unit, add 1 to the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Shooting phase ของคุณ, หลังจากที่ยูนิตนี้ได้ยิงไปแล้ว, เลือกหนึ่งยูนิตศัตรูที่ถูกโจมตีโดนด้วยการโจมตีหนึ่งครั้งหรือมากกว่าที่ทำโดยยูนิตนี้ในเฟสนี้ 
+จนกระทั่งจบเฟส, ในแต่ละครั้งที่ยูนิตที่เป็นมิตร Adeptus Astartes ทำการโจมตีซึ่งกำหนดเป้าหมายไปยังยูนิตศัตรูนั้น, ให้บวก 1 ให้กับ Hit roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11496,7 +11502,8 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Combat Support" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e58e-7a39-e2bd-a58b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per turn, in your opponent’s Shooting phase, when a friendly Adeptus Astartes Phobos Infantry unit within 6&quot; of this model is selected as the target of an attack, this model can use this ability. If it does, after that enemy model’s unit has finished making its attacks, this model can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อเทิร์น, ใน Shooting phase ของฝ่ายตรงข้าม, เมื่อยูนิตที่เป็นมิตร Adeptus Astartes Phobos Infantry ที่อยู่ในระยะ 6&quot; จากโมเดลนี้ถูกเลือกเป็นเป้าหมายของการโจมตี, โมเดลนี้สามารถใช้ความสามารถนี้ได้ 
+หากทำเช่นนั้น, หลังจากที่ยูนิตของโมเดลศัตรูนั้นทำการโจมตีเสร็จสิ้นแล้ว, โมเดลนี้สามารถยิงได้เสมือนว่าเป็น Shooting phase ของคุณ, แต่เมื่อทำการโจมตีเหล่านั้น มันจะสามารถกำหนดเป้าหมายได้เฉพาะยูนิตศัตรูนั้นเท่านั้น (และจะทำได้ก็ต่อเมื่อยูนิตนั้นยังเป็นเป้าหมายที่ยิงได้)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11731,7 +11738,8 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Wisdom of the Ancients [Aura]" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="53dd-b506-8f4b-26b2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่ยูนิตที่เป็นมิตร Adeptus Astartes Infantry อยู่ในระยะ 6&quot; จากโมเดลนี้, ในแต่ละครั้งที่โมเดลในยูนิตนั้นทำการโจมตี, re-roll a Hit roll ที่ออก 1</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่ยูนิตที่เป็นมิตร Adeptus Astartes Infantry อยู่ในระยะ 6&quot; จากโมเดลนี้,
+ในแต่ละครั้งที่โมเดลในยูนิตนั้นทำการโจมตี, re-roll a Hit roll ที่ออก 1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12080,7 +12088,8 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Siege-breaker Protocols" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3bfc-c8c2-7d75-f058">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a melee attack that targets a Vehicle or Fortification unit, add 1 to the Hit roll and add 1 to the Wound roll</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่โมเดลนี้ทำการโจมตีระยะประชิดที่กำหนดเป้าหมายยูนิต VEHICLE หรือ Fortification, 
+ให้เพิ่ม 1 ให้กับ Hit roll และเพิ่ม 1 ให้กับ Wound roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14117,7 +14126,8 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Outrider Escort" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e845-dd69-ee7c-5661">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per turn, in your opponent&apos;s Shooting phase, when another friendly ^^Adeptus Astartes Mounted^^ unit within 6&quot; of this model is selected as the target of an attack, one model from your army with this ability can use it. If it does, after that enemy unit has finished making its attacks, that model can shoot as if it were your Shooting phase , but when resolving those attacks it can only target that enemy unit [and only if it is an eligible target).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อเทิร์น, ใน Shooting phase ของฝ่ายตรงข้าม, เมื่อยูนิตที่เป็นมิตร Adeptus Astartes Mounted อีกยูนิตหนึ่งที่อยู่ในระยะ 6&quot; จากโมเดลนี้ถูกเลือกเป็นเป้าหมายของการโจมตี, โมเดลหนึ่งตัวจากกองทัพของคุณที่มีความสามารถนี้สามารถใช้มันได้ 
+หากทำเช่นนั้น, หลังจากที่ยูนิตศัตรูนั้นทำการโจมตีเสร็จสิ้นแล้ว, โมเดลนั้นสามารถยิงได้เสมือนว่าเป็น Shooting phase ของคุณ, แต่เมื่อทำการโจมตีเหล่านั้น มันจะสามารถกำหนดเป้าหมายได้เฉพาะยูนิตศัตรูนั้นเท่านั้น (และจะทำได้ก็ต่อเมื่อยูนิตนั้นยังเป็นเป้าหมายที่ยิงได้)</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -14436,7 +14446,8 @@ bearer can be moved during that move</characteristic>
       <profiles>
         <profile name="Thunderous Impact" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b4bd-e247-b596-4db2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, improve the Strength and Damage characteristics of that attack by 1</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่โมเดลในยูนิตนี้ทำการโจมตีระยะประชิด, หากยูนิตนี้ทำการเคลื่อนที่แบบ charge ในเทิร์นนี้, 
+ให้เพิ่มค่า Strength และ Damage ของการโจมตีนั้นขึ้น 1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16037,7 +16048,9 @@ bearer can be moved during that move</characteristic>
       <profiles>
         <profile name="Meteoric Descent" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="93be-2ff0-7890-946b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Movement phase, when this unit is set up on the battlefield using the Deep Strike ability, it can perform a meteoric descent. If it does, this unit can be set up anywhere on the battlefield that is more than 6&quot; horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Movement phase ของคุณ, เมื่อยูนิตนี้ถูกนำลงสู่สนามรบโดยใช้ความสามารถ Deep Strike, มันสามารถใช้ความสามารถ meteoric descent ได้ 
+หากทำเช่นนั้น, ยูนิตนี้สามารถถูกนำมาวางที่ใดก็ได้ในสนามรบซึ่งอยู่ห่างในแนวราบมากกว่า 6&quot; จากยูนิตศัตรูทั้งหมด, 
+แต่จนกระทั่งจบเทิร์น, มันจะไม่มีสิทธิ์ประกาศ charge</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16762,7 +16775,9 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Fire and Redeploy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="930b-b532-25ef-9718">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, each time this model has shot, if it is not within Engagement Range of any enemy units, it can make a Normal move of up to D6&quot;. If it does, until the end of the turn, this model is not eligible to declare a charge.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในช่วง Shooting phase ของคุณ, ทุกครั้งที่โมเดลนี้ยิง, หากไม่ได้อยู่ในระยะ Engagement Range ของยูนิตศัตรูใดๆ, 
+มันสามารถทำการเคลื่อนที่แบบ Normal ได้สูงสุด D6&quot; หากทำเช่นนั้น, 
+จนกระทั่งจบเทิร์น, โมเดลนี้ไม่สามารถประกาศ charge ได้</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16938,7 +16953,9 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Strafing Enfilade" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7392-d65a-71c6-5e05">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model ends a Normal move, you can select one enemy unit (excluding Monster and Vehicle units) that it moved over during that move, then roll six D6: for each 4+, that enemy unit suffers 1 mortal wound</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่โมเดลนี้จบการเคลื่อนที่แบบ Normal, คุณสามารถเลือกยูนิตศัตรูหนึ่งยูนิต (ยกเว้นยูนิต Monster และ VEHICLE) 
+ที่มันเคลื่อนที่ข้ามไปในระหว่างการเคลื่อนที่นั้น จากนั้นทอย D6 หกลูก: สำหรับแต่ละผลลัพท์ที่ 4+, 
+ยูนิตศัตรูนั้นได้รับความเสียหาย 1 mortal wound</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17122,7 +17139,9 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Target Sighted" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="49d8-6dae-d4e2-8da2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of your Shooting phase, select one enemy unit that is visible to this model. Until the end of the phase, each time a friendly Adeptus Astartes model makes an attack with a Blast weapon that targets that enemy unit, add 1 to the Hit roll and that attack has the [IGNORES COVER] ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในช่วงเริ่มต้นของ Shooting phase ของคุณ, เลือกยูนิตศัตรูหนึ่งยูนิตที่สามารถมองเห็นได้โดยโมเดลนี้ จนกระทั่งจบเฟส, 
+ทุกครั้งที่โมเดล Adeptus Astartes ฝ่ายเดียวกันทำการโจมตีด้วยอาวุธประเภท Blast ที่กำหนดเป้าหมายยูนิตศัตรูนั้น, 
+ให้เพิ่ม 1 ให้กับ Hit roll และการโจมตีนั้นจะได้รับความสามารถ [IGNORES COVER]</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18347,7 +18366,8 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Armorium Cherub" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f7bb-7761-411b-1eed">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, after making a Hit roll for a model in this unit, you can change that roll to an unmodified 6.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อเกม, หลังจากที่ทำการทอย Hit roll ให้กับโมเดลในยูนิตนี้,
+คุณสามารถเปลี่ยนผลของการทอยเต๋านั้นให้เป็น 6 ที่ไม่สามารถปรับค่าได้ [หนึ่งลูก]</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19269,7 +19289,7 @@ bearer can be moved during that move</characteristic>
         <profile name="Hunter Missile Targeting" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a856-9b1d-a0a7-471c">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่โมเดลนี้ทำการโจมตีด้วย skyspear missile launcher ซึ่งกำหนดเป้าหมายไปยังยูนิต MONSTER หรือ VEHICLE, 
-การโจมตีนั้นการทอย Hit roll ที่ไม่สามารถปรับค่าได้ที่ 2+ จะสำเร็จ </characteristic>
+การโจมตีนั้นการทอย Hit roll ที่ไม่สามารถปรับค่าได้ที่ 2+ จะสำเร็จ</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19939,7 +19959,8 @@ bearer can be moved during that move</characteristic>
       <profiles>
         <profile name="Destructor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4bba-93e6-ebe2-381c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack that targets an Infantry unit, improve the Armour Penetration characteristic of that attack by 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่โมเดลนี้ทำการโจมตีระยะไกลที่กำหนดเป้าหมายยูนิต Infantry, 
+ให้เพิ่มค่า Armour Penetration ของการโจมตีนั้นขึ้น 1</characteristic>
           </characteristics>
         </profile>
         <profile name="Predator Destructor" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="f2b8-bb29-706b-31ac">
@@ -20183,7 +20204,8 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Annihilator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="93ac-8dc6-ee19-be18">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a ranged attack made by this model is allocated to a Monster or Vehicle model, you can re‑roll the Damage roll</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่การโจมตีระยะไกลที่ทำโดยโมเดลนี้ถูกจัดสรรให้กับโมเดล Monster หรือ VEHICLE, 
+คุณสามารถ re-roll the Damage roll ได้</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -21133,12 +21155,15 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Assault Ramp" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="946c-f2a3-8b7f-b54e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่ยูนิตหนึ่งทำการลงจากโมเดลนี้หลังจากที่มันทำการ Normal move แล้ว, 
+ยูนิตนั้นยังคงมีสิทธิ์ที่จะประกาศ charge ได้ในเทิร์นนี้</characteristic>
           </characteristics>
         </profile>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="311f-69c4-af58-77c8">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มีความจุในการขนส่งโมเดล Adeptus Astartes Infantry จำนวน 12 โมเดล 
+แต่ละโมเดล Jump Pack, Wulfen, Gravis หรือ Terminator จะใช้พื้นที่เท่ากับ 2 โมเดล
+และแต่ละโมเดล Centurion จะใช้พื้นที่เท่ากับ 3 โมเดล</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -21331,7 +21356,9 @@ bearer can be moved during that move</characteristic>
       <profiles>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d1ad-53ff-33b0-b5bd">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 16 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มีความจุในการขนส่งโมเดล Adeptus Astartes Infantry จำนวน 12 โมเดล 
+แต่ละโมเดล Jump Pack, Wulfen, Gravis หรือ Terminator จะใช้พื้นที่เท่ากับ 2 โมเดล
+และแต่ละโมเดล Centurion จะใช้พื้นที่เท่ากับ 3 โมเดล</characteristic>
           </characteristics>
         </profile>
         <profile name="Land Raider Crusader" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="bb59-4663-434b-2613">
@@ -21346,7 +21373,8 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Assault Ramp" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3bdf-c8be-699-936">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่ยูนิตหนึ่งทำการลงจากโมเดลนี้หลังจากที่มันทำการ Normal move แล้ว, 
+ยูนิตนั้นยังคงมีสิทธิ์ที่จะประกาศ charge ได้ในเทิร์นนี้</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -21525,12 +21553,15 @@ bearer can be moved during that move</characteristic>
       <profiles>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f48a-d2c-24e3-b957">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 14 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มีความจุในการขนส่งโมเดล Adeptus Astartes Infantry จำนวน 14 โมเดล 
+แต่ละโมเดล Jump Pack, Wulfen, Gravis หรือ Terminator จะใช้พื้นที่เท่ากับ 2 โมเดล
+และแต่ละโมเดล Centurion จะใช้พื้นที่เท่ากับ 3 โมเดล</characteristic>
           </characteristics>
         </profile>
         <profile name="Assault Ramp" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9fd4-6136-6db3-b56b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่ยูนิตหนึ่งทำการลงจากโมเดลนี้หลังจากที่มันทำการ Normal move แล้ว, 
+ยูนิตนั้นยังคงมีสิทธิ์ที่จะประกาศ charge ได้ในเทิร์นนี้</characteristic>
           </characteristics>
         </profile>
         <profile name="Land Raider Redeemer" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="8cc5-a000-2be1-39f3">
@@ -22436,7 +22467,8 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Fire Support" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="21e-428-eea2-55e0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has  shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในช่วง Shooting phase ของคุณ, หลังจากโมเดลนี้ยิงเสร็จแล้ว, ให้เลือกยูนิตศัตรูหนึ่งยูนิตที่มันโจมตีโดนได้อย่างน้อยหนึ่งครั้งในเฟสนี้ 
+จนกระทั่งจบเฟส, ทุกครั้งที่โมเดลที่เป็นที่ลงจาก Transport นี้ในเทิร์นนี้ทำการโจมตีที่กำหนดเป้าหมายยูนิตศัตรูนั้น, คุณสามารถ re-roll the Wound roll ได้</characteristic>
           </characteristics>
         </profile>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="218-97c0-d456-35ed">
@@ -22611,12 +22643,14 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="51b9-1985-e818-cc43">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 7 TACTICUS or PHOBOS INFANTRY models. It cannot transport JUMP PACK models.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มีความจุในการขนส่ง (Transport Capacity) 7 โมเดลที่เป็น TACTICUS หรือ PHOBOS INFANTRY 
+มันไม่สามารถขนส่งโมเดล JUMP PACK ได้</characteristic>
           </characteristics>
         </profile>
         <profile name="Assault Vehicle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aa73-4cca-5285-aa">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Units can disembark from this Transport after it has Advanced. Units that do so count as having made a Normal move, and cannot declare a charge that turn.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ยูนิตสามารถลงจาก Transport นี้ได้หลังจากที่มันได้ทำการ Advanced 
+ยูนิตที่ทำเช่นนั้นจะนับว่าได้ทำการ Normal move, และไม่สามารถประกาศ charge ในเทิร์นนั้นได้</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -23046,12 +23080,13 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Storm Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="17e3-d6b7-9d53-95c5">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่ยูนิตหนึ่งทำการลงจากโมเดลนี้หลังจากที่มันทำการเคลื่อนที่แบบ Normal แล้ว,
+ยูนิตนั้นยังคงมีสิทธิ์ที่จะประกาศ charge ได้ในเทิร์นนี้</characteristic>
           </characteristics>
         </profile>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="43ab-45be-5467-de53">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 6 models. It can only transport Scout Squad, Scout Sniper Squad and Sergeant Telion models.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มีความจุในการขนส่งจำนวน 6 โมเดล มันสามารถขนส่งได้เฉพาะโมเดล Scout Squad, Scout Sniper Squad และ Sergeant Telion เท่านั้น</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -24679,7 +24714,7 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ba72-8a45-4bf0-d10c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถเข้าร่วมกับยูนิตต่อไปนี้ได้:
 
 ■ Assault Intercessor Squad
 ■ Bladeguard Veteran Squad
@@ -24690,7 +24725,7 @@ bearer can be moved during that move</characteristic>
 ■ Sternguard Veteran Squad
 ■ Tactical Squad
 
-You can attach this model to a unit it can lead even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.</characteristic>
+คุณสามารถให้โมเดลนี้เข้าร่วมกับหนึ่งในยูนิตข้างต้นได้ แม้ว่าในยูนิตนั้นจะมีโมเดล Captain, Chapter Master หนึ่งตัวเข้าร่วมอยู่แล้วก็ตาม หากคุณทำเช่นนั้น, และยูนิต Bodyguard นั้นถูกทำลาย, ยูนิต Leader ที่เข้าร่วมอยู่จะกลายเป็นยูนิตแยก, พร้อมกับค่า Starting Strength เดิมของพวกมัน</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -24789,16 +24824,16 @@ You can attach this model to a unit it can lead even if one Captain or Chapter 
         </profile>
         <profile name="Deadly Terror" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fbda-ce4d-4c1-da22">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, increase the range of that unit’s Terror Troops ability by 3&quot;.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้กำลังเป็นผู้นำยูนิต, ให้เพิ่มระยะของความสามารถ Terror Troops ของยูนิตนั้นขึ้น 3&quot;</characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="42b2-7d1e-f1c-abdd">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following unit:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถเข้าร่วมกับยูนิตต่อไปนี้ได้:
 
 ■ Reiver Squad
 
-You can attach this model a unit it can lead even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.</characteristic>
+คุณสามารถให้โมเดลนี้เข้าร่วมกับหนึ่งในยูนิตข้างต้นได้ แม้ว่าในยูนิตนั้นจะมีโมเดล Captain, Chapter Master หนึ่งตัวเข้าร่วมอยู่แล้วก็ตาม หากคุณทำเช่นนั้น, และยูนิต Bodyguard นั้นถูกทำลาย, ยูนิต Leader ที่เข้าร่วมอยู่จะกลายเป็นยูนิตแยก, พร้อมกับค่า Starting Strength เดิมของพวกมัน</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -25000,18 +25035,19 @@ You can attach this model a unit it can lead even if one Captain or Chapter Mas
         </profile>
         <profile name="Strategic Dispersal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eec8-a500-c73f-95d7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model’s unit has shot, if it is not within Engagement Range of any enemy models, it can make a Normal move of up to  6&quot;. If it does, until the end of the turn, that unit is not eligible to declare a charge.’</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในช่วง Shooting phase ของคุณ, หลังจากยูนิตของโมเดลนี้ยิงเสร็จแล้ว, หากไม่ได้อยู่ในระยะ Engagement Range ของโมเดลศัตรูใดๆ,
+ มันสามารถทำการเคลื่อนที่แบบ Normal ได้สูงสุด 6&quot; หากทำเช่นนั้น, จนกระทั่งจบเทิร์น, ยูนิตนั้นไม่สามารถประกาศ charge ได้</characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6071-4e16-eb0f-63a6">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถเข้าร่วมกับยูนิตต่อไปนี้ได้:
 
 ■ Incursor Squad
 ■ Infiltrator Squad
 ■ Reiver Squad
 
-You can attach this model to a unit it can lead units even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.</characteristic>
+คุณสามารถให้โมเดลนี้เข้าร่วมกับหนึ่งในยูนิตข้างต้นได้ แม้ว่าในยูนิตนั้นจะมีโมเดล Captain, Chapter Master หนึ่งตัวเข้าร่วมอยู่แล้วก็ตาม หากคุณทำเช่นนั้น, และยูนิต Bodyguard นั้นถูกทำลาย, ยูนิต Leader ที่เข้าร่วมอยู่จะกลายเป็นยูนิตแยก, พร้อมกับค่า Starting Strength เดิมของพวกมัน</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -25226,12 +25262,12 @@ You can attach this model to a unit it can lead units even if one Captain or Ch
         </profile>
         <profile name="Mental Fortress [Psychic]" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bb55-61bd-98d2-9b40">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, models in that unit have a 4+ invulnerable save.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้กำลังเป็นผู้นำยูนิต, โมเดลในยูนิตนั้นมี 4+ invulnerable save </characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fbef-6d32-361e-9163">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถเข้าร่วมกับยูนิตต่อไปนี้ได้:
 
 ■ Assault Intercessor Squad
 ■ Desolation Squad
@@ -25443,8 +25479,8 @@ You can attach this model to a unit it can lead units even if one Captain or Ch
       <profiles>
         <profile name="Shrouding [Psychic]" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3f4a-63fb-254-9364">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, models in that unit have the Stealth ability and that unit cannot be targeted by ranged attacks unless the attacking
-model is within 12&quot;.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้กำลังเป็นผู้นำยูนิต, โมเดลในยูนิตนั้นจะได้รับความสามารถ Stealth 
+และยูนิตนั้นไม่สามารถถูกกำหนดเป้าหมายด้วยอาวุธระยะไกลได้ เว้นแต่โมเดลที่โจมตีจะอยู่ภายใน 12&quot;</characteristic>
           </characteristics>
         </profile>
         <profile name="Librarian in Phobos Armor" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="c911-97d4-97e8-59b6">
@@ -25459,7 +25495,7 @@ model is within 12&quot;.</characteristic>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2b01-240c-52a6-88e7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถเข้าร่วมกับยูนิตต่อไปนี้ได้:
 
 ■ Eliminator Squad
 ■ Incursor Squad
@@ -25708,7 +25744,7 @@ model is within 12&quot;.</characteristic>
       <profiles>
         <profile name="Veil of Time [Psychic]" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="31b2-e5b4-c863-9992">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้กำลังเป็นผู้นำยูนิต, อาวุธที่ติดตั้งโดยโมเดลในยูนิตนั้นจะได้รับความสามารถ [SUSTAINED HITS 1]</characteristic>
           </characteristics>
         </profile>
         <profile name="Librarian in Terminator Armor" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="f929-c63a-4613-80cf">
@@ -25723,7 +25759,7 @@ model is within 12&quot;.</characteristic>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d0c-d5f-c94-6a53">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถเข้าร่วมกับยูนิตต่อไปนี้ได้:
 
 ■ Relic Terminator Squad
 ■ Terminator Assault Squad
@@ -25858,12 +25894,12 @@ model is within 12&quot;.</characteristic>
         </profile>
         <profile name="Might of Heroes [Pyschic]" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fb71-30d2-69a7-6697">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, improve the Strength and Armour Penetration characteristic of melee weapons equipped by models in that unit by 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้กำลังเป็นผู้นำยูนิต, เพิ่มค่า Strength และ Armour Penetration ของอาวุธระยะประชิดที่ติดตั้งโดยโมเดลในยูนิตนั้นขึ้น 1</characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="667f-b83f-474c-3faf">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถเข้าร่วมกับยูนิตต่อไปนี้ได้:
 
 ■ Assault Squad with Jump Packs
 ■ Vanguard Veteran Squad with Jump Packs</characteristic>
@@ -27503,17 +27539,20 @@ Attacks characteristic of 7.</characteristic>
         </profile>
         <profile name="Priority Objective Identified" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2288-75ee-5b84-2775">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the first battle round, if your army includes one or more models with this ability, you can select one objective marker on the battlefield. Until the end of the battle, while one or more models with this ability are on the battlefield, each time a friendly ADEPTUS ASTARTES model makes an attack that targets an enemy unit that is within range of that objective marker, re-roll a Wound roll of 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในช่วงเริ่มต้นของ battle round แรก, หากกองทัพของคุณมีโมเดลที่มีความสามารถนี้หนึ่งโมเดลหรือมากกว่า, 
+คุณสามารถเลือก objective marker หนึ่งจุดบนสนามรบ จนกระทั่งจบเกม, ตราบใดที่โมเดลที่มีความสามารถนี้หนึ่งโมเดลหรือมากกว่ายังคงอยู่บนสนามรบ, 
+ทุกครั้งที่โมเดล ADEPTUS ASTARTES ฝ่ายเดียวกันทำการโจมตีที่กำหนดเป้าหมายยูนิตศัตรูที่อยู่ในระยะของ objective marker นั้น, ให้ re-roll a Wound roll ที่ออก 1</characteristic>
           </characteristics>
         </profile>
         <profile name="Evade and Survive" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6c2b-dfc3-89ab-e9ff">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9&quot; of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อเทิร์น, เมื่อยูนิตศัตรูจบการเคลื่อนที่แบบ Normal, Advance หรือ Fall Back ภายใน 9&quot; จากยูนิตนี้, 
+หากยูนิตนี้ไม่ได้อยู่ในระยะ Engagement Range ของยูนิตศัตรูหนึ่งยูนิตหรือมากกว่า, มันสามารถทำการเคลื่อนที่แบบ Normal ได้</characteristic>
           </characteristics>
         </profile>
         <profile name="Lone Survivor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="83b0-5817-564d-d92b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model cannot be selected to be your **^^Warlord^^**.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้ไม่สามารถถูกเลือกให้เป็น Warlord ของคุณได้</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -27688,17 +27727,20 @@ Attacks characteristic of 7.</characteristic>
         </profile>
         <profile name="Honour or Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c13d-1672-b49b-371d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit and you can target that unit with the Heroic Intervention  stratagem for 0CP, even if you have already used that Stratagem on a different unit this phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้กำลังเป็นผู้นำยูนิต, ให้เพิ่ม 1 ให้กับ Advance และ charge roll ของยูนิตนั้น 
+และคุณสามารถกำหนดเป้าหมายยูนิตนั้นด้วย Stratagem Heroic Intervention ได้ด้วย 0 CP, 
+แม้ว่าคุณจะใช้ Stratagem นั้นกับยูนิตอื่นไปแล้วในเฟสนี้ก็ตาม</characteristic>
           </characteristics>
         </profile>
         <profile name="Martial Superiority" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6e30-67a0-e97d-3512">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่โมเดลนี้ทำการโจมตีระยะประชิดที่กำหนดเป้าหมายยูนิต Character, 
+คุณสามารถ re-roll the Hit roll ได้ และคุณสามารถ re-roll the Wound roll ได้</characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f866-2e66-d276-7cc0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถเข้าร่วมกับยูนิตต่อไปนี้ได้:
 
 ■ Assault Intercessor Squad
 ■ Bladeguard Veteran Squad
@@ -28713,7 +28755,7 @@ Attacks characteristic of 7.</characteristic>
 ■ Terminator Squad
 ■ Terminator Assault Squad
 
-คุณสามารถให้โมเดลนี้เข้าร่วมกับหนึ่งในยูนิตข้างต้นได้ แม้ว่าในยูนิตนั้นจะมีโมเดล Captain, Chapter Master หรือ Lieutenant หนึ่งตัวเข้าร่วมอยู่แล้วก็ตาม หากคุณทำเช่นนั้น, และยูนิต Bodyguard นั้นถูกทำลาย, ยูนิต Leader ที่เข้าร่วมอยู่จะกลายเป็นยูนิตแยก, พร้อมกับค่า Starting Strength เดิมของพวกมัน</characteristic>
+คุณสามารถให้โมเดลนี้เข้าร่วมกับหนึ่งในยูนิตข้างต้นได้ แม้ว่าในยูนิตนั้นจะมีโมเดล Captain, Chapter Master หนึ่งตัวเข้าร่วมอยู่แล้วก็ตาม หากคุณทำเช่นนั้น, และยูนิต Bodyguard นั้นถูกทำลาย, ยูนิต Leader ที่เข้าร่วมอยู่จะกลายเป็นยูนิตแยก, พร้อมกับค่า Starting Strength เดิมของพวกมัน</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -29607,23 +29649,25 @@ Attacks characteristic of 7.</characteristic>
         </profile>
         <profile name="Tempormortis" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e8ec-5b94-53b2-1229">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, that unit has the Fights First ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้กำลังเป็นผู้นำยูนิต, ยูนิตนั้นจะได้รับความสามารถ Fights First</characteristic>
           </characteristics>
         </profile>
         <profile name="Silent Fury" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="81e6-9c44-9af6-e6a5">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model destroys an enemy Character model, until the end of the battle, add 1 to the Attacks characteristic of its executioner relic blade.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่โมเดลนี้ทำลายโมเดล Character ของศัตรู, จนกระทั่งจบเกม,
+ให้เพิ่ม 1 ให้กับค่า Attacks ของ executioner relic blade ของมัน</characteristic>
           </characteristics>
         </profile>
         <profile name="Invulnerable Save*" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3a9c-eadb-624f-6d6b">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">4+
-* This model has a 4+ invulnerable save against melee attacks.</characteristic>
+โมเดลนี้มี invulnerable save 4+ ต่อการโจมตีระยะประชิด</characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9839-fe55-3fc2-c9e7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถเข้าร่วมกับยูนิตต่อไปนี้ได้:
+
 
 ■ Assault Intercessor Squad
 ■ Bladeguard Veteran Squad
@@ -30859,12 +30903,15 @@ Attacks characteristic of 7.</characteristic>
       <profiles>
         <profile name="Assault Ramp" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f147-b56c-dbca-e01a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่ยูนิตหนึ่งทำการลงจากโมเดลนี้หลังจากที่มันทำการ Normal move แล้ว, 
+ยูนิตนั้นยังคงมีสิทธิ์ที่จะประกาศ charge ได้ในเทิร์นนี้</characteristic>
           </characteristics>
         </profile>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5a0a-5557-a36a-1a3d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มีความจุในการขนส่งโมเดล Adeptus Astartes Infantry จำนวน 12 โมเดล 
+แต่ละโมเดล Jump Pack, Wulfen, Gravis หรือ Terminator จะใช้พื้นที่เท่ากับ 2 โมเดล
+และแต่ละโมเดล Centurion จะใช้พื้นที่เท่ากับ 3 โมเดล</characteristic>
           </characteristics>
         </profile>
         <profile name="Land Raider Helios [Legends]" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="b6b5-25b2-90ec-e167">
@@ -31089,7 +31136,7 @@ Attacks characteristic of 7.</characteristic>
         </profile>
         <profile name="Mortis Strike" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="85b6-dc61-b59d-2e99">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่โมเดลนี้ทำการโจมตีระยะไกลที่กำหนดเป้าหมายยูนิตที่ไม่ได้อยู่ในสถานะ ต่ำกว่าครึ่งหนึ่ง, คุณสามารถ re-roll Hit roll ได้</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -32017,7 +32064,8 @@ Attacks characteristic of 7.</characteristic>
         </profile>
         <profile name="Isolate and Destroy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ae6f-18f-928c-3862">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponent’s army within 6&quot; of that target, add 1 to the Wound roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่โมเดลนี้ทำการโจมตีที่กำหนดเป้าหมายยูนิตศัตรู, 
+หากไม่มียูนิตอื่นจากกองทัพของฝ่ายตรงข้ามของคุณภายใน 6&quot; จากเป้าหมายนั้น, ให้เพิ่ม 1 ให้กับ Wound roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -32547,12 +32595,15 @@ Attacks characteristic of 7.</characteristic>
       <profiles>
         <profile name="Assault Ramp" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="af2f-1276-517a-7530">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่ยูนิตหนึ่งทำการลงจากโมเดลนี้หลังจากที่มันทำการ Normal move แล้ว, 
+ยูนิตนั้นยังคงมีสิทธิ์ที่จะประกาศ charge ได้ในเทิร์นนี้</characteristic>
           </characteristics>
         </profile>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a364-2ddf-6bdc-49a3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มีความจุในการขนส่งโมเดล Adeptus Astartes Infantry จำนวน 12 โมเดล 
+แต่ละโมเดล Jump Pack, Wulfen, Gravis หรือ Terminator จะใช้พื้นที่เท่ากับ 2 โมเดล
+และแต่ละโมเดล Centurion จะใช้พื้นที่เท่ากับ 3 โมเดล</characteristic>
           </characteristics>
         </profile>
         <profile name="Land Raider Prometheus" hidden="false" id="76c8-9d21-9603-c4be" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -33287,12 +33338,15 @@ Attacks characteristic of 7.</characteristic>
       <profiles>
         <profile name="Assault Ramp" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c73b-5548-ab0c-c9b1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่ยูนิตหนึ่งทำการลงจากโมเดลนี้หลังจากที่มันทำการ Normal move แล้ว, 
+ยูนิตนั้นยังคงมีสิทธิ์ที่จะประกาศ charge ได้ในเทิร์นนี้</characteristic>
           </characteristics>
         </profile>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5bb8-2a39-d78f-3f9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มีความจุในการขนส่งโมเดล Adeptus Astartes Infantry จำนวน 12 โมเดล 
+แต่ละโมเดล Jump Pack, Wulfen, Gravis หรือ Terminator จะใช้พื้นที่เท่ากับ 2 โมเดล
+และแต่ละโมเดล Centurion จะใช้พื้นที่เท่ากับ 3 โมเดล</characteristic>
           </characteristics>
         </profile>
         <profile name="Land Raider Excelsior [Legends]" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e73a-ff54-8ae0-6a53">
@@ -35906,7 +35960,7 @@ Attacks characteristic of 7.</characteristic>
       <profiles>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="292a-c073-f9f3-3e45">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถเข้าร่วมกับยูนิตต่อไปนี้ได้:
 
 ■ Bike Squad
 ■ Outrider Squad</characteristic>
@@ -35914,7 +35968,7 @@ Attacks characteristic of 7.</characteristic>
         </profile>
         <profile name="Mental Fortress" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="35b7-41e1-1488-6df9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, models in that unit have a 4+ invulnerable save.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้กำลังเป็นผู้นำยูนิต, โมเดลในยูนิตนั้นมี 4+ invulnerable save </characteristic>
           </characteristics>
         </profile>
         <profile name="Librarian on Bike [Legends]" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="162f-c761-a306-1f2d">
@@ -38306,8 +38360,7 @@ Saga of the Beastslayer
                   <characteristics>
                     <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น หนึ่งครั้งต่อเกม, ในช่วงเริ่มต้นของ Fight phase, 
 ผู้ถือสามารถใช้ Enhancement นี้ได้ หากทำเช่นนั้น, จนกระทั่งจบเฟส, 
-อาวุธระยะประชิดของผู้ถือจะได้รับความสามารถ [SUSTAINED HITS 3]
-</characteristic>
+อาวุธระยะประชิดของผู้ถือจะได้รับความสามารถ [SUSTAINED HITS 3]</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
