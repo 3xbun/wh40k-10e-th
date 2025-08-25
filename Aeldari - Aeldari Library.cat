@@ -4878,7 +4878,7 @@ While this model is leading a Striking Scorpions unit, it has the Infiltrators, 
         </profile>
         <profile name="Transport" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="da78-79ae-395d-f521">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 6 ^^Aeldari Infantry^^ models. Each ^^Wraith Construct^^ model takes the space of 2 models. It cannot transport ^^Jump Pack^^ models or ^^Ynnari^^ models (excluding ^^Asuryani^^, ^^Yvraine^^ and ^^The Visarch^^ models)</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">โมเดลนี้มีความจุในการขนส่ง ^^Aeldari Infantry^^ 6 โมเดล โมเดล ^^Wraith Construct^^ แต่ละตัวใช้พื้นที่เทียบเท่ากับ 2 โมเดล ไม่สามารถขนส่งโมเดล ^^Jump Pack^^ หรือโมเดล ^^Ynnari^^ ได้ (ยกเว้นโมเดล ^^Asuryani^^, ^^Yvraine^^ และ ^^The Visarch^^)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10128,7 +10128,7 @@ Attacks characteristic of this model’s Solitaire weapons.</characteristic>
         </profile>
         <profile name="Starweaver" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="9c6-2ec1-17be-c398">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 6 Harlequins Infantry models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">โมเดลนี้มีความจุในการขนส่ง Harlequins Infantry 6 โมเดล</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13985,7 +13985,7 @@ You can attach this model to a unit, even  if one ^^Autarch^^ or ^^Farseer^^ m
         </profile>
         <profile name="Wave Serpent" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="5b10-2a95-ad5f-8b5b">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 ^^Aeldari Infantry^^ models. Each ^^Wraith Construct^^ model takes the space of 2 models. It cannot transport ^^Jump Pack^^ models or ^^Ynnari^^ models (excluding ^^Asuryani^^, ^^Yvraine^^ and ^^The Visarch^^ models).</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">โมเดลนี้มีความจุในการลำเลียง ^^Aeldari Infantry^^ 12 โมเดล โมเดล ^^Wraith Construct^^ แต่ละตัวใช้พื้นที่เท่ากับ 2 โมเดล ไม่สามารถลำเลียงโมเดล ^^Jump Pack^^ หรือโมเดล ^^Ynnari^^ ได้ (ยกเว้นโมเดล ^^Asuryani^^, ^^Yvraine^^ และ ^^The Visarch^^)</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-4 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9cc8-6992-c56f-275f">
@@ -19395,7 +19395,7 @@ It can also move through sections of terrain features that are more than 4&quot;
         </profile>
         <profile name="Raider" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="26e-2946-d18b-708b">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 11 Drukhari Infantry models. Each Grotesque model takes up the space of 3 models. This model cannot transport models that can Fly</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">โมเดลนี้มีความจุในการขนส่งโมเดล Drukhari Infantry ได้ 11 โมเดล Grotesque แต่ละตัวใช้พื้นที่เท่ากับ 3 โมเดล โมเดลนี้ไม่สามารถขนส่งโมเดลที่สามารถ Fly ได้</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -21957,10 +21957,9 @@ It can also move through sections of terrain features that are more than 4&quot;
         </profile>
         <profile name="Venom" hidden="false" id="c518-341b-c681-20b0" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" id="1ff3-7d74-c003-bc21" hidden="false" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 6 Drukhari Infantry models. This model cannot transport Grotesque models or models that can Fly. 
-
-
-Before the battle, at the start of the Declare Battle Formations step, you can select one Kabalite Warriors or Wyches unit from your army. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this Transport; the other can start the battle embarked within another Transport, or it can be deployed as a separate unit.</characteristic>
+            <characteristic name="Capacity" id="1ff3-7d74-c003-bc21" hidden="false" typeId="30f2-be70-861d-1b84">โมเดลนี้มี transport capacity 6 Drukhari Infantry models. โมเดลนี้ไม่สามารถขนส่ง Grotesque models หรือ models ที่สามารถ Fly ได้
+              
+            ก่อนการรบ, ในช่วงเริ่มต้นของ Declare Battle Formations, คุณสามารถเลือก Kabalite Warriors หรือ Wyches หนึ่งยูนิต จากกองทัพของคุณ หากคุณทำเช่นนั้น, ยูนิตนั้นจะถูกแบ่งออกเป็นสองยูนิต, โดยแต่ละยูนิต มีโมเดลจำนวนเท่ากันมากที่สุดเท่าที่จะเป็นไปได้ (เมื่อทำการแบ่งยูนิตด้วยวิธีนี้, ให้จดบันทึกว่าโมเดล ใดบ้างที่ประกอบเป็นยูนิตใหม่แต่ละยูนิต) หนึ่งในยูนิตเหล่านี้จะต้องเริ่มต้นการรบโดย อยู่ภายใน Transport คันนี้; อีกยูนิตสามารถเริ่มต้นการรบโดยอยู่ภายใน Transport คันอื่น, หรือสามารถถูก deployed เป็นยูนิตแยกได้"</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -26511,7 +26510,7 @@ makes an attack, subtract 1 from the Hit roll</characteristic>
         </profile>
         <profile name="Tantalus" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="ec3b-91eb-1606-1753">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 16 Drukhari Infantry models. Each Grotesque model takes up the space of 3 models. This model cannot transport models that can Fly.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">โมเดลนี้มีความจุในการขนส่ง Drukhari Infantry โมเดลได้ 16 ตัว Grotesque โมเดลแต่ละตัวใช้พื้นที่เท่ากับ 3 โมเดล โมเดลนี้ไม่สามารถขนส่งโมเดลที่มีความสามารถ Fly ได้</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -29296,7 +29295,7 @@ makes an attack, subtract 1 from the Hit roll</characteristic>
       <profiles>
         <profile name="Transport" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="aa40-684c-a923-ec5d">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 6 Aeldari Infantry models. Each Wraith Construct model takes the space of 2 models. It cannot transport Jump Pack models</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">โมเดลนี้มีความจุในการขนส่ง Aeldari Infantry 6 โมเดล. Wraith Construct แต่ละตัวใช้พื้นที่เทียบเท่า 2 โมเดล. ไม่สามารถขนส่งโมเดล Jump Pack ได้</characteristic>
           </characteristics>
         </profile>
         <profile id="95a9-d64c-51d1-26bf" name="Damaged: 1-4 Wounds Remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -35021,7 +35020,7 @@ makes an attack, subtract 1 from the Hit roll</characteristic>
         </profile>
         <profile name="Raider" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="90ae-0fa3-d95d-ff2b">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 11 models from the following units: The Visarch, Ynnari Archon, Ynnari Incubi, Ynnari Kabalite Warriors, Ynnari Succubus, Ynnari Wyches, Yvraine.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">โมเดลนี้มีความจุในการขนส่ง 11 โมเดลจากยูนิตดังต่อไปนี้: The Visarch, Ynnari Archon, Ynnari Incubi, Ynnari Kabalite Warriors, Ynnari Succubus, Ynnari Wyches, Yvraine</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -35190,10 +35189,9 @@ makes an attack, subtract 1 from the Hit roll</characteristic>
         </profile>
         <profile name="Venom" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="e418-b9fb-a867-37f5">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 6 models from the following units: The Visarch, Ynnari Archon, Ynnari Incubi, Ynnari Kabalite Warriors, Ynnari Succubus, Ynnari Wyches, Yvraine.
-
-
-Before the battle, at the start of the Declare Battle Formations step, you can select one Ynnari Kabalite Warriors or Ynnari Wyches unit from your army that has not already been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this Transport; the other can start the battle embarked within another Transport, or it can be deployed as a separate unit.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">โมเดลนี้มีความสามารถในการขนส่ง (transport capacity) 6 โมเดลจากยูนิตต่อไปนี้: The Visarch, Ynnari Archon, Ynnari Incubi, Ynnari Kabalite Warriors, Ynnari Succubus, Ynnari Wyches, Yvraine
+              
+            ก่อนการต่อสู้ ในตอนเริ่มต้นของขั้นตอน Declare Battle Formations คุณสามารถเลือก Ynnari Kabalite Warriors หรือ Ynnari Wyches หนึ่งยูนิตจากกองทัพของคุณที่ยังไม่ได้ถูกแยก หากคุณทำ ยูนิตนั้นจะถูกแยกออกเป็นสองยูนิต แต่ละยูนิตมีจำนวนโมเดลเท่ากันมากที่สุดเท่าที่จะเป็นไปได้ (เมื่อแยกยูนิตด้วยวิธีนี้ ให้จดบันทึกว่าโมเดลใดประกอบเป็นแต่ละยูนิตใหม่ทั้งสองยูนิต) หนึ่งในยูนิตเหล่านี้จะต้องเริ่มการต่อสู้โดยขึ้นไปอยู่ภายใน Transport นี้; ส่วนอีกยูนิตสามารถเริ่มการต่อสู้โดยขึ้นไปอยู่ภายใน Transport อื่น, หรือสามารถถูกจัดวางเป็นยูนิตแยกต่างหาก</characteristic>
           </characteristics>
         </profile>
       </profiles>
