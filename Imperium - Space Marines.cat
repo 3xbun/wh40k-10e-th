@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e0af-67df-9d63-8fb7" name="Imperium - Adeptus Astartes - Space Marines" revision="123" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Acebaur">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e0af-67df-9d63-8fb7" name="Imperium - Adeptus Astartes - Space Marines" revision="124" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Acebaur">
   <categoryEntries>
     <categoryEntry id="5179-8ede-45e3-49a2" name="Tacticus" hidden="false"/>
     <categoryEntry id="930d-2875-125b-a65e" name="Bladeguard Veteran Squad" hidden="false"/>
@@ -5027,8 +5027,8 @@
       <profiles>
         <profile name="Unyielding in the Face of the Foe" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a59e-1577-d519-dcc2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit is within range of an objective marker you control, each time an attack with a Damage characteristic of 1 is allocated to a model in 
-this unit, add 1 to any armour saving throw made against that attack.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่ยูนิตนี้อยู่ในระยะของ objective marker ที่คุณควบคุม, ในแต่ละครั้งที่การโจมตีที่มีค่า Damage 1 ถูกจัดสรรมายังโมเดลในยูนิตนี้, 
+ให้บวก 1 ให้กับ armour saving throw ใดๆ ที่ทอยเพื่อป้องกันการโจมตีนั้น</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11731,7 +11731,7 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Wisdom of the Ancients [Aura]" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="53dd-b506-8f4b-26b2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly Adeptus Astartes Infantry unit is within 6&quot; of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่ยูนิตที่เป็นมิตร Adeptus Astartes Infantry อยู่ในระยะ 6&quot; จากโมเดลนี้, ในแต่ละครั้งที่โมเดลในยูนิตนั้นทำการโจมตี, re-roll a Hit roll ที่ออก 1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17313,7 +17313,9 @@ bearer can be moved during that move</characteristic>
       <profiles>
         <profile name="For the Chapter!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3b11-6884-cf0b-a5bf">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit is destroyed, roll one D6: on a 3+, do not remove it from play. The destroyed model can shoot after the attacking model’s unit has finished making its attacks, and is then removed from play. When resolving these attacks, any Hazardous tests taken for that attack are automatically passed.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่โมเดลในยูนิตนี้ถูกทำลาย, ให้ทอยเต๋า D6 หนึ่งลูก: หากได้ 3+, อย่านำโมเดลนั้นออกจากสนาม โมเดลที่ถูกทำลายจะสามารถยิงได้
+หลังจากที่ยูนิตของโมเดลที่ทำการโจมตีได้ทำการโจมตีทั้งหมดเสร็จสิ้นแล้ว, จากนั้นจึงจะถูกนำออกจากสนาม 
+เมื่อคิดผลการโจมตีเหล่านี้, Hazardous tests ใดๆ ที่เกิดขึ้นสำหรับการโจมตีนั้นจะผ่านโดยอัตโนมัติ</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17553,13 +17555,14 @@ bearer can be moved during that move</characteristic>
       <profiles>
         <profile name="Reposition Under Covering Fire" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d2ad-d0a2-4079-f902">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this unit has shot, if it contains an Eliminator Sergeant equipped with an instigator bolt carbine, this unit can make a
-Normal move. If it does so, until the end of the turn, this unit is not eligible to declare a charge.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Shooting phase ของคุณ, หลังจากที่ยูนิตนี้ได้ยิงไปแล้ว, 
+ถ้าในยูนิตนี้มี Eliminator Sergeant ที่ติดตั้ง instigator bolt carbine, ยูนิตนี้สามารถทำการ Normal move ได้ 
+หากทำเช่นนั้น, จนกระทั่งจบเทิร์น, ยูนิตนั้นจะไม่มีสิทธิ์ประกาศ charge</characteristic>
           </characteristics>
         </profile>
         <profile name="Mark the Target" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bda1-520a-6fd7-c422">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit Remains Stationary, until the start of your next Movement phase, ranged weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่ยูนิตนี้ Remains Stationary, จนกระทั่งถึงตอนเริ่มต้นของ Movement phase ถัดไปของคุณ, อาวุธระยะไกล ที่โมเดลในยูนิตนี้ติดตั้งอยู่จะได้รับความสามารถ [DEVASTATING WOUNDS]</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18016,7 +18019,8 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
       <profiles>
         <profile name="Total Obliteration" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4d12-6568-2ca8-dbf7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a ranged attack made by a model in this unit targets a Monster or Vehicle model, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re-roll the Damage roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่ อาวุธระยะไกล ที่ทำโดยโมเดลในยูนิตนี้กำหนดเป้าหมายไปยังโมเดล Monster หรือ Vehicle, 
+คุณสามารถ re-roll the Hit roll, คุณสามารถ re-roll the Wound roll และคุณสามารถ re-roll the Damage roll ได้</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18337,7 +18341,8 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
       <profiles>
         <profile name="Signum" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cca-bd2e-137e-9ae0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit Remains Stationary, until the start of your next Movement phase, ranged weapons equipped by models in this unit have the [IGNORES COVER] ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่ยูนิตนี้ Remains Stationary, จนกระทั่งถึงตอนเริ่มต้นของ Movement phase ถัดไปของคุณ, 
+อาวุธระยะไกล ที่โมเดลในยูนิตนี้ติดตั้งอยู่จะได้รับความสามารถ [IGNORES COVER]</characteristic>
           </characteristics>
         </profile>
         <profile name="Armorium Cherub" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f7bb-7761-411b-1eed">
@@ -19145,7 +19150,7 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         </profile>
         <profile name="Sentinel Protocals" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1989-6f58-9d94-8045">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time you select this unit for the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 4+ when resolving that Stratagem.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่คุณเลือกยูนิตนี้สำหรับ Stratagem Fire Overwatch, การทอย Hit roll ที่ไม่สามารถปรับค่าได้จะสำเร็จที่ 4+ เมื่อคิดผลของ Stratagem นั้น</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19263,7 +19268,8 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         </profile>
         <profile name="Hunter Missile Targeting" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a856-9b1d-a0a7-471c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack with its skyspear missile launcher that targets a Monster or Vehicle unit, that attack scores a hit on an unmodified Hit roll of 2+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่โมเดลนี้ทำการโจมตีด้วย skyspear missile launcher ซึ่งกำหนดเป้าหมายไปยังยูนิต MONSTER หรือ VEHICLE, 
+การโจมตีนั้นการทอย Hit roll ที่ไม่สามารถปรับค่าได้ที่ 2+ จะสำเร็จ </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20274,7 +20280,8 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         </profile>
         <profile name="Aqullon Optics" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5cd2-7b68-d2cb-e7e4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model is selected to shoot, you can re-roll one Hit roll, you can re-roll one Wound roll and you can re-roll one Damage roll when resolving its attacks</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่โมเดลนี้ถูกเลือกให้ยิง, คุณสามารถ re-roll Hit roll หนึ่งครั้ง, คุณสามารถ re-roll Wound roll หนึ่งครั้ง 
+และคุณสามารถ re-roll Damage roll หนึ่งครั้งได้ เมื่อคิดผลการโจมตีของมัน</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20535,7 +20542,7 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         </profile>
         <profile name="Rotating Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="59fa-d89c-5b6e-83a7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model’s twin heavy onslaught gatling cannon has the [SUSTAINED HITS 2] ability when targeting Infantry units.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">twin heavy onslaught gatling cannon ของโมเดลนี้จะได้รับความสามารถ [SUSTAINED HITS 2] เมื่อกำหนดเป้าหมายไปยังยูนิต Infantry</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20729,7 +20736,7 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         </profile>
         <profile name="Ferocious Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="242a-a6a9-4900-b4c6">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack with its twin las-talon that targets the closest eligible Monster or Vehicle unit, add 1 to the Hit roll</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่โมเดลนี้ทำการโจมตีด้วย twin las-talon ซึ่งกำหนดเป้าหมายไปยังยูนิต Monster หรือ Vehicle ที่เป็นเป้าหมายที่ยิงได้และอยู่ใกล้ที่สุด, ให้บวก 1 ให้กับ Hit roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -22900,22 +22907,24 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         </profile>
         <profile name="Drop Pod Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2f23-8c83-540c-fa07">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model must start the battle in Reserves and can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model must immediately disembark after it has been set up on the battlefield, and they must be set up more than 9&quot; away from all enemy models.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้ต้องเริ่มเกมใน Reserves และสามารถนำลงสู่สนามรบได้ในช่วง Reinforcements step ของ Movement phase แรก, ที่สอง, หรือที่สามของคุณ, โดยไม่ต้องคำนึงถึงกฎของภารกิจใดๆ 
+ยูนิตใดๆ ที่โดยสารอยู่ข้างในโมเดลนี้จะต้องลงจากยานทันทีหลังจากที่มันได้ถูกนำลงสู่สนามรบแล้ว, และพวกเขาจะต้องถูกนำมาวางให้ห่างมากกว่า 9&quot; จากโมเดลศัตรูทั้งหมด</characteristic>
           </characteristics>
         </profile>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a232-6e38-a6ef-b5f4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 12 Adeptus Astartes Infantry models. It cannot transport Jump Pack, Wulfen, Gravis, Centurion or Terminator models.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มีความจุในการขนส่ง Adeptus Astartes Infantry 12 โมเดล
+มันไม่สามารถขนส่งโมเดล Jump Pack, Wulfen, Gravis, Centurion หรือ Terminator ได้</characteristic>
           </characteristics>
         </profile>
         <profile name="Combat Disembarkation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="07a4-673e-7ec8-2fb5">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a unit disembarks from this model after it has been set up on the battlefield, that unit is still eligible to declare a charge this turn</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่ยูนิตลงจากโมเดลนี้หลังจากที่มันได้ถูกนำลงสู่สนามรบแล้ว, ยูนิตนั้นจะยังคงสามารถประกาศ charge ได้ในเทิร์นนี้</characteristic>
           </characteristics>
         </profile>
         <profile name="Deployment Complete" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4d36-b9ac-2aa9-b06f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once this unit is set up on the battlefield and all units within it have disembarked, until the end of the battle, units cannot embark within this TRANSPORT</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">เมื่อยูนิตนี้ได้ถูกนำลงสู่สนามรบและยูนิตทั้งหมดข้างในได้ลงจากยานแล้ว, จนกระทั่งจบเกม, จะไม่มียูนิตใดสามารถโดยสารข้างใน TRANSPORT นี้ได้อีก</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -23935,14 +23944,17 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
         </profile>
         <profile name="Fortification" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4f66-cea2-404b-2c52">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While an enemy unit is only within Engagement Range of one or more Fortifications from your army:
-■ That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.
-■ Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่ยูนิตศัตรูอยู่ใน Engagement Range ของ Fortification หนึ่งยูนิตหรือมากกว่าจากกองทัพของคุณเท่านั้น:
+
+
+■ ยูนิตนั้นยังคงสามารถถูกเลือกเป็นเป้าหมายของ อาวุธระยะไกล ได้, แต่ในแต่ละครั้งที่การโจมตีดังกล่าวเกิดขึ้น, เว้นแต่มันจะยิงด้วย Pistol, ให้ลบ 1 ออกจาก Hit roll
+■ โมเดลในยูนิตนั้นไม่จำเป็นต้องทำการทดสอบ Desperate Escape tests เนื่องจากการ Fell Back ขณะที่ติดสถานะ Battle-shocked, ยกเว้นโมเดลเหล่านั้นที่จะเคลื่อนที่ทะลุผ่านโมเดลศัตรูเมื่อทำเช่นนั้น</characteristic>
           </characteristics>
         </profile>
         <profile name="Ceramite Cover" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="324a-c2ac-7ff8-df8">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่ อาวุธระยะไกล ถูกจัดสรรมายังโมเดล, ถ้าโมเดลนั้นไม่สามารถถูกมองเห็นได้ทั้งหมด
+โดยโมเดลทุกตัวในยูนิตที่ทำการโจมตีเพราะมี Fortification นี้บังอยู่, โมเดลนั้นจะได้รับ Benefit of Cover ต่อการโจมตีนั้น</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -28267,7 +28279,7 @@ Attacks characteristic of 7.</characteristic>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d9f5-17f1-fc0c-cb61">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถเข้าร่วมกับยูนิตต่อไปนี้ได้:
 
 ■ Assault Intercessor Squad
 ■ Devastator Squad
@@ -28278,7 +28290,7 @@ Attacks characteristic of 7.</characteristic>
 ■ Desolation Squad
 ■ Tactical Squad
 
-You can attach this model to one of the above units even if one Captain, Chapter Master or Lieutenant model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.</characteristic>
+คุณสามารถให้โมเดลนี้เข้าร่วมกับหนึ่งในยูนิตข้างต้นได้ แม้ว่าในยูนิตนั้นจะมีโมเดล Captain, Chapter Master หรือ Lieutenant หนึ่งตัวเข้าร่วมอยู่แล้วก็ตาม หากคุณทำเช่นนั้น, และยูนิต Bodyguard นั้นถูกทำลาย, ยูนิต Leader ที่เข้าร่วมอยู่จะกลายเป็นยูนิตแยก, พร้อมกับค่า Starting Strength เดิมของพวกมัน</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -33489,17 +33501,18 @@ You can attach this model to one of the above units even if one Captain, Chapte
         </profile>
         <profile name="Swift Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="86aa-bb8d-2ab7-9a1a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้กำลังเป็นผู้นำยูนิต, อาวุธระยะไกล ที่โมเดลในยูนิตนั้นติดตั้งอยู่จะได้รับความสามารถ [ASSAULT]</characteristic>
           </characteristics>
         </profile>
         <profile name="Unbreakable Duty" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9cee-b567-8106-880a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is within range of an objective marker and/or within 6&quot; of the centre of the battlefield, this model has the Feel No Pain 4+ ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้อยู่ในระยะของ objective marker และ/หรือ อยู่ในระยะ 6&quot; จากจุดกึ่งกลางของสนามรบ, โมเดลนี้จะได้รับความสามารถ Feel No Pain 4+</characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="893c-22fb-ecd5-1968">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถเข้าร่วมกับยูนิตต่อไปนี้ได้:
+
 
 ■ Assault Squad
 ■ Command Squad
@@ -33507,7 +33520,9 @@ You can attach this model to one of the above units even if one Captain, Chapte
 ■ Vanguard Veteran Squad
 ■ Devastator Squad
 
-You can attach this model to one of the above units even if one Character model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.</characteristic>
+คุณสามารถให้โมเดลนี้เข้าร่วมกับหนึ่งในยูนิตข้างต้นได้ แม้ว่าในยูนิตนั้นจะมีโมเดล Character หนึ่งตัวเข้าร่วมอยู่แล้วก็ตาม 
+หากคุณทำเช่นนั้น, และยูนิต Bodyguard นั้นถูกทำลาย, ยูนิต Leader ที่เข้าร่วมอยู่จะกลายเป็นยูนิตแยก, 
+พร้อมกับค่า Starting Strength เดิมของพวกมัน</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -37506,12 +37521,12 @@ per turn.</characteristic>
     </profile>
     <profile name="Psychic Hood" hidden="false" id="116b-b23c-4ea4-30ed" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้กำลังเป็นผู้นำยูนิต, โมเดลในยูนิตนั้นจะได้รับความสามารถ Feel No Pain 4+ ต่อ Psychic Attacks</characteristic>
       </characteristics>
     </profile>
     <profile name="Tactical Precision" hidden="false" id="b07f-3052-e85f-d6d3" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้กำลังเป็นผู้นำยูนิต, อาวุธที่โมเดลในยูนิตนั้นติดตั้งอยู่จะได้รับความสามารถ [LETHAL HITS]</characteristic>
       </characteristics>
     </profile>
     <profile name="Litany of Hate" hidden="false" id="3b72-1499-de01-95bb" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
@@ -37532,12 +37547,12 @@ per turn.</characteristic>
     </profile>
     <profile name="Damaged: 1-5 Wounds Remaining" hidden="false" id="1aac-b083-4318-f750" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้เหลือ 1-5 wounds, ในแต่ละครั้งที่โมเดลนี้ทำการโจมตี, ให้ลบ 1 ออกจาก Hit roll</characteristic>
       </characteristics>
     </profile>
     <profile name="Target Priority" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="623-5a90-2d25-679">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ยูนิตของโมเดลนี้สามารถยิงและประกาศ charge ได้ในเทิร์นที่ยูนิตนั้นได้ทำการ Fell Back</characteristic>
       </characteristics>
     </profile>
     <profile name="Spiritual Leader" hidden="false" id="ec61-1b3-59a9-9ff7" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
@@ -38141,7 +38156,7 @@ Saga of the Beastslayer
               <profiles>
                 <profile name="Artificer Armour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="420d-447-d2c3-42fc">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. The bearer has a Save characteristic of 2+ and the Feel No Pain 5+ ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น ผู้ถือจะมีค่า Save 2+ และความสามารถ Feel No Pain 5+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38156,7 +38171,8 @@ Saga of the Beastslayer
               <profiles>
                 <profile name="The Honour Vehement" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d8f9-1a3b-909a-5298">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons. While the bearer is under the effects of the Assault Doctrine, add 2 to the Attacks and Strength characteristics of the bearer’s melee weapons instead.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น บวก 1 ให้กับค่า Attacks และ Strength ของอาวุธประชิดของผู้ถือ
+ตราบใดที่ผู้ถืออยู่ภายใต้ผลของ Assault Doctrine, ให้บวก 2 ให้กับค่า Attacks และ Strength ของอาวุธประชิดของผู้ถือแทน</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38171,7 +38187,7 @@ Saga of the Beastslayer
               <profiles>
                 <profile name="Adept of the Codex" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e89b-8acc-fbf3-b69a">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Captain model only. At the start of your Command phase, if the bearer is on the battlefield, instead of selecting a Combat Doctrine to be active for your army, you can select the Tactical Doctrine. If you do, until the start of your next Command phase, that doctrine is active for the bearer’s unit only, even if you have already selected that doctrine to be active for your army this battle.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Captain เท่านั้น ในตอนเริ่มต้นของ Command phase ของคุณ, ถ้าผู้ถืออยู่ในสนามรบ, แทนที่จะเลือก Combat Doctrine ให้ทำงานสำหรับกองทัพของคุณ, คุณสามารถเลือก Tactical Doctrine ได้ หากคุณทำเช่นนั้น, จนกระทั่งถึงตอนเริ่มต้นของ Command phase ถัดไปของคุณ, doctrine นั้นจะทำงานสำหรับยูนิตของผู้ถือเท่านั้น, แม้ว่าคุณจะได้เคยเลือก doctrine นั้นให้ทำงานสำหรับกองทัพของคุณไปแล้วในเกมนี้ก็ตาม</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38193,7 +38209,8 @@ Saga of the Beastslayer
               <profiles>
                 <profile name="Fire Discipline" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a771-3ed1-239c-1185">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability. In addition, while the bearer’s unit is under the effects of the Devastator Doctrine, , you can reroll Advance rolls made for that unit.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น ตราบใดที่ผู้ถือเป็นผู้นำยูนิต, อาวุธระยะไกล ที่โมเดลในยูนิตนั้นติดตั้งอยู่จะได้รับความสามารถ [SUSTAINED HITS 1]
+นอกจากนี้, ตราบใดที่ยูนิตของผู้ถืออยู่ภายใต้ผลของ Devastator Doctrine, คุณสามารถ re-roll Advance rolls ของยูนิตนั้นได้</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38245,7 +38262,9 @@ Saga of the Beastslayer
               <profiles>
                 <profile name="Icon of the Angel" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5a65-7b25-83cc-bdd1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of the bearer’s unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น ทุกครั้งที่ยูนิตศัตรู (ยกเว้น Monsters และ VEHICLE) ที่อยู่ในระยะ Engagement Range ของยูนิตของผู้ถือถูกเลือกให้ทำการ Fall Back,
+โมเดลในยูนิตศัตรูนั้นจะต้องทำการ Desperate Escape tests เสมือนว่ายูนิตของพวกเขาติด Battle-shocked 
+เมื่อทำเช่นนั้น, ถ้าหากยูนิตศัตรูนั้นติด Battle-shocked ด้วยวิธีการอื่น, ให้ลบ 1 จากการทดสอบ Desperate Escape tests เหล่านั้นในแต่ละครั้ง</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38264,7 +38283,9 @@ Saga of the Beastslayer
               <profiles>
                 <profile name="Speed of the Primarch" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4e2a-7537-3dbf-d355">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer&apos;s unit have the Fights First ability</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น หนึ่งครั้งต่อเกม, ในช่วงเริ่มต้นของ Fight phase, 
+ผู้ถือสามารถใช้ Enhancement นี้ได้ หากทำเช่นนั้น, จนกระทั่งจบเฟส, 
+โมเดลในยูนิตของผู้ถือจะได้รับความสามารถ Fights First</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38283,7 +38304,10 @@ Saga of the Beastslayer
               <profiles>
                 <profile name="Rage-Fuelled Warrior" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0b81-e9df-7746-48b8">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer&apos;s melee weapons have the [SUSTAINED HITS 3] ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น หนึ่งครั้งต่อเกม, ในช่วงเริ่มต้นของ Fight phase, 
+ผู้ถือสามารถใช้ Enhancement นี้ได้ หากทำเช่นนั้น, จนกระทั่งจบเฟส, 
+อาวุธระยะประชิดของผู้ถือจะได้รับความสามารถ [SUSTAINED HITS 3]
+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38303,7 +38327,8 @@ Saga of the Beastslayer
               <profiles>
                 <profile name="Gift of Foresight" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3243-c799-ac6f-1cef">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. Once per battle round, just after making a Hit roll, a Wound roll or a saving throw for the bearer, you can treat the result as a unmodified 6 instead.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น ครั้งละหนึ่งครั้งต่อ battle round, ทันทีหลังจากทำการ Hit roll, Wound roll หรือ saving throw ให้กับผู้ถือ
+คุณสามารถถือว่าผลลัพธ์นั้นเป็น 6 แบบไม่สามารถปรับค่าได้แทน</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38458,7 +38483,9 @@ Saga of the Beastslayer
               <profiles>
                 <profile name="Shroud of Heroes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="972-61aa-f549-bee4" page="5">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. The first time the bearer is destroyed, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with 3 wounds remaining (if the bearer was Battle-shocked when it was destroyed, it is instead returned with its full wounds remaining).</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น ครั้งแรกที่ผู้ถือถูกทำลาย, ให้ทอยเต๋า D6 หนึ่งลูกในตอนจบของเฟส: หากได้ 2+, 
+ให้นำผู้ถือกลับมาวางบนสนามรบให้ใกล้ที่สุดเท่าที่จะทำได้กับจุดที่เขาถูกทำลายและต้องไม่อยู่ใน Engagement Range ของยูนิตศัตรูหนึ่งยูนิตหรือมากกว่า, 
+โดยมี wounds เหลืออยู่ 3 wounds (ถ้าผู้ถือติดสถานะ Battle-shocked ตอนที่เขาถูกทำลาย, เขาจะกลับมาพร้อมกับ wound เต็มจำนวนแทน)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38474,7 +38501,8 @@ Saga of the Beastslayer
               <profiles>
                 <profile name="Stubborn Tenacity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d013-d27-c04f-ab5a" page="5">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. While the bearer is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit is Battle-shocked and below its Starting Strength.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น ตราบใดที่ผู้ถือเป็นผู้นำยูนิต, ในแต่ละครั้งที่โมเดลในยูนิตนั้นทำการโจมตี, ให้บวก 1 ให้กับ Hit roll ถ้ายูนิตนั้นมีจำนวนโมเดล ต่ำกว่าจำนวนเริ่มต้น, 
+และบวก 1 ให้กับ Wound roll ด้วยถ้ายูนิตนั้นติดสถานะ Battle-shocked และมีจำนวนโมเดล ต่ำกว่าจำนวนเริ่มต้น</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38490,7 +38518,8 @@ Saga of the Beastslayer
               <profiles>
                 <profile name="Weapons of the First Legion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bdfa-e118-80c6-4569" page="5">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. Add 1 to the Attacks, Strength and Damage characteristics of the bearer’s melee weapons. While the bearer is Battle-shocked, add 2 to the Attacks, Strength and Damage characteristics of the bearer’s melee weapons instead.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น บวก 1 ให้กับค่า Attacks, Strength และ Damage ของอาวุธประชิดของผู้ถือ
+ตราบใดที่ผู้ถือติดสถานะ Battle-shocked, ให้บวก 2 ให้กับค่า Attacks, Strength และ Damage ของอาวุธประชิดของผู้ถือแทน</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38506,8 +38535,8 @@ Saga of the Beastslayer
               <profiles>
                 <profile name="Pennant of Remembrance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d8ce-aae1-b531-1bb1" page="5">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ancient model only. While the bearer is leading a unit, models in that unit have the Feel No Pain 6+ ability. While that unit
-is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Ancient เท่านั้น ตราบใดที่ผู้ถือเป็นผู้นำยูนิต, โมเดลในยูนิตนั้นจะได้รับความสามารถ Feel No Pain 6+ 
+ตราบใดที่ยูนิตนั้นติดสถานะ Battle-shocked, โมเดลในยูนิตนั้นจะได้รับความสามารถ Feel No Pain 4+ แทน</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38550,7 +38579,10 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Execute and Redeploy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="df38-e37a-b966-3ed5">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Phobos model only. In your Shooting phase, after the bearer&apos;s unit has shot, if that unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6&quot;. If it does until the end of the turn, that unit is not eligible to delcare a charge. This cannot allow the bearer&apos;s unit to move more than once in your Shooting phase.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Phobos เท่านั้น ใน Shooting phase ของคุณ, หลังจากที่ยูนิตของผู้ถือได้ยิงไปแล้ว, 
+ถ้ายูนิตนั้นไม่ได้อยู่ใน Engagement Range ของยูนิตศัตรูหนึ่งยูนิตหรือมากกว่า, มันสามารถทำการ Normal move ได้สูงสุด 6&quot; 
+หากทำเช่นนั้น, จนกระทั่งจบเทิร์น, ยูนิตนั้นจะไม่มีสิทธิ์ประกาศ charge
+ความสามารถนี้ไม่สามารถทำให้ยูนิตของผู้ถือเคลื่อนที่ได้มากกว่าหนึ่งครั้งใน Shooting phase ของคุณ</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38575,7 +38607,7 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Ghostweave Cloak" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3540-8c28-1321-eb78">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. The bearer has the Stealth and Lone Operative Abilities</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น ผู้ถือจะได้รับความสามารถ Stealth และ Lone Operative</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38590,7 +38622,8 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Shadow War Veteran" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eff6-b6a2-d1f6-df2c">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Phobos model only.  Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12&quot; of this model, increase the cost of that use of that Stratagem by 1CP</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Phobos เท่านั้น ในแต่ละครั้งที่ฝ่ายตรงข้ามของคุณกำหนดเป้าหมายยูนิตจากกองทัพของพวกเขาด้วย Stratagem, 
+ถ้ายูนิตนั้นอยู่ในระยะ 12&quot; จากโมเดลนี้, ให้เพิ่มค่าใช้จ่ายของการใช้ Stratagem ครั้งนั้นขึ้น 1CP</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38612,7 +38645,7 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="The Blade Driven Deep" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="421-4eee-a3d0-e96e">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adpetus Astartes Infantry model only. While the bearer is leading a unit, models in that unit have the Infiltrators Ability</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adpetus Astartes Infantry เท่านั้น ตราบใดที่ผู้ถือเป็นผู้นำยูนิต, โมเดลในยูนิตนั้นจะได้รับความสามารถ Infiltrators</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38654,7 +38687,7 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Feinting Withdrawal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2207-888-c2a8-1951">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. While the bearer is leading a unit, that unit is eligible to shoot in a turn in which it fell back</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น ตราบใดที่ผู้ถือกำลังเป็นผู้นำยูนิต, ยูนิตนั้นสามารถยิงได้ในเทิร์นที่ทำการ Fell Back</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38673,7 +38706,8 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Fury of the Storm" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e008-f168-2e09-6db5">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes Mounted model only. Improve the Strength and Armour Penetration characteristics of the bearer&apos;s melee weapons by 1. Each time the bearer ends a Charge move, until the end of the turn, improve the Strength and Armour Penetration characteristics of the bearer&apos;s melee weapons by 2 instead.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes Mounted เท่านั้น เพิ่มค่า Strength และ Armour Penetration ของอาวุธระยะประชิดของผู้ถือขึ้น 1 
+ทุกครั้งที่ผู้ถือจบการเคลื่อนที่แบบ charge, จนกระทั่งจบเทิร์น, ให้เพิ่มค่า Strength และ Armour Penetration ของอาวุธระยะประชิดของผู้ถือขึ้น 2 แทน</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38692,7 +38726,7 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Portents of Wisdom" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bffc-5abc-176d-9581">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. While the bearer is leading a unit, you can re-roll Advance rolls made for that unit.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น ตราบใดที่ผู้ถือเป็นผู้นำยูนิต, คุณสามารถ re-roll Advance rolls ของยูนิตนั้นได้</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38707,7 +38741,8 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Hunter&apos;s Instincts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="517-9409-912e-897b">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes Mounted model only. If the bearer&apos;s unit is in Strategic Reserves, for the purposes of setting up that unit on the battlefield, treat the current battle round as being one higher the is actually is</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes Mounted เท่านั้น ถ้ายูนิตของผู้ถืออยู่ใน Strategic Reserves, 
+สำหรับจุดประสงค์ในการนำยูนิตนั้นมาวางในสนามรบ, ให้ถือว่าหมายเลข battle round ปัจจุบันสูงกว่าที่เป็นจริงอยู่หนึ่งระดับ</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38756,7 +38791,7 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Adept of the Omnissiah" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="da2b-64e5-18c8-1f99">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Techmarine model only. Once per battle round, when a saving throw is failed for a friendly Adeptus Astartes Vehicle model within 6&quot; of the bearer, you can change the Damage characteristic of that attack to 0</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Techmarine เท่านั้น ครั้งละหนึ่งครั้งต่อ battle round เมื่อการ saving throw ของโมเดล Adeptus Astartes Vehicle ฝ่ายเดียวกันที่อยู่ภายใน 6&quot; จากผู้ถือล้มเหลว คุณสามารถเปลี่ยนค่า Damage ของการโจมตีนั้นให้เป็น 0 ได้ [หนึ่งลูก]</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38778,7 +38813,7 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Master of the Machine War" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d4fe-9138-66d1-3a49">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. In your Command phase, select one ADEPTUS ASTARTES VEHICLE within 6&quot; of the bearer. Until the start of your next Command phase, that VEHICLE is eligible to shoot even if it Fell Back or Advanced this turn.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล ADEPTUS ASTARTES เท่านั้น ในช่วง Command phase ของคุณ, เลือกยูนิต ADEPTUS ASTARTES VEHICLE หนึ่งยูนิตที่อยู่ภายใน 6&quot; จากผู้ถือ จนกระทั่งถึงช่วง Command phase ถัดไปของคุณ, ยูนิต VEHICLE นั้นสามารถยิงได้แม้ว่ามันจะ Fell Back หรือ Advanced ในเทิร์นนี้ก็ตาม</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38790,7 +38825,7 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Target Augury Web" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aaaa-e196-67a8-c54f">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">TECHMARINE model only. In your Command phase, select one ADEPTUS ASTARTES VEHICLE model within 6&quot; of the bearer. Until the start of your next Command phase, weapons equipped by that VEHICLE have the [Lethal Hits] ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล TECHMARINE เท่านั้น ในช่วง Command phase ของคุณ, เลือกโมเดล ADEPTUS ASTARTES VEHICLE หนึ่งโมเดลที่อยู่ภายใน 6&quot; จากผู้ถือ จนกระทั่งถึงช่วง Command phase ถัดไปของคุณ, อาวุธที่ติดตั้งโดย VEHICLE นั้นจะได้รับความสามารถ [Lethal Hits]</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38812,7 +38847,7 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="The Flesh is Weak" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4fe9-5628-2a71-56f1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. The bearer has the Feel No Pain 4+ ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น ผู้ถือจะได้รับความสามารถ Feel No Pain 4+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -38888,8 +38923,7 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
                   <characteristics>
                     <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น ตราบใดที่ผู้ถือเป็นผู้นำยูนิต,
 หนึ่งครั้งต่อเทิร์น หลังจากที่ทำการทอย Hit roll หรือ saving throw ให้กับโมเดลในยูนิตนั้น, 
-คุณสามารถเปลี่ยนผลของการทอยเต๋านั้นให้เป็น 6 แบบยังไม่ปรับค่าได้ [หนึ่งลูก]
-</characteristic>
+คุณสามารถเปลี่ยนผลของการทอยเต๋านั้นให้เป็น 6 แบบยังไม่ปรับค่าได้ [หนึ่งลูก]</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39071,11 +39105,7 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
                 <profile name="Iron Resolve" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="35c7-adf1-620c-c6b9">
                   <characteristics>
                     <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes Terminator เท่านั้น ผู้ถือจะมีความสามารถ Feel No Pain 5+ 
-หนึ่งครั้งต่อเกม, หลังจากที่ยูนิตของผู้ถือถูกเลือกเป็นเป้าหมายของการโจมตีหนึ่งครั้งหรือมากกว่า, ผู้ถือสามารถใช้ Enhancement นี้ได้ หากทำเช่นนั้น, จนกระทั่งจบเฟส, โมเดลในยูนิตของผู้ถือจะได้รับความสามารถ Feel No Pain 5+
-
-
-
-</characteristic>
+หนึ่งครั้งต่อเกม, หลังจากที่ยูนิตของผู้ถือถูกเลือกเป็นเป้าหมายของการโจมตีหนึ่งครั้งหรือมากกว่า, ผู้ถือสามารถใช้ Enhancement นี้ได้ หากทำเช่นนั้น, จนกระทั่งจบเฟส, โมเดลในยูนิตของผู้ถือจะได้รับความสามารถ Feel No Pain 5+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39283,7 +39313,8 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Eye of the Unseen" hidden="false" id="ab51-9f1e-c8ee-7900" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Deathwing model only. Each time you target the bearer&apos;s unit with a Stratagem, roll one D6, adding 1 if the bearer is within range of your Vowed objective marker: on a 5+ you gain 1CP.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Deathwing เท่านั้น ในแต่ละครั้งที่คุณกำหนดเป้าหมายยูนิตของผู้ถือด้วย Stratagem,
+ให้ทอยเต๋า D6 หนึ่งลูก, บวก 1 เพิ่มเข้าไปถ้าผู้ถืออยู่ในระยะของ Vowed objective marker ของคุณ: หากได้ 5+ คุณจะได้รับ 1CP</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39306,7 +39337,9 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Champion of the Deathwing" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d65c-2c0a-65fc-b14d">
                   <characteristics>
-                    <characteristic name="Description" hidden="false" id="51f3-baa8-652a-8be6" typeId="9b8f-694b-e5e-b573">Deathwing model only. Melee weapons equipped by the bearer have the Lethal Hits ability, and each time the bearer makes a melee attack, if it is within range of your Vowed objective marker, a Critical Hit is scored on an unmodified Hit roll of 5+.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Deathwing เท่านั้น อาวุธประชิดที่ผู้ถือติดตั้งอยู่จะได้รับความสามารถ [LETHAL HITS], 
+และในแต่ละครั้งที่ผู้ถือทำการโจมตีระยะประชิด, ถ้ามันอยู่ในระยะของ Vowed objective marker ของคุณ, 
+Critical Hit จะเกิดขึ้นเมื่อทอย Hit roll แบบยังไม่ปรับค่าที่ 5+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39329,7 +39362,7 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Singular Will" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3cc0-d7ab-a7aa-d0a1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Deathwing model only. Each time the bearer&apos;s unit Pile In or Consolidates, models in that unit can move an additional 3&quot;.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Deathwing เท่านั้น ทุกครั้งที่ ยูนิตของผู้ถือ Pile In หรือ Consolidates, โมเดลในยูนิตนั้นสามารถเคลื่อนที่ได้เพิ่มอีก 3&quot;</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39352,7 +39385,10 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Deathwing Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="68a2-88c9-98c4-6b47">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Deathwing model with the Deep Strike ability only. The bearer&apos;s unit can set up using the Deep Strike ability in the Reinforcement step of your first, second or third Movement phase, regardless of any mission rules.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Deathwing ที่มีความสามารถ Deep Strike เท่านั้น
+ยูนิตของผู้ถือสามารถตั้งยูนิตโดยใช้ความสามารถ Deep Strike ได้
+ในช่วง Reinforcement step ของ Movement phase แรก, ที่สอง, หรือที่สามของคุณ,
+โดยไม่ต้องคำนึงถึงกฎของภารกิจใดๆ</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39375,7 +39411,7 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Archangel&apos;s Shard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a4f9-320-5eb0-4cb6">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. The bearer’s melee weapons have the [ANTI-CHAOS 5+] and [LANCE] abilities.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น อาวุธประชิดของผู้ถือจะได้รับความสามารถ [ANTI-CHAOS 5+] และ [LANCE]</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39401,7 +39437,7 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Artisan of War" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7944-44a2-f707-1e1e">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes Jump Pack model only. Improve the Armour Penetration characteristic of the bearer’s weapons by 1, and the bearer has a Save characteristic of 2+.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes Jump Pack เท่านั้น เพิ่มค่า Armour Penetration ของอาวุธของผู้ถือขึ้น 1, และผู้ถือจะมีค่า Save เป็น 2+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39420,7 +39456,8 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Gleaming Pinions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ea60-22a1-928b-809d">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes Jump Pack model only. Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9&quot; of the bearer, if this bearer&apos;s unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6&quot;</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes Jump Pack เท่านั้น หนึ่งครั้งต่อเทิร์น, เมื่อยูนิตศัตรูจบการ Normal, Advance หรือ Fall Back move ในระยะ 9&quot; จากผู้ถือ,
+ถ้ายูนิตของผู้ถือนี้ไม่ได้อยู่ใน Engagement Range ของยูนิตศัตรูหนึ่งยูนิตหรือมากกว่า, มันสามารถทำการ Normal move ได้สูงสุด 6&quot;</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39449,7 +39486,8 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Visage of Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e822-a619-33f3-c20b">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes Jump Pack model only. In the Battle-shock step of your opponent&apos;s Command phase, each enemy unit (excluding Monsters and Vehicles) within Engagement Range of the bearer must take a Battle-shock test.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes Jump Pack เท่านั้น ใน Battle-shock step ของ Command phase ของฝ่ายตรงข้าม, 
+ยูนิตศัตรูแต่ละยูนิต (ไม่รวม Monsters และ Vehicles) ที่อยู่ใน Engagement Range ของผู้ถือจะต้องทำการทดสอบ Battle-shock test</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39492,7 +39530,9 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Blood Shard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="afaf-1917-ca73-e665">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Death Company model only. The first time the bearer is destroyed, at the end of the phase, roll one D6: on a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with 3 wounds remaining.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Death Company เท่านั้น ครั้งแรกที่ผู้ถือถูกทำลาย, ในตอนจบของเฟส, ให้ทอยเต๋า D6 หนึ่งลูก: หากได้ 2+, 
+ให้นำผู้ถือกลับมาวางบนสนามรบให้ใกล้ที่สุดเท่าที่จะทำได้กับจุดที่เขาถูกทำลายและต้องไม่อยู่ใน Engagement Range ของยูนิตศัตรูหนึ่งยูนิตหรือมากกว่า, 
+โดยมี wounds เหลืออยู่ 3 wounds</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39518,7 +39558,8 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Sanguinius&apos; Grace" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5a00-4907-2da5-ded7">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Death Company model only. Once per battle at the end of the Fight phase, if the bearer is within Engagement Range of three or more enemy models. the bearer can fight one additional time.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Death Company เท่านั้น หนึ่งครั้งต่อเกมในตอนจบของ Fight phase, 
+ถ้าผู้ถืออยู่ใน Engagement Range ของโมเดลศัตรูสามตัวหรือมากกว่า ผู้ถือจะสามารถ Fight ได้อีกหนึ่งครั้ง</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39544,7 +39585,10 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="To Slay the Warmaster" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f435-e8f1-32c1-eacb">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Death Company Model only. Once per battle, at the start of the Fight Phase, if the bearer is within Engagement Range of one or more enemy Character units, you can select one of those Character units and roll six D6: for each 4+, one Character model in that unit suffers 1 mortal wound.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Death Company เท่านั้น หนึ่งครั้งต่อเกมในตอนเริ่มต้นของ Fight phase, 
+ถ้าผู้ถืออยู่ใน Engagement Range ของยูนิต Character ของศัตรูหนึ่งยูนิตหรือมากกว่า, 
+คุณสามารถเลือกหนึ่งในยูนิต Character เหล่านั้นและทอยเต๋า D6 หกลูก: 
+สำหรับแต่ละผลลัพธ์ที่ได้ 4+, โมเดล Character หนึ่งตัวในยูนิตนั้นได้รับความเสียหาย 1 mortal wound</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39570,7 +39614,8 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Vengeful Onslaught" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d485-2c53-c52b-252d">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Death Company model only. If the bearer is destroyed, until the end of your next turn, each time a friendly Death Company model make an attack, add 1 to the Hit roll.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Death Company เท่านั้น ถ้าผู้ถือถูกทำลาย, จนกระทั่งถึงตอนจบเทิร์นถัดไปของคุณ, 
+ในแต่ละครั้งที่โมเดล Death Company ที่เป็นมิตรทำการโจมตี, ให้บวก 1 ให้กับ Hit roll</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39632,7 +39677,7 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Calibanite Armaments" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6ace-f82a-4e97-2bc1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. Add 1 to the Damage characteristic of the bearer’s melee weapons.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น เพิ่ม 1 ให้กับค่า Damage ของอาวุธระยะประชิดของผู้ถือ</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39652,7 +39697,8 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Lord of the Hunt" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="588a-f424-e92d-971f">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ravenwing model only. The bearer’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back and you can re‑roll Desperate Escape tests taken for models in the bearer’s unit.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Ravenwing เท่านั้น ยูนิตของผู้ถือมีสิทธิ์ที่จะยิงและประกาศ charge ในเทิร์นที่ทำการ Fell Back 
+และคุณสามารถ re-roll Desperate Escape tests ของโมเดลในยูนิตของผู้ถือ</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39672,7 +39718,8 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Stalwart Champion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3a2e-b7c6-c018-c628">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Captain, Chaplain or Lieutenant model only. While the bearer’s unit is not Battle‑shocked, add 1 to the Objective Control characteristic of models in the bearer’s unit.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Captain, Chaplain หรือ Lieutenant เท่านั้น ในขณะที่ยูนิตของผู้ถือไม่ได้ติด Battle-shocked, 
+เพิ่ม 1 ให้กับค่า Objective Control ของโมเดลในยูนิตของผู้ถือ</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39712,7 +39759,9 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Fulgus Magna" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a99d-93a3-ea39-e8b8">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Deathwing model only. Once per battle, at the end of your opponent’s turn, if the bearer’s unit is not within Engagement Range of one or more enemy units, the bearer can use this Enhancement. If it does, remove the bearer’s unit from the battlefield and place it into Strategic Reserves.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Deathwing เท่านั้น หนึ่งครั้งต่อเกม, ในช่วงจบเทิร์นของฝ่ายตรงข้าม, 
+หากยูนิตของผู้ถือไม่ได้อยู่ในระยะ Engagement Range ของยูนิตศัตรูหนึ่งยูนิตหรือมากกว่า, 
+ผู้ถือสามารถใช้ Enhancement นี้ได้ หากทำเช่นนั้น, ให้นำยูนิตของผู้ถือออกจากสนามรบ และนำไปไว้ใน Strategic Reserves</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39747,9 +39796,10 @@ is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead.
               <profiles>
                 <profile name="Prescience" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1c71-0228-7d98-eea9">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes Psyker model only (excluding Terminator models). Once per turn, when an enemy
-unit ends a Normal, Advance or Fall Back move within 9&quot; of the bearer’s unit, the bearer’s unit can
-make a Normal move of up to D6&quot;, or up to 6&quot; instead if the Divination Discipline is active for your army</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes Psyker เท่านั้น (ยกเว้นโมเดล Terminator) 
+หนึ่งครั้งต่อเทิร์น, เมื่อยูนิตศัตรูจบการเคลื่อนที่แบบ Normal, Advance หรือ Fall Back ภายใน 9&quot; จากยูนิตของผู้ถือ, 
+ยูนิตของผู้ถือสามารถทำการเคลื่อนที่แบบ Normal ได้สูงสุด D6&quot; 
+หรือสูงสุด 6&quot; แทน หาก Divination Discipline มีผลกับกองทัพของคุณ</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39780,7 +39830,8 @@ make a Normal move of up to D6&quot;, or up to 6&quot; instead if the Divinatio
               <profiles>
                 <profile name="Celerity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="547a-cc4f-5b67-b5ee">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes Psyker model only. The bearer’s unit is eligible to declare a charge in a turn in which it Advanced, and if the Biomancy Discipline is active for your army, it is eligible to declare a charge in a turn in which it Fell Back.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes Psyker เท่านั้น ยูนิตของผู้ถือมีสิทธิ์ที่จะประกาศ charge ในเทิร์นที่ทำการ Advanced, 
+และหาก Biomancy Discipline มีผลกับกองทัพของคุณ, ยูนิตนั้นก็จะมีสิทธิ์ที่จะประกาศ charge ในเทิร์นที่ทำการ Fell Back</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39806,9 +39857,9 @@ make a Normal move of up to D6&quot;, or up to 6&quot; instead if the Divinatio
               <profiles>
                 <profile name="Obfuscation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b28c-8067-25c4-88d4">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes Psyker model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot
-at the bearer’s unit, and if the Telepathy Discipline is active for your army, the bearer’s unit cannot be
-targeted by ranged attacks unless the attacking model is within 18&quot;.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes Psyker เท่านั้น ยูนิตศัตรูไม่สามารถใช้ Stratagem Fire Overwatch เพื่อยิงใส่ยูนิตของผู้ถือได้
+และหาก Telepathy Discipline มีผลกับกองทัพของคุณ, ยูนิตของผู้ถือจะไม่สามารถถูกโจมตีด้วยอาวุธระยะไกลได้
+ยกเว้นโมเดลที่โจมตีจะอยู่ภายในระยะ 18&quot;</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39835,15 +39886,17 @@ targeted by ranged attacks unless the attacking model is within 18&quot;.</char
               <profiles>
                 <profile name="Fusillade" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3107-ddb4-d645-b988">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes Psyker model only. Ranged weapons equipped by models in the bearer’s unit have
-the [ANTI‑MONSTER 5+] and [ANTI‑VEHICLE 5+] abilities, and:
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes Psyker เท่านั้น อาวุธระยะไกลที่ติดตั้งโดยโมเดลในยูนิตของผู้ถือ
+จะได้รับความสามารถ [ANTI-MONSTER 5+] และ [ANTI-VEHICLE 5+], และ:
 
 
-■ The [SUSTAINED HITS 1] ability if the Pyromancy
-Discipline is active for your army.
-■ Add 6&quot; to the Range characteristic of those
-weapons if the Telekinesis Discipline is active for
-your army</characteristic>
+
+■ หาก Pyromancy Discipline มีผลกับกองทัพของคุณ,
+จะได้รับความสามารถ [SUSTAINED HITS 1]
+
+
+■ เพิ่ม 6&quot; ให้กับค่า Range ของอาวุธเหล่านั้น
+หาก Telekinesis Discipline มีผลกับกองทัพของคุณ</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39919,7 +39972,7 @@ your army</characteristic>
               <profiles>
                 <profile name="Pyrebrand" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="422e-02dc-afad-d8ae">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Black Templars model only. Models in the bearer’s unit have the Stealth ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Black Templars เท่านั้น โมเดลในยูนิตของผู้ถือจะได้รับความสามารถ Stealth</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39938,8 +39991,8 @@ your army</characteristic>
               <profiles>
                 <profile name="Sacred Rage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7a64-1b27-b6b3-a5ef">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. Once per battle, at the start of the Fight phase, the bearer can use
-this Enhancement. If it does, until the end of the phase, models in the bearer’s unit have the Fights First ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น หนึ่งครั้งต่อเกม, ในตอนเริ่มต้นของ Fight phase, ผู้ถือสามารถใช้ Enhancement นี้ได้
+หากทำเช่นนั้น, จนกระทั่งจบเฟส, โมเดลในยูนิตของผู้ถือจะได้รับความสามารถ Fights First</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39961,7 +40014,8 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Taramond&apos;s Censer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="960e-7912-b52a-6db4">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Black Templars model only. At the start of the Fight phase, each enemy unit within Engagement Range of the bearer’s unit must take a Battle‑shock test. When doing so, subtract 1 from the result</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Black Templars เท่านั้น ในตอนเริ่มต้นของ Fight phase, ยูนิตศัตรูแต่ละยูนิตที่อยู่ใน Engagement Range ของยูนิตของผู้ถือ
+จะต้องทำการทดสอบ Battle-shock test เมื่อทำเช่นนั้น, ให้ลบ 1 ออกจากผลลัพธ์</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -39987,7 +40041,7 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Benediction of Fury" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f057-f4f6-f245-de73">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaplain model only. The bearer’s melee weapons have the [DEVASTATING WOUNDS] ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Chaplain เท่านั้น อาวุธประชิดของผู้ถือจะได้รับความสามารถ [DEVASTATING WOUNDS]</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40262,7 +40316,8 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Deathwing Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7180-5812-10f5-2cc3">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Deathwing model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Deathwing ที่มีความสามารถ Deep Strike เท่านั้น ยูนิตของผู้ถือสามารถนำยูนิตลงสู่สนามรบโดยใช้ความสามารถ Deep Strike ได้
+ในช่วง Reinforcement step ของ Movement phase แรก, ที่สอง, หรือที่สามของคุณ, โดยไม่ต้องคำนึงถึงกฎของภารกิจใดๆ</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40283,7 +40338,8 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Tempered in Battle (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d5d3-5985-a894-3bcb">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. While a friendly Adeptus Astartes unit is within 6&quot; of this model, you can re-roll Battle-shock and Leadership tests taken for that unit.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น ตราบใดที่ยูนิตที่เป็นมิตร Adeptus Astartes อยู่ในระยะ 6&quot; จากโมเดลนี้, 
+คุณสามารถ re-roll Battle-shock และ Leadership tests ของยูนิตนั้นได้</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40311,7 +40367,7 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Lord of the Ravenwing" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e89d-a561-9210-32ea">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ravenwing model only. You can re-roll Advance and Charge rolls made for the bearer’s unit.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล RAVENWING เท่านั้น คุณสามารถ re-roll Advance และ Charge rolls ของยูนิตของผู้ถือได้</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40332,7 +40388,8 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Ancient Weapons" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f3b0-5247-4e07-6793">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 2, and improve the Armour Penetration and Damage characteristics of those weapons by 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น เพิ่มค่า Strength ของอาวุธประชิดที่ผู้ถือติดตั้งอยู่ขึ้น 2, 
+และเพิ่มค่า Armour Penetration และ Damage ของอาวุธเหล่านั้นขึ้น 1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40391,7 +40448,7 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Swift Hunter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8598-d721-13c8-46ac">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">SPACE WOLVES model only. Model&apos;s in the bearer&apos;s unit have the Scouts 7&quot; ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล SPACE WOLVES เท่านั้น โมเดลในยูนิตของผู้ถือจะได้รับความสามารถ Scouts 7&quot;</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40418,7 +40475,7 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Fenrisian Grit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e343-510d-8ee2-5fb1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. The bearer has the Feel No Pain 4+ ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล ADEPTUS ASTARTES เท่านั้น ผู้ถือจะได้รับความสามารถ Feel No Pain 4+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40438,7 +40495,8 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Feral Rage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1c55-73fa-98ee-ca12">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. Add 1 to the Attacks characteristic of melee weapons equipped by the bearer. Each time the bearer ends a Charge move, until the end of the turn, add an additional 1 to the Attacks characteristic of those weapons.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล ADEPTUS ASTARTES เท่านั้น เพิ่ม 1 ให้กับค่า Attacks ของอาวุธระยะประชิดที่ติดตั้งโดยผู้ถือ 
+ทุกครั้งที่ผู้ถือจบการเคลื่อนที่แบบ charge, จนกระทั่งจบเทิร์น, ให้เพิ่มอีก 1 ให้กับค่า Attacks ของอาวุธเหล่านั้น</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40465,7 +40523,8 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Wolf Master" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d976-90bf-83fd-b7d6">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">SPACE WOLVES model only. In your Command phase, select one friendly SPACE WOLVES unit within 9&quot; of the bearer. Until the start of your next Command phase, teeth and claws and Tyrnak and Fenrir weapons equipped by models in that unit have the [LETHAL HITS] ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล SPACE WOLVES เท่านั้น ในช่วง Command phase ของคุณ, เลือกยูนิต SPACE WOLVES ฝ่ายเดียวกันหนึ่งยูนิตที่อยู่ภายใน 9&quot; จากผู้ถือ 
+จนกระทั่งถึง Command phase ถัดไปของคุณ, อาวุธประเภท teeth and claws และ Tyrnak และ Fenrir ที่ติดตั้งโดยโมเดลในยูนิตนั้นจะได้รับความสามารถ [LETHAL HITS]</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40496,7 +40555,8 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Braggart&apos;s Steel" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4fff-b0d0-f915-bf40">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">SPACE WOLVES MODEL only. Add 2 to the Strength characteristic of melee weapons equipped by the bearer. If the bearer&apos;s unit has achieved one or more Boasts, add 1 to the Damage characteristic as well.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล SPACE WOLVES เท่านั้น เพิ่ม 2 ให้กับค่า Strength ของอาวุธระยะประชิดที่ติดตั้งโดยผู้ถือ 
+หากยูนิตของผู้ถือได้บรรลุหนึ่ง Boast หรือมากกว่า, ให้เพิ่ม 1 ให้กับค่า Damage ด้วยเช่นกัน</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40523,7 +40583,10 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Hordeslayer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="23ff-10bc-9327-6857">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">SPACE WOLVES model only. At the start of the Fight phase, if there are more enemy models than friendly models wholly within 6&quot; of the bearer, until the end of the phase, add 2 to the Attacks characteristic of melee weapons equipped by the bearer. If the bearer&apos;s unit has achieved one or more Boasts, add 3 to the Attacks characteristic instead.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล SPACE WOLVES เท่านั้น ในช่วงเริ่มต้นของ Fight phase, 
+หากโมเดลศัตรูมีจำนวนมากกว่าโมเดลฝ่ายเดียวกันที่ wholly within ภายใน 6&quot; จากผู้ถือ, 
+จนกระทั่งจบเฟส, ให้เพิ่ม 2 ให้กับค่า Attacks ของอาวุธระยะประชิดที่ติดตั้งโดยผู้ถือ 
+หากยูนิตของผู้ถือได้บรรลุหนึ่ง Boast หรือมากกว่า, ให้เพิ่ม 3 ให้กับค่า Attacks แทน</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40543,7 +40606,8 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Skjald" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2f28-4942-42b1-7f6c">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. Each time a SPACE WOLVES CHARACTER unit from your army achieves a Boast, if the bearer is on the battlefield, you gain 1 CP</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล ADEPTUS ASTARTES เท่านั้น ทุกครั้งที่ยูนิต SPACE WOLVES CHARACTER จากกองทัพของคุณบรรลุ Boast, 
+หากผู้ถืออยู่บนสนามรบ, คุณได้รับ 1 CP</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40563,7 +40627,9 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Thunderwolf&apos;s Fortitude" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ff44-8601-5a60-0747">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. The first time the bearer is destroyed, remove it from play, then, at the end of the phase, roll one D6: on a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with 3 wounds remaining.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล ADEPTUS ASTARTES เท่านั้น ครั้งแรกที่ผู้ถือถูกทำลาย, ให้นำออกจากเกม, 
+จากนั้น, ในช่วงจบเฟส, ให้ทอย D6 หนึ่งลูก: ที่ 2+, ให้นำผู้ถือกลับมาวางบนสนามรบให้ใกล้ที่สุดเท่าที่จะทำได้
+จากจุดที่ถูกทำลายและไม่ได้อยู่ในระยะ Engagement Range ของยูนิตศัตรูหนึ่งยูนิตหรือมากกว่า, โดยมี wound คงเหลืออยู่ 3 wound</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40632,7 +40698,8 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Wolf-Touched" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e726-4c28-04f6-2848">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">SPACE WOVLES model only. Add 2&quot; to the Move characteristic of the bearer. In the Declare Battle Formations step, the bearer can be attached to a WULFEN INFANTRY unit</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล SPACE WOLVES เท่านั้น เพิ่ม 2&quot; ให้กับค่า Move ของผู้ถือ 
+ในขั้นตอน Declare Battle Formations, ผู้ถือสามารถเข้าร่วมกับยูนิต WULFEN INFANTRY ได้</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40652,7 +40719,9 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Hunter&apos;s Guile" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aea2-5c36-c16a-cc27">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. After both players have deployed their armies, select up to three THUNDERWOLF CAVALRY, WULFEN and/or BLOOD CLAWS units from your army and redeploy them. When doing so you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล ADEPTUS ASTARTES เท่านั้น หลังจากผู้เล่นทั้งสองคน deploy กองทัพของตนเองเสร็จสิ้น, 
+ให้เลือกยูนิต THUNDERWOLF CAVALRY, WULFEN และ/หรือ BLOOD CLAWS จากกองทัพของคุณได้สูงสุดสามยูนิตและทำการ redeploy 
+เมื่อทำเช่นนั้น คุณสามารถจัดวางยูนิตเหล่านั้นใน Strategic Reserves ได้ตามที่คุณต้องการ โดยไม่ต้องคำนึงว่ามียูนิตอยู่ใน Strategic Reserves แล้วกี่ยูนิตก็ตาม</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40679,7 +40748,9 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Elder&apos;s Guidance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2460-09b3-6101-2db3">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">SPACE WOLVES model only. Once per battle, at the start of the Fight phase, if the bearer is leading a BLOOD CLAWS unit, the bearer can use this Enhancement. If it does, until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล SPACE WOLVES เท่านั้น หนึ่งครั้งต่อเกม, ในช่วงเริ่มต้นของ Fight phase, 
+หากผู้ถือกำลังเป็นผู้นำยูนิต BLOOD CLAWS, ผู้ถือสามารถใช้ Enhancement นี้ได้ 
+หากทำเช่นนั้น, จนกระทั่งจบเฟส, เพิ่มค่า Armour Penetration ของอาวุธระยะประชิดที่ติดตั้งโดยโมเดลในยูนิตนั้นขึ้น 1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40699,7 +40770,8 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Helm of the Beastslayer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d0d3-6a91-2639-dddc">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. Each time an attack is made by a CHARACTER, MONSTER, or VEHICLE model that targets the bearer&apos;s unit, reduce the Armour Penetration characteristic of that attack by 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล ADEPTUS ASTARTES เท่านั้น ทุกครั้งที่มีการโจมตีโดยโมเดล CHARACTER, MONSTER หรือ VEHICLE 
+ที่กำหนดเป้าหมายเป็นยูนิตของผู้ถือ, ให้ลดค่า Armour Penetration ของการโจมตีนั้นลง 1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40863,7 +40935,7 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Consecrating Aura" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e1f9-f82e-9217-f1d8">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. Model&apos;s in the bearer&apos;s unit have a 5+ invulnerable save.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล ADEPTUS ASTARTES เท่านั้น โมเดลในยูนิตของผู้ถือจะได้รับ 5+ invulnerable save</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40887,7 +40959,8 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Imperialis of the Eternal Crusade" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7dcb-4397-fdf5-4cda">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ANCIENT model only. Each time an enemy unit selects the bearer&apos;s unit as a target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other negative modifiers to that Charge roll)</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล ANCIENT เท่านั้น ในแต่ละครั้งที่ยูนิตศัตรูเลือกยูนิตของผู้ถือเป็นเป้าหมายของการ charge,
+ให้ลบ 2 ออกจาก Charge roll  (ซึ่งจะไม่ซ้อนทับกับค่าปรับแก้เชิงลบอื่นๆ ต่อ Charge roll นั้น)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40911,7 +40984,8 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Warden of Honour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="170e-0f90-5f68-1484">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CRUSADE ANCIENT model only. While the bearer is leading a unit, each time you roll one D6 for the bearer&apos;s Vengeful Exhortation ability, add 1 to the result.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล CRUSADE ANCIENT เท่านั้น ตราบใดที่ผู้ถือเป็นผู้นำยูนิต, 
+ในแต่ละครั้งที่คุณทอยเต๋า D6 หนึ่งลูกสำหรับความสามารถ Vengeful Exhortation ของผู้ถือ, ให้บวก 1 เข้ากับผลลัพธ์</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40928,7 +41002,7 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Orb of the Emperor&apos;s Aegis" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="55a5-3e03-90b1-a58f">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. Models in the bearer&apos;s unit have the Deep Strike ability</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล ADEPTUS ASTARTES เท่านั้น โมเดลในยูนิตของผู้ถือจะได้รับความสามารถ Deep Strike</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40968,7 +41042,9 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Paragon of Fury" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6e90-84e0-8dff-91c8">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. Add 2 the Strength characteristic of melee weapons equipped by the bearer. Each time a melee attack made by the bearer is allocated to an enemy model, if the bearer disembarked from a TRANSPORT this turn, add 1 to the Damage characteristic of that attack.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล ADEPTUS ASTARTES เท่านั้น บวก 2 ให้กับค่า Strength ของอาวุธประชิดที่ผู้ถือติดตั้งอยู่
+ในแต่ละครั้งที่การโจมตีระยะประชิดที่ทำโดยผู้ถือถูกจัดสรรไปยังโมเดลศัตรู,
+ถ้าผู้ถือได้ลงจาก TRANSPORT ในเทิร์นนี้, ให้บวก 1 ให้กับค่า Damage ของการโจมตีนั้น</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -40985,7 +41061,9 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Battle-Psalm Precentor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4167-ac06-bf94-ea1d">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. Each time the bearer&apos;s unit declares a charge, if an enemy unit takes a Battle-shock test as a result of the Shock and Awe detachment rule, subtract 1 from that Battle-shock test.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล ADEPTUS ASTARTES เท่านั้น ในแต่ละครั้งที่ยูนิตของผู้ถือประกาศ charge,
+ถ้ายูนิตศัตรูทำการทดสอบ Battle-shock test อันเป็นผลมาจาก Detachment rule Shock and Awe,
+ให้ลบ 1 ออกจาก Battle-shock test นั้น</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -41002,7 +41080,9 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Augury Servo-Host" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1b0c-4ab4-b715-08c3">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. At the start of your shooting phase, select one enemy unit within 12&quot; of and visible to the bearer. Until the end of the phase, models in that unit cannot have the Benefit of Cover.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล ADEPTUS ASTARTES เท่านั้น ในตอนเริ่มต้นของ shooting phase ของคุณ, 
+เลือกหนึ่งยูนิตศัตรูที่อยู่ในระยะ 12&quot; และมองเห็นได้โดยผู้ถือ 
+จนกระทั่งจบเฟส, โมเดลในยูนิตนั้นจะไม่สามารถใช่ Benefit of Cover ได้</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -41019,7 +41099,9 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Herald of the Sacred Slaughter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6f4a-e66c-7889-6b44">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS ASTARTES model only. In the Declare Battle Formations step, if the bearer starts the battle embarked within a DEDICATED TRANSPORT, that DEDICATED TRANSPORT has the Scouts 9&quot; ability.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล ADEPTUS ASTARTES เท่านั้น ในช่วงประกาศ Battle Formations step, 
+ถ้าผู้ถือเริ่มเกมโดยสารอยู่ข้างใน DEDICATED TRANSPORT,
+DEDICATED TRANSPORT คันนั้นจะได้รับความสามารถ Scouts 9&quot;</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -41039,7 +41121,7 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Adamantine Mantle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b37b-b2c2-99ee-dbb9">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. Each time an attack is allocated the bearer, subtract 1 from the Damage characteristic of that attack. If that attack was made with a Melta or Torrent weapon, change the Damage characteristic of that attack to 1 instead.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น ในแต่ละครั้งที่การโจมตีถูกจัดสรรมายังผู้ถือ, ให้ลบ 1 ออกจากค่า Damage ของการโจมตีนั้น ถ้าการโจมตีนั้นทำด้วยอาวุธ Melta หรือ Torrent, ให้เปลี่ยนค่า Damage ของการโจมตีนั้นเป็น 1 แทน</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -41054,7 +41136,7 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="War-tempered Artifice" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="81be-a540-7410-a9b2">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes Infantry model only. Add 3 to the Strength characteristic of the bearer&apos;s melee weapons.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes Infantry เท่านั้น บวก 3 ให้กับค่า Strength ของอาวุธประชิดของผู้ถือ</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -41076,7 +41158,7 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Forged in Battle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ae7a-3243-f314-dd6c">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. While the bearer is leading a unit, once per turn after making a Hit roll or a saving throw for a model in that unit, you can change the result of that roll to an umodified 6.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น ตราบใดที่ผู้ถือเป็นผู้นำยูนิต, หนึ่งครั้งต่อเทิร์น หลังจากที่ทำการทอย Hit roll หรือ saving throw ให้กับโมเดลในยูนิตนั้น, คุณสามารถเปลี่ยนผลของการทอยเต๋านั้นให้เป็น 6 แบบยังไม่ปรับค่าได้ [หนึ่งลูก]</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -41091,7 +41173,7 @@ this Enhancement. If it does, until the end of the phase, models in the bearer�
               <profiles>
                 <profile name="Immolator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a81a-69a2-8c2f-b5b4">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. Add 1 to the attacks characteristics of Torrent weapons equipped by models in the bearer&apos;s unit.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดล Adeptus Astartes เท่านั้น บวก 1 ให้กับค่า Attacks ของอาวุธ Torrent ที่โมเดลในยูนิตของผู้ถือติดตั้งอยู่</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -43862,27 +43944,35 @@ Until the end of the phase, this model&apos;s melee weapons have that ability.</
       </modifiers>
     </rule>
     <rule name="Templar Vows" id="f26c-4b28-aaea-40cf" hidden="false">
-      <description>If your Army Faction is Adeptus Astartes, at the start of the first battle round, select one of the following Vows to be active for Adeptus Astartes units from your army. While a Vow is active for your army, that unit has the associated ability below. 
+      <description>ถ้า Army Faction ของคุณคือ Adeptus Astartes, ในตอนเริ่มต้นของ battle round แรก, เลือกหนึ่งใน Vows (คำปฏิญาณ) ต่อไปนี้เพื่อให้มีผลสำหรับยูนิต Adeptus Astartes จากกองทัพของคุณ ตราบใดที่ Vow มีผลสำหรับกองทัพของคุณ, ยูนิตนั้นจะได้รับความสามารถที่เกี่ยวข้องด้านล่าง
+
 
 
 Abhor the Witch, Destroy the Witch
-■ Each time this unit declares a charge, if one or more targets of that charge have the PSYKER keyword, you can re-roll the Charge roll. Melee weapons equipped by models in this unit have the [PRECISION] ability while targeting PSYKER units. 
+■ ในแต่ละครั้งที่ยูนิตนี้ประกาศ charge, ถ้าเป้าหมายหนึ่งเป้าหมายหรือมากกว่าของการ charge นั้นมีคีย์เวิร์ด PSYKER, คุณสามารถ re-roll the Charge roll ได้ 
+อาวุธประชิดที่โมเดลในยูนิตนี้ติดตั้งอยู่จะได้รับความสามารถ [PRECISION] เมื่อกำหนดเป้าหมายไปยังยูนิต PSYKER
 
 
 Accept Any Challenge, No Matter the Odds
-■ Each time a model in this unit makes a melee attack, if the Strength characteristic of that attack is less than or equal to the Toughness characteristic of the target, add 1 to the wound roll
+■ ในแต่ละครั้งที่โมเดลในยูนิตนี้ทำการโจมตีระยะประชิด, ถ้าค่า Strength ของการโจมตีนั้นน้อยกว่าหรือเท่ากับค่า Toughness ของเป้าหมาย, ให้บวก 1 ให้กับ wound roll
+
+
 
 
 Suffer Not the Unclean to Live
-■ This unit is eligible to declare a charge in a turn in which it Fell Back, and each time a model in this unit makes a Pile-in or Consolidation move, it does not need to end that move closer to the closest enemy model, provided it ends that move as close as possible to the nearest enemy unit. 
+■ ยูนิตนี้สามารถประกาศ charge ได้ในเทิร์นที่มันได้ทำการ Fell Back, 
+และในแต่ละครั้งที่โมเดลในยูนิตนี้ทำการ Pile-in หรือ Consolidation move, มันไม่จำเป็นต้องจบการเคลื่อนที่นั้นใกล้กับโมเดลศัตรูที่ใกล้ที่สุด, 
+ตราบใดที่มันจบการเคลื่อนที่นั้นให้ใกล้ที่สุดเท่าที่จะทำได้กับยูนิตศัตรูที่ใกล้ที่สุด
+
 
 
 Uphold the Honour of the Emperor
-If this unit has the INFANTRY keyword:
-■ At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent&apos;s level of control over that objective marker is greater than yours at the end of the phase. 
+ถ้ายูนิตนี้มีคีย์เวิร์ด INFANTRY:
+■ ในตอนจบ Command phase ของคุณ, ถ้ายูนิตนี้อยู่ในระยะของ objective marker ที่คุณควบคุม, 
+objective marker นั้นจะยังคงอยู่ภายใต้การควบคุมของคุณจนกว่าระดับการควบคุมของฝ่ายตรงข้ามจะสูงกว่าของคุณในตอนจบของเฟส
 
 
-■ If the mission you are playing features Actions, this unit is eligible to start to perform an Action in a turn in which it Advanced.</description>
+■ ถ้า mission ที่คุณกำลังเล่นมีการทำ Actions, ยูนิตนี้จะสามารถเริ่มทำการ Action ได้ในเทิร์นที่มันได้ทำการ Advanced</description>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
