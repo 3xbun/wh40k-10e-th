@@ -1422,7 +1422,7 @@
         </profile>
         <profile id="bf09-f457-24d5-9fb6" name="Invulnerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มี 5+ invulnerable save </characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มี 5+ invulnerable save</characteristic>
           </characteristics>
         </profile>
         <profile id="731d-26c2-a9e8-d336" name="Duty Eternal" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -3089,7 +3089,7 @@
         </profile>
         <profile name="Pinning Bombardment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2e8-f1bb-932a-476e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, if one or more of those attacks made with its Scorpius multi-launcher scored a hit against an enemy INFANTRY unit, that unit must take a Battle-shock test.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Shooting phase ของคุณ, หลังจากที่โมเดลนี้ได้ยิงไปแล้ว, ถ้าการโจมตีหนึ่งครั้งหรือมากกว่าที่ทำด้วย Scorpius multi-launcher ของมันทำ Hit สำเร็จใส่ยูนิต INFANTRY ศัตรู, ยูนิตนั้นจะต้องทำการทดสอบ Battle-shock test</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3194,7 +3194,7 @@
         </profile>
         <profile name="Annihilator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eb5-4bb-8480-2166">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack that targets a MONSTER or VEHICLE unit, re-roll a Damage roll of 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่โมเดลนี้ทำการโจมตีด้วยอาวุธระยะไกล ซึ่งกำหนดเป้าหมายไปยังยูนิต MONSTER หรือ VEHICLE, ให้ re-roll a Damage roll ที่ออก 1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3337,7 +3337,7 @@
         </profile>
         <profile name="Termite Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b6bc-a4b4-7cc9-fdc3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model can disembark after it has been set up on the battlefield, and if they do they must be set up more than 9&quot; away from all enemy models.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้ต้องเริ่มเกมใน Reserves, แต่ทั้งมันและยูนิตใดๆ ที่โดยสารอยู่ข้างในจะไม่ถูกนับรวมกับขีดจำกัดสูงสุดของจำนวนยูนิต Reserves ที่คุณสามารถมีได้ในตอนเริ่มเกม โมเดลนี้สามารถเข้ามาบนสนามรบได้ในช่วง Reinforcements step ของ Movement phase แรก, ที่สอง, หรือที่สามของคุณ, โดยไม่ต้องคำนึงถึงกฎของภารกิจใดๆ ยูนิตใดๆ ที่โดยสารอยู่ข้างในโมเดลนี้สามารถลงจากโมเดลนี้ได้หลังจากที่มันได้ถูกนำเข้ามาบนสนามรบแล้ว, และถ้าพวกมันทำเช่นนั้น พวกมันจะต้องถูกนำมาวางห่างมากกว่า 9&quot; จากโมเดลศัตรูทั้งหมด</characteristic>
           </characteristics>
         </profile>
         <profile name="Terrax-pattern Termite" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="8173-34eb-fcaf-2aa5">
@@ -3503,7 +3503,7 @@
         </profile>
         <profile name="Interceptor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e615-b2f4-20b6-85c3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่โมเดลนี้ทำการโจมตีด้วย อาวุธระยะไกล ซึ่งกำหนดเป้าหมายไปยังยูนิตที่มีคีย์เวิร์ด FLY, ให้บวก 1 ให้กับ Hit roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3603,12 +3603,14 @@
         </profile>
         <profile name="Armoured Resilience" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c11b-ccbd-83-ec10">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่การโจมตีถูกจัดสรรมายังโมเดลนี้, ให้ลบ 1 ออกจากค่า Damage ของการโจมตีนั้น</characteristic>
           </characteristics>
         </profile>
         <profile name="Storm Eagle Gunship" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="f4af-eb57-83d8-8278">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 22 &lt;FACTION&gt; INFANTRY models and 1 DREADNOUGHT model. Each JUMP PACK, WULFEN, GRAVIS, TERMINATOR or POSSESSED model takes up the space of 2 models and each CENTURION or OBLITERATOR model takes up the space of 3 models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">โมเดลนี้มีความจุในการขนส่ง (Transport Capacity) 22 โมเดล &lt;FACTION&gt; INFANTRY และ 1 โมเดล DREADNOUGHT 
+โมเดล JUMP PACK, WULFEN, GRAVIS, TERMINATOR หรือ POSSESSED แต่ละตัวจะใช้พื้นที่เท่ากับ 2 โมเดล 
+และโมเดล CENTURION หรือ OBLITERATOR แต่ละตัวจะใช้พื้นที่เท่ากับ 3 โมเดล</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3971,7 +3973,7 @@
         </profile>
         <profile name="Sunderer of Fortresses" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1f13-359b-7cdb-283">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristic of that attack by 1 (if that attack targets a FORTIFICATION unit, improve the Strength and Damage characteristics of that attack by 2 instead).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่โมเดลนี้ทำการโจมตีซึ่งกำหนดเป้าหมายไปยังยูนิต VEHICLE, ให้เพิ่มค่า Strength และ Damage ของการโจมตีนั้นขึ้น 1 (ถ้าการโจมตีนั้นกำหนดเป้าหมายไปยังยูนิต FORTIFICATION, ให้เพิ่มค่า Strength และ Damage ของการโจมตีนั้นขึ้น 2 แทน)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4893,17 +4895,20 @@
         </profile>
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cef1-1b4f-32ca-5acf">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save against ranged attacks</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มี 5+ invulnerable save ต่อการโจมตีด้วยอาวุธระยะไกล</characteristic>
           </characteristics>
         </profile>
         <profile name="Aerial Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d437-ac14-5e9-b201">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่ยูนิตที่มีความสามารถ Deep Strike ลงจากโมเดลนี้หลังจากที่มันได้ทำการ Normal move, ยูนิตนั้นจะยังคงสามารถประกาศ charge ได้ในเทิร์นนี้</characteristic>
           </characteristics>
         </profile>
         <profile name="Sokar-pattern Stormbird" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="2227-a175-e719-f0b6">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 55 &lt;FACTION&gt; Infantry or &lt;FACTION&gt; MOUNTED models. Each JUMP PACK, WULFEN, GRAVIS, POSSESSED or TERMINATOR model takes up the space of 2 models and each MOUNTED, CENTURION or OBLITERATOR model takes up the space of 3 models. This model can also transport up to 1 RHINO model (this model – and any models embarked within it – take up the space of 25 models).</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">โมเดลนี้มีความจุในการขนส่ง (Transport Capacity) 55 โมเดล &lt;FACTION&gt; Infantry หรือ &lt;FACTION&gt; MOUNTED 
+โมเดล JUMP PACK, WULFEN, GRAVIS, POSSESSED หรือ TERMINATOR แต่ละตัวจะใช้พื้นที่เท่ากับ 2 โมเดล 
+และโมเดล MOUNTED, CENTURION หรือ OBLITERATOR แต่ละตัวจะใช้พื้นที่เท่ากับ 3 โมเดล 
+โมเดลนี้ยังสามารถขนส่งได้สูงสุด 1 โมเดล RHINO (โมเดลนี้ – และโมเดลใดๆ ที่โดยสารอยู่ข้างใน – จะใช้พื้นที่เท่ากับ 25 โมเดล)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4990,7 +4995,7 @@
         </profile>
         <profile name="Sentinel Protocols" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2de0-4b8c-56c2-e909">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time you select this unit for the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 4+ when resolving that Stratagem.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่คุณเลือกยูนิตนี้สำหรับ Stratagem Fire Overwatch, จะต้องทอย Hit roll ที่ 4+ ที่ไม่สามารถปรับค่าได้ ถึงจะนับว่าโจมตีโดน เมื่อคิดผล Stratagem นั้น</characteristic>
           </characteristics>
         </profile>
       </profiles>

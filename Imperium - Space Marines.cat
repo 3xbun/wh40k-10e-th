@@ -5899,7 +5899,7 @@ objective marker นั้นจะยังคงอยู่ภายใต้
       <profiles>
         <profile name="Combat Squads" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8fc-8ef9-6b6f-25d9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the Declare Battle Formations step, before any units have been set up, this unit can be split into two units, each containing five models</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในตอนเริ่มต้นของ Declare Battle Formations step, ก่อนที่ยูนิตใดๆ จะถูกนำวางลงบนสนามรบ, ยูนิตนี้สามารถถูกแบ่งออกเป็นสองยูนิต, โดยแต่ละยูนิตจะมีห้าโมเดล</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7092,8 +7092,7 @@ objective marker นั้นจะยังคงอยู่ภายใต้
       <profiles>
         <profile name="Guerrilla Tactics" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2e18-73a0-a8ca-130d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your opponent’s turn, if this unit is more than 6&quot; away from all enemy models, you can remove this unit from the battlefield and place it into
-Strategic Reserves.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในตอนจบเทิร์นของฝ่ายตรงข้าม, ถ้ายูนิตนี้อยู่ห่างมากกว่า 6&quot; จากโมเดลศัตรูทั้งหมด, คุณสามารถนำยูนิตนี้ออกจากสนามรบและนำไปไว้ใน Strategic Reserves ได้</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7386,7 +7385,7 @@ Strategic Reserves.</characteristic>
       <profiles>
         <profile name="Concealed Positions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="563a-ee5-af1a-990c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit can only be selected as the target of a ranged attack if the attacking model is within 12&quot;.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ยูนิตนี้จะสามารถถูกเลือกเป็นเป้าหมายของการโจมตีด้วย อาวุธระยะไกล ได้ก็ต่อเมื่อโมเดลที่ทำการโจมตีอยู่ภายในระยะ 12&quot; เท่านั้น</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7763,7 +7762,7 @@ Strategic Reserves.</characteristic>
       <profiles>
         <profile name="Vanguard Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d6a5-7f38-ea6f-5043">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit ends a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่ยูนิตนี้จบการ Charge move, จนกระทั่งจบเทิร์น, อาวุธประชิดที่โมเดลในยูนิตนี้ติดตั้งอยู่จะได้รับความสามารถ [LETHAL HITS]</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8043,7 +8042,7 @@ Strategic Reserves.</characteristic>
       <profiles>
         <profile name="Vanguard Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5867-7a11-d8b4-b956">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit ends a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่ยูนิตนี้จบการ Charge move, จนกระทั่งจบเทิร์น, อาวุธประชิดที่โมเดลในยูนิตนี้ติดตั้งอยู่จะได้รับความสามารถ [LETHAL HITS]</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8725,7 +8724,7 @@ Strategic Reserves.</characteristic>
       <profiles>
         <profile name="Sternguard Focus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f7ef-79f2-60c-8568">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes an attack that targets your Oath of Moment Target, you can re-roll the wound roll</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่โมเดลในยูนิตนี้ทำการโจมตีซึ่งกำหนดเป้าหมายไปยัง Oath of Moment ของคุณ, คุณสามารถ re-roll the wound roll ได้</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8833,12 +8832,14 @@ Strategic Reserves.</characteristic>
       <profiles>
         <profile name="Fearsome Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2a6f-de17-6e0-6a6e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test subtracting 1 from that test</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">เมื่อเริ่ม Fight เฟส, ยูนิตศัตรูทุกยูนิตที่อยู่ใน Engagement Range ของหนึ่งยูนิตขึ้นไปที่มีความสามารถนี้ 
+ต้องทำการทดสอบ Battle-shock test โดยลบ 1 จากการทดสอบนั้น.</characteristic>
           </characteristics>
         </profile>
         <profile name="Terror Troops" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="234b-7f36-5b91-8b49">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While an enemy unit (excluding Monsters and Vehicles) is within 3&quot; of one or more units with this ability, subtract 1 from the Objective Control characteristic of models in that enemy unit.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่ยูนิตศัตรู (ไม่รวม Monsters และ Vehicles) อยู่ภายในระยะ 3&quot; ของหนึ่งยูนิตขึ้นไปที่มีความสามารถนี้, 
+ให้ลบ 1 จากค่า Objective Control ของโมเดลในยูนิตศัตรูนั่น.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9534,12 +9535,12 @@ bearer can be moved during that move</characteristic>
       <profiles>
         <profile name="Teleport Homer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e126-4dd7-71ec-52fb">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3&quot; horizontally of that token and not within 9&quot; horizontally of any enemy models. That token is then removed.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในตอนเริ่มต้นของเกม, คุณสามารถนำวาง Teleport Homer token หนึ่งอันสำหรับยูนิตนี้ที่ใดก็ได้ในสนามรบซึ่งไม่ได้อยู่ใน Deployment zone ของฝ่ายตรงข้ามของคุณ หากคุณทำเช่นนั้น, หนึ่งครั้งต่อเกม, คุณสามารถกำหนดเป้าหมายยูนิตนี้ด้วย Rapid Ingress Stratagem โดยใช้ 0CP, แต่เมื่อคิดผล Stratagem นั้น, คุณจะต้องนำยูนิตนี้วางลงบนสนามรบภายในระยะ 3&quot; ในแนวราบจาก token นั้น และต้องไม่อยู่ภายในระยะ 9&quot; ในแนวราบจากโมเดลศัตรูใดๆ จากนั้น token นั้นจะถูกนำออกไป</characteristic>
           </characteristics>
         </profile>
         <profile name="Terminatus Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a277-c32c-c86d-654a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit ends a Charge move, each enemy unit within Engagement Range of this unit must take a Battle-shock test.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่ยูนิตนี้จบการ Charge move, ยูนิตศัตรูแต่ละยูนิตที่อยู่ภายในระยะ Engagement Range ของยูนิตนี้จะต้องทำการทดสอบ Battle-shock test</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9832,12 +9833,12 @@ bearer can be moved during that move</characteristic>
       <profiles>
         <profile name="Teleport Homer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2378-55a7-34ce-284d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3&quot; horizontally of that token and not within 9&quot; horizontally of any enemy models. That token is then removed.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในตอนเริ่มต้นของเกม, คุณสามารถนำวาง Teleport Homer token หนึ่งอันสำหรับยูนิตนี้ที่ใดก็ได้ในสนามรบซึ่งไม่ได้อยู่ใน Deployment zone ของฝ่ายตรงข้ามของคุณ หากคุณทำเช่นนั้น, หนึ่งครั้งต่อเกม, คุณสามารถกำหนดเป้าหมายยูนิตนี้ด้วย Rapid Ingress Stratagem โดยใช้ 0CP, แต่เมื่อคิดผล Stratagem นั้น, คุณจะต้องนำยูนิตนี้วางลงบนสนามรบภายในระยะ 3&quot; ในแนวราบจาก token นั้น และต้องไม่อยู่ภายในระยะ 9&quot; ในแนวราบจากโมเดลศัตรูใดๆ จากนั้น token นั้นจะถูกนำออกไป</characteristic>
           </characteristics>
         </profile>
         <profile name="Fury of the First" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fe56-a10f-5d2-2e1a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes an attack that targets your Oath of Moment target, add 1 to the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่โมเดลในยูนิตนี้ทำการโจมตีซึ่งกำหนดเป้าหมายไปยัง Oath of Moment ของคุณ, ให้บวก 1 ให้กับ Hit roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15207,7 +15208,7 @@ bearer can be moved during that move</characteristic>
       <profiles>
         <profile name="Outflank" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f2ab-ba1c-96d6-9878">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit arrives from Strategic Reserves, it can be set up within your opponent’s deployment zone (all other restrictions still apply).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">เมื่อยูนิตนี้เข้ามาในสนามรบจาก Strategic Reserves, มันสามารถนำวางลงบนสนามรบภายใน Deployment zone ของฝ่ายตรงข้ามได้ (ข้อจำกัดอื่นๆ ทั้งหมดจะยังคงมีผล)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15618,7 +15619,7 @@ bearer can be moved during that move</characteristic>
       <profiles>
         <profile name="Suppression Fire" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="221-7d8c-a074-f7a8">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks made with an accelerator autocannon. Until the start of your next turn, while this unit is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Shooting phase ของคุณ, หลังจากที่ยูนิตนี้ได้ยิงไปแล้ว, เลือกหนึ่งยูนิตศัตรูที่ถูกโจมตีโดนด้วยการโจมตีหนึ่งครั้งหรือมากกว่าจาก accelerator autocannon ในเฟสนี้ จนกระทั่งถึงตอนเริ่มต้นของเทิร์นถัดไปของคุณ, ตราบใดที่ยูนิตนี้ยังอยู่ในสนามรบ, ยูนิตศัตรูนั้นจะติดสถานะ suppressed ตราบใดที่ยูนิตติดสถานะ suppressed, ในแต่ละครั้งที่โมเดลในยูนิตนั้นทำการโจมตี, ให้ลบ 1 ออกจาก Hit roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16170,7 +16171,7 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Hailstrike" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="723f-1b4e-455d-839a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model has shot, select one enemy unit (excluding MONSTERS or VEHICLES) that was hit by one or more of those attacks. Until the end of the phase, each time a friendly ADEPTUS ASTARTES unit makes a ranged attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่โมเดลนี้ยิง, เลือกหนึ่งยูนิตศัตรู (ไม่รวม MONSTERS หรือ VEHICLES) ที่ถูกโจมตีโดนด้วยการโจมตีหนึ่งครั้งหรือมากกว่าในเฟสนี้ จนกระทั่งจบเฟส, ในแต่ละครั้งที่ยูนิตที่เป็นมิตร ADEPTUS ASTARTES ทำการโจมตีด้วย อาวุธระยะไกล ซึ่งกำหนดเป้าหมายไปยังยูนิตศัตรูนั้น, ให้เพิ่มค่า Armour Penetration ของการโจมตีนั้นขึ้น 1 ยูนิตศัตรูเดียวกันจะสามารถได้รับผลจากความสามารถนี้ได้เพียงครั้งเดียวต่อเฟส</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16357,7 +16358,7 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Thunderstrike" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5221-477f-fa83-f13f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model has shot, select one enemy MONSTER or VEHICLE unit that was hit by one or more of those attacks. Until the end of the phase, each time a friendly ADEPTUS ASTARTES unit makes a ranged attack that targets that enemy unit, add 1 to the Wound roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่โมเดลนี้ยิง, เลือกหนึ่งยูนิตศัตรูที่เป็น MONSTER หรือ VEHICLE ที่ถูกโจมตีโดนด้วยการโจมตีหนึ่งครั้งหรือมากกว่า จนกระทั่งจบเฟส, ในแต่ละครั้งที่ยูนิตที่เป็นมิตร ADEPTUS ASTARTES ทำการโจมตีด้วย อาวุธระยะไกล ซึ่งกำหนดเป้าหมายไปยังยูนิตศัตรูนั้น, ให้บวก 1 ให้กับ Wound roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16572,7 +16573,7 @@ bearer can be moved during that move</characteristic>
       <profiles>
         <profile name="Hammerstrike" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3477-d6b3-fc9-9761">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่โมเดลนี้ยิง, เลือกหนึ่งยูนิตศัตรูที่ถูกโจมตีโดนด้วยการโจมตีหนึ่งครั้งหรือมากกว่า จนกระทั่งจบเฟส, ยูนิตศัตรูนั้นจะไม่สามารถใช้ Benefit of Cover ได้</characteristic>
           </characteristics>
         </profile>
         <profile name="Storm Speeder Hammerstrike" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="3edc-6e58-1e09-e9e1">
@@ -18840,12 +18841,12 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Tremor Shells" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="db5d-5858-6f5b-fe73">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this unit has shot, if an enemy Infantry unit was hit by one or more attacks made by this unit’s thunderfire cannon this  phase, until the end of your opponent’s next turn, that enemy unit is shaken. While a unit is shaken, subtract 2 from that unit’s Move characteristic, and subtract 2 from Advance and Charge rolls made for that unit.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Shooting phase ของคุณ, หลังจากที่ยูนิตนี้ได้ยิงไปแล้ว, ถ้ามีหนึ่งยูนิตศัตรู Infantry ที่ถูกโจมตีโดนด้วยการโจมตีหนึ่งครั้งหรือมากกว่าที่ทำด้วย thunderfire cannon ของยูนิตนี้ในเฟสนี้, จนกระทั่งถึงตอนจบเทิร์นถัดไปของฝ่ายตรงข้าม, ยูนิตศัตรูนั้นจะติดสถานะ shaken ตราบใดที่ยูนิตติดสถานะ shaken, ให้ลบ 2 ออกจากค่า Move ของยูนิตนั้น, และลบ 2 ออกจาก Advance และ Charge rolls ของยูนิตนั้น</characteristic>
           </characteristics>
         </profile>
         <profile name="Crewed Artillery" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2602-4d92-d83-46a8">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If one model in this unit is destroyed, the remaining model in this unit is also destroyed</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ถ้าโมเดลหนึ่งตัวในยูนิตนี้ถูกทำลาย, โมเดลที่เหลืออยู่ในยูนิตนี้จะถูกทำลายด้วยเช่นกัน</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19504,7 +19505,7 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Skyfire Protocols" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c8ca-55cb-cdbc-fd1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time you target this model with the Overwatch Stratagem just after an enemy unit that can Fly starts or ends a Normal, Advance or Fall Back move, when resolving that Stratagem, in addition to shooting that enemy unit, you can select up to three additional enemy units within 24&quot; of this model that can Fly; this model can also shoot at each of those units with its Icarus stormcannons (provided each one is an eligible target), but when doing so, an unmodified Hit roll of 6 is required to score a hit.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่คุณกำหนดเป้าหมายโมเดลนี้ด้วย Overwatch Stratagem ทันทีหลังจากที่ยูนิตศัตรูที่มีคีย์เวิร์ด FLY เริ่มต้นหรือจบการ Normal, Advance หรือ Fall Back move, เมื่อคิดผล Stratagem นั้น, นอกเหนือจากการยิงยูนิตศัตรูนั้นแล้ว, คุณสามารถเลือกยูนิตศัตรูเพิ่มเติมได้สูงสุดสามยูนิตภายในระยะ 24&quot; จากโมเดลนี้ซึ่งมีคีย์เวิร์ด FLY; โมเดลนี้ยังสามารถยิงใส่ยูนิตแต่ละยูนิตเหล่านั้นได้ด้วย Icarus stormcannons ของมัน (หากแต่ละยูนิตเป็นเป้าหมายที่ยิงได้), แต่เมื่อทำเช่นนั้น, จะต้องทอย Hit roll เป็น 6 ที่ไม่สามารถปรับค่าได้ ถึงจะนับว่าโจมตีโดน</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -19681,7 +19682,7 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Pinning Bombardment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d421-3784-532e-2834">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has shot, if one or more of those attacks made with its Whirlwind vengeance launcher scored a hit against an enemy Infantry unit, that unit must take a Battle-shock test.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Shooting phase ของคุณ, หลังจากที่โมเดลนี้ได้ยิงไปแล้ว, ถ้าการโจมตีหนึ่งครั้งหรือมากกว่าที่ทำด้วย Whirlwind vengeance launcher ของมันทำ Hit สำเร็จใส่ยูนิต Infantry ของศัตรู, ยูนิตนั้นจะต้องทำการทดสอบ Battle-shock test</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -20974,7 +20975,7 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Siege Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b564-7fc-6ab2-a9c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">เมื่อทำการโจมตีอาวุธระยะไกลด้วย demolisher cannon, โมเดลนี้สามารถกำหนดเป้าหมายยูนิตศัตรูที่อยู่ภายในระยะ Engagement Range ของมันได้ (หากไม่มียูนิตที่เป็นมิตรอื่นอยู่ภายในระยะ Engagement Range ของยูนิตศัตรูนั้นด้วย) นอกจากนี้, เมื่อทำการโจมตีด้วยอาวุธระยะไกล, โมเดลนี้จะไม่ได้รับผลของการหักลบค่า Hit rolls จากการที่อยู่ภายในระยะ Engagement Range ของยูนิตศัตรูหนึ่งยูนิตหรือมากกว่า</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -21788,12 +21789,14 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e922-59ba-baa0-655c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 14 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มีความจุในการขนส่งได้ 14 โมเดล ADEPTUS ASTARTES INFANTRY. 
+โมเดล JUMP PACK, WULFEN, GRAVIS หรือ TERMINATOR แต่ละตัว จะใช้พื้นที่เท่ากับ 2 โมเดล 
+และแต่ละ CENTURION จะใช้พื้นที่เท่ากับ 3 โมเดล.</characteristic>
           </characteristics>
         </profile>
         <profile name="Emergency Combat Embarkation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="be1c-1cd0-5306-55d7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per turn, in your opponent’s Charge phase, after an enemy unit has selected targets for its charge but before it makes a Charge move, you can select one Adeptus Astartes unit from your army that was selected as a target of that charge. Provided that unit is not within Engagement Range of any enemy units and every model in that unit is within 3&quot; of this Transport, it can embark within this Transport. The charging unit can then select new targets for its charge.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">หนึ่งครั้งต่อเทิร์น, ใน Charge เฟสของฝ่ายตรงข้าม, หลังจากยูนิตศัตรูได้กำหนดเป้าหมายสำหรับการ Charge แต่ก่อนที่จะเคลื่อนที่แบบ Charge, คุณสามารถเลือกหนึ่งยูนิต Adeptus Astartes จากกองทัพของคุณที่ถูกกำหนดเป็นเป้าหมายของการ Charge นั้น. ตราบใดที่ยูนิตนั้นไม่ได้อยู่ใน Engagement Range ของยูนิตศัตรูใด ๆ และทุกโมเดลในยูนิตนั้นอยู่ภายในระยะ 3&quot; ของ Transport นี้, ยูนิตนั้นสามารถขึ้นไปอยู่บน Transport นี้ได้. จากนั้นยูนิตที่กำลัง Charge สามารถเลือกเป้าหมายใหม่สำหรับการ Charge ของมัน.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -22045,7 +22048,7 @@ bearer can be moved during that move</characteristic>
       <profiles>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="db95-443f-c0e-83df">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 7 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มีความจุในการขนส่ง (Transport Capacity) 7 โมเดลที่เป็น Adeptus Astartes Infantry โมเดล Jump Pack, Wulfen, Gravis หรือ Terminator แต่ละตัวจะใช้พื้นที่เท่ากับ 2 โมเดล และโมเดล Centurion แต่ละตัวจะใช้พื้นที่เท่ากับ 3 โมเดล</characteristic>
           </characteristics>
         </profile>
         <profile name="Repulsor Executioner" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="33ad-c1a4-8f39-6ea4">
@@ -22060,7 +22063,7 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Executioner" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7908-889b-da96-715d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack that targets a unit that is Below Half-strength, add 1 to the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่โมเดลนี้ทำการโจมตีซึ่งกำหนดเป้าหมายไปยังยูนิตที่มีจำนวนโมเดล ต่ำกว่าครึ่งหนึ่ง, ให้บวก 1 ให้กับ Hit roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -22302,12 +22305,12 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Self Repair" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3e49-3cf5-3c78-1850">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your Command phase, this model regains 1 lost wound.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในตอนจบ Command phase ของคุณ, โมเดลนี้จะฟื้นคืน 1 wound ที่เสียไป</characteristic>
           </characteristics>
         </profile>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2972-5c28-2bce-827">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY models. It cannot transport JUMP PACK, WULFEN, PHOBOS, GRAVIS, CENTURION, TERMINATOR or TACTICUS models (excluding TACTICUS CHARACTER models that began the battle attached to a non-TACTICUS unit)</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มีความจุในการขนส่ง (Transport Capacity) 12 โมเดล ADEPTUS ASTARTES INFANTRY มันไม่สามารถขนส่งโมเดล JUMP PACK, WULFEN, PHOBOS, GRAVIS, CENTURION, TERMINATOR หรือ TACTICUS ได้ (ยกเว้นโมเดล TACTICUS CHARACTER ที่เริ่มเกมโดยเข้าร่วมกับยูนิตที่ไม่ใช่ TACTICUS)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -23280,7 +23283,7 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Interceptor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1de1-8f78-4ad3-92ad">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่โมเดลนี้ทำการโจมตีด้วย อาวุธระยะไกล ซึ่งกำหนดเป้าหมายไปยังยูนิตที่มีคีย์เวิร์ด FLY, ให้บวก 1 ให้กับ Hit roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -23525,7 +23528,7 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Strafing Run" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="af3-a64b-b015-d55e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes a ranged attack that targets a unit that cannot Fly, add 1 to the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่โมเดลนี้ทำการโจมตีด้วย อาวุธระยะไกล ซึ่งกำหนดเป้าหมายไปยังยูนิตที่ไม่ใช่ FLY, ให้บวก 1 ให้กับ Hit roll</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -23730,12 +23733,13 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Armoured Resilience" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="68ab-c498-57d4-1c28">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่การโจมตีถูกจัดสรรมายังโมเดลนี้, ให้ลบ 1 ออกจากค่า Damage ของการโจมตีนั้น</characteristic>
           </characteristics>
         </profile>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="50f4-83f2-50d-8a3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 12 Adeptus Astartes Infantry models and 1 Dreadnought model. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มีความจุในการขนส่ง (Transport Capacity) 12 โมเดล Adeptus Astartes Infantry และ 1 โมเดล Dreadnought 
+โมเดล Jump Pack, Wulfen, Gravis หรือ Terminator แต่ละตัวจะใช้พื้นที่เท่ากับ 2 โมเดล และโมเดล Centurion แต่ละตัวจะใช้พื้นที่เท่ากับ 3 โมเดล</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -27043,23 +27047,23 @@ bearer can be moved during that move</characteristic>
         </profile>
         <profile name="Techmarine" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="40d5-dc4a-5c0a-fe2e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is within 3&quot; of one or more friendly Adeptus Astartes Vehicle units, this model has the Lone Operative ability</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้อยู่ภายในระยะ 3&quot; จากยูนิตที่เป็นมิตร Adeptus Astartes Vehicle หนึ่งยูนิตหรือมากกว่า, โมเดลนี้จะได้รับความสามารถ Lone Operative</characteristic>
           </characteristics>
         </profile>
         <profile name="Blessing of the Omnissiah" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b4c1-7511-e999-2538">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Command phase, you can select one friendly Adeptus Astartes Vehicle model within 3&quot; of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each time that Vehicle model makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per turn.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Command phase ของคุณ, คุณสามารถเลือกโมเดลที่เป็นมิตร Adeptus Astartes Vehicle หนึ่งโมเดล ภายในระยะ 3&quot; จากโมเดลนี้ โมเดลนั้นจะฟื้นคืน wound ที่เสียไปสูงสุด D3 wound และ, จนกระทั่งถึงตอนเริ่มต้นของ Command phase ถัดไปของคุณ, ในแต่ละครั้งที่โมเดล Vehicle นั้นทำการโจมตี, ให้บวก 1 ให้กับ Hit roll แต่ละโมเดลจะสามารถถูกเลือกสำหรับความสามารถนี้ได้เพียงครั้งเดียวต่อเทิร์น</characteristic>
           </characteristics>
         </profile>
         <profile name="Vengeance of the Omnissiah" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6bc9-9c39-2271-1f1e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a friendly Adeptus Astartes Vehicle model is destroyed within 12&quot; of this model, until the end of the battle, this model’s Omnissian power axe has an
-Attacks characteristic of 7.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ถ้าโมเดลที่เป็นมิตร Adeptus Astartes Vehicle ถูกทำลายภายในระยะ 12&quot; จากโมเดลนี้, จนกระทั่งจบเกม, Omnissian power axe ของโมเดลนี้จะมีค่า Attacks เท่ากับ 7</characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="237c-15f3-c241-2ae1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถเข้าร่วมกับยูนิตต่อไปนี้ได้:
+
 
 ■ Assault Intercessor Squad
 ■ Desolation Squad
@@ -30548,12 +30552,12 @@ Attacks characteristic of 7.</characteristic>
       <profiles>
         <profile name="Aerial Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="97bc-6c05-ad18-24ec">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในแต่ละครั้งที่ยูนิตที่มีความสามารถ Deep Strike ลงจากโมเดลนี้หลังจากที่มันได้ทำการ Normal move, ยูนิตนั้นจะยังคงสามารถประกาศ charge ได้ในเทิร์นนี้</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-10 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e9ff-4f89-cec1-93b0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้เหลือ 1-10 wounds, ในแต่ละครั้งที่โมเดลนี้ทำการโจมตี, ให้ลบ 1 ออกจาก Hit roll</characteristic>
           </characteristics>
         </profile>
         <profile name="Thunderhawk Gunship" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="1265-b6db-deda-bf9e">
@@ -30568,7 +30572,9 @@ Attacks characteristic of 7.</characteristic>
         </profile>
         <profile name="Thunderhawk Gunship" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="39ad-c2f8-d053-2bc2">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 30 ADEPTUS ASTARTES INFANTRY or ADEPTUS ASTARTES MOUNTED models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models. Each CENTURION model takes up the space of 3 models. Each MOUNTED model takes up the space of 4 models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">โมเดลนี้มีความจุในการขนส่ง (Transport Capacity) 30 โมเดล ADEPTUS ASTARTES INFANTRY หรือ ADEPTUS ASTARTES MOUNTED 
+โมเดล JUMP PACK, WULFEN, GRAVIS หรือ TERMINATOR แต่ละตัวจะใช้พื้นที่เท่ากับ 2 โมเดล 
+โมเดล CENTURION แต่ละตัวจะใช้พื้นที่เท่ากับ 3 โมเดล โมเดล MOUNTED แต่ละตัวจะใช้พื้นที่เท่ากับ 4 โมเดล</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -33001,7 +33007,7 @@ Attacks characteristic of 7.</characteristic>
         </profile>
         <profile name="Wisdom of the Ancients [Aura]" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="91b2-168c-541c-2b36">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly Adeptus Astartes Infantry unit is within 6&quot; of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่ยูนิตที่เป็นมิตร Adeptus Astartes Infantry อยู่ภายในระยะ 6&quot; จากโมเดลนี้, ในแต่ละครั้งที่โมเดลในยูนิตนั้นทำการโจมตี, re-roll a Hit roll ที่ออก 1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -33126,12 +33132,12 @@ Attacks characteristic of 7.</characteristic>
       <profiles>
         <profile name="Self Repair" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2d52-9311-c419-9fba">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your Command phase, this model regains 1 lost wound.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ในตอนจบ Command phase ของคุณ, โมเดลนี้จะฟื้นคืน 1 wound ที่เสียไป</characteristic>
           </characteristics>
         </profile>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b3e8-3ffa-5e58-9409">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 6 Adeptus Astartes Infantry models. It cannot transport Jump Pack, Wulfen, Phobos, Gravis, Centurion, Terminator or Tacticus models (except for Tacticus Character models that begin the battle attached to a non-Tacticus unit).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มีความจุในการขนส่ง (Transport Capacity) 6 โมเดล ADEPTUS ASTARTES INFANTRY มันไม่สามารถขนส่งโมเดล JUMP PACK, WULFEN, PHOBOS, GRAVIS, CENTURION, TERMINATOR หรือ TACTICUS ได้ (ยกเว้นโมเดล TACTICUS CHARACTER ที่เริ่มเกมโดยเข้าร่วมกับยูนิตที่ไม่ใช่ TACTICUS)</characteristic>
           </characteristics>
         </profile>
         <profile name="Rhino Primaris [Legends]" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="2176-7f01-eeb9-ad92">
@@ -33146,7 +33152,7 @@ Attacks characteristic of 7.</characteristic>
         </profile>
         <profile name="Orbital Comms Array [Aura]" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3cbb-ae43-5a83-14a7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly Adeptus Astartes unit is within 6&quot; of the bearer, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่ยูนิตที่เป็นมิตร Adeptus Astartes อยู่ในระยะ 6&quot; จากผู้ถือ, ในแต่ละครั้งที่คุณกำหนดเป้าหมายยูนิตนั้นด้วย Stratagem, ให้ทอยเต๋า D6 หนึ่งลูก: หากได้ 5+, คุณจะได้รับ 1CP</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -33798,12 +33804,12 @@ Attacks characteristic of 7.</characteristic>
       <profiles>
         <profile name="Assault Ramp" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="562a-7fc-f1a6-cc9a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ทุกครั้งที่ยูนิตหนึ่งทำการลงจากโมเดลนี้หลังจากที่มันทำการ Normal move แล้ว, ยูนิตนั้นยังคงมีสิทธิ์ที่จะประกาศ charge ได้ในเทิร์นนี้</characteristic>
           </characteristics>
         </profile>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="413f-621e-e43-c836">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 8 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มีความจุในการขนส่ง (Transport Capacity) 8 โมเดล Adeptus Astartes Infantry โมเดล Jump Pack, Wulfen, Gravis หรือ Terminator แต่ละตัวจะใช้พื้นที่เท่ากับ 2 โมเดล และโมเดล Centurion แต่ละตัวจะใช้พื้นที่เท่ากับ 3 โมเดล</characteristic>
           </characteristics>
         </profile>
         <profile name="Terminus Ultra [Legends]" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="addb-72d0-fe15-8744">
@@ -34025,12 +34031,13 @@ Attacks characteristic of 7.</characteristic>
         </profile>
         <profile name="Fire Support" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8be5-e098-4bae-3dff">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Shooting phase, after this model has  shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Shooting เฟสของคุณ, หลังจากโมเดลนี้ทำการยิงแล้ว, เลือกยูนิตศัตรูหนึ่งยูนิตที่มันโจมตีโดนหนึ่งครั้งขึ้นไปในเฟสนี้. 
+จนกระทั่งจบเฟสนั้น, ทุกครั้งที่โมเดลฝ่ายเดียวกันที่ลงจาก Transport นี้ในเทิร์นนี้ทำการโจมตีและกำหนดเป้าหมายเป็นยูนิตศัตรูนั่น, คุณสามารถ re-roll the Wound roll ได้.</characteristic>
           </characteristics>
         </profile>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2ce6-800-5168-f130">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 6 Adeptus Astartes Infantry models. It cannot transport Jump Pack, Wulfen, Tacticus, Phobos, Gravis, Centurion or Terminator models.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มีความสามารถในการขนส่ง 6 โมเดลที่เป็น Adeptus Astartes Infantry. มันไม่สามารถขนส่งโมเดลที่เป็น Jump Pack, Wulfen, Tacticus, Phobos, Gravis, Centurion หรือ Terminator ได้.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -35532,12 +35539,12 @@ Attacks characteristic of 7.</characteristic>
       <profiles>
         <profile name="Blessing of the Omnissiah" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4a3f-c7c6-c5ed-92eb">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In your Command phase, you can select one friendly Adeptus Astartes Vehicle model within 3&quot; of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each time that Vehicle model makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per turn.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ใน Command phase ของคุณ, คุณสามารถเลือกโมเดลที่เป็นมิตร Adeptus Astartes Vehicle หนึ่งโมเดล ภายในระยะ 3&quot; จากโมเดลนี้ โมเดลนั้นจะฟื้นคืน wound ที่เสียไปสูงสุด D3 wound และ, จนกระทั่งถึงตอนเริ่มต้นของ Command phase ถัดไปของคุณ, ในแต่ละครั้งที่โมเดล Vehicle นั้นทำการโจมตี, ให้บวก 1 ให้กับ Hit roll แต่ละโมเดลจะสามารถถูกเลือกสำหรับความสามารถนี้ได้เพียงครั้งเดียวต่อเทิร์น</characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3d8f-6029-fdb9-6f40">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้สามารถเข้าร่วมกับยูนิตต่อไปนี้ได้:
 
 ■ Bike Squad
 ■ Outrider Squad</characteristic>
@@ -35545,13 +35552,12 @@ Attacks characteristic of 7.</characteristic>
         </profile>
         <profile name="Techmarine" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4a65-f686-e774-6019">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is within 3&quot; of one or more friendly Adeptus Astartes Vehicle units, this model has the Lone Operative ability</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้อยู่ภายในระยะ 3&quot; จากยูนิตที่เป็นมิตร Adeptus Astartes Vehicle หนึ่งยูนิตหรือมากกว่า, โมเดลนี้จะได้รับความสามารถ Lone Operative</characteristic>
           </characteristics>
         </profile>
         <profile name="Vengeance of the Omnissiah" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a064-20c3-371a-261f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a friendly Adeptus Astartes Vehicle model is destroyed within 12&quot; of this model, until the end of the battle, this model’s Omnissian power axe has an
-Attacks characteristic of 7.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ถ้าโมเดลที่เป็นมิตร Adeptus Astartes Vehicle ถูกทำลายภายในระยะ 12&quot; จากโมเดลนี้, จนกระทั่งจบเกม, Omnissian power axe ของโมเดลนี้จะมีค่า Attacks เท่ากับ 7</characteristic>
           </characteristics>
         </profile>
         <profile name="Techmarine on Bike [Legends]" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="0-b057-c839-8859">
@@ -36230,17 +36236,21 @@ Attacks characteristic of 7.</characteristic>
         </profile>
         <profile name="Damaged: 1-10 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="81de-26d4-5418-74c1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ตราบใดที่โมเดลนี้เหลือ 1-10 wounds, ในแต่ละครั้งที่โมเดลนี้ทำการโจมตี, ให้ลบ 1 ออกจาก Hit roll</characteristic>
           </characteristics>
         </profile>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b6ef-f95b-5e81-4cac">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a transport capacity of 15 Adeptus Astartes Infantry or Adeptus Astartes Mounted models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models. Each Centurion model takes up the space of 3 models. Each Mounted model takes up the space of 4 models. This model can also transport up to 2 Adeptus Astartes Vehicle models (excluding Aircraft and Titanic models). Models embarked within Transport Vehicles that are themselves being transported by this model do not count towards the transport capacity of this model.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">โมเดลนี้มีความจุในการขนส่ง (Transport Capacity) 15 โมเดล ADEPTUS ASTARTES INFANTRY หรือ ADEPTUS ASTARTES MOUNTED 
+โมเดล JUMP PACK, WULFEN, GRAVIS หรือ TERMINATOR แต่ละตัวจะใช้พื้นที่เท่ากับ 2 โมเดล 
+โมเดล CENTURION แต่ละตัวจะใช้พื้นที่เท่ากับ 3 โมเดล โมเดล MOUNTED แต่ละตัวจะใช้พื้นที่เท่ากับ 4 โมเดล 
+โมเดลนี้ยังสามารถขนส่งได้สูงสุด 2 โมเดล ADEPTUS ASTARTES VEHICLE (ไม่รวมโมเดล Aircraft และ Titanic) 
+โมเดลที่โดยสารอยู่ภายใน Transport Vehicle ซึ่งกำลังถูกขนส่งโดยโมเดลนี้ จะไม่ถูกนับรวมในความจุในการขนส่งของโมเดลนี้</characteristic>
           </characteristics>
         </profile>
         <profile name="Aerial Deployment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a516-5f1f-4d3e-3e3c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model starts the game in Hover mode and in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ถ้าโมเดลนี้เริ่มเกมในโหมด Hover และอยู่ใน Strategic Reserves, มันสามารถนำวางลงบนสนามรบได้ในช่วง Reinforcements step ของ Movement phase แรก, ที่สอง, หรือที่สามของคุณ, โดยไม่ต้องคำนึงถึงกฎของภารกิจใดๆ</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -36445,8 +36455,7 @@ Attacks characteristic of 7.</characteristic>
         </profile>
         <profile name="Sentry Programming" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cc0f-6f78-2f0b-1002">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You can target this model with the Fire Overwatch Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this turn.  This model can only be targeted with that Stratagem once
-per turn.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">คุณสามารถกำหนดเป้าหมายโมเดลนี้ด้วย Fire Overwatch Stratagem โดยใช้ 0CP, และสามารถทำได้แม้ว่าคุณจะได้กำหนดเป้าหมายยูนิตอื่นด้วย Stratagem นั้นไปแล้วในเทิร์นนี้ โมเดลนี้สามารถถูกกำหนดเป้าหมายด้วย Stratagem นั้นได้เพียงครั้งเดียวต่อเทิร์น</characteristic>
           </characteristics>
         </profile>
       </profiles>
